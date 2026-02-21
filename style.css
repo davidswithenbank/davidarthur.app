@@ -315,6 +315,36 @@ a:hover {
     font-weight: 700;
 }
 
+/* ── Disclaimer ── */
+.disclaimer-section {
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+.disclaimer-box {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 4px solid #FF9800;
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+}
+
+.disclaimer-box h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #FF9800;
+}
+
+.disclaimer-box p {
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
 /* ── Footer ── */
 .footer {
     border-top: 1px solid var(--border);
