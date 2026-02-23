@@ -28,6 +28,38 @@
   var KEY = 'duovox-lang';
   var cache = {};
 
+  // Currency: same prices, swap symbol by region
+  var CURR_MAP = { fr: '€', de: '€', it: '€', nl: '€', es: '€', pt: '€' };
+  var CURR_CODES = { '$': 'USD', '£': 'GBP', '€': 'EUR' };
+
+  function getCurr(lang) {
+    if (lang === 'en') {
+      var nl = (navigator.language || '').toLowerCase();
+      if (nl === 'en-gb' || nl.indexOf('en-gb') === 0) return '£';
+      return '$';
+    }
+    return CURR_MAP[lang] || '$';
+  }
+
+  function applyCurr(sym) {
+    var code = CURR_CODES[sym] || 'USD';
+    // Price amounts (not managed by i18n)
+    var amounts = document.querySelectorAll('.price-amount, .price-highlight-amount');
+    for (var i = 0; i < amounts.length; i++) {
+      var el = amounts[i];
+      if (!el.getAttribute('data-orig-price'))
+        el.setAttribute('data-orig-price', el.textContent);
+      el.textContent = el.getAttribute('data-orig-price').replace(/\$/g, sym);
+    }
+    // Period text and labels (i18n sets fresh $ from JSON, then we swap)
+    var periods = document.querySelectorAll('.price-period, .price-highlight-label');
+    for (var j = 0; j < periods.length; j++)
+      periods[j].innerHTML = periods[j].innerHTML.replace(/\$/g, sym);
+    // Currency code in pricing subtitle
+    var sub = document.querySelector('[data-i18n-html="home.pricing.subtitle"]');
+    if (sub) sub.innerHTML = sub.innerHTML.replace(/USD|GBP|EUR/g, code);
+  }
+
   function buildSelector() {
     var nav = document.querySelector('.nav-inner');
     if (!nav) return null;
@@ -81,12 +113,12 @@
     document.documentElement.lang = code;
     document.documentElement.dir = RTL[code] ? 'rtl' : 'ltr';
 
-    if (code === 'en') { restore(); return; }
-    if (cache[code]) { apply(cache[code]); return; }
+    if (code === 'en') { restore(); applyCurr(getCurr(code)); return; }
+    if (cache[code]) { apply(cache[code]); applyCurr(getCurr(code)); return; }
 
     fetch('lang/' + code + '.json')
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (j) { cache[code] = j; apply(j); })
+      .then(function (j) { cache[code] = j; apply(j); applyCurr(getCurr(code)); })
       .catch(function (e) { console.warn('i18n: ' + code, e); });
   }
 
@@ -99,6 +131,7 @@
     sel.value = lang;
     sel.addEventListener('change', function () { setLang(this.value); });
     if (lang !== 'en') setLang(lang);
+    else applyCurr(getCurr('en'));
   }
 
   if (document.readyState === 'loading')
