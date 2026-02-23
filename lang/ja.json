@@ -26,8 +26,8 @@
   "home.feat.offline.desc": "インターネットがない環境でも、デバイス上の音声認識がローカルで下書き文字起こしを提供するため、接続なしでも言葉を逃しません。",
   "home.feat.platforms.title": "Android と Windows",
   "home.feat.platforms.desc": "対面の会話にはスマートフォンで、会議・通話・メディアにはデスクトップで。どのデバイスでも同じ使い心地です。",
-  "home.feat.simple.title": "シンプルで使いやすい",
-  "home.feat.simple.desc": "開発者ではなく、一般の方のために設計されています。タップひとつで開始、読みやすいクリーンなテキスト、調整可能なフォントサイズ、あらゆる環境に対応したダークインターフェース。",
+  "home.feat.privacy.title": "プライバシー最優先設計",
+  "home.feat.privacy.desc": "データ保持ゼロ。音声はリアルタイムで処理され、保存されることはありません。文字起こしはデバイスのメモリにのみ存在し、セッション終了時に消去されます。録音なし、ログなし、当社サーバーにデータは一切ありません。",
 
   "home.pricing.title": "シンプルな料金プラン",
   "home.pricing.subtitle": "ニーズに合ったプランをお選びください。すべての有料プランに年払い割引が適用されます。<br><small style=\"opacity:0.6;\">価格はUSD表示です。アプリ内価格はGoogle Playを通じてお客様の現地通貨で表示されます。</small>",
@@ -57,6 +57,7 @@
   "home.pricing.premium.f4": "字幕エクスポート（SRT・VTT）",
   "home.pricing.premium.f5": "ファイル翻訳",
   "home.pricing.premium.f6": "広告なし",
+  "home.pricing.premium.f8": "プライベートモード",
   "home.pricing.premium.f7": "40時間超過後は従量課金",
   "home.pricing.premium.btn": "登録する",
 
@@ -107,6 +108,19 @@
   "biz.inc.noads.desc": "ゼロ干渉のクリーンでプロフェッショナルなインターフェース。バナー広告、動画クリップ、中断は一切ありません。",
   "biz.inc.support.title": "優先サポート",
   "biz.inc.support.desc": "より迅速な対応のダイレクトメールサポート。ビジネス契約者は優先処理を受け、問題を迅速に解決できます。",
+  "biz.inc.private.title": "プライベートモード",
+  "biz.inc.private.desc": "機密性の高い会話のためのデータ保持ゼロ。音声はリアルタイムで処理され、保存されることはありません。セッションデータはデバイスのメモリにのみ存在し、自動的に消去されます。録音の保存なし、文字起こしのログなし。",
+
+  "biz.compliance.title": "規制環境向けに設計",
+  "biz.compliance.subtitle": "DuoVoxのゼロ保持アーキテクチャは、米国の主要なプライバシーおよびデータ保護規制へのコンプライアンスを支援するよう設計されています。",
+  "biz.compliance.hipaa.title": "HIPAA 対応",
+  "biz.compliance.hipaa.desc": "<strong>HIPAA (45 CFR Part 164)</strong> が適用される医療環境向けに設計されています。DASサーバーには患者の音声や保護された医療情報は一切保存されません。音声はリアルタイムで処理され、即座に破棄されます。",
+  "biz.compliance.ferpa.title": "FERPA 互換",
+  "biz.compliance.ferpa.desc": "<strong>FERPA (20 U.S.C. § 1232g)</strong> の下での教育環境に適しています。学生の会話データは収集、保存、共有されることはありません。すべての処理は一時的であり、データ保持はゼロです。",
+  "biz.compliance.ccpa.title": "CCPA / CPRA 準拠",
+  "biz.compliance.ccpa.desc": "カリフォルニア州の <strong>CCPA および CPRA (Cal. Civ. Code § 1798.100)</strong> へのコンプライアンスを支援します。当社はアプリを通じて個人情報を一切収集しません。保存しないため、販売、共有、削除するものがありません。",
+  "biz.compliance.retention.title": "データ保持ゼロ",
+  "biz.compliance.retention.desc": "音声はリアルタイム処理のためにストリーミングされ、即座に破棄されます。文字起こしと翻訳はデバイスのメモリにのみ存在します。セッションが終了すると、データは消滅します。サーバー側の保存なし、バックアップなし、当社側に監査記録は一切ありません。",
 
   "biz.disclaimer.title": "プロフェッショナル利用に関する免責事項",
   "biz.disclaimer.text": "DuoVoxはAIを活用した<strong>コミュニケーション補助ツール</strong>です。ビジネスプランでは最高精度のモデルを使用していますが、文字起こし・翻訳の出力には依然として誤りが含まれる場合があります。法律・医療・その他精度が重要な場面において、DuoVoxは認定された人間の通訳者や翻訳者の代替として使用すべきではありません。重要な情報は必ず独立して確認し、録音および文字起こしに関する適用法令を遵守してください。",

@@ -26,8 +26,8 @@
   "home.feat.offline.desc": "没有网络？设备端语音识别可在本地提供草稿转录，即使断网也不会遗漏任何内容。",
   "home.feat.platforms.title": "Android 与 Windows",
   "home.feat.platforms.desc": "在手机上用于面对面交流，在桌面上用于会议、通话和媒体播放。跨设备体验一致。",
-  "home.feat.simple.title": "简单易用",
-  "home.feat.simple.desc": "专为普通用户设计，而非开发者。一键启动，文字清晰易读，字号可调，深色界面适用于任何环境。",
+  "home.feat.privacy.title": "隐私优先设计",
+  "home.feat.privacy.desc": "零数据留存。音频实时处理，从不存储。转录内容仅存在于设备内存中，会话结束时即被清除。没有录音、没有日志、我们的服务器上没有任何数据。",
 
   "home.pricing.title": "简单透明的定价",
   "home.pricing.subtitle": "选择适合您需求的方案。所有付费方案均享有年付折扣。<br><small style=\"opacity:0.6;\">价格以美元显示。应用内价格通过 Google Play 以您的本地货币显示。</small>",
@@ -57,6 +57,7 @@
   "home.pricing.premium.f4": "字幕导出（SRT 与 VTT）",
   "home.pricing.premium.f5": "文件翻译",
   "home.pricing.premium.f6": "无广告",
+  "home.pricing.premium.f8": "隐私模式",
   "home.pricing.premium.f7": "超出 40 小时后按需付费",
   "home.pricing.premium.btn": "订阅",
 
@@ -107,6 +108,19 @@
   "biz.inc.noads.desc": "干净专业的界面，零干扰。没有横幅广告、视频片段或任何打断。",
   "biz.inc.support.title": "优先支持",
   "biz.inc.support.desc": "直接邮件支持，响应更快。商业版订阅用户享有优先处理，快速解决问题。",
+  "biz.inc.private.title": "隐私模式",
+  "biz.inc.private.desc": "敏感对话零数据留存。音频实时处理，从不存储。会话数据仅存在于设备内存中，并在会话结束时自动清除。不保存录音，不记录转录内容。",
+
+  "biz.compliance.title": "专为受监管环境设计",
+  "biz.compliance.subtitle": "DuoVox 的零留存架构旨在支持符合美国主要隐私和数据保护法规的合规要求。",
+  "biz.compliance.hipaa.title": "符合 HIPAA 要求",
+  "biz.compliance.hipaa.desc": "专为受 <strong>HIPAA (45 CFR Part 164)</strong> 管辖的医疗环境设计。DAS 服务器上不存储任何患者音频或受保护的健康信息。音频实时处理后立即丢弃。",
+  "biz.compliance.ferpa.title": "兼容 FERPA",
+  "biz.compliance.ferpa.desc": "适用于受 <strong>FERPA (20 U.S.C. § 1232g)</strong> 约束的教育环境。学生对话数据从不被收集、存储或共享。所有处理均为瞬时性，实现零数据留存。",
+  "biz.compliance.ccpa.title": "符合 CCPA / CPRA",
+  "biz.compliance.ccpa.desc": "支持遵守加州 <strong>CCPA 和 CPRA (Cal. Civ. Code § 1798.100)</strong>。我们不通过本应用收集任何个人信息。因为我们从不存储数据，所以无从出售、共享或删除。",
+  "biz.compliance.retention.title": "零数据留存",
+  "biz.compliance.retention.desc": "音频以流式传输方式进行实时处理后立即丢弃。转录和翻译内容仅存在于您设备的内存中。会话结束后，数据即消失。没有服务器端存储，没有备份，我们这边没有任何审计记录。",
 
   "biz.disclaimer.title": "专业使用免责声明",
   "biz.disclaimer.text": "DuoVox 是一款由 AI 驱动的<strong>沟通辅助工具</strong>。尽管商业版使用我们精度最高的模型，转录和翻译结果仍可能包含错误。在法律、医疗或其他准确性至关重要的场景中，DuoVox 不应替代经认证的人工口译员或翻译员。请始终独立核实重要信息，并遵守有关录音和转录的适用法规。",

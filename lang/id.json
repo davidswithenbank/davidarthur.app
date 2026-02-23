@@ -26,8 +26,8 @@
   "home.feat.offline.desc": "Tidak ada internet? Pengenalan suara di perangkat memberikan transkripsi draf secara lokal, sehingga Anda tidak pernah kehilangan satu kata pun tanpa koneksi.",
   "home.feat.platforms.title": "Android & Windows",
   "home.feat.platforms.desc": "Gunakan DuoVox di ponsel untuk percakapan tatap muka, atau di desktop untuk rapat, panggilan, dan media. Pengalaman yang sama di perangkat apa pun.",
-  "home.feat.simple.title": "Sederhana & Mudah Digunakan",
-  "home.feat.simple.desc": "Dirancang untuk semua orang, bukan hanya pengembang. Satu ketukan untuk memulai, teks yang bersih dan mudah dibaca, ukuran font yang dapat disesuaikan, dan antarmuka gelap yang bekerja di lingkungan apa pun.",
+  "home.feat.privacy.title": "Desain Mengutamakan Privasi",
+  "home.feat.privacy.desc": "Tanpa penyimpanan data. Audio diproses secara real-time dan tidak pernah disimpan. Transkripsi hanya ada di memori perangkat dan dihapus saat sesi Anda berakhir. Tidak ada rekaman, tidak ada log, tidak ada data di server kami.",
 
   "home.pricing.title": "Harga Sederhana",
   "home.pricing.subtitle": "Pilih paket yang sesuai dengan kebutuhan Anda. Semua paket berbayar mendapat diskon penagihan tahunan.<br><small style=\"opacity:0.6;\">Harga ditampilkan dalam USD. Harga dalam aplikasi ditampilkan dalam mata uang lokal Anda melalui Google Play.</small>",
@@ -57,6 +57,7 @@
   "home.pricing.premium.f4": "Ekspor subtitle (SRT & VTT)",
   "home.pricing.premium.f5": "Terjemahan file",
   "home.pricing.premium.f6": "Tanpa iklan",
+  "home.pricing.premium.f8": "Mode Privat",
   "home.pricing.premium.f7": "Bayar sesuai penggunaan lebih dari 40 jam",
   "home.pricing.premium.btn": "Berlangganan",
 
@@ -107,6 +108,19 @@
   "biz.inc.noads.desc": "Antarmuka yang bersih dan profesional tanpa gangguan sama sekali. Tidak ada iklan banner, tidak ada klip video, tidak ada interupsi.",
   "biz.inc.support.title": "Dukungan Prioritas",
   "biz.inc.support.desc": "Dukungan email langsung dengan waktu respons lebih cepat. Pelanggan Bisnis mendapat penanganan prioritas sehingga Anda dapat menyelesaikan masalah dengan cepat.",
+  "biz.inc.private.title": "Mode Privat",
+  "biz.inc.private.desc": "Tanpa penyimpanan data untuk percakapan sensitif. Audio diproses secara real-time dan tidak pernah disimpan. Data sesi hanya ada di memori perangkat dan dihapus secara otomatis. Tidak ada rekaman yang disimpan, tidak ada transkrip yang dicatat.",
+
+  "biz.compliance.title": "Dirancang untuk Lingkungan Teregulasi",
+  "biz.compliance.subtitle": "Arsitektur tanpa penyimpanan DuoVox dirancang untuk mendukung kepatuhan terhadap regulasi privasi dan perlindungan data utama di AS.",
+  "biz.compliance.hipaa.title": "Siap HIPAA",
+  "biz.compliance.hipaa.desc": "Dirancang untuk lingkungan layanan kesehatan yang diatur oleh <strong>HIPAA (45 CFR Part 164)</strong>. Tidak ada audio pasien atau Informasi Kesehatan yang Dilindungi yang disimpan di server DAS. Audio diproses secara real-time dan langsung dihapus.",
+  "biz.compliance.ferpa.title": "Kompatibel FERPA",
+  "biz.compliance.ferpa.desc": "Cocok untuk lingkungan pendidikan di bawah <strong>FERPA (20 U.S.C. § 1232g)</strong>. Data percakapan siswa tidak pernah dikumpulkan, disimpan, atau dibagikan. Semua pemrosesan bersifat sementara dengan tanpa penyimpanan data.",
+  "biz.compliance.ccpa.title": "Selaras dengan CCPA / CPRA",
+  "biz.compliance.ccpa.desc": "Mendukung kepatuhan terhadap <strong>CCPA dan CPRA (Cal. Civ. Code § 1798.100)</strong> California. Kami tidak mengumpulkan informasi pribadi melalui Aplikasi. Tidak ada yang dijual, dibagikan, atau dihapus karena kami tidak pernah menyimpannya.",
+  "biz.compliance.retention.title": "Tanpa Penyimpanan Data",
+  "biz.compliance.retention.desc": "Audio dialirkan untuk pemrosesan real-time dan langsung dihapus. Transkripsi dan terjemahan hanya ada di memori perangkat Anda. Saat sesi Anda berakhir, data hilang. Tidak ada penyimpanan sisi server, tidak ada cadangan, tidak ada jejak audit di pihak kami.",
 
   "biz.disclaimer.title": "Penafian Penggunaan Profesional",
   "biz.disclaimer.text": "DuoVox adalah <strong>alat bantu komunikasi</strong> yang didukung AI. Meskipun paket Bisnis menggunakan model akurasi tertinggi kami, hasil transkripsi dan terjemahan masih mungkin mengandung kesalahan. DuoVox tidak boleh digunakan sebagai pengganti juru bahasa atau penerjemah manusia bersertifikat dalam konteks hukum, medis, atau konteks lain di mana akurasi sangat penting. Selalu verifikasi informasi penting secara mandiri dan patuhi peraturan yang berlaku terkait perekaman dan transkripsi.",
