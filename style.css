@@ -522,4 +522,63 @@ a:hover {
         flex-direction: column;
         align-items: center;
     }
+
+    .lang-wrap {
+        margin-left: 0.5rem;
+    }
+
+    .lang-select {
+        font-size: 0.7rem;
+        padding: 3px 4px;
+    }
 }
+
+/* ── Language Selector ── */
+.lang-wrap {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 1.5rem;
+    flex-shrink: 0;
+}
+
+.lang-icon {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.lang-select {
+    background: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 8px;
+    font-size: 0.8rem;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.lang-select:hover,
+.lang-select:focus {
+    border-color: var(--accent);
+    color: var(--text-primary);
+}
+
+.lang-select option {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* ── RTL Support ── */
+[dir="rtl"] { text-align: right; }
+[dir="rtl"] .nav-inner { flex-direction: row-reverse; }
+[dir="rtl"] .nav-links { flex-direction: row-reverse; }
+[dir="rtl"] .lang-wrap { margin-left: 0; margin-right: 1.5rem; }
+[dir="rtl"] .price-features { text-align: right; }
+[dir="rtl"] .price-features li::before { float: right; margin-left: 0.4rem; }
+[dir="rtl"] .legal ul { padding-left: 0; padding-right: 1.5rem; }
+[dir="rtl"] .disclaimer-box { border-left-width: 1px; border-right: 4px solid #FF9800; }
+[dir="rtl"] .footer-links { flex-direction: row-reverse; }
+[dir="rtl"] .feature-card { text-align: right; }
+[dir="rtl"] .hero { text-align: right; }
