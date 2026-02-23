@@ -263,7 +263,11 @@ a:hover {
 
 .pricing-grid.four-col {
     grid-template-columns: repeat(4, 1fr);
-    max-width: 1100px;
+    max-width: 1280px;
+}
+
+#pricing {
+    max-width: 1280px;
 }
 
 .price-card {
