@@ -36,7 +36,7 @@
   "home.pricing.free.period": "selamanya",
   "home.pricing.free.f1": "Transkripsi di perangkat",
   "home.pricing.free.f2": "15+ bahasa",
-  "home.pricing.free.f3": "Buka terjemahan AI gratis \u2014 cukup tonton video singkat",
+  "home.pricing.free.f3": "Buka terjemahan offline gratis \u2014 cukup tonton video singkat",
   "home.pricing.free.btn": "Mulai",
 
   "home.pricing.essential.name": "Esensial",
@@ -170,7 +170,7 @@
   "terms.s1.p1": "DuoVox adalah aplikasi transkripsi suara dan terjemahan real-time. Aplikasi menangkap audio, mentranskripsikan ucapan menjadi teks, dan menyediakan terjemahan berbasis AI antara bahasa yang didukung. Aplikasi tersedia di platform Android dan Windows.",
   "terms.s2.title": "2. Tingkat Langganan",
   "terms.s2.intro": "Aplikasi menawarkan tingkat berikut:",
-  "terms.s2.free": "<strong>Gratis:</strong> Transkripsi di perangkat menggunakan pengenalan suara lokal. Transkripsi dan terjemahan berbasis AI dapat dibuka sementara dengan menonton video singkat.",
+  "terms.s2.free": "<strong>Gratis:</strong> Transkripsi di perangkat menggunakan pengenalan suara lokal. Terjemahan offline dapat dibuka sementara dengan menonton video singkat.",
   "terms.s2.essential": "<strong>Esensial ($25/bulan):</strong> Transkripsi dan terjemahan AI menggunakan mesin AI Ekonomi kami. Termasuk 30 jam penggunaan AI per bulan. Iklan banner kecil ditampilkan. Penggunaan tambahan di luar jam yang termasuk tersedia dengan basis bayar sesuai penggunaan.",
   "terms.s2.premium": "<strong>Premium ($65/bulan):</strong> Transkripsi dan terjemahan AI Berkualitas Tinggi untuk akurasi yang lebih baik. Termasuk 40 jam penggunaan AI per bulan. Tanpa iklan. Termasuk ekspor subtitle (format SRT dan VTT) dan terjemahan file. Penggunaan tambahan di luar jam yang termasuk tersedia dengan basis bayar sesuai penggunaan.",
   "terms.s2.business": "<strong>Bisnis ($250/bulan):</strong> Semua fitur Premium dengan penggunaan tak terbatas (tunduk pada kebijakan penggunaan wajar 200 jam per bulan). Dukungan prioritas. Dirancang untuk lingkungan profesional, hukum, medis, dan media.",

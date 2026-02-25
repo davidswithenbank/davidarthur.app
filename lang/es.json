@@ -36,7 +36,7 @@
   "home.pricing.free.period": "para siempre",
   "home.pricing.free.f1": "Transcripción en el dispositivo",
   "home.pricing.free.f2": "Más de 15 idiomas",
-  "home.pricing.free.f3": "Desbloquea la traducción IA gratis \u2014 solo mira un breve video",
+  "home.pricing.free.f3": "Desbloquea la traducción sin conexión gratis \u2014 solo mira un breve video",
   "home.pricing.free.btn": "Comenzar",
 
   "home.pricing.essential.name": "Esencial",
@@ -169,7 +169,7 @@
   "terms.s1.p1": "DuoVox es una aplicación de transcripción y traducción de voz en tiempo real. La App captura audio, transcribe el habla a texto y proporciona traducciones impulsadas por IA entre los idiomas compatibles. La App está disponible en las plataformas Android y Windows.",
   "terms.s2.title": "2. Niveles de Suscripción",
   "terms.s2.intro": "La App ofrece los siguientes niveles:",
-  "terms.s2.free": "<strong>Gratis:</strong> Transcripción en el dispositivo mediante reconocimiento de voz local. La transcripción y traducción con IA se pueden desbloquear temporalmente viendo un breve video.",
+  "terms.s2.free": "<strong>Gratis:</strong> Transcripción en el dispositivo mediante reconocimiento de voz local. La traducción sin conexión se puede desbloquear temporalmente viendo un breve video.",
   "terms.s2.essential": "<strong>Esencial ($25/mes):</strong> Transcripción y traducción con IA usando nuestro motor de IA Economía. Incluye 30 horas de uso de IA por mes. Se muestran pequeños banners publicitarios. El uso adicional más allá de las horas incluidas está disponible mediante pago por uso.",
   "terms.s2.premium": "<strong>Premium ($65/mes):</strong> Transcripción y traducción con IA de alta calidad para mayor precisión. Incluye 40 horas de uso de IA por mes. Sin publicidad. Incluye exportación de subtítulos (formatos SRT y VTT) y traducción de archivos. El uso adicional más allá de las horas incluidas está disponible mediante pago por uso.",
   "terms.s2.business": "<strong>Business ($250/mes):</strong> Todas las funciones Premium con uso ilimitado (sujeto a una política de uso razonable de 200 horas por mes). Soporte prioritario. Diseñado para entornos profesionales, legales, médicos y de medios.",

@@ -36,7 +36,7 @@
   "home.pricing.free.period": "per sempre",
   "home.pricing.free.f1": "Trascrizione sul dispositivo",
   "home.pricing.free.f2": "Oltre 15 lingue",
-  "home.pricing.free.f3": "Sblocca la traduzione IA gratuitamente \u2014 guarda solo un breve video",
+  "home.pricing.free.f3": "Sblocca la traduzione offline gratuitamente \u2014 guarda solo un breve video",
   "home.pricing.free.btn": "Inizia",
 
   "home.pricing.essential.name": "Essenziale",
@@ -169,7 +169,7 @@
   "terms.s1.p1": "DuoVox è un'applicazione di trascrizione e traduzione vocale in tempo reale. L'App acquisisce l'audio, trascrive il parlato in testo e fornisce traduzioni IA tra le lingue supportate. L'App è disponibile sulle piattaforme Android e Windows.",
   "terms.s2.title": "2. Livelli di Abbonamento",
   "terms.s2.intro": "L'App offre i seguenti livelli:",
-  "terms.s2.free": "<strong>Gratuito:</strong> Trascrizione sul dispositivo tramite riconoscimento vocale locale. La trascrizione e la traduzione IA possono essere sbloccate temporaneamente guardando un breve video.",
+  "terms.s2.free": "<strong>Gratuito:</strong> Trascrizione sul dispositivo tramite riconoscimento vocale locale. La traduzione offline può essere sbloccata temporaneamente guardando un breve video.",
   "terms.s2.essential": "<strong>Essenziale ($25/mese):</strong> Trascrizione e traduzione IA tramite il nostro motore IA Economy. Include 30 ore di utilizzo IA al mese. Vengono visualizzati piccoli banner pubblicitari. L'utilizzo aggiuntivo oltre le ore incluse è disponibile a pagamento a consumo.",
   "terms.s2.premium": "<strong>Premium ($65/mese):</strong> Trascrizione e traduzione IA ad alta qualità per una precisione migliorata. Include 40 ore di utilizzo IA al mese. Nessuna pubblicità. Include l'esportazione di sottotitoli (formati SRT e VTT) e la traduzione di file. L'utilizzo aggiuntivo oltre le ore incluse è disponibile a pagamento a consumo.",
   "terms.s2.business": "<strong>Business ($250/mese):</strong> Tutte le funzionalità Premium con utilizzo illimitato (soggetto a una politica di uso corretto di 200 ore al mese). Supporto prioritario. Progettato per ambienti professionali, legali, medici e media.",

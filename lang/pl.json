@@ -36,7 +36,7 @@
   "home.pricing.free.period": "na zawsze",
   "home.pricing.free.f1": "Transkrypcja na urządzeniu",
   "home.pricing.free.f2": "Ponad 15 języków",
-  "home.pricing.free.f3": "Odblokuj tłumaczenie AI za darmo \u2014 wystarczy obejrzeć krótki film",
+  "home.pricing.free.f3": "Odblokuj tłumaczenie offline za darmo \u2014 wystarczy obejrzeć krótki film",
   "home.pricing.free.btn": "Rozpocznij",
 
   "home.pricing.essential.name": "Essential",
@@ -169,7 +169,7 @@
   "terms.s1.p1": "DuoVox to aplikacja do transkrypcji mowy i tłumaczenia w czasie rzeczywistym. Aplikacja przechwytuje audio, transkrybuje mowę na tekst i dostarcza tłumaczenia wspierane przez AI między obsługiwanymi językami. Aplikacja jest dostępna na platformach Android i Windows.",
   "terms.s2.title": "2. Poziomy subskrypcji",
   "terms.s2.intro": "Aplikacja oferuje następujące poziomy:",
-  "terms.s2.free": "<strong>Bezpłatny:</strong> Transkrypcja na urządzeniu przy użyciu lokalnego rozpoznawania mowy. Transkrypcja i tłumaczenie AI mogą być tymczasowo odblokowane przez obejrzenie krótkiego filmu.",
+  "terms.s2.free": "<strong>Bezpłatny:</strong> Transkrypcja na urządzeniu przy użyciu lokalnego rozpoznawania mowy. Tłumaczenie offline może być tymczasowo odblokowane przez obejrzenie krótkiego filmu.",
   "terms.s2.essential": "<strong>Essential ($25/mies.):</strong> Transkrypcja i tłumaczenie AI z naszym silnikiem Economy AI. Obejmuje 30 godzin użytkowania AI miesięcznie. Wyświetlane są małe reklamy banerowe. Dodatkowe użytkowanie powyżej limitu dostępne jest w systemie pay-as-you-go.",
   "terms.s2.premium": "<strong>Premium ($65/mies.):</strong> Wysokiej jakości transkrypcja i tłumaczenie AI dla lepszej dokładności. Obejmuje 40 godzin użytkowania AI miesięcznie. Bez reklam. Zawiera eksport napisów (formaty SRT i VTT) oraz tłumaczenie plików. Dodatkowe użytkowanie powyżej limitu dostępne jest w systemie pay-as-you-go.",
   "terms.s2.business": "<strong>Business ($250/mies.):</strong> Wszystkie funkcje Premium z nieograniczonym użytkowaniem (z zastrzeżeniem polityki dozwolonego użytku wynoszącej 200 godzin miesięcznie). Priorytetowe wsparcie. Zaprojektowany dla środowisk profesjonalnych, prawnych, medycznych i mediów.",

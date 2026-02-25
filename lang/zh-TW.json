@@ -36,7 +36,7 @@
   "home.pricing.free.period": "永久免費",
   "home.pricing.free.f1": "裝置端轉錄",
   "home.pricing.free.f2": "15 種以上語言",
-  "home.pricing.free.f3": "觀看短片即可免費解鎖 AI 翻譯",
+  "home.pricing.free.f3": "觀看短片即可免費解鎖離線翻譯",
   "home.pricing.free.btn": "立即開始",
 
   "home.pricing.essential.name": "基礎版",
@@ -170,7 +170,7 @@
   "terms.s1.p1": "DuoVox 是一款即時語音轉錄和翻譯應用程式。本應用程式擷取音訊，將語音轉為文字，並在支援的語言之間提供 AI 驅動的翻譯。本應用程式適用於 Android 和 Windows 平台。",
   "terms.s2.title": "2. 訂閱級別",
   "terms.s2.intro": "本應用程式提供以下級別：",
-  "terms.s2.free": "<strong>免費版：</strong>使用本機語音識別進行裝置端轉錄。觀看短片即可臨時解鎖 AI 驅動的轉錄和翻譯。",
+  "terms.s2.free": "<strong>免費版：</strong>使用本機語音識別進行裝置端轉錄。觀看短片即可臨時解鎖離線翻譯。",
   "terms.s2.essential": "<strong>基礎版（$25/月）：</strong>使用經濟型 AI 引擎進行 AI 轉錄和翻譯。每月包含 30 小時 AI 使用時長。顯示小橫幅廣告。超出包含時長後可按用量付費繼續使用。",
   "terms.s2.premium": "<strong>進階版（$65/月）：</strong>高品質 AI 轉錄和翻譯，精度更高。每月包含 40 小時 AI 使用時長。無廣告。包含字幕匯出（SRT 和 VTT 格式）和檔案翻譯。超出包含時長後可按用量付費繼續使用。",
   "terms.s2.business": "<strong>商業版（$250/月）：</strong>包含進階版全部功能，無限使用（受每月 200 小時合理使用政策約束）。優先支援。專為專業、法律、醫療和媒體環境設計。",

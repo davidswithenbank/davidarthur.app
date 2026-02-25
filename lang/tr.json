@@ -36,7 +36,7 @@
   "home.pricing.free.period": "sonsuza kadar",
   "home.pricing.free.f1": "Cihaz üzerinde transkripsiyon",
   "home.pricing.free.f2": "15+ dil",
-  "home.pricing.free.f3": "Kısa bir video izleyerek yapay zeka çevirisini ücretsiz açın \u2014",
+  "home.pricing.free.f3": "Kısa bir video izleyerek çevrimdışı çeviriyi ücretsiz açın \u2014",
   "home.pricing.free.btn": "Başlayın",
 
   "home.pricing.essential.name": "Essential",
@@ -169,7 +169,7 @@
   "terms.s1.p1": "DuoVox, gerçek zamanlı sesli transkripsiyon ve çeviri uygulamasıdır. Uygulama sesi yakalar, konuşmayı metne dönüştürür ve desteklenen diller arasında yapay zeka destekli çeviriler sağlar. Uygulama Android ve Windows platformlarında kullanılabilir.",
   "terms.s2.title": "2. Abonelik Katmanları",
   "terms.s2.intro": "Uygulama aşağıdaki katmanları sunar:",
-  "terms.s2.free": "<strong>Ücretsiz:</strong> Yerel konuşma tanıma kullanılarak cihaz üzerinde transkripsiyon. Yapay zeka destekli transkripsiyon ve çeviri, kısa bir video izlenerek geçici olarak açılabilir.",
+  "terms.s2.free": "<strong>Ücretsiz:</strong> Yerel konuşma tanıma kullanılarak cihaz üzerinde transkripsiyon. Çevrimdışı çeviri, kısa bir video izlenerek geçici olarak açılabilir.",
   "terms.s2.essential": "<strong>Essential ($25/ay):</strong> Ekonomik yapay zeka motorumuzu kullanan yapay zeka transkripsiyonu ve çevirisi. Aylık 30 saat yapay zeka kullanımı dahildir. Küçük banner reklamlar görüntülenir. Dahil edilen saatlerin ötesindeki ek kullanım, kullandığın kadar öde esasına göre sunulur.",
   "terms.s2.premium": "<strong>Premium ($65/ay):</strong> Gelişmiş doğruluk için yüksek kaliteli yapay zeka transkripsiyonu ve çevirisi. Aylık 40 saat yapay zeka kullanımı dahildir. Reklam yoktur. Altyazı dışa aktarma (SRT ve VTT formatları) ve dosya çevirisi dahildir. Dahil edilen saatlerin ötesindeki ek kullanım, kullandığın kadar öde esasına göre sunulur.",
   "terms.s2.business": "<strong>Business ($250/ay):</strong> Sınırsız kullanımlı tüm Premium özellikler (aylık 200 saatlik makul kullanım politikasına tabidir). Öncelikli destek. Profesyonel, hukuki, tıbbi ve medya ortamları için tasarlanmıştır.",

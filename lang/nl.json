@@ -36,7 +36,7 @@
   "home.pricing.free.period": "voor altijd",
   "home.pricing.free.f1": "Transcriptie op het apparaat",
   "home.pricing.free.f2": "15+ talen",
-  "home.pricing.free.f3": "AI-vertaling gratis ontgrendelen \u2014 bekijk gewoon een korte video",
+  "home.pricing.free.f3": "Offline vertaling gratis ontgrendelen \u2014 bekijk gewoon een korte video",
   "home.pricing.free.btn": "Aan de slag",
 
   "home.pricing.essential.name": "Essential",
@@ -169,7 +169,7 @@
   "terms.s1.p1": "DuoVox is een applicatie voor realtime spraaktranscriptie en -vertaling. De App legt audio vast, transcribeert spraak naar tekst en biedt AI-vertalingen tussen ondersteunde talen. De App is beschikbaar op Android en Windows.",
   "terms.s2.title": "2. Abonnementstiers",
   "terms.s2.intro": "De App biedt de volgende tiers:",
-  "terms.s2.free": "<strong>Gratis:</strong> Transcriptie op het apparaat via lokale spraakherkenning. AI-transcriptie en -vertaling kunnen tijdelijk worden ontgrendeld door een korte video te bekijken.",
+  "terms.s2.free": "<strong>Gratis:</strong> Transcriptie op het apparaat via lokale spraakherkenning. Offline vertaling kan tijdelijk worden ontgrendeld door een korte video te bekijken.",
   "terms.s2.essential": "<strong>Essential ($25/maand):</strong> AI-transcriptie en -vertaling met onze Economy AI-engine. Bevat 30 uur AI-gebruik per maand. Kleine banneradvertenties worden weergegeven. Extra gebruik boven de inbegrepen uren is beschikbaar op pay-as-you-go-basis.",
   "terms.s2.premium": "<strong>Premium ($65/maand):</strong> Hoge kwaliteit AI-transcriptie en -vertaling voor verbeterde nauwkeurigheid. Bevat 40 uur AI-gebruik per maand. Geen advertenties. Inclusief ondertitelexport (SRT en VTT-formaten) en bestandsvertaling. Extra gebruik boven de inbegrepen uren is beschikbaar op pay-as-you-go-basis.",
   "terms.s2.business": "<strong>Business ($250/maand):</strong> Alle Premium-functies met onbeperkt gebruik (onder voorbehoud van een eerlijk-gebruiksbeleid van 200 uur per maand). Prioriteitsondersteuning. Ontworpen voor professionele, juridische, medische en media-omgevingen.",

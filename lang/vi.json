@@ -36,7 +36,7 @@
   "home.pricing.free.period": "mãi mãi",
   "home.pricing.free.f1": "Phiên âm trên thiết bị",
   "home.pricing.free.f2": "Hơn 15 ngôn ngữ",
-  "home.pricing.free.f3": "Mở khóa dịch AI miễn phí \u2014 chỉ cần xem một video ngắn",
+  "home.pricing.free.f3": "Mở khóa dịch ngoại tuyến miễn phí \u2014 chỉ cần xem một video ngắn",
   "home.pricing.free.btn": "Bắt đầu",
 
   "home.pricing.essential.name": "Essential",
@@ -169,7 +169,7 @@
   "terms.s1.p1": "DuoVox là ứng dụng phiên âm giọng nói và dịch thuật theo thời gian thực. Ứng dụng thu âm thanh, chuyển giọng nói thành văn bản và cung cấp bản dịch AI giữa các ngôn ngữ được hỗ trợ. Ứng dụng có sẵn trên nền tảng Android và Windows.",
   "terms.s2.title": "2. Các gói đăng ký",
   "terms.s2.intro": "Ứng dụng cung cấp các gói sau:",
-  "terms.s2.free": "<strong>Miễn phí:</strong> Phiên âm trên thiết bị sử dụng nhận dạng giọng nói cục bộ. Phiên âm và dịch thuật bằng AI có thể được mở khóa tạm thời bằng cách xem một video ngắn.",
+  "terms.s2.free": "<strong>Miễn phí:</strong> Phiên âm trên thiết bị sử dụng nhận dạng giọng nói cục bộ. Dịch ngoại tuyến có thể được mở khóa tạm thời bằng cách xem một video ngắn.",
   "terms.s2.essential": "<strong>Essential ($25/tháng):</strong> Phiên âm và dịch thuật AI sử dụng engine AI Tiết kiệm của chúng tôi. Bao gồm 30 giờ sử dụng AI mỗi tháng. Hiển thị quảng cáo banner nhỏ. Sử dụng thêm ngoài số giờ đã bao gồm có sẵn theo hình thức trả theo mức sử dụng.",
   "terms.s2.premium": "<strong>Premium ($65/tháng):</strong> Phiên âm và dịch thuật AI chất lượng cao để cải thiện độ chính xác. Bao gồm 40 giờ sử dụng AI mỗi tháng. Không quảng cáo. Bao gồm xuất phụ đề (định dạng SRT và VTT) và dịch tệp tin. Sử dụng thêm ngoài số giờ đã bao gồm có sẵn theo hình thức trả theo mức sử dụng.",
   "terms.s2.business": "<strong>Business ($250/tháng):</strong> Tất cả tính năng Premium với sử dụng không giới hạn (theo chính sách sử dụng hợp lý 200 giờ mỗi tháng). Hỗ trợ ưu tiên. Được thiết kế cho môi trường chuyên nghiệp, pháp lý, y tế và truyền thông.",

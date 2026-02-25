@@ -36,7 +36,7 @@
   "home.pricing.free.period": "pour toujours",
   "home.pricing.free.f1": "Transcription sur l'appareil",
   "home.pricing.free.f2": "15+ langues",
-  "home.pricing.free.f3": "Débloquez la traduction IA gratuitement \u2014 regardez simplement une courte vidéo",
+  "home.pricing.free.f3": "Débloquez la traduction hors ligne gratuitement \u2014 regardez simplement une courte vidéo",
   "home.pricing.free.btn": "Commencer",
 
   "home.pricing.essential.name": "Essentiel",
@@ -169,7 +169,7 @@
   "terms.s1.p1": "DuoVox est une application de transcription et de traduction vocale en temps réel. L'Application capture l'audio, transcrit la parole en texte et fournit des traductions alimentées par l'IA entre les langues prises en charge. L'Application est disponible sur les plateformes Android et Windows.",
   "terms.s2.title": "2. Niveaux d'Abonnement",
   "terms.s2.intro": "L'Application propose les niveaux suivants :",
-  "terms.s2.free": "<strong>Gratuit :</strong> Transcription sur l'appareil à l'aide de la reconnaissance vocale locale. La transcription et la traduction alimentées par l'IA peuvent être débloquées temporairement en regardant une courte vidéo.",
+  "terms.s2.free": "<strong>Gratuit :</strong> Transcription sur l'appareil à l'aide de la reconnaissance vocale locale. La traduction hors ligne peut être débloquée temporairement en regardant une courte vidéo.",
   "terms.s2.essential": "<strong>Essentiel ($25/mois) :</strong> Transcription et traduction IA à l'aide de notre moteur IA Économie. Inclut 30 heures d'utilisation IA par mois. De petites bannières publicitaires sont affichées. L'utilisation supplémentaire au-delà des heures incluses est disponible à la facturation à l'usage.",
   "terms.s2.premium": "<strong>Premium ($65/mois) :</strong> Transcription et traduction IA haute qualité pour une précision améliorée. Inclut 40 heures d'utilisation IA par mois. Sans publicité. Inclut l'export de sous-titres (formats SRT et VTT) et la traduction de fichiers. L'utilisation supplémentaire au-delà des heures incluses est disponible à la facturation à l'usage.",
   "terms.s2.business": "<strong>Business ($250/mois) :</strong> Toutes les fonctionnalités Premium avec un usage illimité (soumis à une politique d'utilisation équitable de 200 heures par mois). Support prioritaire. Conçu pour les environnements professionnels, juridiques, médicaux et médiatiques.",

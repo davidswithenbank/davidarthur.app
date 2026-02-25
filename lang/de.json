@@ -36,7 +36,7 @@
   "home.pricing.free.period": "dauerhaft",
   "home.pricing.free.f1": "Gerätebasierte Transkription",
   "home.pricing.free.f2": "15+ Sprachen",
-  "home.pricing.free.f3": "KI-Übersetzung kostenlos freischalten — einfach kurzes Video ansehen",
+  "home.pricing.free.f3": "Offline-Übersetzung kostenlos freischalten — einfach kurzes Video ansehen",
   "home.pricing.free.btn": "Jetzt starten",
 
   "home.pricing.essential.name": "Essential",
@@ -169,7 +169,7 @@
   "terms.s1.p1": "DuoVox ist eine Anwendung zur Echtzeit-Sprachtranskription und -übersetzung. Die App erfasst Audio, transkribiert Sprache in Text und bietet KI-gestützte Übersetzungen zwischen unterstützten Sprachen. Die App ist für Android und Windows verfügbar.",
   "terms.s2.title": "2. Abonnementstufen",
   "terms.s2.intro": "Die App bietet folgende Stufen:",
-  "terms.s2.free": "<strong>Kostenlos:</strong> Gerätebasierte Transkription mit lokaler Spracherkennung. KI-gestützte Transkription und Übersetzung können vorübergehend durch Ansehen eines kurzen Videos freigeschaltet werden.",
+  "terms.s2.free": "<strong>Kostenlos:</strong> Gerätebasierte Transkription mit lokaler Spracherkennung. Offline-Übersetzung kann vorübergehend durch Ansehen eines kurzen Videos freigeschaltet werden.",
   "terms.s2.essential": "<strong>Essential ($25/Monat):</strong> KI-Transkription und -Übersetzung mit unserem Economy-KI-Modell. Beinhaltet 30 Stunden KI-Nutzung pro Monat. Kleine Bannerwerbung wird angezeigt. Zusätzliche Nutzung über das inkludierte Kontingent hinaus ist per Pay-as-you-go verfügbar.",
   "terms.s2.premium": "<strong>Premium ($65/Monat):</strong> Hochwertige KI-Transkription und -Übersetzung für verbesserte Genauigkeit. Beinhaltet 40 Stunden KI-Nutzung pro Monat. Keine Werbung. Inklusive Untertitel-Export (SRT und VTT) und Dateiübersetzung. Zusätzliche Nutzung über das Kontingent hinaus ist per Pay-as-you-go verfügbar.",
   "terms.s2.business": "<strong>Business ($250/Monat):</strong> Alle Premium-Funktionen mit unbegrenzter Nutzung (vorbehaltlich einer Fair-Use-Richtlinie von 200 Stunden pro Monat). Vorrangiger Support. Konzipiert für professionelle, rechtliche, medizinische und Medienumgebungen.",

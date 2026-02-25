@@ -36,7 +36,7 @@
   "home.pricing.free.period": "para sempre",
   "home.pricing.free.f1": "Transcrição no dispositivo",
   "home.pricing.free.f2": "Mais de 15 idiomas",
-  "home.pricing.free.f3": "Desbloqueie a tradução por IA gratuitamente \u2014 assista a um breve vídeo",
+  "home.pricing.free.f3": "Desbloqueie a tradução offline gratuitamente \u2014 assista a um breve vídeo",
   "home.pricing.free.btn": "Começar",
 
   "home.pricing.essential.name": "Essencial",
@@ -169,7 +169,7 @@
   "terms.s1.p1": "O DuoVox é um aplicativo de transcrição e tradução de voz em tempo real. O App captura áudio, transcreve a fala em texto e fornece traduções por IA entre os idiomas suportados. O App está disponível nas plataformas Android e Windows.",
   "terms.s2.title": "2. Níveis de Assinatura",
   "terms.s2.intro": "O App oferece os seguintes níveis:",
-  "terms.s2.free": "<strong>Grátis:</strong> Transcrição no dispositivo usando reconhecimento de voz local. A transcrição e tradução por IA podem ser desbloqueadas temporariamente assistindo a um breve vídeo.",
+  "terms.s2.free": "<strong>Grátis:</strong> Transcrição no dispositivo usando reconhecimento de voz local. A tradução offline pode ser desbloqueada temporariamente assistindo a um breve vídeo.",
   "terms.s2.essential": "<strong>Essencial ($25/mês):</strong> Transcrição e tradução por IA usando nosso motor de IA Econômico. Inclui 30 horas de uso de IA por mês. Pequenos banners publicitários são exibidos. O uso adicional além das horas incluídas está disponível no modelo de pagamento por uso.",
   "terms.s2.premium": "<strong>Premium ($65/mês):</strong> Transcrição e tradução por IA de alta qualidade para maior precisão. Inclui 40 horas de uso de IA por mês. Sem anúncios. Inclui exportação de legendas (formatos SRT e VTT) e tradução de arquivos. O uso adicional além das horas incluídas está disponível no modelo de pagamento por uso.",
   "terms.s2.business": "<strong>Business ($250/mês):</strong> Todos os recursos do Premium com uso ilimitado (sujeito a uma política de uso justo de 200 horas por mês). Suporte prioritário. Projetado para ambientes profissionais, jurídicos, médicos e de mídia.",

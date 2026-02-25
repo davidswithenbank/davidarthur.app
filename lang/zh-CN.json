@@ -36,7 +36,7 @@
   "home.pricing.free.period": "永久免费",
   "home.pricing.free.f1": "设备端转录",
   "home.pricing.free.f2": "15 种以上语言",
-  "home.pricing.free.f3": "观看短视频即可免费解锁 AI 翻译",
+  "home.pricing.free.f3": "观看短视频即可免费解锁离线翻译",
   "home.pricing.free.btn": "立即开始",
 
   "home.pricing.essential.name": "基础版",
@@ -170,7 +170,7 @@
   "terms.s1.p1": "DuoVox 是一款实时语音转录和翻译应用程序。本应用捕捉音频，将语音转为文字，并在支持的语言之间提供 AI 驱动的翻译。本应用适用于 Android 和 Windows 平台。",
   "terms.s2.title": "2. 订阅级别",
   "terms.s2.intro": "本应用提供以下级别：",
-  "terms.s2.free": "<strong>免费版：</strong>使用本地语音识别进行设备端转录。观看短视频即可临时解锁 AI 驱动的转录和翻译。",
+  "terms.s2.free": "<strong>免费版：</strong>使用本地语音识别进行设备端转录。观看短视频即可临时解锁离线翻译。",
   "terms.s2.essential": "<strong>基础版（$25/月）：</strong>使用经济型 AI 引擎进行 AI 转录和翻译。每月包含 30 小时 AI 使用时长。显示小横幅广告。超出包含时长后可按需付费继续使用。",
   "terms.s2.premium": "<strong>高级版（$65/月）：</strong>高质量 AI 转录和翻译，精度更高。每月包含 40 小时 AI 使用时长。无广告。包含字幕导出（SRT 和 VTT 格式）和文件翻译。超出包含时长后可按需付费继续使用。",
   "terms.s2.business": "<strong>商业版（$250/月）：</strong>包含高级版全部功能，无限使用（受每月 200 小时合理使用政策约束）。优先支持。专为专业、法律、医疗和媒体环境设计。",

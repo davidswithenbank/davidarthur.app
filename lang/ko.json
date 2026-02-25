@@ -36,7 +36,7 @@
   "home.pricing.free.period": "영구 무료",
   "home.pricing.free.f1": "기기 내 전사",
   "home.pricing.free.f2": "15개 이상의 언어",
-  "home.pricing.free.f3": "짧은 영상 시청으로 AI 번역 무료 해제",
+  "home.pricing.free.f3": "짧은 영상 시청으로 오프라인 번역 무료 해제",
   "home.pricing.free.btn": "시작하기",
 
   "home.pricing.essential.name": "에센셜",
@@ -170,7 +170,7 @@
   "terms.s1.p1": "DuoVox는 실시간 음성 전사 및 번역 애플리케이션입니다. 본 앱은 오디오를 캡처하고, 음성을 텍스트로 변환하며, 지원되는 언어 간에 AI 기반 번역을 제공합니다. 본 앱은 Android 및 Windows 플랫폼에서 이용 가능합니다.",
   "terms.s2.title": "2. 구독 등급",
   "terms.s2.intro": "본 앱은 다음 등급을 제공합니다:",
-  "terms.s2.free": "<strong>무료:</strong> 로컬 음성 인식을 사용한 기기 내 전사. 짧은 동영상 시청으로 AI 기반 전사 및 번역을 일시적으로 해제할 수 있습니다.",
+  "terms.s2.free": "<strong>무료:</strong> 로컬 음성 인식을 사용한 기기 내 전사. 짧은 동영상 시청으로 오프라인 번역을 일시적으로 해제할 수 있습니다.",
   "terms.s2.essential": "<strong>에센셜 ($25/월):</strong> 이코노미 AI 엔진을 사용한 AI 전사 및 번역. 월 30시간의 AI 사용량 포함. 소형 배너 광고가 표시됩니다. 포함된 시간 초과 시 종량제로 계속 이용 가능합니다.",
   "terms.s2.premium": "<strong>프리미엄 ($65/월):</strong> 향상된 정확도를 위한 고품질 AI 전사 및 번역. 월 40시간의 AI 사용량 포함. 광고 없음. 자막 내보내기(SRT 및 VTT 형식) 및 파일 번역 포함. 포함된 시간 초과 시 종량제로 계속 이용 가능합니다.",
   "terms.s2.business": "<strong>비즈니스 ($250/월):</strong> 무제한 사용의 프리미엄 모든 기능(월 200시간 공정 사용 정책 적용). 우선 지원. 전문, 법률, 의료 및 미디어 환경을 위해 설계되었습니다.",
