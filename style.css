@@ -312,7 +312,15 @@ a:hover {
 .price-period {
     color: var(--text-muted);
     font-size: 0.9rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.plan-tagline {
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+    min-height: 1.5em;
 }
 
 .price-features {
@@ -363,6 +371,34 @@ a:hover {
 .price-highlight-label {
     font-size: 0.95rem;
     color: var(--text-secondary);
+}
+
+/* ── Disclaimer ── */
+/* ── Reassurance ── */
+.reassurance-section {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.reassurance-box {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.reassurance-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--accent);
+}
+
+.reassurance-box p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0;
 }
 
 /* ── Disclaimer ── */
