@@ -1,0 +1,46 @@
+Security & Privacy at DuoVox
+Your conversations deserve the highest level of protection. DuoVox is built with a privacy‑first architecture that gives users control over their data.
+
+Zero‑Retention Private Mode
+When Private Mode is enabled:
+• 	Audio is processed in real time
+• 	No recordings or transcripts are stored
+• 	No data is logged or retained
+• 	No information is used for analytics or model training
+• 	No third‑party services receive your audio
+This mode is ideal for interpreters, healthcare professionals, legal teams, and anyone handling sensitive information.
+
+Standard Mode (Cloud Processing)
+When Private Mode is not enabled:
+• 	Audio may be processed through secure cloud services
+• 	Data may be temporarily cached for performance
+• 	No data is sold or shared with advertisers
+• 	Users may delete stored transcripts at any time
+
+Data Handling Principles
+DuoVox follows these core principles:
+• 	Minimal data collection
+• 	No unnecessary retention
+• 	No sale of user data
+• 	No advertising‑based profiling
+• 	Clear, transparent communication
+
+Compliance Transparency
+DuoVox is designed with strong privacy protections, but:
+• 	DuoVox is not HIPAA certified
+• 	DuoVox does not sign Business Associate Agreements (BAAs)
+• 	Organizations are responsible for determining whether DuoVox fits their compliance needs
+This ensures clarity and avoids misleading claims.
+
+Security Practices
+• 	Encrypted data transmission (HTTPS/TLS)
+• 	Secure infrastructure with industry‑standard protections
+• 	Regular security reviews and updates
+• 	Strict access controls
+
+Your Control
+You can:
+• 	Enable Private Mode at any time
+• 	Delete transcripts
+• 	Use DuoVox offline (where supported)
+• 	Choose how and where your data is processed

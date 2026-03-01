@@ -1,0 +1,22 @@
+HIPAA & Privacy FAQ
+Does DuoVox store patient audio or PHI?
+In Private Mode, DuoVox does not store audio, transcripts, or metadata. Everything is processed in real time and discarded immediately.
+
+Is DuoVox HIPAA compliant?
+DuoVox does not claim HIPAA certification and does not sign Business Associate Agreements (BAAs).
+Organizations determine whether using DuoVox fits their compliance requirements.
+
+Can DuoVox be used in healthcare settings?
+Yes. Many healthcare professionals use DuoVox in Private Mode because it does not store any audio or transcripts.
+However, each organization must evaluate its own compliance obligations.
+
+Does DuoVox send data to third‑party services?
+In Private Mode, no.
+In Standard Mode, audio may be processed through secure cloud services.
+
+Does DuoVox use my data to train AI models?
+No. DuoVox does not use Private Mode data for training.
+Standard Mode data is never used for advertising or profiling.
+
+Can DuoVox help my organization meet privacy requirements?
+DuoVox provides privacy‑preserving tools, but compliance decisions remain with the organization.

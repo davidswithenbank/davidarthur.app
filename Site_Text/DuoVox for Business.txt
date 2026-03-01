@@ -1,0 +1,41 @@
+DuoVox for Business
+Professional‑grade transcription and translation built for speed, accuracy, and privacy.
+Why Teams Choose DuoVox
+DuoVox delivers fast, reliable speech‑to‑text and translation for professionals who depend on accuracy. Whether you’re interpreting, documenting meetings, supporting clients, or working across languages, DuoVox gives you the tools to work efficiently and confidently.
+
+Private Mode for Sensitive and Confidential Work
+Some conversations require absolute discretion. DuoVox includes a dedicated Private Mode designed for interpreters, healthcare professionals, legal teams, and anyone handling highly confidential information.
+When Private Mode is enabled:
+• 	Audio is processed in real time
+• 	No recordings, transcripts, or metadata are stored
+• 	Nothing is retained on DuoVox servers
+• 	No data is used for analytics or model training
+This zero‑retention architecture gives professionals full control over their information.
+
+Built for High‑Sensitivity Environments
+DuoVox supports workflows in settings where confidentiality is essential:
+• 	Healthcare
+• 	Legal and court interpretation
+• 	Government and public sector
+• 	Corporate and enterprise
+• 	Social services and community support
+Because DuoVox does not store audio or transcripts in Private Mode, organizations can integrate it into their existing privacy and security practices without introducing new data‑retention risks.
+
+Clear and Transparent Compliance Position
+DuoVox is designed with strong privacy protections, but it does not claim HIPAA certification and does not sign Business Associate Agreements (BAAs). Organizations remain responsible for determining whether their use of DuoVox aligns with their internal compliance requirements.
+This transparency ensures customers understand exactly how DuoVox handles data while benefiting from a tool engineered for high‑sensitivity use cases.
+
+Enterprise Features
+• 	Real‑time transcription in 40+ languages
+• 	Instant translation for multilingual communication
+• 	Offline mode (device‑based processing where supported)
+• 	Team licensing and volume pricing
+• 	Priority support for business customers
+
+Who Uses DuoVox
+• 	Interpreters and translation agencies
+• 	Hospitals, clinics, and telehealth providers
+• 	Law firms and court interpreters
+• 	Corporate teams and consultants
+• 	Universities and research institutions
+• 	Customer support and call centers
