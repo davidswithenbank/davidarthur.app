@@ -66,11 +66,12 @@
   "home.pricing.business.name": "Business",
   "home.pricing.business.period": "per month <span class=\"price-annual\">or $3,200/yr \u2014 save $640</span>",
   "home.pricing.business.f1": "Everything in Premium",
-  "home.pricing.business.f2": "200 hours included per month",
+  "home.pricing.business.f2": "Unlimited usage*",
   "home.pricing.business.f3": "Dedicated support (support@davidarthur.app)",
   "home.pricing.business.f4": "See professional use cases \u2192",
   "home.pricing.business.tagline": "For teams who need high-volume, high-accuracy translation.",
   "home.pricing.business.btn": "Get Business",
+  "home.pricing.business.footnote": "*Subject to our <a href=\"terms.html\">fair usage policy</a> (200 hrs/month). Additional hours available via pay-as-you-go.",
 
   "home.reassurance.title": "Designed for Real Conversations",
   "home.reassurance.desc": "DuoVox handles accents, background noise, fast speech, and everyday language. Whether you\u2019re ordering coffee abroad or interpreting a business meeting, it just works.",
