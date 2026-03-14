@@ -33,7 +33,11 @@
     <p data-i18n="contact.intro">Have a question, suggestion, or need support? Use the form below or email us directly.</p>
 
     <!-- Contact Form -->
-    <form class="contact-form" action="https://formspree.io/f/PLACEHOLDER" method="POST">
+    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="ede60c74-60bd-4be9-aa34-2878a9c04fcb">
+        <input type="hidden" name="subject" value="New DuoVox Contact Form Submission">
+        <input type="hidden" name="from_name" value="DuoVox Contact Form">
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
         <div class="form-group">
             <label for="contact-name" data-i18n="contact.form.name">Your Name</label>
             <input type="text" id="contact-name" name="name" required>
