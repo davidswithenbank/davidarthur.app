@@ -567,9 +567,15 @@ a:hover {
 /* ── Contact Email Cards ── */
 .contact-emails {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.25rem;
     margin-top: 1.5rem;
+}
+@media (max-width: 900px) {
+    .contact-emails { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 500px) {
+    .contact-emails { grid-template-columns: 1fr; }
 }
 
 .contact-email-card {
