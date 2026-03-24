@@ -1,17 +1,30 @@
-/* DuoVox by David Arthur Software - Website Styles */
+/* David Arthur Software — Cosmic Purple Theme */
 
 :root {
-    --bg-primary: #0f1117;
-    --bg-card: #1a1c25;
-    --bg-card-hover: #22252f;
-    --accent: #4CAF50;
-    --accent-light: #66BB6A;
-    --text-primary: #e8eaed;
-    --text-secondary: #9aa0a6;
-    --text-muted: #6b7280;
-    --border: #2d3040;
-    --gradient-start: #4CAF50;
-    --gradient-end: #00BCD4;
+    /* Cosmic Purple palette */
+    --bg-primary: #0D0A1A;
+    --bg-card: #16112B;
+    --bg-card-hover: #1E1838;
+    --accent: #9B59B6;
+    --accent-light: #BB86FC;
+    --gold: #FFE088;
+    --gold-dim: #D4A843;
+    --text-primary: #E8E0F0;
+    --text-secondary: #9B8FBF;
+    --text-muted: #6B5F8A;
+    --border: #2A2145;
+    --gradient-start: #6C3FA0;
+    --gradient-end: #FFE088;
+
+    /* DuoVox-specific accents (used on DuoVox pages) */
+    --duovox-accent: #4CAF50;
+    --duovox-accent-light: #66BB6A;
+    --duovox-gradient-start: #4CAF50;
+    --duovox-gradient-end: #00BCD4;
+
+    /* QuietTime-specific accents */
+    --qt-purple: #2D1B69;
+    --qt-gold: #FFE088;
 }
 
 * {
@@ -25,7 +38,7 @@ html {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
     background-color: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.6;
@@ -39,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: var(--accent);
+    color: var(--gold);
     text-decoration: underline;
 }
 
@@ -48,7 +61,7 @@ a:hover {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(15, 17, 23, 0.92);
+    background: rgba(13, 10, 26, 0.92);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
     z-index: 100;
@@ -116,14 +129,14 @@ a:hover {
     height: 120px;
     border-radius: 28px;
     margin-bottom: 2rem;
-    box-shadow: 0 8px 32px rgba(76, 175, 80, 0.2);
+    box-shadow: 0 8px 32px rgba(108, 63, 160, 0.25);
 }
 
 .hero h1 {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    background: linear-gradient(135deg, var(--accent-light), var(--gold));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -158,6 +171,7 @@ a:hover {
     transition: all 0.2s;
     cursor: pointer;
     border: none;
+    font-family: inherit;
 }
 
 .btn:hover {
@@ -172,7 +186,7 @@ a:hover {
 .btn-primary:hover {
     opacity: 0.9;
     transform: translateY(-1px);
-    box-shadow: 0 4px 16px rgba(76, 175, 80, 0.3);
+    box-shadow: 0 4px 16px rgba(108, 63, 160, 0.3);
     color: #fff;
 }
 
@@ -194,7 +208,7 @@ a:hover {
     flex-wrap: wrap;
 }
 
-/* ── Features Grid ── */
+/* ── Sections ── */
 .section {
     padding: 80px 1.5rem;
     max-width: 1100px;
@@ -208,6 +222,102 @@ a:hover {
     margin-bottom: 3rem;
 }
 
+.section-subtitle {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-top: -2rem;
+    margin-bottom: 2.5rem;
+}
+
+/* ── App Showcase Grid (Homepage) ── */
+.app-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.app-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 40px 32px;
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.app-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.app-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(108, 63, 160, 0.15);
+    text-decoration: none;
+    color: inherit;
+}
+
+.app-card:hover::before {
+    opacity: 1;
+}
+
+.app-card-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+    object-fit: cover;
+    display: block;
+}
+
+.app-card h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+
+.app-card p {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.platforms {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.platform-badge {
+    font-size: 0.75rem;
+    padding: 4px 14px;
+    border-radius: 20px;
+    background: rgba(155, 89, 182, 0.15);
+    color: var(--accent-light);
+    font-weight: 600;
+}
+
+/* ── Features Grid ── */
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -243,16 +353,140 @@ a:hover {
     line-height: 1.6;
 }
 
-/* ── Section Subtitle ── */
-.section-subtitle {
+/* ── Product Page Hero ── */
+.product-hero {
+    padding: 140px 1.5rem 60px;
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-hero .hero-icon {
+    box-shadow: 0 8px 32px rgba(108, 63, 160, 0.25);
+}
+
+.product-hero .tagline-badge {
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 20px;
+    background: rgba(155, 89, 182, 0.12);
+    color: var(--accent-light);
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+/* ── Privacy Callout ── */
+.privacy-callout {
+    max-width: 700px;
+    margin: 0 auto 60px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--gold);
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+.privacy-callout h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--gold);
+}
+
+.privacy-callout p {
     color: var(--text-secondary);
-    font-size: 1rem;
-    margin-top: -2rem;
-    margin-bottom: 2.5rem;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ── Platform Download Section ── */
+.download-section {
+    text-align: center;
+    padding: 60px 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.download-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.download-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+}
+
+.download-card h4 {
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+}
+
+.download-card .price {
+    color: var(--gold);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.download-card .store-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 24px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.download-card .store-link:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    color: #fff;
+}
+
+.download-card .store-link.coming-soon {
+    background: var(--bg-card-hover);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    cursor: default;
 }
 
 /* ── Pricing ── */
+.pricing-billing-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 1.5rem;
+}
+.billing-btn {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--accent);
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-family: inherit;
+    transition: background 0.2s, color 0.2s;
+}
+.billing-btn:first-child { border-radius: 6px 0 0 6px; }
+.billing-btn:last-child  { border-radius: 0 6px 6px 0; }
+.billing-btn.active {
+    background: var(--accent);
+    color: #fff;
+}
+
 .pricing-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -281,7 +515,7 @@ a:hover {
 
 .price-card.featured {
     border-color: var(--accent);
-    box-shadow: 0 0 24px rgba(76, 175, 80, 0.15);
+    box-shadow: 0 0 24px rgba(108, 63, 160, 0.15);
 }
 
 .price-badge {
@@ -351,7 +585,7 @@ a:hover {
 .pricing-footnote {
     text-align: center;
     font-size: 0.82rem;
-    color: var(--text-muted, #888);
+    color: var(--text-muted);
     margin-top: 1.2rem;
 }
 .pricing-footnote a {
@@ -384,7 +618,6 @@ a:hover {
     color: var(--text-secondary);
 }
 
-/* ── Disclaimer ── */
 /* ── Reassurance ── */
 .reassurance-section {
     padding-top: 0;
@@ -656,6 +889,15 @@ a:hover {
         grid-template-columns: 1fr;
         max-width: 400px;
     }
+
+    .app-showcase {
+        grid-template-columns: 1fr;
+        max-width: 420px;
+    }
+
+    .download-cards {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 480px) {
@@ -665,6 +907,10 @@ a:hover {
 
     .hero h1 {
         font-size: 1.8rem;
+    }
+
+    .product-hero {
+        padding: 120px 1rem 40px;
     }
 
     .nav-links {

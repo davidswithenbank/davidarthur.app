@@ -17,12 +17,24 @@ const MIME = {
 };
 
 http.createServer((req, res) => {
-  let url = req.url === '/' ? '/index.html' : req.url;
-  const filePath = path.join(DIR, url);
-  const ext = path.extname(filePath);
-  fs.readFile(filePath, (err, data) => {
-    if (err) { res.writeHead(404); res.end('Not found'); return; }
-    res.writeHead(200, { 'Content-Type': MIME[ext] || 'application/octet-stream' });
-    res.end(data);
-  });
+  let url = req.url.split('?')[0];
+
+  // Try the exact path, then directory/index.html, then path.html
+  const candidates = [
+    url === '/' ? '/index.html' : url,
+    url.endsWith('/') ? url + 'index.html' : url + '/index.html',
+    url + '.html',
+  ];
+
+  function tryNext(i) {
+    if (i >= candidates.length) { res.writeHead(404); res.end('Not found'); return; }
+    const filePath = path.join(DIR, candidates[i]);
+    const ext = path.extname(filePath);
+    fs.readFile(filePath, (err, data) => {
+      if (err) return tryNext(i + 1);
+      res.writeHead(200, { 'Content-Type': MIME[ext] || 'application/octet-stream' });
+      res.end(data);
+    });
+  }
+  tryNext(0);
 }).listen(PORT, () => console.log(`Serving on http://localhost:${PORT}`));

@@ -5,11 +5,20 @@
   "nav.security": "Security",
   "nav.privacy": "Privacy",
   "nav.terms": "Terms",
+  "nav.duovox": "DuoVox",
+  "nav.quiettime": "QuietTime",
 
   "footer.privacy": "Privacy Policy",
   "footer.terms": "Terms of Service",
   "footer.contact": "Contact",
-  "footer.copyright": "\u00a9 2026 David Arthur Software (DAS). All rights reserved.",
+  "footer.copyright": "\u00a9 2026 David Arthur Software. All rights reserved.",
+
+  "company.name": "David Arthur Software",
+  "company.tagline": "Thoughtful apps that respect your privacy.",
+  "company.subtitle": "Built in the United Kingdom. Designed for everyone. No tracking, no ads, no compromise.",
+  "company.apps.title": "Our Apps",
+  "company.about.title": "About David Arthur Software",
+  "company.about.desc": "We\u2019re a small software studio based in the United Kingdom, building apps that put people first. Every app we make is designed with privacy at its core \u2014 your data stays on your device, where it belongs. No accounts to create, no data to harvest, no ads to endure.",
 
   "home.subtitle": "Speak freely across languages \u2014 anywhere, with anyone.",
   "home.tagline": "DuoVox translates conversations in real time. Whether you\u2019re travelling abroad or working with international clients, you\u2019ll understand every word instantly.",

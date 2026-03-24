@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#1A0E3A"/>
+      <stop offset="100%" stop-color="#3D1A8A"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFE8B8"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="6" fill="url(#bg)"/>
+  <text x="16" y="18" text-anchor="middle" dominant-baseline="central"
+        font-family="'Segoe UI', system-ui, sans-serif"
+        font-weight="700" font-size="11" letter-spacing="-0.3"
+        fill="url(#txt)">DAS</text>
+</svg>
