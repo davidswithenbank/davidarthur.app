@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DuoVox - Real-Time Voice Translation | David Arthur Software</title>
     <meta name="description" content="DuoVox translates conversations in real-time. Dual-lane voice transcription and AI-powered translation across 50+ languages. By David Arthur Software.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="DuoVox - Real-Time Voice Translation">
+    <meta property="og:description" content="Translate conversations in real time across 50+ languages. Dual-lane transcription, offline mode, and privacy built in.">
+    <meta property="og:image" content="https://davidarthur.app/duovox/og-image.png">
+    <meta property="og:url" content="https://davidarthur.app/duovox/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="David Arthur Software">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DuoVox - Real-Time Voice Translation">
+    <meta name="twitter:description" content="Translate conversations in real time across 50+ languages.">
+    <meta name="twitter:image" content="https://davidarthur.app/duovox/og-image.png">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="stylesheet" href="/style.css">
 </head>
@@ -17,10 +28,12 @@
             <img src="/logo.png" alt="David Arthur Software">
             David Arthur Software
         </a>
+        <button class="nav-toggle" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')"><span></span><span></span><span></span></button>
         <ul class="nav-links">
             <li><a href="/">Home</a></li>
             <li><a href="/duovox/">DuoVox</a></li>
             <li><a href="/quiettime/">QuietTime</a></li>
+            <li><a href="/contact/">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -331,6 +344,43 @@
         </div>
     </div>
     <p class="pricing-footnote">*Subject to our <a href="https://duovox.net/terms.html">fair usage policy</a> (200 hrs/month). Additional hours available via pay-as-you-go.</p>
+</section>
+
+<!-- FAQ -->
+<section class="section" style="padding-bottom:40px;">
+    <h2 class="section-title">Common Questions</h2>
+    <div class="faq-list">
+        <div class="faq-item">
+            <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Does it work with two people speaking different languages?</button>
+            <div class="faq-answer">
+                <p>Yes. DuoVox uses dual-lane transcription with automatic language detection. Each speaker's words appear in their own panel, and translations appear alongside in real time.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Is my audio stored or used for training?</button>
+            <div class="faq-answer">
+                <p>No. Audio is processed in real time and immediately discarded. It is not stored on our servers or used for AI model training. On the Free tier, all processing happens entirely on your device.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">What happens when I run out of hours?</button>
+            <div class="faq-answer">
+                <p>You'll be notified at 80% and 100% of your included hours. You can continue using AI features at the pay-as-you-go overage rate, or switch to offline mode at any time.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Does it work without internet?</button>
+            <div class="faq-answer">
+                <p>Yes. DuoVox includes built-in offline transcription with 28 languages on all tiers, including Free. Offline translation is also available. AI-powered features require an internet connection.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Do I need to create an account?</button>
+            <div class="faq-answer">
+                <p>No. DuoVox works without accounts or sign-ups. Download the app and start using it immediately. Subscriptions are managed through Google Play or the Microsoft Store.</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- Disclaimer -->

@@ -1066,6 +1066,93 @@ a:hover {
     line-height: 1.5;
 }
 
+/* ── FAQ Accordion ── */
+.faq-list {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 1.25rem 1.5rem;
+    text-align: left;
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.2s;
+}
+
+.faq-question:hover {
+    color: var(--accent-light);
+}
+
+.faq-question::after {
+    content: '+';
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--text-muted);
+    transition: transform 0.2s;
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+
+.faq-item.open .faq-question::after {
+    content: '\2212';
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-item.open .faq-answer {
+    max-height: 300px;
+}
+
+.faq-answer p {
+    padding: 0 1.5rem 1.25rem;
+    color: var(--text-secondary);
+    font-size: 0.92rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ── Hamburger Menu ── */
+.nav .nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--text-secondary);
+    margin: 5px 0;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
 /* ── Responsive ── */
 @media (max-width: 1024px) {
     .pricing-grid.four-col {
@@ -1083,8 +1170,51 @@ a:hover {
         font-size: 1.05rem;
     }
 
-    .nav-links {
-        gap: 1rem;
+    /* Mobile nav */
+    .nav-inner {
+        flex-wrap: wrap;
+        height: auto;
+        min-height: 64px;
+        padding: 0;
+    }
+
+    .nav .nav-toggle {
+        display: block;
+        order: 3;
+    }
+
+    .nav-brand {
+        font-size: 0.95rem;
+        order: 1;
+    }
+
+    .lang-wrap {
+        order: 2;
+        margin-left: auto;
+        margin-right: 0.5rem;
+    }
+
+    .nav .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        order: 4;
+        gap: 0;
+        padding-bottom: 0.5rem;
+    }
+
+    .nav .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 0.75rem 0;
+        border-top: 1px solid var(--border);
+    }
+
+    .nav-links a {
+        font-size: 1rem;
+        display: block;
     }
 
     .section {
@@ -1126,11 +1256,6 @@ a:hover {
 
     .product-hero {
         padding: 120px 1rem 40px;
-    }
-
-    .nav-links {
-        gap: 0.75rem;
-        font-size: 0.8rem;
     }
 
     .btn-group {
