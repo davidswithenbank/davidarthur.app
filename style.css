@@ -675,6 +675,127 @@ a:hover {
     margin: 0;
 }
 
+/* ── How It Works Steps ── */
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.step-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.step-number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+
+.step-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+}
+
+.step-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* ── Comparison Table ── */
+.comparison-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 0.75rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.comparison-table th {
+    font-weight: 600;
+    color: var(--text-primary);
+    padding-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.comparison-table th:first-child,
+.comparison-table td:first-child {
+    text-align: left;
+    font-weight: 500;
+}
+
+.comparison-table .highlight-col {
+    background: rgba(155, 89, 182, 0.08);
+}
+
+.comparison-table th.highlight-col {
+    color: var(--gold);
+}
+
+.comparison-table .check {
+    color: var(--accent-light);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.comparison-table .cross {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+/* ── Best For labels ── */
+.best-for {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+    background: rgba(155, 89, 182, 0.12);
+    color: var(--accent-light);
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+/* ── Responsive: Steps + Comparison ── */
+@media (max-width: 768px) {
+    .steps-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ── Footer ── */
 .footer {
     border-top: 1px solid var(--border);
