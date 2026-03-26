@@ -273,6 +273,7 @@
     </style>
 </head>
 <body>
+<a href="#main-content" class="skip-link">Skip to content</a>
 
 <!-- Navigation -->
 <nav class="nav">
@@ -292,7 +293,7 @@
 </nav>
 
 <!-- Hero -->
-<section class="product-hero">
+<section class="product-hero" id="main-content">
     <img src="/quiettime-icon.png" alt="QuietTime" class="hero-icon">
     <h1 class="hero" style="padding:0; margin:0;">QuietTime</h1>
     <p class="subtitle" style="margin-top:0.5rem;">Simple screen time control that respects your family's privacy.</p>
@@ -439,9 +440,9 @@
     <table class="compare-table">
         <thead>
             <tr>
-                <th></th>
-                <th>Other Apps</th>
-                <th>QuietTime</th>
+                <th scope="col"></th>
+                <th scope="col">Other Apps</th>
+                <th scope="col">QuietTime</th>
             </tr>
         </thead>
         <tbody>
@@ -501,31 +502,31 @@
     <h2 class="section-title">Common Questions</h2>
     <div class="faq-list">
         <div class="faq-item">
-            <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Can my child bypass the lock screen?</button>
+            <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Can my child bypass the lock screen?</button>
             <div class="faq-answer">
                 <p>QuietTime uses Android's accessibility and overlay permissions to stay on top. Children cannot dismiss or close it without the parent PIN. On Windows, Strict mode locks the entire workstation.</p>
             </div>
         </div>
         <div class="faq-item">
-            <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">What if there's an emergency?</button>
+            <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">What if there's an emergency?</button>
             <div class="faq-answer">
                 <p>The emergency call button is always visible on the block screen. You can also set an emergency contact number that your child can call during quiet time without needing the PIN.</p>
             </div>
         </div>
         <div class="faq-item">
-            <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Can I give my child extra time?</button>
+            <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Can I give my child extra time?</button>
             <div class="faq-answer">
                 <p>Yes. The "Grant Extra Time" button on the block screen lets you extend the session by 15, 30, or 60 minutes with your PIN. You can also fully override the lock at any time.</p>
             </div>
         </div>
         <div class="faq-item">
-            <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Does it need an internet connection?</button>
+            <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Does it need an internet connection?</button>
             <div class="faq-answer">
                 <p>No. QuietTime works entirely offline. There are no servers, no accounts, and no cloud sync. Everything runs locally on the device.</p>
             </div>
         </div>
         <div class="faq-item">
-            <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Is there a subscription?</button>
+            <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Is there a subscription?</button>
             <div class="faq-answer">
                 <p>No. QuietTime is a one-time purchase. Pay once and it's yours forever &mdash; no recurring charges, no premium tiers, no in-app purchases.</p>
             </div>
