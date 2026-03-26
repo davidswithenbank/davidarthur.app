@@ -15,10 +15,10 @@
 
   "company.name": "David Arthur Software",
   "company.tagline": "Thoughtful apps that respect your privacy.",
-  "company.subtitle": "Built in the United Kingdom. Designed for everyone. Minimal data collection. Maximum transparency.",
+  "company.subtitle": "Designed for everyone. Simple, honest software you can trust.",
   "company.apps.title": "Our Apps",
   "company.about.title": "About David Arthur Software",
-  "company.about.desc": "We\u2019re a small software studio based in the United Kingdom, building apps that put people first. Privacy is at the heart of everything we do \u2014 we collect only what\u2019s needed, never sell your data, and always give you control. When cloud processing is required, we\u2019re transparent about exactly what\u2019s sent and why.",
+  "company.about.desc": "We build tools that solve real problems without compromising your privacy. Our apps are designed to be simple, honest, and respectful of your time and data. We believe good software shouldn\u2019t require you to trade away your personal information.",
 
   "home.subtitle": "Speak freely across languages \u2014 anywhere, with anyone.",
   "home.tagline": "DuoVox translates conversations in real time. Whether you\u2019re travelling abroad or working with international clients, you\u2019ll understand every word instantly.",
@@ -91,7 +91,7 @@
 
   "biz.title": "DuoVox for Business",
   "biz.subtitle": "Professional-grade transcription and translation built for speed, accuracy, and privacy",
-  "biz.tagline": "200 hours per month, dedicated support, and zero-retention Private Mode. Built for professionals who depend on accuracy and confidentiality.",
+  "biz.tagline": "200 hours per month, dedicated support, and zero-retention Private Mode. Built for professionals who need reliability and confidentiality.",
   "biz.price.label": "per month \u2014 or $3,200/yr (save $640)",
 
   "biz.privacy.title": "Private Mode for Sensitive Work",
@@ -107,7 +107,7 @@
 
   "biz.usecases.title": "Professional Use Cases",
   "biz.legal.title": "Legal & Law Enforcement",
-  "biz.legal.desc": "Real-time transcription for multilingual client interviews, depositions, witness interviews and court proceedings. Capture every word in both languages simultaneously for accurate records.",
+  "biz.legal.desc": "Real-time transcription for multilingual client interviews, depositions, witness interviews and court proceedings. Capture both languages simultaneously to help build detailed records.",
   "biz.medical.title": "Medical & Healthcare",
   "biz.medical.desc": "Bridge language barriers in patient consultations, hospital admissions and medical appointments. Help practitioners communicate with patients who speak different languages, reducing misunderstanding.",
   "biz.media.title": "Media & Broadcasting",
@@ -115,7 +115,7 @@
   "biz.education.title": "Education & Training",
   "biz.education.desc": "Support multilingual classrooms, lectures and training sessions. Students and trainees can follow along in their native language while the original speech is preserved in parallel.",
   "biz.corporate.title": "Business & Corporate",
-  "biz.corporate.desc": "International meetings, client calls and negotiations with real-time transcription in both languages. Keep accurate records and ensure nothing is lost in translation across time zones.",
+  "biz.corporate.desc": "International meetings, client calls and negotiations with real-time transcription in both languages. Build detailed bilingual records and reduce miscommunication across time zones.",
   "biz.gov.title": "Government & Diplomacy",
   "biz.gov.desc": "Multilingual briefings, consular services and diplomatic meetings. Dual-lane transcription provides transparent, parallel records for official proceedings.",
   "biz.social.title": "Social Services & Immigration",
@@ -125,7 +125,7 @@
 
   "biz.included.title": "What\u2019s Included",
   "biz.inc.quality.title": "High Quality AI",
-  "biz.inc.quality.desc": "Our most accurate transcription and translation models, powered by the latest AI technology for reduced word error rates.",
+  "biz.inc.quality.desc": "Our highest-quality transcription and translation models, powered by the latest AI technology and optimised for reduced word error rates.",
   "biz.inc.unlimited.title": "200 Hours Per Month",
   "biz.inc.unlimited.desc": "200 hours of AI transcription and translation every month covers even the heaviest professional workloads. Need more? Pay-as-you-go overage keeps you going.",
   "biz.inc.langs.title": "51 Supported Languages",
