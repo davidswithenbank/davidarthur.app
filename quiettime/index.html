@@ -87,6 +87,11 @@
             z-index: 2;
         }
 
+        .desktop-showcase .phone-showcase {
+            grid-template-columns: 1fr;
+            max-width: 800px;
+        }
+
         .desktop-frame {
             display: inline-block;
             position: relative;
@@ -94,7 +99,7 @@
             border-radius: 12px;
             padding: 8px 8px 28px 8px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(155, 89, 182, 0.2);
-            max-width: 480px;
+            max-width: 800px;
             margin: 0 auto;
         }
 
@@ -446,7 +451,7 @@
     </div>
 
     <!-- Windows -->
-    <div class="showcase-platform-section">
+    <div class="showcase-platform-section desktop-showcase">
         <p class="showcase-platform-title">&#128187; Windows</p>
         <div class="phone-showcase">
             <div class="phone-showcase-item">
