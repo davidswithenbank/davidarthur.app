@@ -292,6 +292,7 @@ def build():
     # ══════════════════════════════════════════
     # 11. PRIVACY
     # ══════════════════════════════════════════
+    story.append(PageBreak())
     story.append(Paragraph("11. Privacy", styles["h1"]))
     story.append(Paragraph(
         "QuietTime is designed with privacy at its core:", styles["body"]))
