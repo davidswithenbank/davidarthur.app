@@ -5,7 +5,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from reportlab.lib.colors import HexColor
 from reportlab.platypus import (
-    SimpleDocTemplate, Paragraph, Spacer, Image, PageBreak, Table, TableStyle
+    SimpleDocTemplate, Paragraph, Spacer, Image, PageBreak, Table, TableStyle, KeepTogether
 )
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
@@ -290,18 +290,18 @@ def build():
     hr(story)
 
     # ══════════════════════════════════════════
-    # 11. PRIVACY
+    # 11. PRIVACY — keep together so it doesn't split across pages
     # ══════════════════════════════════════════
-    story.append(PageBreak())
-    story.append(Paragraph("11. Privacy", styles["h1"]))
-    story.append(Paragraph(
-        "QuietTime is designed with privacy at its core:", styles["body"]))
-    story.append(Paragraph("&bull; <b>No accounts</b> &mdash; No sign-up or login required.", styles["bullet"]))
-    story.append(Paragraph("&bull; <b>No cloud</b> &mdash; All data stays on your device. Nothing is sent to any server.", styles["bullet"]))
-    story.append(Paragraph("&bull; <b>No tracking</b> &mdash; No analytics, no usage data, no telemetry.", styles["bullet"]))
-    story.append(Paragraph("&bull; <b>No ads</b> &mdash; No advertisements of any kind.", styles["bullet"]))
-    story.append(Paragraph(
-        "For full details, see the Privacy Policy at davidarthur.app/quiettime/privacy/.", styles["body"]))
+    privacy_block = [
+        Paragraph("11. Privacy", styles["h1"]),
+        Paragraph("QuietTime is designed with privacy at its core:", styles["body"]),
+        Paragraph("&bull; <b>No accounts</b> &mdash; No sign-up or login required.", styles["bullet"]),
+        Paragraph("&bull; <b>No cloud</b> &mdash; All data stays on your device. Nothing is sent to any server.", styles["bullet"]),
+        Paragraph("&bull; <b>No tracking</b> &mdash; No analytics, no usage data, no telemetry.", styles["bullet"]),
+        Paragraph("&bull; <b>No ads</b> &mdash; No advertisements of any kind.", styles["bullet"]),
+        Paragraph("For full details, see the Privacy Policy at davidarthur.app/quiettime/privacy/.", styles["body"]),
+    ]
+    story.append(KeepTogether(privacy_block))
     hr(story)
 
     # ══════════════════════════════════════════
