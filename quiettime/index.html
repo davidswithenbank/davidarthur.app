@@ -82,6 +82,60 @@
             z-index: 2;
         }
 
+        .desktop-frame {
+            display: inline-block;
+            position: relative;
+            background: #1a1a2e;
+            border-radius: 12px;
+            padding: 8px 8px 28px 8px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(155, 89, 182, 0.2);
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        .desktop-frame img {
+            width: 100%;
+            border-radius: 6px;
+            display: block;
+        }
+
+        .desktop-frame::after {
+            content: '';
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 6px;
+            background: #2a2145;
+            border-radius: 3px;
+        }
+
+        .platform-label {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--primary-light);
+            background: rgba(124, 58, 237, 0.15);
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+            margin-bottom: 0.75rem;
+        }
+
+        .showcase-platform-section {
+            margin-bottom: 3rem;
+        }
+
+        .showcase-platform-title {
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
         .phone-caption {
             margin-top: 1.5rem;
         }
@@ -269,6 +323,10 @@
                 grid-template-columns: 1fr;
                 gap: 3rem;
             }
+
+            .desktop-frame {
+                max-width: 100%;
+            }
         }
     </style>
 </head>
@@ -352,32 +410,62 @@
 <!-- Screenshot Showcase -->
 <section class="section">
     <h2 class="section-title">See It in Action</h2>
-    <div class="phone-showcase">
-        <div class="phone-showcase-item">
-            <div class="phone-frame">
-                <img src="img/dashboard.jpg" alt="QuietTime dashboard showing schedule, themes, and settings" loading="lazy">
+
+    <!-- Android -->
+    <div class="showcase-platform-section">
+        <p class="showcase-platform-title">&#128241; Android</p>
+        <div class="phone-showcase">
+            <div class="phone-showcase-item">
+                <div class="phone-frame">
+                    <img src="img/dashboard.jpg" alt="QuietTime Android dashboard showing schedules, schedule overview, and extra time controls" loading="lazy">
+                </div>
+                <div class="phone-caption">
+                    <h3>Full Control Dashboard</h3>
+                    <p>Set weekday and weekend schedules, see your schedule overview at a glance, grant extra time, and configure wind-down warnings &mdash; all from one screen.</p>
+                </div>
             </div>
-            <div class="phone-caption">
-                <h3>Full Control Dashboard</h3>
-                <p>Set weekday and weekend schedules, choose from five animated themes, configure wind-down warnings, and manage allowed apps &mdash; all from one screen.</p>
+            <div class="phone-showcase-item">
+                <div class="phone-frame">
+                    <img src="img/blockscreen.jpg" alt="QuietTime Starry Night block screen with allowed apps and emergency call" loading="lazy">
+                </div>
+                <div class="phone-caption">
+                    <h3>Beautiful Block Screen</h3>
+                    <p>Children see a calming animated screen instead of a harsh lockout. Allowed apps remain accessible, and the emergency call button is always visible.</p>
+                </div>
             </div>
         </div>
-        <div class="phone-showcase-item">
-            <div class="phone-frame">
-                <img src="img/blockscreen.jpg" alt="QuietTime Starry Night block screen with allowed apps and emergency call" loading="lazy">
+    </div>
+
+    <!-- Windows -->
+    <div class="showcase-platform-section">
+        <p class="showcase-platform-title">&#128187; Windows</p>
+        <div class="phone-showcase">
+            <div class="phone-showcase-item">
+                <div class="desktop-frame">
+                    <img src="img/desktop-settings-top.png" alt="QuietTime Windows settings showing scheduling, schedule overview, and extra time" loading="lazy">
+                </div>
+                <div class="phone-caption">
+                    <h3>Scheduling &amp; Overview</h3>
+                    <p>Set separate weekday and weekend schedules with visual overview bars. Grant extra time and configure wind-down warnings before bedtime starts.</p>
+                </div>
             </div>
-            <div class="phone-caption">
-                <h3>Beautiful Block Screen</h3>
-                <p>Children see a calming animated screen instead of a harsh lockout. Allowed apps remain accessible, and the emergency call button is always visible.</p>
+            <div class="phone-showcase-item">
+                <div class="desktop-frame">
+                    <img src="img/desktop-blockscreen.png" alt="QuietTime Windows Starry Night block screen with parent controls" loading="lazy">
+                </div>
+                <div class="phone-caption">
+                    <h3>Desktop Block Screen</h3>
+                    <p>The full-screen Starry Night theme on Windows. Parents can grant extra time or override the lock with their PIN.</p>
+                </div>
             </div>
-        </div>
-        <div class="phone-showcase-item">
-            <div class="phone-frame">
-                <img src="img/settings.jpg" alt="QuietTime settings showing emergency contact, activity log, and permissions" loading="lazy">
-            </div>
-            <div class="phone-caption">
-                <h3>Parent Tools</h3>
-                <p>Set an emergency contact number, change your PIN, and check permissions. Grant extra time or override the lock whenever you need to.</p>
+            <div class="phone-showcase-item">
+                <div class="desktop-frame">
+                    <img src="img/desktop-settings-bottom.png" alt="QuietTime Windows settings showing themes, lock level, and system options" loading="lazy">
+                </div>
+                <div class="phone-caption">
+                    <h3>Themes &amp; Lock Level</h3>
+                    <p>Choose from five animated themes, set the lock level (Gentle, Standard, or Strict), and configure system options like Start with Windows.</p>
+                </div>
             </div>
         </div>
     </div>
