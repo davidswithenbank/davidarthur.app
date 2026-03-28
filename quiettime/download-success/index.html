@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You! | QuietTime | David Arthur Software</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <style>
+        .success-hero {
+            text-align: center;
+            padding: 3rem 1.5rem;
+        }
+
+        .success-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .success-hero h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 0.75rem;
+            background: linear-gradient(135deg, var(--primary-light), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .success-hero p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .install-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .install-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(124, 58, 237, 0.15);
+            border-radius: 16px;
+            padding: 2rem;
+        }
+
+        .install-card h2 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            color: var(--text-primary);
+        }
+
+        .install-card .platform-icon {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+
+        .install-steps {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1.5rem 0;
+            counter-reset: step;
+        }
+
+        .install-steps li {
+            position: relative;
+            padding: 0.6rem 0 0.6rem 2.5rem;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            counter-increment: step;
+        }
+
+        .install-steps li::before {
+            content: counter(step);
+            position: absolute;
+            left: 0;
+            top: 0.55rem;
+            width: 1.6rem;
+            height: 1.6rem;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .install-note {
+            background: rgba(124, 58, 237, 0.08);
+            border-left: 3px solid var(--primary);
+            padding: 0.75rem 1rem;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .install-note strong {
+            color: var(--text-primary);
+        }
+
+        .help-section {
+            text-align: center;
+            max-width: 600px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .help-section h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+        }
+
+        .help-section p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .help-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .help-links a {
+            color: var(--primary-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(124, 58, 237, 0.3);
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+
+        .help-links a:hover {
+            background: rgba(124, 58, 237, 0.1);
+        }
+    </style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+
+<!-- Navigation -->
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="/" class="nav-brand">
+            <img src="/logo.png" alt="David Arthur Software">
+            David Arthur Software
+        </a>
+        <button class="nav-toggle" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')"><span></span><span></span><span></span></button>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/duovox/">DuoVox</a></li>
+            <li><a href="/quiettime/">QuietTime</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main id="main-content">
+
+<!-- Success Hero -->
+<section class="success-hero">
+    <div class="success-icon">&#127881;</div>
+    <h1>Thank You for Your Purchase!</h1>
+    <p>Your download should be available from LemonSqueezy. Below you'll find installation instructions for your platform.</p>
+</section>
+
+<!-- Installation Instructions -->
+<section class="section">
+    <div class="install-cards">
+
+        <!-- Windows -->
+        <div class="install-card">
+            <h2><span class="platform-icon">&#128187;</span> Windows Installation</h2>
+            <ol class="install-steps">
+                <li>Download <strong>QuietTime_Windows.zip</strong> from your purchase confirmation</li>
+                <li>Extract the zip file to a folder on your computer</li>
+                <li>Open the extracted folder and run <strong>QuietTime.exe</strong></li>
+                <li>Windows may show a SmartScreen warning &mdash; click <strong>More info</strong> then <strong>Run anyway</strong></li>
+                <li>Create your 6-digit parent PIN when prompted</li>
+                <li>Set your schedule and you're done!</li>
+            </ol>
+            <div class="install-note">
+                <strong>Tip:</strong> Enable "Start with Windows" in Settings so QuietTime runs automatically when the computer boots.
+            </div>
+        </div>
+
+        <!-- Android -->
+        <div class="install-card">
+            <h2><span class="platform-icon">&#128241;</span> Android Installation</h2>
+            <ol class="install-steps">
+                <li>Download <strong>QuietTime-release.apk</strong> from your purchase confirmation</li>
+                <li>Open the APK file on your Android device</li>
+                <li>If prompted, allow installation from unknown sources for your browser or file manager</li>
+                <li>Tap <strong>Install</strong> when prompted</li>
+                <li>Open QuietTime and create your 6-digit parent PIN</li>
+                <li>Grant the required permissions (Accessibility, Overlay, Device Admin) when prompted</li>
+            </ol>
+            <div class="install-note">
+                <strong>Tip:</strong> The permissions are needed to prevent children from closing QuietTime. The app works entirely offline &mdash; no data is ever sent anywhere.
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Help -->
+<section class="help-section">
+    <h3>Need Help?</h3>
+    <p>Check the User Guide (included with your download) or get in touch.</p>
+    <div class="help-links">
+        <a href="/quiettime/">QuietTime Features</a>
+        <a href="/quiettime/QuietTime-User-Guide.pdf">User Guide (PDF)</a>
+        <a href="/contact/">Contact Support</a>
+    </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-inner">
+        <p>&copy; 2026 David Arthur Software</p>
+        <div class="footer-links">
+            <a href="/quiettime/privacy/">Privacy Policy</a>
+            <a href="/contact/">Contact</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
