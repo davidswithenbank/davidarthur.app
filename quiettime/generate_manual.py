@@ -171,17 +171,16 @@ def build():
     story.append(Paragraph(
         "The dashboard is your control centre. From here you can see the current status, "
         "set schedules, view the schedule overview, and grant extra time.", styles["body"]))
-    add_image(story, "dashboard.jpg", max_w=80*mm, max_h=100*mm,
+    add_image(story, "dashboard.jpg", max_w=60*mm, max_h=80*mm,
               caption="Dashboard (Android) &mdash; schedules, overview, and extra time")
-    story.append(Spacer(1, 2*mm))
-    add_image(story, "desktop-settings-top.png", max_w=130*mm, max_h=80*mm,
-              caption="Dashboard (Windows) &mdash; same features in a wider layout")
     story.append(Paragraph("Key controls:", styles["body"]))
     story.append(Paragraph("&bull; <b>Status</b> &mdash; Shows whether QuietTime is active and if a block period is in progress.", styles["bullet"]))
     story.append(Paragraph("&bull; <b>Disable / Lock Now</b> &mdash; Temporarily disable QuietTime or start the block immediately.", styles["bullet"]))
     story.append(Paragraph("&bull; <b>Weekday &amp; Weekend Schedules</b> &mdash; Set separate start and end times for each.", styles["bullet"]))
     story.append(Paragraph("&bull; <b>Schedule Overview</b> &mdash; Visual bars showing when the device will be blocked.", styles["bullet"]))
     story.append(Paragraph("&bull; <b>Grant Extra Time</b> &mdash; Give additional minutes during an active block period.", styles["bullet"]))
+    add_image(story, "desktop-settings-top.png", max_w=130*mm, max_h=70*mm,
+              caption="Dashboard (Windows) &mdash; same features in a wider layout")
     story.append(PageBreak())
 
     # ══════════════════════════════════════════
@@ -196,12 +195,12 @@ def build():
     story.append(Paragraph("&bull; <b>Aquarium</b> &mdash; Underwater scene with gentle movement", styles["bullet"]))
     story.append(Paragraph("&bull; <b>Northern Lights</b> &mdash; Aurora borealis effect", styles["bullet"]))
     story.append(Paragraph("&bull; <b>Fireflies</b> &mdash; Warm glowing fireflies in the dark", styles["bullet"]))
-    add_image(story, "desktop-blockscreen.png", max_w=140*mm, max_h=80*mm,
+    add_image(story, "desktop-blockscreen.png", max_w=140*mm, max_h=70*mm,
               caption="Starry Night block screen (Windows) with parent controls at the bottom")
-    add_image(story, "blockscreen.jpg", max_w=80*mm, max_h=90*mm,
-              caption="Starry Night block screen (Android) with allowed apps and emergency call")
     story.append(Paragraph(
         "You can preview themes before selecting them from the Settings page.", styles["body"]))
+    add_image(story, "blockscreen.jpg", max_w=60*mm, max_h=75*mm,
+              caption="Starry Night block screen (Android) with allowed apps and emergency call")
     story.append(PageBreak())
 
     # ══════════════════════════════════════════
@@ -228,7 +227,7 @@ def build():
         "time to finish what they are doing. You can set the warning to appear 1, 5, 10, 15, or 30 minutes before bedtime.", styles["body"]))
     story.append(Paragraph(
         "The warning appears as a notification (Android) or overlay (Windows) with a countdown.", styles["body"]))
-    add_image(story, "desktop-settings-bottom.png", max_w=130*mm, max_h=80*mm,
+    add_image(story, "desktop-settings-bottom.png", max_w=130*mm, max_h=70*mm,
               caption="Settings (Windows) &mdash; wind-down warning, themes, lock level, and system options")
     hr(story)
 
