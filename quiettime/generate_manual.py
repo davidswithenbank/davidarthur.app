@@ -340,7 +340,7 @@ def build():
     story.append(Paragraph("Simple screen time control that respects your family's privacy.", styles["subtitle"]))
     story.append(Spacer(1, 10*mm))
     story.append(Paragraph("davidarthur.app/quiettime/", styles["cover_company"]))
-    story.append(Paragraph("support@duovox.net", styles["cover_company"]))
+    story.append(Paragraph("info@davidarthur.app", styles["cover_company"]))
     story.append(Spacer(1, 60*mm))
     story.append(Paragraph("&copy; 2026 David Arthur Software. All rights reserved.", styles["footer"]))
 
