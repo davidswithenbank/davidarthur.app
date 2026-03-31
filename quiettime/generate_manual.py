@@ -121,10 +121,11 @@ def build():
         "6. Wind-Down Warnings",
         "7. Parent Controls",
         "8. Emergency Access",
-        "9. PIN Security",
-        "10. Windows-Specific Features",
-        "11. Privacy",
-        "12. Troubleshooting &amp; FAQ",
+        "9. PIN &amp; Recovery Password",
+        "10. Activity Log",
+        "11. Windows-Specific Features",
+        "12. Privacy",
+        "13. Troubleshooting &amp; FAQ",
     ]
     for item in toc_items:
         story.append(Paragraph(item, styles["body"]))
@@ -260,7 +261,7 @@ def build():
     # ══════════════════════════════════════════
     # 9. PIN SECURITY
     # ══════════════════════════════════════════
-    story.append(Paragraph("9. PIN Security", styles["h1"]))
+    story.append(Paragraph("9. PIN &amp; Recovery Password", styles["h1"]))
     story.append(Paragraph(
         "Your 6-digit PIN protects all settings and controls. Without the PIN, children cannot:", styles["body"]))
     story.append(Paragraph("&bull; Change the schedule", styles["bullet"]))
@@ -269,14 +270,38 @@ def build():
     story.append(Paragraph("&bull; Override the block", styles["bullet"]))
     story.append(Paragraph("&bull; Change the PIN", styles["bullet"]))
     story.append(Paragraph(
-        "You can change your PIN at any time from the Settings page. "
-        "If you forget your PIN, you will need to reinstall the app.", styles["body"]))
+        "You can change your PIN at any time from the Settings page.", styles["body"]))
+    story.append(Paragraph("Recovery Password", styles["h2"]))
+    story.append(Paragraph(
+        "QuietTime allows you to set a recovery password as a backup. If you forget your PIN, "
+        "you can use the recovery password to reset it.", styles["body"]))
+    story.append(Paragraph(
+        "If you lose both your PIN and recovery password, the only way to regain access is to "
+        "clear the app's data or reinstall, which will remove all settings and schedules.", styles["body"]))
+    story.append(Paragraph(
+        "<i>Tip: Write your recovery password down and keep it somewhere safe.</i>", styles["tip"]))
+    hr(story)
+
+    # ══════════════════════════════════════════
+    # 10. ACTIVITY LOG
+    # ══════════════════════════════════════════
+    story.append(Paragraph("10. Activity Log", styles["h1"]))
+    story.append(Paragraph(
+        "QuietTime keeps a local activity log on your device so you can review how the app has been used. "
+        "Events recorded include:", styles["body"]))
+    story.append(Paragraph("&bull; Block period start and end times", styles["bullet"]))
+    story.append(Paragraph("&bull; Override actions", styles["bullet"]))
+    story.append(Paragraph("&bull; Time extensions granted", styles["bullet"]))
+    story.append(Paragraph("&bull; Settings changes", styles["bullet"]))
+    story.append(Paragraph(
+        "The activity log is stored only on your device and is never sent anywhere. "
+        "You can view it from the Settings page.", styles["body"]))
     hr(story)
 
     # ══════════════════════════════════════════
     # 10. WINDOWS-SPECIFIC FEATURES
     # ══════════════════════════════════════════
-    story.append(Paragraph("10. Windows-Specific Features", styles["h1"]))
+    story.append(Paragraph("11. Windows-Specific Features", styles["h1"]))
     story.append(Paragraph("Lock Level", styles["h2"]))
     story.append(Paragraph(
         "Windows offers three lock levels to control how strictly the block screen is enforced:", styles["body"]))
@@ -293,7 +318,7 @@ def build():
     # 11. PRIVACY — keep together so it doesn't split across pages
     # ══════════════════════════════════════════
     privacy_block = [
-        Paragraph("11. Privacy", styles["h1"]),
+        Paragraph("12. Privacy", styles["h1"]),
         Paragraph("QuietTime is designed with privacy at its core:", styles["body"]),
         Paragraph("&bull; <b>No accounts</b> &mdash; No sign-up or login required.", styles["bullet"]),
         Paragraph("&bull; <b>No cloud</b> &mdash; All data stays on your device. Nothing is sent to any server.", styles["bullet"]),
@@ -307,7 +332,7 @@ def build():
     # ══════════════════════════════════════════
     # 12. TROUBLESHOOTING & FAQ
     # ══════════════════════════════════════════
-    story.append(Paragraph("12. Troubleshooting &amp; FAQ", styles["h1"]))
+    story.append(Paragraph("13. Troubleshooting &amp; FAQ", styles["h1"]))
 
     faqs = [
         ("Can my child bypass QuietTime?",
@@ -317,7 +342,9 @@ def build():
         ("What happens during emergencies?",
          "The emergency call button is always visible on the block screen. Parents can also override or grant extra time at any moment with their PIN."),
         ("What if I forget my PIN?",
-         "You will need to reinstall the app. This resets all settings. There is no recovery option because QuietTime does not store data online."),
+         "Use your recovery password to reset it. If you've lost both your PIN and recovery password, "
+         "you'll need to clear the app's data or reinstall, which will remove all settings and schedules. "
+         "We recommend writing your recovery password down somewhere safe."),
         ("Does QuietTime use battery?",
          "QuietTime uses minimal battery. It runs a small background service that checks the schedule. The animated block screen only runs during active block periods."),
         ("Can I use different schedules on different days?",
