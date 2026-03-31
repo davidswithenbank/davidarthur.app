@@ -73,6 +73,63 @@ a:hover {
     top: 0;
 }
 
+/* ── Legal Pages ── */
+.legal-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.legal-updated {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.legal-content h2 {
+    color: var(--accent);
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(124, 58, 237, 0.15);
+}
+
+.legal-content h3 {
+    color: var(--primary-light);
+    font-size: 1.05rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.legal-content p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+}
+
+.legal-content ul {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.legal-content li {
+    margin-bottom: 0.4rem;
+}
+
+.legal-content a {
+    color: var(--primary-light);
+}
+
+.legal-copyright {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
 /* ── Focus Indicators ── */
 a:focus-visible,
 .btn:focus-visible,
