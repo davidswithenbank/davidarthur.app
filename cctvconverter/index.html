@@ -370,20 +370,32 @@
 <section class="download-section" id="download">
     <h2 class="section-title">Download</h2>
     <p style="color: var(--text-secondary);">Free forever. No accounts, no ads.</p>
-    <div class="download-cards">
-        <div class="download-card">
-            <h4>Microsoft Store</h4>
+
+    <!-- Primary: Microsoft Store -->
+    <div style="max-width: 460px; margin: 0 auto;">
+        <div class="download-card" style="background: var(--bg-card); border: 2px solid var(--accent); padding: 32px 28px;">
+            <div style="font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-light); margin-bottom: 8px;">Recommended</div>
+            <h4 style="font-size: 1.5rem;">Microsoft Store</h4>
             <div class="price" style="font-size: 1.4rem;">Free</div>
-            <p style="color: var(--text-muted); font-size: 0.85rem;">Auto-updates &middot; Verified</p>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0.5rem 0 1.25rem;">
+                Auto-updates &middot; Verified by Microsoft &middot; No security warnings &middot; One-click install
+            </p>
             <a href="#" class="store-link" style="pointer-events:none;opacity:0.6;">Coming Soon</a>
         </div>
-        <div class="download-card">
-            <h4>Direct Download</h4>
-            <div class="price" style="font-size: 1.4rem;">Free</div>
-            <p style="color: var(--text-muted); font-size: 0.85rem;">Self-contained .zip (65 MB)<br/>Windows 10/11 64-bit</p>
+    </div>
+
+    <!-- Secondary: Direct download -->
+    <div style="text-align: center; margin-top: 2rem; max-width: 720px; margin-left: auto; margin-right: auto; padding: 0 1.5rem;">
+        <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.7;">
+            Or for advanced users:
             <a href="https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v1.0.0/CctvConverter-1.0.0-win-x64.zip"
-               class="store-link" download>Download v1.0.0</a>
-        </div>
+               download
+               style="color: var(--accent-light); text-decoration: underline;">download&nbsp;the&nbsp;.zip&nbsp;directly</a>
+            (65 MB, Windows 10/11 64-bit, self-contained).
+        </p>
+        <p style="color: var(--text-muted); font-size: 0.78rem; line-height: 1.65; margin-top: 0.6rem;">
+            <strong>Heads up:</strong> the direct .exe is unsigned, so the first time you run it Windows SmartScreen will show a "Windows protected your PC" dialog &mdash; click <em>More info</em> &rarr; <em>Run anyway</em>. The Microsoft Store version is signed by Microsoft and skips this entirely.
+        </p>
     </div>
 </section>
 
