@@ -28,8 +28,8 @@
       "operatingSystem": "Android, Windows",
       "description": "Simple screen time control that respects your family's privacy. No accounts, no cloud, no tracking.",
       "offers": [
-        { "@type": "Offer", "price": "3.49", "priceCurrency": "GBP", "name": "Android" },
-        { "@type": "Offer", "price": "4.49", "priceCurrency": "GBP", "name": "Windows" }
+        { "@type": "Offer", "price": "0", "priceCurrency": "GBP", "name": "Android" },
+        { "@type": "Offer", "price": "0", "priceCurrency": "GBP", "name": "Windows" }
       ],
       "author": {
         "@type": "Organization",
@@ -395,8 +395,8 @@
             <span>No tracking</span>
         </div>
         <div class="trust-badge">
-            <span class="trust-icon">&#128176;</span>
-            <span>One-time purchase</span>
+            <span class="trust-icon">&#127775;</span>
+            <span>100% free</span>
         </div>
         <div class="trust-badge">
             <span class="trust-icon">&#128241;</span>
@@ -572,7 +572,7 @@
             <tr>
                 <td>Pricing</td>
                 <td>Monthly subscription</td>
-                <td><strong>One-time purchase</strong></td>
+                <td><strong>Free forever</strong></td>
             </tr>
             <tr>
                 <td>Account required</td>
@@ -655,9 +655,9 @@
             </div>
         </div>
         <div class="faq-item">
-            <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Is there a subscription?</button>
+            <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Is QuietTime really free?</button>
             <div class="faq-answer">
-                <p>No. QuietTime is a one-time purchase. Pay once and it's yours forever &mdash; no recurring charges, no premium tiers, no in-app purchases.</p>
+                <p>Yes. QuietTime is completely free on both the Microsoft Store and Google Play. No ads, no in-app purchases, no premium tier, no recurring charges. If the app helps your family and you'd like to say thanks, there's a <a href="https://buymeacoffee.com/dasoftware" target="_blank" rel="noopener">Buy me a coffee</a> link &mdash; but it's entirely optional.</p>
             </div>
         </div>
     </div>
@@ -667,7 +667,7 @@
 <section class="section" style="padding-top: 0; padding-bottom: 0;">
     <div class="reassurance-box">
         <h3>User Guide</h3>
-        <p>Want to learn more before you buy? Download the full QuietTime User Guide &mdash; covers every feature, with screenshots.</p>
+        <p>Want to learn more before you install? Download the full QuietTime User Guide &mdash; covers every feature, with screenshots.</p>
         <a href="QuietTime-User-Guide.pdf" class="btn btn-secondary" style="margin-top: 1rem; display: inline-flex;" download>
             <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"/></svg>
             Download PDF Guide
@@ -678,20 +678,29 @@
 <!-- Download / Pricing -->
 <section class="download-section">
     <h2 class="section-title">Get QuietTime</h2>
-    <p style="color: var(--text-secondary);">One-time purchase. No subscriptions. Yours forever.</p>
+    <p style="color: var(--text-secondary);">Free on both stores. No ads. No accounts. No tracking.</p>
     <div class="download-cards">
         <div class="download-card">
-            <h4>Android</h4>
-            <div class="price">&pound;3.49</div>
-            <p style="color: var(--text-muted); font-size: 0.85rem;">One-time purchase</p>
-            <a href="#" class="store-link" style="pointer-events:none;opacity:0.6;">Coming Soon</a>
-        </div>
-        <div class="download-card">
             <h4>Windows</h4>
-            <div class="price">&pound;4.49</div>
-            <p style="color: var(--text-muted); font-size: 0.85rem;">One-time purchase</p>
+            <div class="price" style="font-size: 1.4rem;">Free</div>
+            <p style="color: var(--text-muted); font-size: 0.85rem;">Auto-updates &middot; Verified by Microsoft</p>
             <a href="https://apps.microsoft.com/detail/9NXM8ZJ40K6W" class="store-link" target="_blank" rel="noopener">Get from Microsoft Store</a>
         </div>
+        <div class="download-card">
+            <h4>Android</h4>
+            <div class="price" style="font-size: 1.4rem;">Free</div>
+            <p style="color: var(--text-muted); font-size: 0.85rem;">Coming to Google Play</p>
+            <a href="#" class="store-link" style="pointer-events:none;opacity:0.6;">Coming Soon</a>
+        </div>
+    </div>
+</section>
+
+<!-- Donate CTA -->
+<section class="section" style="padding-top: 0;">
+    <div style="background: linear-gradient(135deg, #FFE088 0%, #FFDD00 100%); color: #1c1535; border-radius: 14px; padding: 2rem 1.5rem; text-align: center; max-width: 720px; margin: 0 auto; box-shadow: 0 12px 40px rgba(255, 221, 0, 0.18);">
+        <h3 style="color: #1c1535; font-size: 1.4rem; margin-bottom: 0.5rem;">&#9749; Like the app?</h3>
+        <p style="color: #2a2145; margin-bottom: 1.25rem;">QuietTime is free and ad-free. If it saved your evening (or your sanity), a coffee keeps the next feature coming.</p>
+        <a href="https://buymeacoffee.com/dasoftware" target="_blank" rel="noopener" style="background: #1c1535; color: #FFE088; padding: 14px 30px; font-weight: 700; border-radius: 10px; text-decoration: none; display: inline-block; font-size: 1rem;">Buy me a coffee</a>
     </div>
 </section>
 
