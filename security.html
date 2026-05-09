@@ -11,18 +11,19 @@
 <body>
 
 <!-- Navigation -->
-<nav class="nav">
+<nav class="nav" aria-label="Main navigation">
     <div class="nav-inner">
-        <a href="index.html" class="nav-brand">
-            <img src="icon.png" alt="DuoVox icon">
-            DuoVox
+        <a href="/" class="nav-brand">
+            <img src="/logo.png" alt="David Arthur Software">
+            David Arthur Software
         </a>
+        <button class="nav-toggle" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')"><span></span><span></span><span></span></button>
         <ul class="nav-links">
-            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
-            <li><a href="index.html#pricing" data-i18n="nav.pricing">Pricing</a></li>
-            <li><a href="security.html" data-i18n="nav.security">Security</a></li>
-            <li><a href="privacy.html" data-i18n="nav.privacy">Privacy</a></li>
-            <li><a href="terms.html" data-i18n="nav.terms">Terms</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/duovox/">DuoVox</a></li>
+            <li><a href="/quiettime/">QuietTime</a></li>
+            <li><a href="/cctvconverter/">CCTV Converter</a></li>
+            <li><a href="/contact/">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -101,10 +102,13 @@
 <footer class="footer">
     <div class="footer-inner">
         <div class="footer-links">
-            <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
-            <a href="terms.html" data-i18n="footer.terms">Terms of Service</a>
-            <a href="security.html" data-i18n="nav.security">Security</a>
-            <a href="contact.html" data-i18n="footer.contact">Contact</a>
+            <a href="/duovox/">DuoVox</a>
+            <a href="/quiettime/">QuietTime</a>
+            <a href="/cctvconverter/">CCTV Converter</a>
+            <a href="/privacy/">Privacy Policy</a>
+            <a href="/terms/">Terms of Service</a>
+            <a href="/refunds/">Refunds</a>
+            <a href="/contact/">Contact</a>
         </div>
         <p class="footer-company" data-i18n="footer.copyright">&copy; 2026 David Arthur Software (DAS). All rights reserved.</p>
     </div>
