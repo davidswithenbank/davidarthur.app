@@ -218,5 +218,7 @@
   "contact.email.business.title": "Business",
   "contact.email.business.desc": "Business planı hakkında sorular ve Business aboneleri için öncelikli destek.",
   "contact.email.enquiries.title": "Genel sorular",
-  "contact.email.enquiries.desc": "Satış öncesi sorular, iş birliği talepleri ve genel bilgi."
+  "contact.email.enquiries.desc": "Satış öncesi sorular, iş birliği talepleri ve genel bilgi.",
+  "nav.cctvconverter": "CCTV Converter",
+  "footer.refunds": "İadeler"
 }

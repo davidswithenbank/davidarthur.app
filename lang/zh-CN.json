@@ -218,5 +218,7 @@
   "contact.email.business.title": "商务",
   "contact.email.business.desc": "商业计划咨询和 Business 订阅用户的优先支持。",
   "contact.email.enquiries.title": "一般咨询",
-  "contact.email.enquiries.desc": "购买前问题、合作咨询和一般信息。"
+  "contact.email.enquiries.desc": "购买前问题、合作咨询和一般信息。",
+  "nav.cctvconverter": "CCTV Converter",
+  "footer.refunds": "退款"
 }

@@ -218,5 +218,7 @@
   "contact.email.business.title": "Business",
   "contact.email.business.desc": "Demandes relatives au forfait Business et support prioritaire pour les abonnés Business.",
   "contact.email.enquiries.title": "Demandes générales",
-  "contact.email.enquiries.desc": "Questions avant achat, demandes de partenariat et informations générales."
+  "contact.email.enquiries.desc": "Questions avant achat, demandes de partenariat et informations générales.",
+  "nav.cctvconverter": "CCTV Converter",
+  "footer.refunds": "Remboursements"
 }

@@ -218,5 +218,7 @@
   "contact.email.business.title": "الأعمال",
   "contact.email.business.desc": "استفسارات خطة الأعمال والدعم ذو الأولوية لمشتركي Business.",
   "contact.email.enquiries.title": "استفسارات عامة",
-  "contact.email.enquiries.desc": "أسئلة ما قبل الشراء واستفسارات الشراكة والمعلومات العامة."
+  "contact.email.enquiries.desc": "أسئلة ما قبل الشراء واستفسارات الشراكة والمعلومات العامة.",
+  "nav.cctvconverter": "CCTV Converter",
+  "footer.refunds": "استرداد الأموال"
 }

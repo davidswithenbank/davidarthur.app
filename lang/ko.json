@@ -218,5 +218,7 @@
   "contact.email.business.title": "비즈니스",
   "contact.email.business.desc": "비즈니스 플랜 문의 및 Business 구독자를 위한 우선 지원.",
   "contact.email.enquiries.title": "일반 문의",
-  "contact.email.enquiries.desc": "구매 전 질문, 파트너십 문의 및 일반 정보."
+  "contact.email.enquiries.desc": "구매 전 질문, 파트너십 문의 및 일반 정보.",
+  "nav.cctvconverter": "CCTV Converter",
+  "footer.refunds": "환불"
 }

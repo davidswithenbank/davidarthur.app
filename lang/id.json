@@ -218,5 +218,7 @@
   "contact.email.business.title": "Bisnis",
   "contact.email.business.desc": "Pertanyaan paket Business dan dukungan prioritas untuk pelanggan Business.",
   "contact.email.enquiries.title": "Pertanyaan Umum",
-  "contact.email.enquiries.desc": "Pertanyaan pra-penjualan, pertanyaan kemitraan, dan informasi umum."
+  "contact.email.enquiries.desc": "Pertanyaan pra-penjualan, pertanyaan kemitraan, dan informasi umum.",
+  "nav.cctvconverter": "CCTV Converter",
+  "footer.refunds": "Pengembalian Dana"
 }

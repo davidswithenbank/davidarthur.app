@@ -309,5 +309,7 @@
   "contact.email.business.title": "Business",
   "contact.email.business.desc": "Business plan enquiries and priority support for Business subscribers.",
   "contact.email.enquiries.title": "General Enquiries",
-  "contact.email.enquiries.desc": "Pre-sales questions, partnership enquiries, and general information."
+  "contact.email.enquiries.desc": "Pre-sales questions, partnership enquiries, and general information.",
+  "nav.cctvconverter": "CCTV Converter",
+  "footer.refunds": "Refunds"
 }

@@ -218,5 +218,7 @@
   "contact.email.business.title": "ธุรกิจ",
   "contact.email.business.desc": "สอบถามแผน Business และการสนับสนุนลำดับความสำคัญสำหรับสมาชิก Business",
   "contact.email.enquiries.title": "สอบถามทั่วไป",
-  "contact.email.enquiries.desc": "คำถามก่อนซื้อ สอบถามเรื่องความร่วมมือ และข้อมูลทั่วไป"
+  "contact.email.enquiries.desc": "คำถามก่อนซื้อ สอบถามเรื่องความร่วมมือ และข้อมูลทั่วไป",
+  "nav.cctvconverter": "CCTV Converter",
+  "footer.refunds": "การคืนเงิน"
 }

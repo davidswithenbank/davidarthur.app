@@ -218,5 +218,7 @@
   "contact.email.business.title": "Business",
   "contact.email.business.desc": "Consultas sobre o plano Business e suporte prioritário para assinantes Business.",
   "contact.email.enquiries.title": "Consultas gerais",
-  "contact.email.enquiries.desc": "Perguntas pré-venda, consultas de parceria e informações gerais."
+  "contact.email.enquiries.desc": "Perguntas pré-venda, consultas de parceria e informações gerais.",
+  "nav.cctvconverter": "CCTV Converter",
+  "footer.refunds": "Reembolsos"
 }

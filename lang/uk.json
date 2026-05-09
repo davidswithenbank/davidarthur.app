@@ -218,5 +218,7 @@
   "contact.email.business.title": "Business",
   "contact.email.business.desc": "Запити щодо плану Business та пріоритетна підтримка для передплатників Business.",
   "contact.email.enquiries.title": "Загальні запитання",
-  "contact.email.enquiries.desc": "Запитання перед покупкою, запити щодо партнерства та загальна інформація."
+  "contact.email.enquiries.desc": "Запитання перед покупкою, запити щодо партнерства та загальна інформація.",
+  "nav.cctvconverter": "CCTV Converter",
+  "footer.refunds": "Повернення коштів"
 }
