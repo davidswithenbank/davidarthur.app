@@ -27,7 +27,11 @@
       "operatingSystem": "Android, Windows",
       "description": "Real-time voice translation across 50+ languages. Dual-lane transcription, offline mode, and privacy built in.",
       "offers": [
-        { "@type": "Offer", "price": "0", "priceCurrency": "USD", "name": "Free" }
+        { "@type": "Offer", "price": "0", "priceCurrency": "GBP", "name": "Free" },
+        { "@type": "Offer", "price": "15.99", "priceCurrency": "GBP", "name": "Standard", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "15.99", "priceCurrency": "GBP", "billingDuration": "P1M" } },
+        { "@type": "Offer", "price": "99.99", "priceCurrency": "GBP", "name": "Professional", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "99.99", "priceCurrency": "GBP", "billingDuration": "P1M" } },
+        { "@type": "Offer", "price": "1.99", "priceCurrency": "GBP", "name": "Pay-As-You-Go (Standard)", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "1.99", "priceCurrency": "GBP", "unitCode": "HUR" } },
+        { "@type": "Offer", "price": "4.99", "priceCurrency": "GBP", "name": "Pay-As-You-Go (Professional)", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "4.99", "priceCurrency": "GBP", "unitCode": "HUR" } }
       ],
       "author": {
         "@type": "Organization",
@@ -321,65 +325,104 @@
     <div class="audience-grid">
         <div class="audience-card">
             <div class="audience-icon">&#9992;</div>
-            <h3>Travellers</h3>
-            <p>Navigate foreign cities, order food, ask for directions, and have real conversations with locals. Works offline when you don't have signal.</p>
-            <span class="audience-plan">Free version</span>
+            <h3>Travellers &amp; Students</h3>
+            <p>Navigate foreign cities, order food, ask for directions, follow lectures, and have real conversations with locals. Works offline when you don't have signal.</p>
+            <span class="audience-plan">Free or Standard</span>
         </div>
         <div class="audience-card">
             <div class="audience-icon">&#128188;</div>
-            <h3>Professionals</h3>
+            <h3>Business Professionals</h3>
             <p>Follow international meetings, client calls, and negotiations in real time. Export subtitles and translate documents for your records.</p>
-            <span class="audience-plan">Paid version</span>
+            <span class="audience-plan">Standard or Professional</span>
         </div>
         <div class="audience-card">
-            <div class="audience-icon">&#127891;</div>
-            <h3>Students &amp; Educators</h3>
-            <p>Follow lectures in another language, support multilingual classrooms, or practise listening comprehension with real-time transcription.</p>
-            <span class="audience-plan">Paid version</span>
+            <div class="audience-icon">&#127973;</div>
+            <h3>Medical &amp; Legal Interpreters</h3>
+            <p>Specialist-grade vocabulary recognition for medical consultations, legal proceedings, and immigration interviews. Private Mode for sensitive content.</p>
+            <span class="audience-plan">Professional</span>
         </div>
         <div class="audience-card">
-            <div class="audience-icon">&#127970;</div>
-            <h3>Teams &amp; Organisations</h3>
-            <p>High-volume translation for legal, medical, government, and corporate teams. Private mode for sensitive conversations. Dedicated support.</p>
-            <span class="audience-plan">Paid version</span>
+            <div class="audience-icon">&#128179;</div>
+            <h3>Occasional &amp; Trial Users</h3>
+            <p>Try DuoVox without signing up to a monthly plan. Buy credits as you need them &mdash; perfect for one-off translation, testing the service, or topping up beyond your subscription.</p>
+            <span class="audience-plan">Pay-As-You-Go</span>
         </div>
     </div>
 </section>
 
-<!-- Status / Coming Soon -->
+<!-- Pricing & Plans -->
 <section class="section" id="status">
-    <h2 class="section-title">Coming Soon</h2>
-    <p class="section-subtitle">DuoVox is in active development. Final pricing and feature tiers will be announced when the apps launch on Google Play and the Microsoft Store. Here's what's planned:</p>
-    <div class="pricing-grid two-col">
+    <h2 class="section-title">Plans &amp; Pricing</h2>
+    <p class="section-subtitle">DuoVox launches soon on Google Play and the Microsoft Store. Subscriptions and Pay-As-You-Go credits are purchased in-app.<br><small style="opacity:0.6;">Prices shown in GBP. App-store pricing is displayed in your local currency. All subscriptions can be cancelled at any time.</small></p>
+    <div class="pricing-grid four-col">
+
+        <!-- Free -->
         <div class="price-card">
             <h3>Free</h3>
-            <div class="price-amount">$0</div>
+            <div class="price-amount">&pound;0</div>
             <div class="price-period">forever</div>
-            <p class="best-for">Best for: holidays, casual use &amp; trying it out</p>
+            <p class="best-for">Best for: trying it out &amp; offline privacy</p>
             <ul class="price-features">
                 <li>On-device transcription</li>
                 <li>28 offline languages</li>
-                <li>Light banner ads &mdash; no annoying video ads</li>
-                <li>No account required</li>
+                <li>Works without internet</li>
+                <li>Light banner ads</li>
             </ul>
-            <p class="cta-micro">Free forever. Tip jar below if you'd like to support us.</p>
+            <p class="cta-micro">No account needed. Free forever.</p>
         </div>
-        <div class="price-card featured">
-            <div class="price-badge">Planned</div>
-            <h3>Paid</h3>
-            <div class="price-amount">&mdash;</div>
-            <div class="price-period">via Google Play &amp; Microsoft Store</div>
-            <p class="best-for">Best for: travellers, professionals &amp; teams</p>
+
+        <!-- Standard -->
+        <div class="price-card">
+            <h3>Standard</h3>
+            <div class="price-amount">&pound;15.99</div>
+            <div class="price-period">per month <span class="price-annual">or &pound;159.99/yr &mdash; save &pound;32</span></div>
+            <p class="best-for">Best for: travellers, students &amp; everyday bilingual chat</p>
             <ul class="price-features">
-                <li>AI-powered transcription &amp; translation</li>
+                <li>Live AI transcription &amp; translation</li>
+                <li>15 hours included per month</li>
                 <li>51 supported languages</li>
                 <li>No ads</li>
-                <li>Subtitle export, file translation &amp; glossary (Desktop)</li>
-                <li>Private mode</li>
+                <li>Cancel anytime</li>
             </ul>
-            <p class="cta-micro">Pricing announced at launch. Purchases handled by Google Play &amp; Microsoft Store.</p>
+            <p class="cta-micro">Best if you use it 8+ hours per month.</p>
+        </div>
+
+        <!-- Professional (Most Popular) -->
+        <div class="price-card featured">
+            <div class="price-badge">Most Popular</div>
+            <h3>Professional</h3>
+            <div class="price-amount">&pound;99.99</div>
+            <div class="price-period">per month <span class="price-annual">or &pound;999.99/yr &mdash; save &pound;199</span></div>
+            <p class="best-for">Best for: medical &amp; legal interpreters and professional translators</p>
+            <ul class="price-features">
+                <li>Specialist-grade AI for medical &amp; legal vocabulary</li>
+                <li>Premium AI translation</li>
+                <li>40 hours included per month</li>
+                <li>Subtitle export &mdash; SRT &amp; VTT (Desktop)</li>
+                <li>Translate audio, video &amp; document files (Desktop)</li>
+                <li>Translation Glossary (Desktop)</li>
+                <li>Private Mode</li>
+            </ul>
+            <p class="cta-micro">Best if you use it 20+ hours per month.</p>
+        </div>
+
+        <!-- Pay-As-You-Go -->
+        <div class="price-card">
+            <h3>Pay-As-You-Go</h3>
+            <div class="price-amount">from &pound;1.99</div>
+            <div class="price-period">per hour</div>
+            <p class="best-for">Best for: trial, occasional use or top-up</p>
+            <ul class="price-features">
+                <li>Standard quality: &pound;1.99/hour</li>
+                <li>Professional quality: &pound;4.99/hour</li>
+                <li>Buy credit packs (10h, 25h, 50h)</li>
+                <li>No subscription, no commitment</li>
+                <li>Credits never expire</li>
+            </ul>
+            <p class="cta-micro">Try either tier without subscribing.</p>
         </div>
     </div>
+    <p class="pricing-footnote">All subscriptions can continue beyond your monthly hours via Pay-As-You-Go. When you reach your cap you'll be offered three choices: buy additional hours, continue in free offline mode for the rest of the session (lower quality, no internet needed), or end the session &mdash; your choice. We never auto-charge beyond your subscription without explicit confirmation. <a href="https://duovox.net/terms.html">See terms &amp; conditions</a>.</p>
 </section>
 
 <!-- Tip Jar -->
@@ -412,7 +455,13 @@
         <div class="faq-item">
             <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">When will DuoVox launch?</button>
             <div class="faq-answer">
-                <p>DuoVox is in active development. We'll announce launch dates, final feature tiers and paid-plan pricing when the apps go live on Google Play and the Microsoft Store. Until then, the free version's offline transcription is fully functional.</p>
+                <p>DuoVox is in final testing. The full pricing structure shown above is locked in; we're working through store submission for Google Play and the Microsoft Store. The free version is fully functional and can be used today.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">What happens when I run out of monthly hours?</button>
+            <div class="faq-answer">
+                <p>You'll be notified at 80% and at 100% of your monthly hours. When you reach 100% you'll have three choices: buy Pay-As-You-Go credits to keep going at your current quality level, switch to free offline mode (lower quality but works without internet) for the rest of the session, or end the session and wait for your next billing cycle. We never auto-charge you beyond your subscription without explicit confirmation.</p>
             </div>
         </div>
         <div class="faq-item">
