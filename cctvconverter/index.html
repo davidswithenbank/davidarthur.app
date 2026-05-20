@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CCTV Converter - Free Chinese CCTV Video Converter for Windows | David Arthur Software</title>
-    <meta name="description" content="Free Windows app to convert and view Chinese CCTV camera files (Xiongmai, Dahua, Hikvision and more). Plays IMKH .ps, DHAV, raw H.264 and 20+ other formats. Filter, merge, snapshot, fullscreen preview. No ads, no accounts.">
-    <meta name="keywords" content="CCTV converter, DVR converter, Xiongmai, Dahua, Hikvision, IMKH, .ps file player, surveillance video, security camera, MP4 converter, H.264, free Windows utility">
+    <meta name="description" content="Free Windows app to convert and view Chinese CCTV camera files (Xiongmai, Dahua, Hikvision and 20+ formats). Parallel conversion, optional date/time burn-in, 16-language interface. Filter, merge, snapshot, fullscreen preview. No ads, no accounts.">
+    <meta name="keywords" content="CCTV converter, DVR converter, Xiongmai, Dahua, Hikvision, IMKH, .ps file player, surveillance video, security camera, MP4 converter, H.264, timestamp overlay, evidence video, free Windows utility, multilingual">
     <!-- Open Graph -->
     <meta property="og:title" content="CCTV Converter - Free Chinese CCTV Video Converter for Windows">
-    <meta property="og:description" content="Convert and view Chinese CCTV camera files - Xiongmai .ps, Dahua, Hikvision and more. Free, no ads, no accounts.">
+    <meta property="og:description" content="Convert and view Chinese CCTV camera files - Xiongmai .ps, Dahua, Hikvision and 20+ formats. Parallel conversion, timestamp burn-in, 16-language UI. Free, no ads, no accounts.">
     <meta property="og:image" content="https://davidarthur.app/cctvconverter-icon.png">
     <meta property="og:url" content="https://davidarthur.app/cctvconverter/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="David Arthur Software">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CCTV Converter - Free Chinese CCTV Video Converter for Windows">
-    <meta name="twitter:description" content="Convert and view Chinese CCTV camera files - Xiongmai, Dahua, Hikvision and more. Free, no ads, no accounts.">
+    <meta name="twitter:description" content="Convert and view Chinese CCTV camera files - Xiongmai, Dahua, Hikvision and 20+ formats. Parallel conversion, timestamp burn-in, 16-language UI. Free, no ads, no accounts.">
     <meta name="twitter:image" content="https://davidarthur.app/cctvconverter-icon.png">
     <link rel="icon" type="image/png" href="/cctvconverter-icon.png">
     <link rel="stylesheet" href="/style.css">
@@ -26,7 +26,7 @@
       "name": "CCTV Converter",
       "applicationCategory": "MultimediaApplication",
       "operatingSystem": "Windows 10, Windows 11",
-      "description": "Free Windows utility to convert and view Chinese CCTV camera files including Xiongmai IMKH .ps, Dahua DHAV, Hikvision and more.",
+      "description": "Free Windows utility to convert and view Chinese CCTV camera files including Xiongmai IMKH .ps, Dahua DHAV, Hikvision and 20+ formats. Parallel conversion, optional date/time burn-in for evidence footage, 16-language interface.",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -174,8 +174,8 @@
     <img src="/cctvconverter-icon.png" alt="CCTV Converter" class="hero-icon">
     <h1 class="hero" style="padding:0; margin:0;">CCTV Converter</h1>
     <p class="subtitle" style="margin-top:0.5rem;">Convert and view your Chinese CCTV camera files.</p>
-    <span class="tagline-badge">Free &bull; No ads &bull; No accounts &bull; Works offline</span>
-    <p class="tagline" style="margin-top:1.5rem;">Most Chinese DVRs save footage in proprietary formats that no normal player will open. CCTV Converter detects the format, converts to standard MP4, and lets you preview, filter, snapshot and merge clips &mdash; all on your own machine.</p>
+    <span class="tagline-badge">Free &bull; No ads &bull; No accounts &bull; Works offline &bull; 16 languages</span>
+    <p class="tagline" style="margin-top:1.5rem;">Most Chinese DVRs save footage in proprietary formats that no normal player will open. CCTV Converter detects the format, converts to standard MP4 in parallel for big batches, optionally burns a date/time clock into the video for evidence use, and lets you preview, filter, snapshot and merge clips &mdash; all on your own machine, in your language.</p>
 </section>
 
 <!-- Trust Badges -->
@@ -200,6 +200,10 @@
         <div class="trust-badge">
             <span class="trust-icon">&#128187;</span>
             <span>Windows 10 / 11</span>
+        </div>
+        <div class="trust-badge">
+            <span class="trust-icon">&#127760;</span>
+            <span>16 languages</span>
         </div>
     </div>
 </section>
@@ -265,6 +269,21 @@
             <div class="feature-icon">&#9889;</div>
             <h3>Lossless Conversion</h3>
             <p>Stream-copy where possible (no re-encoding) means a 30-second clip converts in well under a second with zero quality loss. Falls back to a clean H.264 re-encode if needed.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">&#128640;</div>
+            <h3>Parallel Conversion</h3>
+            <p>Convert up to 8 files at once on multi-core machines. A full day of recordings that used to take minutes now finishes in seconds. Adjustable from 1 to 8 concurrent jobs.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">&#128344;</div>
+            <h3>Date / Time Burn-in</h3>
+            <p>Optional clock overlay burned right into the converted MP4 &mdash; perfect for insurance claims, court evidence and incident reports where timestamped footage is required.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">&#127760;</div>
+            <h3>16 Languages</h3>
+            <p>Full UI in English, Indonesian, Vietnamese, Thai, Filipino, Chinese (Simplified), Japanese, Korean, Spanish, Portuguese, French, German, Russian, Turkish, Ukrainian and Arabic (right-to-left). Auto-detects your Windows language; switch any time with one click.</p>
         </div>
         <div class="feature-card">
             <div class="feature-icon">&#128269;</div>
@@ -342,7 +361,19 @@
         <div class="faq-item">
             <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">How fast is it?</button>
             <div class="faq-answer">
-                <p>Around 200&times; realtime for a typical CCTV bitrate. A 30-second clip converts in well under a second; a full day of recordings (a few hundred clips) takes a couple of minutes on a normal laptop. Stop and resume any time.</p>
+                <p>Around 200&times; realtime for a typical CCTV bitrate. A 30-second clip converts in well under a second. With parallel conversion enabled (up to 8 files at once), a full day of recordings &mdash; a few hundred clips &mdash; takes well under a minute on a normal laptop. Stop and resume any time.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">What languages is it available in?</button>
+            <div class="faq-answer">
+                <p>16 languages: English, Indonesian (Bahasa Indonesia), Vietnamese (Ti&#7871;ng Vi&#7879;t), Thai, Filipino, Chinese (Simplified), Japanese, Korean, Spanish, Portuguese (Brazil), French, German, Russian, Turkish, Ukrainian and Arabic (right-to-left). The app auto-detects your Windows language on first launch and you can switch any time from the globe icon in the toolbar.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Can I burn the date and time into the video?</button>
+            <div class="faq-answer">
+                <p>Yes &mdash; tick &ldquo;Add timestamp overlay to converted video&rdquo; in the options panel before you convert. A date/time clock taken from each file&rsquo;s recording time is burned into the bottom-left of the MP4, incrementing per frame. Required by most insurance companies and accepted as evidence by courts in many jurisdictions.</p>
             </div>
         </div>
         <div class="faq-item">

@@ -31,7 +31,7 @@
 <!-- Privacy Policy -->
 <main class="legal">
     <h1>Privacy Policy for CCTV Converter</h1>
-    <p class="last-updated">Last updated: 8 May 2026</p>
+    <p class="last-updated">Last updated: 20 May 2026</p>
 
     <p>David Arthur Software ("we", "us", "our") publishes the CCTV Converter app ("the App") as a free Windows utility. This page describes how the App handles your information.</p>
 
@@ -41,9 +41,13 @@
     <h2>2. What the App stores locally</h2>
     <p>The App writes a small configuration file at <code>%LOCALAPPDATA%\CctvConverter\config.json</code> on your machine. It records only:</p>
     <ul>
-        <li>The last source folder you scanned (so the path appears next time you open the App)</li>
-        <li>The last output folder you chose</li>
+        <li>The last source folder you scanned and the last output folder you chose (so the paths appear next time you open the App)</li>
+        <li>Up to five recent source folders and five recent output folders, for the &#9660; quick-pick menus beside those fields</li>
         <li>Your "Delete source files after successful conversion" checkbox state</li>
+        <li>Your "Add timestamp overlay to converted video" checkbox state</li>
+        <li>Your chosen number of parallel conversions (1 to 8)</li>
+        <li>Your chosen interface language (or the language auto-detected from your Windows settings on first launch)</li>
+        <li>A count of how many files you have successfully converted, used only to know when to offer a one-time "rate the app on the Microsoft Store" prompt, and a flag recording your reply to that prompt</li>
     </ul>
     <p>It also caches video thumbnails at <code>%LOCALAPPDATA%\CctvConverter\thumbs\</code> to make repeat browsing faster.</p>
     <p>None of this data is transmitted off your device. You can delete it any time by removing the <code>%LOCALAPPDATA%\CctvConverter\</code> folder.</p>
@@ -64,10 +68,19 @@
     <h2>5. Permissions</h2>
     <p>The App runs as a standard Windows desktop application. It needs read access to the folders you point it at, write access to the output folder you choose, and the ability to launch the bundled <code>ffmpeg.exe</code>. It does not require administrator rights for normal use.</p>
 
-    <h2>6. Data retention</h2>
+    <h2>6. Links that open in your browser or the Microsoft Store</h2>
+    <p>A small number of buttons in the App launch links in whatever app your system uses to open them &mdash; for example:</p>
+    <ul>
+        <li>The "&#9749; Buy me a coffee" button opens the Buy Me a Coffee page for the App in your default browser.</li>
+        <li>The footer links to <strong>davidarthur.app</strong> and <code>info@davidarthur.app</code> open your default browser or email client.</li>
+        <li>If you click "Rate on Store" in the one-time rating prompt, the App opens the App's review page in the Microsoft Store.</li>
+    </ul>
+    <p>These actions happen only when you click those specific buttons. The App itself does not make any background network requests.</p>
+
+    <h2>7. Data retention</h2>
     <p>All data the App writes is on your device for as long as you keep the App installed. Uninstalling or deleting <code>%LOCALAPPDATA%\CctvConverter\</code> permanently removes everything.</p>
 
-    <h2>7. Support emails and general correspondence</h2>
+    <h2>8. Support emails and general correspondence</h2>
     <p>If you email us directly &mdash; for example, to ask for help with the App or to report a problem &mdash; we will receive your message, including your email address and anything you choose to tell us. We use that information only to respond to you and to keep a brief record of the conversation so we can help you again later.</p>
     <ul>
         <li>We do <strong>not</strong> add your email address to any marketing list.</li>
@@ -77,7 +90,7 @@
     </ul>
     <p>If you would like us to delete any correspondence with us, email <a href="mailto:info@davidarthur.app">info@davidarthur.app</a> with "Delete my data" in the subject line and we will comply within 30 days.</p>
 
-    <h2>8. Your rights</h2>
+    <h2>9. Your rights</h2>
     <p>Because the App does not transmit or store any of your data outside your device, we (David Arthur Software) do not hold any personal data about you in respect of using the App, and there is nothing for us to access, correct, or delete on a server.</p>
     <p>For data the App stores locally, you can:</p>
     <ul>
@@ -87,13 +100,13 @@
     </ul>
     <p>If you believe we have handled your data incorrectly and are not happy with our response, you have the right to complain to the UK Information Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a> or by phone on 0303 123 1113.</p>
 
-    <h2>9. Website cookies and local storage</h2>
+    <h2>10. Website cookies and local storage</h2>
     <p>The davidarthur.app website is a static site. It uses Cloudflare Web Analytics, a privacy-first, cookieless service that records anonymous, aggregated visit data without setting cookies or tracking individual users. It does not use advertising cookies or any other tracking. It also stores a small language-preference value in your browser's local storage so the site can remember the language you selected; this never leaves your device.</p>
 
-    <h2>10. Changes to this policy</h2>
+    <h2>11. Changes to this policy</h2>
     <p>We may update this Privacy Policy from time to time. We will note any change with a new "Last updated" date at the top of this page.</p>
 
-    <h2>11. Contact us</h2>
+    <h2>12. Contact us</h2>
     <p>If you have any questions about this Privacy Policy, please contact:</p>
     <ul>
         <li>Email: <a href="mailto:info@davidarthur.app">info@davidarthur.app</a></li>
