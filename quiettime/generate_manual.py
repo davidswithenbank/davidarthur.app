@@ -439,11 +439,15 @@ def build():
     # ══════════════════════════════════════════
     # 10. ACTIVITY LOG
     # ══════════════════════════════════════════
-    story.append(Paragraph("10. Activity Log", styles["h1"]))
-    story.append(Paragraph(
-        "QuietTime keeps a local activity log on your device so you can review how the app "
-        "has been used. Open it from the <b>Activity Log</b> entry in the Settings sidebar. "
-        "The log is stored only on your device and is never sent anywhere.", styles["body"]))
+    add_image(story, "desktop-activitylog.jpg", max_w=140*mm, max_h=85*mm,
+              caption="Activity Log (Windows) &mdash; 7-day summary, filter, colour-coded entries grouped by day, with Export and PIN-protected Clear",
+              prepend=[
+                  Paragraph("10. Activity Log", styles["h1"]),
+                  Paragraph(
+                      "QuietTime keeps a local activity log on your device so you can review how the app "
+                      "has been used. Open it from the <b>Activity Log</b> entry in the Settings sidebar. "
+                      "The log is stored only on your device and is never sent anywhere.", styles["body"]),
+              ])
 
     add_bullets(story, "<b>Events recorded:</b>", [
         "Block period start and end times (paired into a single &lsquo;block period&rsquo; row with duration)",
