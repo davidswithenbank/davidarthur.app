@@ -297,13 +297,14 @@ def build():
               caption="Settings &mdash; Schedule (Windows) showing daily times, presets, days off and the timeline preview")
     add_bullets(story,
         "<b>Settings Layout (Windows)</b> &mdash; "
-        "The Windows Settings window is organised into six sections accessible from the sidebar on the left:",
+        "The Windows Settings window is organised into seven sections accessible from the sidebar on the left:",
         [
-            "<b>Schedule</b> &mdash; Daily schedule, timeline preview, weekly view, and Extra Time.",
+            "<b>Schedule</b> &mdash; Daily schedule, presets, days off, timeline preview, and Extra Time.",
             "<b>Notifications</b> &mdash; Wind-down warning and chime sound.",
             "<b>Appearance</b> &mdash; Block screen theme and lock level.",
             "<b>Security</b> &mdash; Change PIN and change recovery password.",
-            "<b>System</b> &mdash; Start with Windows and view activity log.",
+            "<b>System</b> &mdash; Start with Windows.",
+            "<b>Activity Log</b> &mdash; Summary, filter, history with CSV export.",
             "<b>About</b> &mdash; Version, links, and support.",
         ])
     story.append(PageBreak())
@@ -438,22 +439,70 @@ def build():
     # ══════════════════════════════════════════
     # 10. ACTIVITY LOG
     # ══════════════════════════════════════════
-    add_bullets(story,
-        "QuietTime keeps a local activity log on your device so you can review how the app has been used. "
-        "Events recorded include:",
-        [
-            "Block period start and end times",
-            "Override actions",
-            "Time extensions granted",
-            "Settings changes",
-            "Preset applied / saved / deleted",
-            "Day off added / removed",
-        ], h1="10. Activity Log")
+    story.append(Paragraph("10. Activity Log", styles["h1"]))
     story.append(Paragraph(
-        "The activity log is stored only on your device and is never sent anywhere. "
-        "You can open it from the System section of Settings.", styles["body"]))
-    add_image(story, "desktop-system.jpg", max_w=140*mm, max_h=80*mm,
-              caption="System section (Windows) &mdash; Start with Windows toggle and activity log entry point")
+        "QuietTime keeps a local activity log on your device so you can review how the app "
+        "has been used. Open it from the <b>Activity Log</b> entry in the Settings sidebar. "
+        "The log is stored only on your device and is never sent anywhere.", styles["body"]))
+
+    add_bullets(story, "<b>Events recorded:</b>", [
+        "Block period start and end times (paired into a single &lsquo;block period&rsquo; row with duration)",
+        "Parent overrides used",
+        "Extra time granted",
+        "Schedule preset applied, saved, or deleted",
+        "Day off added or removed",
+        "Settings changes",
+        "PIN or recovery password changed",
+        "Lock level, theme, wind-down warning, or language changed",
+        "App started and shut down",
+    ])
+
+    story.append(Paragraph("Summary card", styles["h2"]))
+    story.append(Paragraph(
+        "At the top of the log you see at-a-glance counters for the last 7 days: how many "
+        "block periods completed, how many overrides were used, and how many minutes of extra "
+        "time were granted. Overrides and extra time are shown in accent colour so they stand "
+        "out from routine activity.", styles["body"]))
+
+    story.append(Paragraph("Filter", styles["h2"]))
+    add_bullets(story,
+        "Use the filter dropdown to narrow the list to a single category:",
+        [
+            "<b>All events</b> &mdash; everything",
+            "<b>Block periods</b> &mdash; routine quiet-time blocks",
+            "<b>Overrides &amp; extras</b> &mdash; parent overrides and granted extra time",
+            "<b>Schedule changes</b> &mdash; presets, days off, schedule edits",
+            "<b>Security changes</b> &mdash; PIN, recovery password, lock level",
+            "<b>System &amp; app</b> &mdash; theme, wind-down, language, app start/shutdown",
+        ])
+
+    story.append(Paragraph("Visual cues", styles["h2"]))
+    add_bullets(story, "Each entry has a coloured stripe on its left edge so you can scan the log quickly:", [
+        "<b>Red</b> &mdash; overrides and extensions (worth knowing about)",
+        "<b>Gold</b> &mdash; security changes (PIN, recovery, lock level)",
+        "<b>Purple</b> &mdash; schedule changes",
+        "<b>Neutral grey</b> &mdash; routine block periods",
+        "<b>Dim grey</b> &mdash; background system events",
+    ])
+    story.append(Paragraph(
+        "Entries are grouped by day with <b>Today / Yesterday</b> headers so you can find "
+        "recent activity at a glance.", styles["body"]))
+
+    story.append(Paragraph("Export to CSV", styles["h2"]))
+    story.append(Paragraph(
+        "Click <b>Export…</b> to save the log as a CSV file (opens in Excel, Numbers, "
+        "or any spreadsheet app). Useful for sharing with a co-parent, archiving before "
+        "a clear, or reviewing patterns over a longer period.", styles["body"]))
+
+    story.append(Paragraph("Clear log (PIN required)", styles["h2"]))
+    story.append(Paragraph(
+        "Clearing the log is destructive and irreversible, so QuietTime asks for your PIN "
+        "every time &mdash; even though you've already entered it to open Settings. This "
+        "protects the audit trail if you walk away from an open Settings window.", styles["body"]))
+    story.append(Paragraph(
+        "<i>Tip: Export the log to CSV before clearing if you'd like to keep a record.</i>",
+        styles["tip"]))
+
     hr(story)
 
     # ══════════════════════════════════════════
