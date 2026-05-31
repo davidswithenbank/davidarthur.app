@@ -49,8 +49,7 @@ S = {
     "H2": ParagraphStyle("H2", fontName="Helvetica-Bold", fontSize=11, leading=15, textColor=ACCENTLT, spaceBefore=4*mm, spaceAfter=1.5*mm, keepWithNext=1),
     "body": ParagraphStyle("body", fontName="Helvetica", fontSize=9.5, leading=13.5, textColor=TXT, spaceAfter=2.5*mm),
     "bullet": ParagraphStyle("bullet", fontName="Helvetica", fontSize=9.5, leading=13, textColor=TXT, leftIndent=5*mm, spaceAfter=1*mm),
-    "tip": ParagraphStyle("tip", fontName="Helvetica-Oblique", fontSize=9, leading=12.5, textColor=TXT2,
-                          borderColor=ACCENT, borderWidth=0.6, borderPadding=3*mm, backColor=CARD, spaceBefore=1*mm, spaceAfter=3.5*mm),
+    "tipinner": ParagraphStyle("tipinner", fontName="Helvetica-Oblique", fontSize=9, leading=12.5, textColor=TXT2),
     "cap": ParagraphStyle("cap", fontName="Helvetica-Oblique", fontSize=8, leading=11, textColor=TXT2, alignment=TA_CENTER, spaceAfter=2*mm),
 }
 
@@ -93,10 +92,32 @@ def bullets(items):
     return [Paragraph(f"&bull;&nbsp;&nbsp;{it}", S["bullet"]) for it in items]
 
 
+def section(*flowables):
+    """Keep a whole section on one page (so it's never split when it would fit)."""
+    return KeepTogether(list(flowables))
+
+
 def H1(t): return Paragraph(t, S["H1"])
 def H2(t): return Paragraph(t, S["H2"])
 def P(t): return Paragraph(t, S["body"])
-def tip(t): return Paragraph(f"<b>Tip:</b> {t}", S["tip"])
+
+
+def tip(text):
+    """Callout box rendered as a 1-cell table — tables reserve their padding, so
+    the box never overlaps the flowable above it (a Paragraph border does)."""
+    inner = Paragraph(f"<b>Tip:</b> {text}", S["tipinner"])
+    t = Table([[inner]], colWidths=[174*mm])
+    t.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, -1), CARD),
+        ("BOX", (0, 0), (-1, -1), 0.6, ACCENT),
+        ("LEFTPADDING", (0, 0), (-1, -1), 4*mm),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 4*mm),
+        ("TOPPADDING", (0, 0), (-1, -1), 3*mm),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 3*mm),
+    ]))
+    t.spaceBefore = 3*mm
+    t.spaceAfter = 3.5*mm
+    return t
 
 
 class GuideDoc(BaseDocTemplate):
@@ -136,7 +157,6 @@ class GuideDoc(BaseDocTemplate):
             for child in getattr(fl, "_content", []):
                 if isinstance(child, Paragraph) and child.style.name in ("H1", "H2"):
                     self._register(child)
-                    break
 
 
 def _paint_bg(canvas, doc):
@@ -339,36 +359,42 @@ def body_flowables():
     ]))
     s += [t, Spacer(1, 3*mm)]
 
-    s += [H1("12. Troubleshooting")]
-    s += [H2("A file is flagged &ldquo;can't convert&rdquo;")]
-    s += [P("A few formats are genuinely undecodable by any third-party tool &mdash; most notably Hikvision "
-            "encrypted backups (.crypt), which need Hikvision's own player. Standard Hikvision H.264 backups convert fine.")]
-    s += [H2("A file won't convert because it's &ldquo;in use&rdquo;")]
-    s += [P("Another program (Windows' Films &amp; TV, an Explorer preview, or antivirus) may be holding the file. "
-            "Close any preview windows and try again; the app retries automatically for a few seconds.")]
-    s += [H2("The preview won't play a source file")]
-    s += [P("Some raw CCTV formats can't be previewed until converted. Convert the file first, then preview or edit the MP4.")]
-    s += [H2("Where are my settings and logs?")]
-    s += [P("Open <i>About &rarr; Open log/data folder</i>, or browse to %LOCALAPPDATA%\\CctvConverter\\. It holds "
-            "your config, the thumbnail cache and an error log &mdash; useful if you ever need to send a support report.")]
+    s += [section(
+        H1("12. Troubleshooting"),
+        H2("A file is flagged &ldquo;can't convert&rdquo;"),
+        P("A few formats are genuinely undecodable by any third-party tool &mdash; most notably Hikvision "
+          "encrypted backups (.crypt), which need Hikvision's own player. Standard Hikvision H.264 backups convert fine."),
+        H2("A file won't convert because it's &ldquo;in use&rdquo;"),
+        P("Another program (Windows' Films &amp; TV, an Explorer preview, or antivirus) may be holding the file. "
+          "Close any preview windows and try again; the app retries automatically for a few seconds."),
+        H2("The preview won't play a source file"),
+        P("Some raw CCTV formats can't be previewed until converted. Convert the file first, then preview or edit the MP4."),
+        H2("Where are my settings and logs?"),
+        P("Open <i>About &rarr; Open log/data folder</i>, or browse to %LOCALAPPDATA%\\CctvConverter\\. It holds "
+          "your config, the thumbnail cache and an error log &mdash; useful if you ever need to send a support report."),
+    )]
 
-    s += [H1("13. Privacy &amp; Licensing")]
-    s += bullets([
-        "<b>Offline</b> &mdash; your footage is processed locally and never uploaded.",
-        "<b>No accounts, no tracking, no ads.</b> The only optional network use is checking for an update when you ask it to.",
-        "<b>Local data</b> &mdash; only your folder paths, preferences and caches are stored, under %LOCALAPPDATA%\\CctvConverter\\.",
-    ])
-    s += [P("CCTV Converter uses the open-source <b>ffmpeg</b> project (under the GPL) for video processing; the "
-            "licence and source details ship with the app. The full Privacy Policy and Terms are at "
-            "davidarthur.app/cctvconverter/privacy/ and davidarthur.app/terms/.")]
-    s += [tip("Converted, edited or timestamped output should not be relied upon as the sole forensic or legal "
-              "record &mdash; always retain and verify the original source files for insurance, legal or "
-              "law-enforcement use.")]
+    s += [section(
+        H1("13. Privacy &amp; Licensing"),
+        *bullets([
+            "<b>Offline</b> &mdash; your footage is processed locally and never uploaded.",
+            "<b>No accounts, no tracking, no ads.</b> The only optional network use is checking for an update when you ask it to.",
+            "<b>Local data</b> &mdash; only your folder paths, preferences and caches are stored, under %LOCALAPPDATA%\\CctvConverter\\.",
+        ]),
+        P("CCTV Converter uses the open-source <b>ffmpeg</b> project (under the GPL) for video processing; the "
+          "licence and source details ship with the app. The full Privacy Policy and Terms are at "
+          "davidarthur.app/cctvconverter/privacy/ and davidarthur.app/terms/."),
+        tip("Converted, edited or timestamped output should not be relied upon as the sole forensic or legal "
+            "record &mdash; always retain and verify the original source files for insurance, legal or "
+            "law-enforcement use."),
+    )]
 
-    s += [H1("14. Support &amp; Updates")]
-    s += [P("The Microsoft Store edition updates automatically; you can also choose <i>About &rarr; Check for "
-            "updates</i> at any time. For help, email info@davidarthur.app or see the online guide and FAQ at "
-            "davidarthur.app/cctvconverter/help/ and davidarthur.app/cctvconverter/faq/.")]
+    s += [section(
+        H1("14. Support &amp; Updates"),
+        P("The Microsoft Store edition updates automatically; you can also choose <i>About &rarr; Check for "
+          "updates</i> at any time. For help, email info@davidarthur.app or see the online guide and FAQ at "
+          "davidarthur.app/cctvconverter/help/ and davidarthur.app/cctvconverter/faq/."),
+    )]
     s += [Spacer(1, 6*mm),
           Paragraph("&copy; 2026 David Arthur Software. All rights reserved.", S["cap"])]
     return s
