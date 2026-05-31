@@ -138,7 +138,7 @@
     if (code === 'en') { restore(); applyCurr(getCurrCode(code)); return; }
     if (cache[code]) { apply(cache[code]); applyCurr(getCurrCode(code)); return; }
 
-    fetch('lang/' + code + '.json')
+    fetch('/lang/' + code + '.json')
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (j) { cache[code] = j; apply(j); applyCurr(getCurrCode(code)); })
       .catch(function (e) { console.warn('i18n: ' + code, e); });
