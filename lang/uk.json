@@ -299,7 +299,7 @@
   "cctv.home.76": "Безкоштовно назавжди. Без облікових записів, без реклами.",
   "cctv.home.77": "Microsoft Store",
   "cctv.home.78": "Автоматичні оновлення · Перевірено Microsoft · Без попереджень безпеки · Встановлення одним кліком",
-  "cctv.home.79": "Або для досвідчених користувачів:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v1.0.0/CctvConverter-1.0.0-win-x64.zip\" style=\"color: var(--accent-light); text-decoration: underline;\">завантажте .zip напряму</a>\n            (65 МБ, Windows 10/11 64-bit, самодостатній).",
+  "cctv.home.79": "Або для досвідчених користувачів:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v2.0.0/CctvConverter-Setup-2.0.0.exe\" style=\"color: var(--accent-light); text-decoration: underline;\">завантажте інсталятор напряму</a>\n            (123 МБ, Windows 10/11 64-bit, самодостатній).",
   "cctv.home.80": "<strong>Зверніть увагу:</strong> прямий .exe не підписано, тож під час першого запуску Windows SmartScreen покаже діалог «Windows захистила ваш ПК» — натисніть <em>Докладніше</em> → <em>Виконати в будь-якому разі</em>. Версія з Microsoft Store підписана Microsoft і повністю це оминає.",
   "cctv.home.81": "☕ Подобається застосунок?",
   "cctv.home.82": "CCTV Converter безкоштовний і без реклами. Якщо він позбавив вас головного болю, чашка кави допоможе наступній функції з'явитися.",

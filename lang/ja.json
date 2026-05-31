@@ -299,7 +299,7 @@
   "cctv.home.76": "永久に無料。アカウントも広告もありません。",
   "cctv.home.77": "Microsoft Store",
   "cctv.home.78": "自動更新 · Microsoftによる検証済み · セキュリティ警告なし · ワンクリックインストール",
-  "cctv.home.79": "上級者向け：\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v1.0.0/CctvConverter-1.0.0-win-x64.zip\" style=\"color: var(--accent-light); text-decoration: underline;\">.zipを直接ダウンロード</a>\n            （65 MB、Windows 10/11 64ビット、自己完結型）。",
+  "cctv.home.79": "上級者向け：\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v2.0.0/CctvConverter-Setup-2.0.0.exe\" style=\"color: var(--accent-light); text-decoration: underline;\">インストーラーを直接ダウンロード</a>\n            （123 MB、Windows 10/11 64ビット、自己完結型）。",
   "cctv.home.80": "<strong>ご注意：</strong>直接ダウンロードする.exeは署名されていないため、初回実行時にWindows SmartScreenが「WindowsによってPCが保護されました」というダイアログを表示します。<em>詳細情報</em> → <em>実行</em>をクリックしてください。Microsoft Store版はMicrosoftによって署名されており、これを完全に回避できます。",
   "cctv.home.81": "☕ アプリを気に入りましたか？",
   "cctv.home.82": "CCTV Converterは無料で広告もありません。お役に立てたなら、コーヒー1杯のご支援が次の機能開発の力になります。",

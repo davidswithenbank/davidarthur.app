@@ -299,7 +299,7 @@
   "cctv.home.76": "Für immer kostenlos. Keine Konten, keine Werbung.",
   "cctv.home.77": "Microsoft Store",
   "cctv.home.78": "Automatische Updates · Von Microsoft verifiziert · Keine Sicherheitswarnungen · Installation mit einem Klick",
-  "cctv.home.79": "Oder für fortgeschrittene Benutzer:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v1.0.0/CctvConverter-1.0.0-win-x64.zip\" style=\"color: var(--accent-light); text-decoration: underline;\">die .zip-Datei direkt herunterladen</a>\n            (65 MB, Windows 10/11 64-Bit, eigenständig).",
+  "cctv.home.79": "Oder für fortgeschrittene Benutzer:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v2.0.0/CctvConverter-Setup-2.0.0.exe\" style=\"color: var(--accent-light); text-decoration: underline;\">das Installationsprogramm direkt herunterladen</a>\n            (123 MB, Windows 10/11 64-Bit, eigenständig).",
   "cctv.home.80": "<strong>Hinweis:</strong> Die direkte .exe ist nicht signiert, sodass Windows SmartScreen beim ersten Ausführen einen Dialog „Der Computer wurde durch Windows geschützt“ anzeigt – klicken Sie auf <em>Weitere Informationen</em> → <em>Trotzdem ausführen</em>. Die Microsoft-Store-Version ist von Microsoft signiert und überspringt dies vollständig.",
   "cctv.home.81": "☕ Gefällt Ihnen die App?",
   "cctv.home.82": "CCTV Converter ist kostenlos und werbefrei. Wenn es Ihnen Kopfschmerzen erspart hat, sorgt ein Kaffee dafür, dass die nächste Funktion kommt.",

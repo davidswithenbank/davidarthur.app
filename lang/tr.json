@@ -299,7 +299,7 @@
   "cctv.home.76": "Sonsuza dek ücretsiz. Hesap yok, reklam yok.",
   "cctv.home.77": "Microsoft Store",
   "cctv.home.78": "Otomatik güncellemeler · Microsoft tarafından doğrulanmış · Güvenlik uyarısı yok · Tek tıklamayla kurulum",
-  "cctv.home.79": "Veya ileri düzey kullanıcılar için:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v1.0.0/CctvConverter-1.0.0-win-x64.zip\" style=\"color: var(--accent-light); text-decoration: underline;\">.zip dosyasını doğrudan indirin</a>\n            (65 MB, Windows 10/11 64 bit, bağımsız).",
+  "cctv.home.79": "Veya ileri düzey kullanıcılar için:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v2.0.0/CctvConverter-Setup-2.0.0.exe\" style=\"color: var(--accent-light); text-decoration: underline;\">kurulum dosyasını doğrudan indirin</a>\n            (123 MB, Windows 10/11 64 bit, bağımsız).",
   "cctv.home.80": "<strong>Dikkat:</strong> doğrudan .exe imzasızdır, bu yüzden ilk çalıştırdığınızda Windows SmartScreen bir \"Windows bilgisayarınızı korudu\" iletişim kutusu gösterir — <em>Ek bilgi</em> → <em>Yine de çalıştır</em>'a tıklayın. Microsoft Store sürümü Microsoft tarafından imzalanmıştır ve bunu tamamen atlar.",
   "cctv.home.81": "☕ Uygulamayı beğendiniz mi?",
   "cctv.home.82": "CCTV Converter ücretsiz ve reklamsızdır. Sizi bir baş ağrısından kurtardıysa, bir kahve bir sonraki özelliğin gelmesini sağlar.",

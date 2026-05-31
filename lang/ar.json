@@ -299,7 +299,7 @@
   "cctv.home.76": "مجاني للأبد. بلا حسابات، بلا إعلانات.",
   "cctv.home.77": "Microsoft Store",
   "cctv.home.78": "تحديثات تلقائية · موثّق من Microsoft · بلا تحذيرات أمنية · تثبيت بنقرة واحدة",
-  "cctv.home.79": "أو للمستخدمين المتقدّمين:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v1.0.0/CctvConverter-1.0.0-win-x64.zip\" style=\"color: var(--accent-light); text-decoration: underline;\">نزّل ملف ‎.zip مباشرةً</a>\n            (65 ميجابايت، Windows 10/11 بنواة 64 بت، مكتفٍ ذاتيًا).",
+  "cctv.home.79": "أو للمستخدمين المتقدّمين:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v2.0.0/CctvConverter-Setup-2.0.0.exe\" style=\"color: var(--accent-light); text-decoration: underline;\">نزّل المثبّت مباشرةً</a>\n            (123 ميجابايت، Windows 10/11 بنواة 64 بت، مكتفٍ ذاتيًا).",
   "cctv.home.80": "<strong>تنبيه:</strong> ملف ‎.exe المباشر غير موقّع، لذا في أول مرة تشغّله سيُظهر Windows SmartScreen مربّع حوار \"حمى Windows جهازك\" — انقر <em>مزيد من المعلومات</em> ← <em>التشغيل على أي حال</em>. أما نسخة Microsoft Store فموقّعة من Microsoft وتتجاوز هذا تمامًا.",
   "cctv.home.81": "☕ أعجبك التطبيق؟",
   "cctv.home.82": "CCTV Converter مجاني وبلا إعلانات. إن وفّر عليك صداعًا، فإن فنجان قهوة يبقي الميزة التالية قادمة.",

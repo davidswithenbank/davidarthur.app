@@ -299,7 +299,7 @@
   "cctv.home.76": "Voor altijd gratis. Geen accounts, geen advertenties.",
   "cctv.home.77": "Microsoft Store",
   "cctv.home.78": "Automatische updates · Geverifieerd door Microsoft · Geen beveiligingswaarschuwingen · Installatie met één klik",
-  "cctv.home.79": "Of voor gevorderde gebruikers:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v1.0.0/CctvConverter-1.0.0-win-x64.zip\" style=\"color: var(--accent-light); text-decoration: underline;\">download de .zip rechtstreeks</a>\n            (65 MB, Windows 10/11 64-bit, op zichzelf staand).",
+  "cctv.home.79": "Of voor gevorderde gebruikers:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v2.0.0/CctvConverter-Setup-2.0.0.exe\" style=\"color: var(--accent-light); text-decoration: underline;\">download het installatieprogramma rechtstreeks</a>\n            (123 MB, Windows 10/11 64-bit, op zichzelf staand).",
   "cctv.home.80": "<strong>Let op:</strong> de directe .exe is niet ondertekend, dus de eerste keer dat u het uitvoert, toont Windows SmartScreen een dialoogvenster \"Uw pc is beschermd door Windows\" — klik op <em>Meer informatie</em> → <em>Toch uitvoeren</em>. De Microsoft Store-versie is door Microsoft ondertekend en slaat dit volledig over.",
   "cctv.home.81": "☕ Bevalt de app?",
   "cctv.home.82": "CCTV Converter is gratis en advertentievrij. Als het u hoofdpijn heeft bespaard, zorgt een kopje koffie ervoor dat de volgende functie er komt.",

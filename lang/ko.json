@@ -299,7 +299,7 @@
   "cctv.home.76": "영원히 무료. 계정 없음, 광고 없음.",
   "cctv.home.77": "Microsoft Store",
   "cctv.home.78": "자동 업데이트 · Microsoft 검증 · 보안 경고 없음 · 원클릭 설치",
-  "cctv.home.79": "또는 고급 사용자용:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v1.0.0/CctvConverter-1.0.0-win-x64.zip\" style=\"color: var(--accent-light); text-decoration: underline;\">.zip 직접 다운로드</a>\n            (65 MB, Windows 10/11 64비트, 자체 완결형).",
+  "cctv.home.79": "또는 고급 사용자용:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v2.0.0/CctvConverter-Setup-2.0.0.exe\" style=\"color: var(--accent-light); text-decoration: underline;\">설치 프로그램 직접 다운로드</a>\n            (123 MB, Windows 10/11 64비트, 자체 완결형).",
   "cctv.home.80": "<strong>참고:</strong> 직접 받은 .exe는 서명되지 않았으므로, 처음 실행할 때 Windows SmartScreen이 \"Windows의 PC 보호\" 대화 상자를 표시합니다 — <em>추가 정보</em> → <em>실행</em>을 클릭하세요. Microsoft Store 버전은 Microsoft가 서명했으므로 이 과정을 완전히 건너뜁니다.",
   "cctv.home.81": "☕ 앱이 마음에 드시나요?",
   "cctv.home.82": "CCTV Converter는 무료이며 광고가 없습니다. 골칫거리를 덜어드렸다면, 커피 한 잔이 다음 기능을 만들 힘이 됩니다.",

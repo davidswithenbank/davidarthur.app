@@ -299,7 +299,7 @@
   "cctv.home.76": "永久免费。无账户，无广告。",
   "cctv.home.77": "Microsoft Store",
   "cctv.home.78": "自动更新 · 经 Microsoft 验证 · 无安全警告 · 一键安装",
-  "cctv.home.79": "或面向高级用户：\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v1.0.0/CctvConverter-1.0.0-win-x64.zip\" style=\"color: var(--accent-light); text-decoration: underline;\">直接下载 .zip</a>\n            （65 MB，Windows 10/11 64 位，自包含）。",
+  "cctv.home.79": "或面向高级用户：\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v2.0.0/CctvConverter-Setup-2.0.0.exe\" style=\"color: var(--accent-light); text-decoration: underline;\">直接下载安装程序</a>\n            （123 MB，Windows 10/11 64 位，自包含）。",
   "cctv.home.80": "<strong>提示：</strong>直接下载的 .exe 未签名，因此首次运行时 Windows SmartScreen 会显示“Windows 已保护你的电脑”对话框——点击<em>更多信息</em> → <em>仍要运行</em>。Microsoft Store 版本由 Microsoft 签名，可完全跳过此步骤。",
   "cctv.home.81": "☕ 喜欢这款应用吗？",
   "cctv.home.82": "CCTV Converter 免费且无广告。如果它帮您省去了麻烦，一杯咖啡能让下一个功能继续到来。",

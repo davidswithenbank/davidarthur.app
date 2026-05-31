@@ -299,7 +299,7 @@
   "cctv.home.76": "Бесплатно навсегда. Без аккаунтов, без рекламы.",
   "cctv.home.77": "Microsoft Store",
   "cctv.home.78": "Автообновления · Проверено Microsoft · Без предупреждений безопасности · Установка в один клик",
-  "cctv.home.79": "Или для продвинутых пользователей:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v1.0.0/CctvConverter-1.0.0-win-x64.zip\" style=\"color: var(--accent-light); text-decoration: underline;\">скачайте .zip напрямую</a>\n            (65 МБ, Windows 10/11 64-бит, автономный).",
+  "cctv.home.79": "Или для продвинутых пользователей:\n            <a download=\"\" href=\"https://github.com/davidswithenbank/davidarthur.app/releases/download/cctvconverter-v2.0.0/CctvConverter-Setup-2.0.0.exe\" style=\"color: var(--accent-light); text-decoration: underline;\">скачайте установщик напрямую</a>\n            (123 МБ, Windows 10/11 64-бит, автономный).",
   "cctv.home.80": "<strong>Обратите внимание:</strong> прямой .exe не подписан, поэтому при первом запуске Windows SmartScreen покажет диалог «Система Windows защитила ваш компьютер» — нажмите <em>Подробнее</em> → <em>Выполнить в любом случае</em>. Версия из Microsoft Store подписана Microsoft и полностью обходит это.",
   "cctv.home.81": "☕ Нравится приложение?",
   "cctv.home.82": "CCTV Converter бесплатно и без рекламы. Если оно избавило вас от головной боли, чашка кофе поможет появиться следующей функции.",
