@@ -1,13 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CCTV Converter — Help &amp; User Guide | David Arthur Software</title>
-    <meta name="description" content="User guide and FAQ for CCTV Converter: converting Chinese CCTV files, the built-in editor, multi-camera sync view, motion highlights, watch-folder mode, keyboard shortcuts and troubleshooting.">
-    <link rel="icon" type="image/png" href="/cctvconverter-icon.png">
-    <link rel="stylesheet" href="/style.css">
-    <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CCTV Converter — Help &amp; User Guide | David Arthur Software</title>
+<meta content="User guide and FAQ for CCTV Converter: converting Chinese CCTV files, the built-in editor, multi-camera sync view, motion highlights, watch-folder mode, keyboard shortcuts and troubleshooting." name="description"/>
+<link href="/cctvconverter-icon.png" rel="icon" type="image/png"/>
+<link href="/style.css" rel="stylesheet"/>
+<style>
         .legal h2 { margin-top: 2.2rem; }
         .legal h3 { margin-top: 1.4rem; }
         .toc { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; }
@@ -21,145 +22,130 @@
     </style>
 </head>
 <body>
-<a href="#main-content" class="skip-link">Skip to content</a>
-
+<a class="skip-link" href="#main-content">Skip to content</a>
 <!-- Navigation -->
-<nav class="nav" aria-label="Main navigation">
-    <div class="nav-inner">
-        <a href="/" class="nav-brand">
-            <img src="/logo.png" alt="David Arthur Software">
+<nav aria-label="Main navigation" class="nav">
+<div class="nav-inner">
+<a class="nav-brand" href="/">
+<img alt="David Arthur Software" src="/logo.png"/>
             David Arthur Software
         </a>
-        <button class="nav-toggle" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')"><span></span><span></span><span></span></button>
-        <ul class="nav-links">
-            <li><a href="/" data-i18n="nav.home">Home</a></li>
-            <li><a href="/duovox/" data-i18n="nav.duovox">DuoVox</a></li>
-            <li><a href="/quiettime/" data-i18n="nav.quiettime">QuietTime</a></li>
-            <li><a href="/cctvconverter/" data-i18n="nav.cctvconverter">CCTV Converter</a></li>
-            <li><a href="/contact/" data-i18n="footer.contact">Contact</a></li>
-        </ul>
-    </div>
+<button aria-label="Menu" class="nav-toggle" onclick="this.nextElementSibling.classList.toggle('open')"><span></span><span></span><span></span></button>
+<ul class="nav-links">
+<li><a data-i18n="nav.home" href="/">Home</a></li>
+<li><a data-i18n="nav.duovox" href="/duovox/">DuoVox</a></li>
+<li><a data-i18n="nav.quiettime" href="/quiettime/">QuietTime</a></li>
+<li><a data-i18n="nav.cctvconverter" href="/cctvconverter/">CCTV Converter</a></li>
+<li><a data-i18n="footer.contact" href="/contact/">Contact</a></li>
+</ul>
+</div>
 </nav>
-
 <main class="legal" id="main-content">
-    <h1>CCTV Converter — Help &amp; User Guide</h1>
-    <p>Everything you need to get the most out of CCTV Converter. Looking for the app? <a href="/cctvconverter/">Back to the CCTV Converter page &rarr;</a></p>
-    <p style="margin: 1rem 0 0;"><a href="/cctvconverter/CCTV-Converter-User-Guide.pdf" class="store-link" style="display:inline-block; font-size:0.95rem;">Download this guide as a PDF &darr;</a></p>
-
-    <div class="toc">
-        <strong>On this page</strong>
-        <ul>
-            <li><a href="#getting-started">Getting started</a></li>
-            <li><a href="#converting">Converting footage</a></li>
-            <li><a href="#editor">The built-in editor</a></li>
-            <li><a href="#multicam">Multi-camera view</a></li>
-            <li><a href="#motion">Motion highlights</a></li>
-            <li><a href="#filmstrip">Filmstrip &amp; heatmap</a></li>
-            <li><a href="#watch">Watch-folder mode</a></li>
-            <li><a href="#shortcuts">Keyboard shortcuts</a></li>
-            <li><a href="#troubleshooting">Troubleshooting</a></li>
-            <li><a href="#updates">Updates &amp; support</a></li>
-        </ul>
-    </div>
-
-    <h2 id="getting-started">Getting started</h2>
-    <p>Install from the <a href="https://apps.microsoft.com/detail/9P247CN4QC7L" target="_blank" rel="noopener">Microsoft Store</a> and launch the app. Then:</p>
-    <ol>
-        <li><strong>Pick a source</strong> — drag a folder (or your DVR's SD card) onto the window, or click <em>Browse</em> next to "Source folder". The app walks any date subfolders and lists every video file it finds.</li>
-        <li><strong>Pick an output folder</strong> — where converted MP4s are written. Your last-used source and output folders are remembered for next time.</li>
-        <li><strong>Filter and select</strong> — narrow the list by duration, date, time of day or filename, then tick the files (or whole days) you want.</li>
-    </ol>
-    <p>Everything runs on your own machine; nothing is uploaded.</p>
-
-    <h2 id="converting">Converting footage</h2>
-    <p>Tick the files you want and click <strong>Convert selected</strong>. Where the source stream is already MP4-compatible the app does a <em>stream copy</em> (no re-encoding, no quality loss, near-instant); otherwise it re-encodes to clean H.264.</p>
-    <ul>
-        <li><strong>Parallel conversion</strong> — convert up to 8 files at once (set in Settings). A full day of clips finishes in seconds on a multi-core PC.</li>
-        <li><strong>Encoder</strong> — choose Auto, CPU, or a specific GPU (NVIDIA / Intel / AMD) in Settings. Auto detects the best available and silently falls back to CPU if a GPU encode fails.</li>
-        <li><strong>Date/time burn-in</strong> — tick "Add timestamp overlay" to burn a per-frame clock into the bottom-left of the output, useful for insurance or incident reports.</li>
-        <li><strong>Merge</strong> — combine a day's clips, or any selection, into one continuous MP4 in chronological order.</li>
-        <li><strong>CSV export</strong> — export the file list (name, size, duration, resolution, format, timestamps) for cataloguing.</li>
-        <li><strong>Optional cleanup</strong> — "Delete source files after successful conversion" reclaims space as you go (with confirmation).</li>
-    </ul>
-
-    <h2 id="editor">The built-in editor</h2>
-    <p>Select a converted clip and click <strong>Edit</strong> to open the in-place editor. From there you can:</p>
-    <ul>
-        <li><strong>Trim</strong> — set the start and end points (down to a single frame) with the range slider or the <kbd>I</kbd>/<kbd>O</kbd> shortcuts, and mark multiple segments to export separately or merged.</li>
-        <li><strong>Crop &amp; rotate</strong> — crop to a region of interest or rotate footage that was recorded sideways.</li>
-        <li><strong>Image adjustments</strong> — brightness, contrast, saturation and sharpness, with a live preview.</li>
-        <li><strong>Noise reduction</strong> — Off / Light / Medium / Strong, to clean up grainy night footage.</li>
-        <li><strong>Output size &amp; quality</strong> — pick a resolution and quality level for the exported file.</li>
-        <li><strong>Presets</strong> — save a combination of edit settings and reapply it in one click.</li>
-    </ul>
-    <p>Exports are written to a new MP4 — your original files are never modified. A progress bar (with cancel) shows the export as it runs.</p>
-
-    <h2 id="multicam">Multi-camera view</h2>
-    <p>Tick two or more converted clips and click <strong>Multi View</strong> to open up to six cameras side by side on a shared timeline. You can:</p>
-    <ul>
-        <li>Nudge each camera's <strong>sync offset</strong> to line up clocks that have drifted apart.</li>
-        <li>Rename and rearrange cells, and solo a cell to hear its audio.</li>
-        <li><strong>Snapshot all</strong> cameras at once, or build a combined <strong>contact sheet</strong>.</li>
-        <li><strong>Export a synchronized composite</strong> video of the whole grid.</li>
-    </ul>
-
-    <h2 id="motion">Motion highlights</h2>
-    <p>Select footage and choose <strong>Detect motion</strong> to have the app scan for movement and extract only the clips where something happens.</p>
-    <ul>
-        <li><strong>Sensitivity</strong> — Low / Medium / High controls how much movement counts as an event.</li>
-        <li><strong>Pre/post-roll</strong> — keep a few seconds before and after each event so nothing is clipped.</li>
-        <li><strong>Output</strong> — save each event as its own file, or stitch them all into a single highlight reel.</li>
-        <li><strong>Review</strong> — optionally review and deselect false positives before anything is written.</li>
-    </ul>
-    <p>Results are cached, so changing the pre/post-roll and re-exporting doesn't repeat the scan.</p>
-
-    <h2 id="filmstrip">Filmstrip &amp; motion heatmap</h2>
-    <p>In the preview, a <strong>thumbnail filmstrip</strong> sits above the seek bar for fast scrubbing, and hovering the bar shows a preview pop-up. After a motion scan, a <strong>heatmap</strong> is painted along the seek bar so you can jump straight to the busy moments; use the prev/next-motion buttons to hop between events.</p>
-
-    <h2 id="watch">Watch-folder mode</h2>
-    <p>Turn on <strong>Watch source folder</strong> in Settings and the app monitors that folder, automatically converting new recordings as they appear — a hands-off workflow for an always-on DVR. It waits until each file has finished being written before converting, and can pop a notification when a batch completes.</p>
-
-    <h2 id="shortcuts">Keyboard shortcuts</h2>
-    <table class="kbd-table">
-        <tr><td><kbd>Space</kbd></td><td>Play / pause the preview</td></tr>
-        <tr><td><kbd>&larr;</kbd> / <kbd>&rarr;</kbd></td><td>Step one frame back / forward</td></tr>
-        <tr><td><kbd>I</kbd> / <kbd>O</kbd></td><td>Set the start (in) / end (out) point in the editor</td></tr>
-        <tr><td><kbd>F</kbd></td><td>Fullscreen preview</td></tr>
-        <tr><td><kbd>M</kbd></td><td>Mute / unmute</td></tr>
-        <tr><td><kbd>Esc</kbd></td><td>Exit fullscreen, or exit the editor</td></tr>
-    </table>
-
-    <h2 id="troubleshooting">Troubleshooting</h2>
-    <h3>A file is flagged "can't convert"</h3>
-    <p>A few formats are genuinely undecodable by any third-party tool — most notably Hikvision encrypted backups (<code>.crypt</code>), which need Hikvision's own player. Standard Hikvision H.264 backups convert fine.</p>
-    <h3>A file won't convert because it's "in use"</h3>
-    <p>Another program (Windows' Films &amp; TV, an Explorer preview, or antivirus) may be holding the file. Close any preview windows and try again; the app retries automatically for a few seconds.</p>
-    <h3>The preview won't play a source file</h3>
-    <p>Some raw CCTV formats can't be previewed until converted. Convert the file first, then preview or edit the MP4.</p>
-    <h3>Where are my settings and logs?</h3>
-    <p>Open <em>About &rarr; Open log/data folder</em>, or browse to <code>%LOCALAPPDATA%\CctvConverter\</code>. It holds your config, the thumbnail cache and an error log — handy if you ever need to send a support report.</p>
-
-    <h2 id="updates">Updates &amp; support</h2>
-    <p>The Microsoft Store edition updates automatically. You can also choose <em>About &rarr; Check for updates</em> at any time. The app makes no other network requests; see the <a href="/cctvconverter/privacy/">Privacy Policy</a> for details.</p>
-    <p>Still stuck? Email <a href="mailto:info@davidarthur.app?subject=CCTV%20Converter%20support">info@davidarthur.app</a> and we'll help. If the app saved you a headache, you can <a href="https://buymeacoffee.com/dasoftware" target="_blank" rel="noopener">buy us a coffee</a> — entirely optional.</p>
+<h1 data-i18n-html="cctv.help.1">CCTV Converter — Help &amp; User Guide</h1>
+<p data-i18n-html="cctv.help.2">Everything you need to get the most out of CCTV Converter. Looking for the app? <a href="/cctvconverter/">Back to the CCTV Converter page →</a></p>
+<p data-i18n-html="cctv.help.3" style="margin: 1rem 0 0;"><a class="store-link" href="/cctvconverter/CCTV-Converter-User-Guide.pdf" style="display:inline-block; font-size:0.95rem;">Download this guide as a PDF ↓</a></p>
+<div class="toc">
+<strong>On this page</strong>
+<ul>
+<li data-i18n-html="cctv.help.4"><a href="#getting-started">Getting started</a></li>
+<li data-i18n-html="cctv.help.5"><a href="#converting">Converting footage</a></li>
+<li data-i18n-html="cctv.help.6"><a href="#editor">The built-in editor</a></li>
+<li data-i18n-html="cctv.help.7"><a href="#multicam">Multi-camera view</a></li>
+<li data-i18n-html="cctv.help.8"><a href="#motion">Motion highlights</a></li>
+<li data-i18n-html="cctv.help.9"><a href="#filmstrip">Filmstrip &amp; heatmap</a></li>
+<li data-i18n-html="cctv.help.10"><a href="#watch">Watch-folder mode</a></li>
+<li data-i18n-html="cctv.help.11"><a href="#shortcuts">Keyboard shortcuts</a></li>
+<li data-i18n-html="cctv.help.12"><a href="#troubleshooting">Troubleshooting</a></li>
+<li data-i18n-html="cctv.help.13"><a href="#updates">Updates &amp; support</a></li>
+</ul>
+</div>
+<h2 data-i18n-html="cctv.help.14" id="getting-started">Getting started</h2>
+<p data-i18n-html="cctv.help.15">Install from the <a href="https://apps.microsoft.com/detail/9P247CN4QC7L" rel="noopener" target="_blank">Microsoft Store</a> and launch the app. Then:</p>
+<ol>
+<li data-i18n-html="cctv.help.16"><strong>Pick a source</strong> — drag a folder (or your DVR's SD card) onto the window, or click <em>Browse</em> next to "Source folder". The app walks any date subfolders and lists every video file it finds.</li>
+<li data-i18n-html="cctv.help.17"><strong>Pick an output folder</strong> — where converted MP4s are written. Your last-used source and output folders are remembered for next time.</li>
+<li data-i18n-html="cctv.help.18"><strong>Filter and select</strong> — narrow the list by duration, date, time of day or filename, then tick the files (or whole days) you want.</li>
+</ol>
+<p data-i18n-html="cctv.help.19">Everything runs on your own machine; nothing is uploaded.</p>
+<h2 data-i18n-html="cctv.help.20" id="converting">Converting footage</h2>
+<p data-i18n-html="cctv.help.21">Tick the files you want and click <strong>Convert selected</strong>. Where the source stream is already MP4-compatible the app does a <em>stream copy</em> (no re-encoding, no quality loss, near-instant); otherwise it re-encodes to clean H.264.</p>
+<ul>
+<li data-i18n-html="cctv.help.22"><strong>Parallel conversion</strong> — convert up to 8 files at once (set in Settings). A full day of clips finishes in seconds on a multi-core PC.</li>
+<li data-i18n-html="cctv.help.23"><strong>Encoder</strong> — choose Auto, CPU, or a specific GPU (NVIDIA / Intel / AMD) in Settings. Auto detects the best available and silently falls back to CPU if a GPU encode fails.</li>
+<li data-i18n-html="cctv.help.24"><strong>Date/time burn-in</strong> — tick "Add timestamp overlay" to burn a per-frame clock into the bottom-left of the output, useful for insurance or incident reports.</li>
+<li data-i18n-html="cctv.help.25"><strong>Merge</strong> — combine a day's clips, or any selection, into one continuous MP4 in chronological order.</li>
+<li data-i18n-html="cctv.help.26"><strong>CSV export</strong> — export the file list (name, size, duration, resolution, format, timestamps) for cataloguing.</li>
+<li data-i18n-html="cctv.help.27"><strong>Optional cleanup</strong> — "Delete source files after successful conversion" reclaims space as you go (with confirmation).</li>
+</ul>
+<h2 data-i18n-html="cctv.help.28" id="editor">The built-in editor</h2>
+<p data-i18n-html="cctv.help.29">Select a converted clip and click <strong>Edit</strong> to open the in-place editor. From there you can:</p>
+<ul>
+<li data-i18n-html="cctv.help.30"><strong>Trim</strong> — set the start and end points (down to a single frame) with the range slider or the <kbd>I</kbd>/<kbd>O</kbd> shortcuts, and mark multiple segments to export separately or merged.</li>
+<li data-i18n-html="cctv.help.31"><strong>Crop &amp; rotate</strong> — crop to a region of interest or rotate footage that was recorded sideways.</li>
+<li data-i18n-html="cctv.help.32"><strong>Image adjustments</strong> — brightness, contrast, saturation and sharpness, with a live preview.</li>
+<li data-i18n-html="cctv.help.33"><strong>Noise reduction</strong> — Off / Light / Medium / Strong, to clean up grainy night footage.</li>
+<li data-i18n-html="cctv.help.34"><strong>Output size &amp; quality</strong> — pick a resolution and quality level for the exported file.</li>
+<li data-i18n-html="cctv.help.35"><strong>Presets</strong> — save a combination of edit settings and reapply it in one click.</li>
+</ul>
+<p data-i18n-html="cctv.help.36">Exports are written to a new MP4 — your original files are never modified. A progress bar (with cancel) shows the export as it runs.</p>
+<h2 data-i18n-html="cctv.help.37" id="multicam">Multi-camera view</h2>
+<p data-i18n-html="cctv.help.38">Tick two or more converted clips and click <strong>Multi View</strong> to open up to six cameras side by side on a shared timeline. You can:</p>
+<ul>
+<li data-i18n-html="cctv.help.39">Nudge each camera's <strong>sync offset</strong> to line up clocks that have drifted apart.</li>
+<li data-i18n-html="cctv.help.40">Rename and rearrange cells, and solo a cell to hear its audio.</li>
+<li data-i18n-html="cctv.help.41"><strong>Snapshot all</strong> cameras at once, or build a combined <strong>contact sheet</strong>.</li>
+<li data-i18n-html="cctv.help.42"><strong>Export a synchronized composite</strong> video of the whole grid.</li>
+</ul>
+<h2 data-i18n-html="cctv.help.43" id="motion">Motion highlights</h2>
+<p data-i18n-html="cctv.help.44">Select footage and choose <strong>Detect motion</strong> to have the app scan for movement and extract only the clips where something happens.</p>
+<ul>
+<li data-i18n-html="cctv.help.45"><strong>Sensitivity</strong> — Low / Medium / High controls how much movement counts as an event.</li>
+<li data-i18n-html="cctv.help.46"><strong>Pre/post-roll</strong> — keep a few seconds before and after each event so nothing is clipped.</li>
+<li data-i18n-html="cctv.help.47"><strong>Output</strong> — save each event as its own file, or stitch them all into a single highlight reel.</li>
+<li data-i18n-html="cctv.help.48"><strong>Review</strong> — optionally review and deselect false positives before anything is written.</li>
+</ul>
+<p data-i18n-html="cctv.help.49">Results are cached, so changing the pre/post-roll and re-exporting doesn't repeat the scan.</p>
+<h2 data-i18n-html="cctv.help.50" id="filmstrip">Filmstrip &amp; motion heatmap</h2>
+<p data-i18n-html="cctv.help.51">In the preview, a <strong>thumbnail filmstrip</strong> sits above the seek bar for fast scrubbing, and hovering the bar shows a preview pop-up. After a motion scan, a <strong>heatmap</strong> is painted along the seek bar so you can jump straight to the busy moments; use the prev/next-motion buttons to hop between events.</p>
+<h2 data-i18n-html="cctv.help.52" id="watch">Watch-folder mode</h2>
+<p data-i18n-html="cctv.help.53">Turn on <strong>Watch source folder</strong> in Settings and the app monitors that folder, automatically converting new recordings as they appear — a hands-off workflow for an always-on DVR. It waits until each file has finished being written before converting, and can pop a notification when a batch completes.</p>
+<h2 data-i18n-html="cctv.help.54" id="shortcuts">Keyboard shortcuts</h2>
+<table class="kbd-table">
+<tr><td><kbd>Space</kbd></td><td>Play / pause the preview</td></tr>
+<tr><td><kbd>←</kbd> / <kbd>→</kbd></td><td>Step one frame back / forward</td></tr>
+<tr><td><kbd>I</kbd> / <kbd>O</kbd></td><td>Set the start (in) / end (out) point in the editor</td></tr>
+<tr><td><kbd>F</kbd></td><td>Fullscreen preview</td></tr>
+<tr><td><kbd>M</kbd></td><td>Mute / unmute</td></tr>
+<tr><td><kbd>Esc</kbd></td><td>Exit fullscreen, or exit the editor</td></tr>
+</table>
+<h2 data-i18n-html="cctv.help.55" id="troubleshooting">Troubleshooting</h2>
+<h3 data-i18n-html="cctv.help.56">A file is flagged "can't convert"</h3>
+<p data-i18n-html="cctv.help.57">A few formats are genuinely undecodable by any third-party tool — most notably Hikvision encrypted backups (<code>.crypt</code>), which need Hikvision's own player. Standard Hikvision H.264 backups convert fine.</p>
+<h3 data-i18n-html="cctv.help.58">A file won't convert because it's "in use"</h3>
+<p data-i18n-html="cctv.help.59">Another program (Windows' Films &amp; TV, an Explorer preview, or antivirus) may be holding the file. Close any preview windows and try again; the app retries automatically for a few seconds.</p>
+<h3 data-i18n-html="cctv.help.60">The preview won't play a source file</h3>
+<p data-i18n-html="cctv.help.61">Some raw CCTV formats can't be previewed until converted. Convert the file first, then preview or edit the MP4.</p>
+<h3 data-i18n-html="cctv.help.62">Where are my settings and logs?</h3>
+<p data-i18n-html="cctv.help.63">Open <em>About → Open log/data folder</em>, or browse to <code>%LOCALAPPDATA%\CctvConverter\</code>. It holds your config, the thumbnail cache and an error log — handy if you ever need to send a support report.</p>
+<h2 data-i18n-html="cctv.help.64" id="updates">Updates &amp; support</h2>
+<p data-i18n-html="cctv.help.65">The Microsoft Store edition updates automatically. You can also choose <em>About → Check for updates</em> at any time. The app makes no other network requests; see the <a href="/cctvconverter/privacy/">Privacy Policy</a> for details.</p>
+<p data-i18n-html="cctv.help.66">Still stuck? Email <a href="mailto:info@davidarthur.app?subject=CCTV%20Converter%20support">info@davidarthur.app</a> and we'll help. If the app saved you a headache, you can <a href="https://buymeacoffee.com/dasoftware" rel="noopener" target="_blank">buy us a coffee</a> — entirely optional.</p>
 </main>
-
 <!-- Footer -->
 <footer class="footer">
-    <div class="footer-inner">
-        <div class="footer-links">
-            <a href="/duovox/" data-i18n="nav.duovox">DuoVox</a>
-            <a href="/quiettime/" data-i18n="nav.quiettime">QuietTime</a>
-            <a href="/cctvconverter/" data-i18n="nav.cctvconverter">CCTV Converter</a>
-            <a href="/privacy/" data-i18n="footer.privacy">Privacy Policy</a>
-            <a href="/terms/" data-i18n="footer.terms">Terms of Service</a>
-            <a href="/contact/" data-i18n="footer.contact">Contact</a>
-        </div>
-        <p class="footer-company">&copy; 2026 David Arthur Software. All rights reserved.</p>
-    </div>
+<div class="footer-inner">
+<div class="footer-links">
+<a data-i18n="nav.duovox" href="/duovox/">DuoVox</a>
+<a data-i18n="nav.quiettime" href="/quiettime/">QuietTime</a>
+<a data-i18n="nav.cctvconverter" href="/cctvconverter/">CCTV Converter</a>
+<a data-i18n="footer.privacy" href="/privacy/">Privacy Policy</a>
+<a data-i18n="footer.terms" href="/terms/">Terms of Service</a>
+<a data-i18n="footer.contact" href="/contact/">Contact</a>
+</div>
+<p class="footer-company">© 2026 David Arthur Software. All rights reserved.</p>
+</div>
 </footer>
-
 <script src="/i18n.js"></script>
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "631d459d6ef1465193aa1acf32e089aa"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- Cloudflare Web Analytics --><script data-cf-beacon='{"token": "631d459d6ef1465193aa1acf32e089aa"}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js"></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
