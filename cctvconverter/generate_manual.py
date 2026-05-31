@@ -20,7 +20,7 @@ from reportlab.lib.utils import ImageReader
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.enums import TA_CENTER, TA_RIGHT
 from reportlab.platypus import (BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer,
-                                Image, PageBreak, NextPageTemplate, Table, TableStyle)
+                                Image, PageBreak, NextPageTemplate, Table, TableStyle, KeepTogether)
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 IMG_DIR = os.path.join(SCRIPT_DIR, "img")
@@ -45,8 +45,8 @@ S = {
     "tochdr": ParagraphStyle("tochdr", fontName="Helvetica-Bold", fontSize=15, leading=20, textColor=GOLD, spaceAfter=5*mm),
     "tocentry": ParagraphStyle("tocentry", fontName="Helvetica-Bold", fontSize=10.5, leading=15, textColor=GOLD),
     "tocpage": ParagraphStyle("tocpage", fontName="Helvetica", fontSize=10, leading=15, textColor=TXT2, alignment=TA_RIGHT),
-    "H1": ParagraphStyle("H1", fontName="Helvetica-Bold", fontSize=14, leading=18, textColor=GOLD, spaceBefore=7*mm, spaceAfter=2.5*mm),
-    "H2": ParagraphStyle("H2", fontName="Helvetica-Bold", fontSize=11, leading=15, textColor=ACCENTLT, spaceBefore=4*mm, spaceAfter=1.5*mm),
+    "H1": ParagraphStyle("H1", fontName="Helvetica-Bold", fontSize=14, leading=18, textColor=GOLD, spaceBefore=7*mm, spaceAfter=2.5*mm, keepWithNext=1),
+    "H2": ParagraphStyle("H2", fontName="Helvetica-Bold", fontSize=11, leading=15, textColor=ACCENTLT, spaceBefore=4*mm, spaceAfter=1.5*mm, keepWithNext=1),
     "body": ParagraphStyle("body", fontName="Helvetica", fontSize=9.5, leading=13.5, textColor=TXT, spaceAfter=2.5*mm),
     "bullet": ParagraphStyle("bullet", fontName="Helvetica", fontSize=9.5, leading=13, textColor=TXT, leftIndent=5*mm, spaceAfter=1*mm),
     "tip": ParagraphStyle("tip", fontName="Helvetica-Oblique", fontSize=9, leading=12.5, textColor=TXT2,
@@ -113,9 +113,7 @@ class GuideDoc(BaseDocTemplate):
         self._k = 0
         self.toc_entries = []   # [(text, page, key), ...] for H1
 
-    def afterFlowable(self, fl):
-        if not isinstance(fl, Paragraph):
-            return
+    def _register(self, fl):
         name = fl.style.name
         if name not in ("H1", "H2"):
             return
@@ -127,6 +125,18 @@ class GuideDoc(BaseDocTemplate):
         self.canv.addOutlineEntry(text, key, level=level, closed=(level == 0))
         if level == 0:
             self.toc_entries.append((text, self.page, key))
+
+    def afterFlowable(self, fl):
+        # Headings are usually top-level Paragraphs; for image sections the heading
+        # lives inside a KeepTogether (so heading + intro + screenshot stay on one
+        # page) — register the KeepTogether's leading heading too.
+        if isinstance(fl, Paragraph):
+            self._register(fl)
+        elif isinstance(fl, KeepTogether):
+            for child in getattr(fl, "_content", []):
+                if isinstance(child, Paragraph) and child.style.name in ("H1", "H2"):
+                    self._register(child)
+                    break
 
 
 def _paint_bg(canvas, doc):
@@ -208,10 +218,11 @@ def body_flowables():
     s += [P("On first launch the interface appears in your Windows display language where supported "
             "(16 languages are available); you can change it any time from the globe icon in the toolbar.")]
 
-    s += [H1("3. The Main Window")]
-    s += [P("The window is split into three areas: a <b>file list</b> on the left (your source folders and "
-            "the videos inside them), a <b>preview</b> on the right, and an <b>action bar</b> along the bottom.")]
-    s += img_block("screen-home.png", caption="The main window: source list and filters on the left, live preview on the right.")
+    s += [KeepTogether([
+              H1("3. The Main Window"),
+              P("The window is split into three areas: a <b>file list</b> on the left (your source folders and "
+                "the videos inside them), a <b>preview</b> on the right, and an <b>action bar</b> along the bottom."),
+          ] + img_block("screen-home.png", caption="The main window: source list and filters on the left, live preview on the right."))]
     s += [H2("Choosing a source and output")]
     s += bullets([
         "<b>Source folder</b> &mdash; drag a folder (or your DVR's SD card) onto the window, or click Browse. "
@@ -249,11 +260,12 @@ def body_flowables():
         "<b>Snapshots</b> &mdash; capture any frame as a JPEG or PNG, or copy it straight to the clipboard.",
     ])
 
-    s += [H1("6. The Built-in Editor")]
-    s += [P("Select a converted clip and click <b>Edit</b> to open the in-place editor. Edits always export to "
-            "a new MP4 &mdash; your original files are never modified &mdash; and a progress bar with a cancel "
-            "button shows the export as it runs.")]
-    s += img_block("screen-editor.png", caption="The editor: trim, crop, rotate, image adjustments, noise reduction, output size and presets.")
+    s += [KeepTogether([
+              H1("6. The Built-in Editor"),
+              P("Select a converted clip and click <b>Edit</b> to open the in-place editor. Edits always export to "
+                "a new MP4 &mdash; your original files are never modified &mdash; and a progress bar with a cancel "
+                "button shows the export as it runs."),
+          ] + img_block("screen-editor.png", caption="The editor: trim, crop, rotate, image adjustments, noise reduction, output size and presets."))]
     s += bullets([
         "<b>Trim</b> &mdash; set the start and end points (down to a single frame) with the range slider or the I / O keyboard shortcuts; mark multiple segments to export separately or merged.",
         "<b>Crop &amp; rotate</b> &mdash; crop to a region of interest or rotate footage recorded sideways.",
@@ -263,10 +275,11 @@ def body_flowables():
         "<b>Presets</b> &mdash; save a combination of edit settings and reapply it to other clips in one click.",
     ])
 
-    s += [H1("7. Multi-Camera View")]
-    s += [P("Tick two or more converted clips and click <b>Multi View</b> to play up to six cameras side by "
-            "side on a single shared timeline.")]
-    s += img_block("screen-multicam.png", caption="Multi-camera view: up to six cameras on one timeline with per-camera sync offsets.")
+    s += [KeepTogether([
+              H1("7. Multi-Camera View"),
+              P("Tick two or more converted clips and click <b>Multi View</b> to play up to six cameras side by "
+                "side on a single shared timeline."),
+          ] + img_block("screen-multicam.png", caption="Multi-camera view: up to six cameras on one timeline with per-camera sync offsets."))]
     s += bullets([
         "Nudge each camera's <b>sync offset</b> to line up clocks that have drifted apart.",
         "Rename and rearrange cells, and solo a cell to hear its audio.",
@@ -291,9 +304,10 @@ def body_flowables():
             "waits until each file has finished being written before converting, and can pop a notification "
             "when a batch completes.")]
 
-    s += [H1("10. Settings")]
-    s += [P("Open <b>Settings</b> from the toolbar to configure conversion and automation. Changes apply immediately.")]
-    s += img_block("screen-settings.png", caption="Settings: encoder, output naming, presets, watch-folder and notifications.")
+    s += [KeepTogether([
+              H1("10. Settings"),
+              P("Open <b>Settings</b> from the toolbar to configure conversion and automation. Changes apply immediately."),
+          ] + img_block("screen-settings.png", caption="Settings: encoder, output naming, presets, watch-folder and notifications."))]
     s += bullets([
         "<b>Encoder</b> &mdash; Auto, CPU, or a specific GPU.",
         "<b>Filename</b> &mdash; how output files are named (original name, or with a date prefix/suffix).",
