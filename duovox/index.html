@@ -70,18 +70,14 @@
 <img alt="DuoVox" class="hero-icon" src="/icon.png"/>
 <h1 class="hero" style="padding:0; margin:0;">DuoVox</h1>
 <p class="subtitle" data-i18n-html="dvx.1" style="margin-top:0.5rem;">Speak freely across languages — anywhere, with anyone.</p>
-<p class="tagline" data-i18n-html="dvx.2">DuoVox translates conversations in real time. Whether you're travelling abroad or working with international clients, you'll understand every word instantly.</p>
+<p class="tagline" data-i18n-html="dvx.2">DuoVox translates conversations as you speak. Whether you're travelling abroad or working with international clients, you'll understand the conversation in real time.</p>
 <div class="btn-group">
 <!-- SVG icons from Material Design Icons (Apache License 2.0) — https://materialdesignicons.com -->
-<a class="btn btn-primary" href="#">
-<svg aria-hidden="true" fill="currentColor" height="20" viewbox="0 0 24 24" width="20"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"></path></svg>
-            Google Play (Coming Soon)
-        </a>
-<a class="btn btn-secondary" href="#">
-<svg aria-hidden="true" fill="currentColor" height="20" viewbox="0 0 24 24" width="20"><path d="M17,2H7A5,5,0,0,0,2,7V17a5,5,0,0,0,5,5H17a5,5,0,0,0,5-5V7A5,5,0,0,0,17,2ZM12,17.5A5.5,5.5,0,1,1,17.5,12,5.51,5.51,0,0,1,12,17.5Zm0-9A3.5,3.5,0,1,0,15.5,12,3.5,3.5,0,0,0,12,8.5Z"></path></svg>
-            Windows Desktop
-        </a>
+<!-- TODO on MS Store approval: make this an <a href="https://apps.microsoft.com/detail/9MSN7866TJQH"> and switch text/key to "Get it on the Microsoft Store"/cta.ms_get -->
+<span class="btn btn-primary" data-i18n="cta.ms_soon">Coming soon to the Microsoft Store</span>
+<span class="btn btn-secondary" data-i18n="cta.play_soon">Coming soon to Google Play</span>
 </div>
+<p class="hero-avail-note" data-i18n="cta.avail_note" style="margin-top:1rem; font-size:0.9rem; opacity:0.7;">Windows arrives first via the Microsoft Store, with Android to follow on Google Play.</p>
 </section>
 <!-- Trust Badges -->
 <section class="trust-badges">
@@ -125,12 +121,12 @@
 <div class="feature-card">
 <div class="feature-icon">⚡</div>
 <h3 data-i18n-html="dvx.13">Instant Translations</h3>
-<p data-i18n-html="dvx.14">Get fast, natural-sounding translations that follow the flow of real speech. DuoVox is designed to handle idioms, accents, and everyday language.</p>
+<p data-i18n-html="dvx.14">Get fast, natural-sounding translations that follow the flow of real speech. DuoVox is built to cope with real-world speech — idioms, accents, and everyday language — though accuracy can vary.</p>
 </div>
 <div class="feature-card">
 <div class="feature-icon">🔒</div>
 <h3 data-i18n-html="dvx.15">Works Offline</h3>
-<p data-i18n-html="dvx.16">No signal? No problem. DuoVox includes built-in offline transcription that works without internet — available on all tiers. Perfect for holidays and travel.</p>
+<p data-i18n-html="dvx.16">No signal? No problem. DuoVox includes built-in offline transcription that works without internet on every tier, with offline translation available where device resources allow. Great for holidays and travel.</p>
 </div>
 <div class="feature-card">
 <div class="feature-icon">📱</div>
@@ -140,7 +136,7 @@
 <div class="feature-card">
 <div class="feature-icon">🛡</div>
 <h3 data-i18n-html="dvx.19">Privacy Built In</h3>
-<p data-i18n-html="dvx.20">Audio is processed in real time and never stored. Transcriptions exist only on your device and are cleared when your session ends. Free tier works entirely on-device; paid tiers stream audio to our AI provider for processing only — it is not retained. Enable Private Mode for zero data retention.</p>
+<p data-i18n-html="dvx.20">We don't store your audio. On paid tiers it's streamed to our AI provider for processing only and is not intentionally retained; the provider may keep limited operational logs under its own policy. Enable Private Mode for the strictest option.</p>
 </div>
 </div>
 </section>
@@ -162,7 +158,7 @@
 <div class="step-card">
 <div class="step-number">2</div>
 <h3 data-i18n-html="dvx.24">Start Talking</h3>
-<p data-i18n-html="dvx.25">Hit the start button and speak naturally. DuoVox listens through your microphone and begins transcribing instantly.</p>
+<p data-i18n-html="dvx.25">Hit the start button and speak naturally. DuoVox listens through your microphone and transcribes the conversation in real time.</p>
 </div>
 <div class="step-card">
 <div class="step-number">3</div>
@@ -172,7 +168,7 @@
 <div class="step-card">
 <div class="step-number">4</div>
 <h3 data-i18n-html="dvx.28">Keep the Conversation</h3>
-<p data-i18n-html="dvx.29">DuoVox automatically detects who's speaking and routes text to the correct lane. Just talk naturally — it keeps up.</p>
+<p data-i18n-html="dvx.29">DuoVox uses automatic language detection to route each side to its own lane; you can switch lanes if needed. Just talk naturally — it keeps up.</p>
 </div>
 </div>
 </section>
@@ -205,7 +201,7 @@
 </tr>
 <tr>
 <td>Dual-lane conversation view</td>
-<td class="highlight-col"><span class="check">✓</span> <span class="unique-badge" data-i18n-html="dvx.32">Unique</span></td>
+<td class="highlight-col"><span class="check">✓</span> <span class="unique-badge" data-i18n-html="dvx.32">Standout</span></td>
 <td>—</td>
 <td>—</td>
 <td>—</td>
@@ -228,7 +224,7 @@
 <td><span class="check-muted">✓</span></td>
 </tr>
 <tr>
-<td>Offline transcription &amp; translation</td>
+<td>Offline transcription (translation where supported)</td>
 <td class="highlight-col"><span class="check">✓</span></td>
 <td>Partial</td>
 <td>Paid only</td>
@@ -272,8 +268,8 @@
 <!-- Privacy & Security -->
 <tr class="category-row"><td colspan="6"><strong>Privacy &amp; Security</strong></td></tr>
 <tr>
-<td>Zero-retention private mode</td>
-<td class="highlight-col"><span class="check">✓</span> <span class="unique-badge" data-i18n-html="dvx.33">Unique</span></td>
+<td>Private Mode (no local logs)</td>
+<td class="highlight-col"><span class="check">✓</span> <span class="unique-badge" data-i18n-html="dvx.33">Standout</span></td>
 <td>—</td>
 <td>—</td>
 <td>—</td>
@@ -307,12 +303,13 @@
 </tbody>
 </table>
 </div>
+<p class="comparison-footnote" data-i18n-html="dvx.103" style="margin-top:1rem; font-size:0.85rem; color:var(--text-secondary);">Comparison based on publicly available information as of June 2026; competitor features may change.</p>
 </section>
 <!-- Reassurance -->
 <section class="section reassurance-section">
 <div class="reassurance-box">
 <h3 data-i18n-html="dvx.34">Designed for Real Conversations</h3>
-<p data-i18n-html="dvx.35">DuoVox is optimised to handle accents, background noise, fast speech, and everyday language. Whether you're ordering coffee abroad or following a business meeting, DuoVox keeps up with the conversation.</p>
+<p data-i18n-html="dvx.35">DuoVox is built to cope with real-world speech — accents, background noise, fast talkers — though accuracy can vary. Whether you're ordering coffee abroad or following a business meeting, DuoVox aims to keep up with the conversation.</p>
 </div>
 </section>
 <!-- Who It's For -->
@@ -340,7 +337,7 @@
 <div class="audience-card">
 <div class="audience-icon">💳</div>
 <h3 data-i18n-html="dvx.46">Occasional &amp; Trial Users</h3>
-<p data-i18n-html="dvx.47">Try DuoVox without signing up to a monthly plan. Buy credits as you need them — perfect for one-off translation, testing the service, or topping up beyond your subscription.</p>
+<p data-i18n-html="dvx.47">Try DuoVox without signing up to a monthly plan. Buy credits as you need them — great for one-off translation, testing the service, or topping up beyond your subscription.</p>
 <span class="audience-plan" data-i18n-html="dvx.48">Pay-As-You-Go</span>
 </div>
 </div>
@@ -348,7 +345,7 @@
 <!-- Pricing & Plans -->
 <section class="section" id="status">
 <h2 class="section-title" data-i18n-html="dvx.49">Plans &amp; Pricing</h2>
-<p class="section-subtitle" data-i18n-html="dvx.50">DuoVox launches soon on Google Play and the Microsoft Store. Subscriptions and Pay-As-You-Go credits are purchased in-app.<br/><small style="opacity:0.6;">Default prices in USD. UK visitors see GBP and Eurozone visitors see EUR. Microsoft Store and Google Play charge the equivalent in your local currency at checkout. All subscriptions can be cancelled at any time.</small></p>
+<p class="section-subtitle" data-i18n-html="dvx.50">Pick the plan that fits how you talk — from free offline use to advanced AI translation for professionals. Subscriptions and Pay-As-You-Go credits are purchased in-app.<br/><small style="opacity:0.6;">Default prices in USD. UK visitors see GBP and Eurozone visitors see EUR. Microsoft Store and Google Play charge the equivalent in your local currency at checkout. All subscriptions can be cancelled at any time.</small></p>
 <div class="pricing-grid four-col">
 <!-- Free -->
 <div class="price-card">
@@ -357,12 +354,17 @@
 <div class="price-period">forever</div>
 <p class="best-for" data-i18n-html="dvx.52">Best for: trying it out &amp; offline privacy</p>
 <ul class="price-features">
-<li data-i18n-html="dvx.53">On-device translations</li>
+<li data-i18n-html="dvx.53">On-device transcription (translation where supported)</li>
 <li data-i18n-html="dvx.54">28 offline languages</li>
 <li data-i18n-html="dvx.55">Works without internet</li>
 <li data-i18n-html="dvx.56">Light banner ads</li>
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.57">No account needed. Free forever.</p>
+<div class="price-cta">
+<!-- TODO on MS Store approval: make this an <a href="https://apps.microsoft.com/detail/9MSN7866TJQH"> and switch text/key to "Get it on the Microsoft Store"/cta.ms_get -->
+<span class="btn btn-primary" data-i18n="cta.ms_soon">Coming soon to the Microsoft Store</span>
+<span class="btn btn-secondary" data-i18n="cta.play_soon">Coming soon to Google Play</span>
+</div>
 </div>
 <!-- Standard -->
 <div class="price-card">
@@ -378,16 +380,21 @@
 <li data-i18n-html="dvx.64">Cancel anytime</li>
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.65">Best if you use it 8+ hours per month.</p>
+<div class="price-cta">
+<!-- TODO on MS Store approval: make this an <a href="https://apps.microsoft.com/detail/9MSN7866TJQH"> and switch text/key to "Get it on the Microsoft Store"/cta.ms_get -->
+<span class="btn btn-primary" data-i18n="cta.ms_soon">Coming soon to the Microsoft Store</span>
+<span class="btn btn-secondary" data-i18n="cta.play_soon">Coming soon to Google Play</span>
 </div>
-<!-- Professional (Most Popular) -->
+</div>
+<!-- Professional -->
 <div class="price-card featured">
-<div class="price-badge">Most Popular</div>
+<div class="price-badge">Best for professionals</div>
 <h3 data-i18n-html="dvx.66">Professional</h3>
 <div class="price-amount" data-price-eur="€139.99" data-price-gbp="£139.99" data-price-usd="$139.99">$139.99</div>
 <div class="price-period">per month <span class="price-annual" data-annual-eur="or €1,539.99/yr — 1 month free" data-annual-gbp="or £1,539.99/yr — 1 month free" data-annual-usd="or $1,539.99/yr — 1 month free">or $1,539.99/yr — 1 month free</span></div>
 <p class="best-for" data-i18n-html="dvx.67">Best for: businesses and professional interpreters</p>
 <ul class="price-features">
-<li data-i18n-html="dvx.68">Enhanced terminology recognition for specialist contexts</li>
+<li data-i18n-html="dvx.68">Enhanced terminology recognition for specialist vocabulary</li>
 <li data-i18n-html="dvx.69">Premium AI translation</li>
 <li data-i18n-html="dvx.70">40 hours included per month</li>
 <li data-i18n-html="dvx.71">Subtitle export — SRT &amp; VTT (Desktop)</li>
@@ -396,6 +403,11 @@
 <li data-i18n-html="dvx.74">Private Mode</li>
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.75">Best if you use it 20+ hours per month.</p>
+<div class="price-cta">
+<!-- TODO on MS Store approval: make this an <a href="https://apps.microsoft.com/detail/9MSN7866TJQH"> and switch text/key to "Get it on the Microsoft Store"/cta.ms_get -->
+<span class="btn btn-primary" data-i18n="cta.ms_soon">Coming soon to the Microsoft Store</span>
+<span class="btn btn-secondary" data-i18n="cta.play_soon">Coming soon to Google Play</span>
+</div>
 </div>
 <!-- Pay-As-You-Go -->
 <div class="price-card">
@@ -411,6 +423,11 @@
 <li data-i18n-html="dvx.80">Credits never expire</li>
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.81">Try either tier without subscribing.</p>
+<div class="price-cta">
+<!-- TODO on MS Store approval: make this an <a href="https://apps.microsoft.com/detail/9MSN7866TJQH"> and switch text/key to "Get it on the Microsoft Store"/cta.ms_get -->
+<span class="btn btn-primary" data-i18n="cta.ms_soon">Coming soon to the Microsoft Store</span>
+<span class="btn btn-secondary" data-i18n="cta.play_soon">Coming soon to Google Play</span>
+</div>
 </div>
 </div>
 <p class="pricing-footnote" data-i18n-html="dvx.82">All subscriptions can continue beyond your monthly hours via Pay-As-You-Go. When you reach your cap you'll be offered three choices: buy additional hours, continue in free offline mode for the rest of the session (lower quality, no internet needed), or end the session — your choice. We never auto-charge beyond your subscription without explicit confirmation. <a href="https://duovox.net/terms.html">See terms &amp; conditions</a>.</p>
@@ -419,9 +436,9 @@
 <section class="section" id="tip-jar" style="padding-top:0;">
 <div class="reassurance-box" style="text-align:center;">
 <h3 data-i18n-html="dvx.83">Like the project?</h3>
-<p data-i18n-html="dvx.84">DuoVox is built by a small team. While the apps are still in development, you can follow progress and — if you'd like to help us keep building — buy us a coffee.</p>
-<p data-i18n-html="dvx.85" style="margin-top:1.5rem;">
-<a class="btn btn-primary" href="https://buymeacoffee.com/dasoftware" rel="noopener" target="_blank">Buy me a coffee</a>
+<p data-i18n-html="dvx.84">DuoVox is built by a small team. If you'd like to help us keep building, you can support development directly.</p>
+<p data-i18n-html="dvx.85" style="margin-top:1rem; font-size:0.95rem;">
+<a href="https://buymeacoffee.com/dasoftware" rel="noopener" target="_blank">Support development</a>
 </p>
 </div>
 </section>
@@ -432,19 +449,19 @@
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="dvx.87" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Does it work with two people speaking different languages?</button>
 <div class="faq-answer">
-<p data-i18n-html="dvx.88">Yes. DuoVox uses dual-lane transcription with automatic language detection. Each speaker's words appear in their own panel, and translations appear alongside in real time.</p>
+<p data-i18n-html="dvx.88">Yes. DuoVox uses dual-lane transcription with automatic language detection to route each side to its own lane; you can switch lanes if needed. Each speaker's words appear in their own panel, and translations appear alongside in real time.</p>
 </div>
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="dvx.89" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Is my audio stored or used for training?</button>
 <div class="faq-answer">
-<p data-i18n-html="dvx.90">No. Audio is processed in real time and immediately discarded. It is not stored on our servers or used for AI model training. On the Free tier, all processing happens entirely on your device.</p>
+<p data-i18n-html="dvx.90">We don't store your audio. On paid tiers it's streamed to our AI provider for processing only and is not intentionally retained; the provider may keep limited operational logs under its own policy. Enable Private Mode for the strictest option. On the Free tier, all processing happens entirely on your device.</p>
 </div>
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="dvx.91" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">When will DuoVox launch?</button>
 <div class="faq-answer">
-<p data-i18n-html="dvx.92">DuoVox is in final testing. The full pricing structure shown above is locked in; we're working through store submission for Google Play and the Microsoft Store. The free version is fully functional and can be used today.</p>
+<p data-i18n-html="dvx.92">Windows is coming first via the Microsoft Store; Android to follow on Google Play. The full pricing structure shown above is locked in.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -456,7 +473,7 @@
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="dvx.95" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Does it work without internet?</button>
 <div class="faq-answer">
-<p data-i18n-html="dvx.96">Yes. DuoVox includes built-in offline transcription with 28 languages on all tiers, including Free. Offline translation is also available. AI-powered features require an internet connection.</p>
+<p data-i18n-html="dvx.96">Yes. DuoVox includes built-in offline transcription with 28 languages on every tier, including Free. Offline translation is available where your device resources allow. AI-powered features require an internet connection.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -480,9 +497,11 @@
 <h2 class="section-title" data-i18n-html="dvx.101" style="font-size:1.6rem; margin-bottom:1rem;">Ready to break the language barrier?</h2>
 <p data-i18n-html="dvx.102" style="color:var(--text-secondary); margin-bottom:2rem;">Start with the free tier — no account, no credit card, no commitment.</p>
 <div class="btn-group">
-<a class="btn btn-primary" href="#status" style="font-size:1.05rem; padding:16px 36px;">See What's Planned</a>
-<a class="btn btn-secondary" href="https://duovox.net" style="font-size:1.05rem; padding:16px 36px;">Visit duovox.net →</a>
+<!-- TODO on MS Store approval: make this an <a href="https://apps.microsoft.com/detail/9MSN7866TJQH"> and switch text/key to "Get it on the Microsoft Store"/cta.ms_get -->
+<span class="btn btn-primary" data-i18n="cta.ms_soon" style="font-size:1.05rem; padding:16px 36px;">Coming soon to the Microsoft Store</span>
+<span class="btn btn-secondary" data-i18n="cta.play_soon" style="font-size:1.05rem; padding:16px 36px;">Coming soon to Google Play</span>
 </div>
+<p style="margin-top:1.25rem; font-size:0.95rem;"><a href="https://duovox.net" data-i18n-html="dvx.104">Visit duovox.net →</a></p>
 </div>
 </section>
 <!-- Footer -->
