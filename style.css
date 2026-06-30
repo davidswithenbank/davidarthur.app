@@ -553,6 +553,35 @@ a:focus-visible,
     cursor: default;
 }
 
+/* ── Official store badges (Google Play / Microsoft Store) ── */
+.store-badges {
+    margin-top: 1.75rem;
+    display: flex;
+    gap: 0.85rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.store-badge {
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.store-badge:hover {
+    transform: translateY(-2px);
+    opacity: 0.92;
+}
+.store-badge img {
+    display: block;
+    width: auto;
+    height: 50px;
+}
+/* Microsoft's SVG carries a ~1px internal inset (≈95% fill); render it a hair
+   taller so the two visible badge pills end up the same height. */
+.store-badge--ms img { height: 52px; }
+/* Tighter spacing when a badge sits inside a download card */
+.download-card .store-badges { margin-top: 14px; }
+
 /* ── Pricing ── */
 .pricing-billing-toggle {
     display: flex;
