@@ -220,12 +220,12 @@ def body_flowables():
     s += [H1("1. Welcome")]
     s += [P("CCTV Converter turns the proprietary recordings produced by Chinese DVRs into standard "
             "MP4 files you can play, edit and share anywhere &mdash; and gives you the tools to review, "
-            "enhance and pull highlights from that footage, all on your own PC.")]
+            "enhance, redact and pull highlights from that footage, all on your own PC.")]
     s += [P("It works <b>entirely offline</b>: your footage is read, converted and written locally and "
             "never leaves your machine. There are no accounts, no ads and no tracking.")]
-    s += [P("This guide covers everything from a first conversion to the built-in editor, the multi-camera "
-            "sync view, and automatic motion highlights. Use the clickable Contents page (or your PDF "
-            "reader's bookmarks panel) to jump to any section.")]
+    s += [P("This guide covers everything from a first conversion to the built-in editor, privacy "
+            "face-redaction, the multi-camera sync view, the continuous day timeline, and automatic motion "
+            "highlights. Use the clickable Contents page (or your PDF reader's bookmarks panel) to jump to any section.")]
 
     s += [H1("2. Installation &amp; First Run")]
     s += bullets([
@@ -289,14 +289,42 @@ def body_flowables():
     s += bullets([
         "<b>Trim</b> &mdash; set the start and end points (down to a single frame) with the range slider or the I / O keyboard shortcuts; mark multiple segments to export separately or merged.",
         "<b>Crop &amp; rotate</b> &mdash; crop to a region of interest or rotate footage recorded sideways.",
-        "<b>Image adjustments</b> &mdash; brightness, contrast, saturation and sharpness, with a live preview.",
+        "<b>Image adjustments</b> &mdash; brightness, contrast, saturation, sharpness and gamma, all with a live preview.",
+        "<b>One-tap looks</b> &mdash; instant presets (Night, Bright, Clarify, Vivid, Black &amp; White), each shown as a thumbnail so you can preview the effect before applying it.",
         "<b>Noise reduction</b> &mdash; Off / Light / Medium / Strong, to clean up grainy night footage.",
         "<b>Output size &amp; quality</b> &mdash; choose a resolution and quality level for the exported file.",
         "<b>Presets</b> &mdash; save a combination of edit settings and reapply it to other clips in one click.",
     ])
 
+    s += [section(
+              H1("7. Privacy &amp; Face Redaction"),
+              P("The editor can hide faces and other sensitive details before you share a clip &mdash; useful "
+                "when handing footage to a neighbour, an insurer or the public. Everything runs on your own PC; "
+                "nothing is uploaded."),
+              *bullets([
+                  "<b>Detect faces</b> &mdash; automatically finds faces and follows each one as it moves through the clip, drawing a box that tracks it frame by frame.",
+                  "<b>Choose who to hide</b> &mdash; click a box to keep that person visible or to hide them; only the faces you pick are redacted.",
+                  "<b>Blackout, pixelate or blur</b> &mdash; choose how hidden areas look: a solid black box, a coarse mosaic, or a soft blur.",
+                  "<b>Draw your own</b> &mdash; add manual boxes over anything the detector misses, such as a number plate, a screen or a document.",
+              ]),
+              tip("Automatic detection is a helpful first pass, not a guarantee &mdash; always play the clip back "
+                  "and cover anything left exposed with a manual box before sharing."),
+          )]
+
+    s += [section(
+              H1("8. Sharing &amp; Exporting"),
+              P("Beyond a straight MP4, the editor's <b>Export</b> menu offers ways to share a clip that fit how it will be used."),
+              *bullets([
+                  "<b>Compress for email</b> &mdash; re-encode to a small target size so a clip fits an email or messaging-app limit.",
+                  "<b>Animated GIF</b> &mdash; turn a short moment into a looping GIF for a quick preview or a report.",
+                  "<b>Evidence report</b> &mdash; generate a printable PDF that records the source file details and SHA-256 checksums, for a chain-of-custody trail.",
+                  "<b>Deinterlace</b> &mdash; smooth the combing produced by older analogue cameras.",
+                  "<b>Watermark / case number</b> &mdash; burn a line of text (for example a case reference) into the exported copy.",
+              ]),
+          )]
+
     s += [KeepTogether([
-              H1("7. Multi-Camera View"),
+              H1("9. Multi-Camera View"),
               P("Tick two or more converted clips and click <b>Multi View</b> to play up to six cameras side by "
                 "side on a single shared timeline."),
           ] + img_block("screen-multicam.png", caption="Multi-camera view: up to six cameras on one timeline with per-camera sync offsets."))]
@@ -307,7 +335,18 @@ def body_flowables():
         "<b>Export a synchronized composite</b> video of the whole grid.",
     ])
 
-    s += [H1("8. Motion Highlights")]
+    s += [section(
+              H1("10. Continuous Timeline"),
+              P("DVRs chop a day into many short files. Right-click a day and choose <b>Play as timeline</b> to "
+                "watch them as one seamless recording instead of opening each file in turn."),
+              *bullets([
+                  "<b>One scrubber for the whole day</b> &mdash; drag across the joins between files without a gap.",
+                  "<b>Jump between motion events</b> across the entire span, even across file boundaries.",
+                  "<b>Export any span</b> &mdash; set an in and out point anywhere on the day and export just that stretch, trimmed and joined for you.",
+              ]),
+          )]
+
+    s += [H1("11. Motion Highlights")]
     s += [P("Select footage and choose <b>Detect motion</b> to have the app scan for movement and extract only "
             "the clips where something happens &mdash; turning hours of recording into a short reel of events.")]
     s += bullets([
@@ -315,17 +354,18 @@ def body_flowables():
         "<b>Pre/post-roll</b> &mdash; keep a few seconds before and after each event so nothing is clipped.",
         "<b>Output</b> &mdash; save each event as its own file, or stitch them all into a single highlight reel.",
         "<b>Review</b> &mdash; optionally review and deselect false positives before anything is written.",
+        "<b>Inside the editor</b> &mdash; click Detect motion within the editor to mark active stretches as segments, then step between them with the prev/next-motion buttons.",
     ])
     s += [tip("Motion results are cached, so changing the pre/post-roll and re-exporting does not repeat the scan.")]
 
-    s += [H1("9. Watch-Folder Mode")]
+    s += [H1("12. Watch-Folder Mode")]
     s += [P("Turn on <b>Watch source folder</b> in Settings and the app monitors that folder, automatically "
             "converting new recordings as they appear &mdash; a hands-off workflow for an always-on DVR. It "
             "waits until each file has finished being written before converting, and can pop a notification "
             "when a batch completes.")]
 
     s += [KeepTogether([
-              H1("10. Settings"),
+              H1("13. Settings"),
               P("Open <b>Settings</b> from the toolbar to configure conversion and automation. Changes apply immediately."),
           ] + img_block("screen-settings.png", caption="Settings: encoder, output naming, presets, watch-folder and notifications."))]
     s += bullets([
@@ -337,7 +377,7 @@ def body_flowables():
         "<b>Notifications</b> &mdash; pop a notification when a batch finishes.",
     ])
 
-    s += [H1("11. Keyboard Shortcuts")]
+    s += [H1("14. Keyboard Shortcuts")]
     rows = [
         ["Space", "Play / pause the preview"],
         ["Left / Right", "Step one frame back / forward"],
@@ -360,7 +400,7 @@ def body_flowables():
     s += [t, Spacer(1, 3*mm)]
 
     s += [section(
-        H1("12. Troubleshooting"),
+        H1("15. Troubleshooting"),
         H2("A file is flagged &ldquo;can't convert&rdquo;"),
         P("A few formats are genuinely undecodable by any third-party tool &mdash; most notably Hikvision "
           "encrypted backups (.crypt), which need Hikvision's own player. Standard Hikvision H.264 backups convert fine."),
@@ -375,7 +415,7 @@ def body_flowables():
     )]
 
     s += [section(
-        H1("13. Privacy &amp; Licensing"),
+        H1("16. Privacy &amp; Licensing"),
         *bullets([
             "<b>Offline</b> &mdash; your footage is processed locally and never uploaded.",
             "<b>No accounts, no tracking, no ads.</b> The only optional network use is checking for an update when you ask it to.",
@@ -390,7 +430,7 @@ def body_flowables():
     )]
 
     s += [section(
-        H1("14. Support &amp; Updates"),
+        H1("17. Support &amp; Updates"),
         P("The Microsoft Store edition updates automatically; you can also choose <i>About &rarr; Check for "
           "updates</i> at any time. For help, email info@davidarthur.app or see the online guide and FAQ at "
           "davidarthur.app/cctvconverter/help/ and davidarthur.app/cctvconverter/faq/."),

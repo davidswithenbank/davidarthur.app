@@ -31,12 +31,12 @@
 <!-- Privacy Policy -->
 <main class="legal">
     <h1>Privacy Policy for CCTV Converter</h1>
-    <p class="last-updated">Last updated: 31 May 2026</p>
+    <p class="last-updated">Last updated: 4 July 2026</p>
 
     <p>David Arthur Software ("we", "us", "our") publishes the CCTV Converter app ("the App") as a free Windows utility. This page describes how the App handles your information.</p>
 
     <h2>1. The short version</h2>
-    <p>CCTV Converter does <strong>not</strong> collect, transmit, or share any personal information. It has no accounts, no cloud services, no analytics, no advertising, and no network code. Everything you do in the App stays on your computer.</p>
+    <p>CCTV Converter does <strong>not</strong> collect, transmit, or share any personal information. It has no accounts, no cloud services, no analytics, no advertising, and no network code. Everything you do in the App stays on your computer. This includes the face-blurring tools added in version 2.1: faces are detected and hidden entirely on your device, and no facial or biometric data is ever created, stored, or sent anywhere.</p>
 
     <h2>2. What the App stores locally</h2>
     <p>The App writes a small configuration file at <code>%LOCALAPPDATA%\CctvConverter\config.json</code> on your machine. It records only:</p>
@@ -55,7 +55,16 @@
     <h2>3. Your video files</h2>
     <p>Your CCTV footage is your data. The App reads the source files you point it at, writes converted MP4s to the output folder you choose, and never sends anything anywhere. Conversions happen entirely on your computer using a bundled copy of <a href="https://ffmpeg.org" target="_blank" rel="noopener">ffmpeg</a>.</p>
 
-    <h2>4. No cloud services</h2>
+    <h2>4. Face detection and redaction</h2>
+    <p>CCTV Converter can optionally detect faces in a clip so that you can blur, pixelate or black them out before you share the footage. This is a privacy feature, and like everything else in the App it works entirely on your own computer, offline.</p>
+    <ul>
+        <li>Face detection runs <strong>locally</strong>, using a bundled, offline model. No image, frame, or clip is ever uploaded.</li>
+        <li>It is <strong>not facial recognition</strong> and does not identify anyone: the App only locates a face so you can hide it &mdash; it does not match, name, or look anyone up.</li>
+        <li>The App does <strong>not create, store, or transmit</strong> any facial templates, biometric data, or other information about the people in your footage.</li>
+        <li>You choose which detected faces to hide, and can add or remove boxes by hand. The redaction is written into the new file you export; your original files are never changed.</li>
+    </ul>
+
+    <h2>5. No cloud services</h2>
     <p>The App has no:</p>
     <ul>
         <li>User accounts or registration</li>
@@ -65,10 +74,10 @@
         <li>Third-party data sharing</li>
     </ul>
 
-    <h2>5. Permissions</h2>
+    <h2>6. Permissions</h2>
     <p>The App runs as a standard Windows desktop application. It needs read access to the folders you point it at, write access to the output folder you choose, and the ability to launch the bundled <code>ffmpeg.exe</code>. It does not require administrator rights for normal use.</p>
 
-    <h2>6. Links that open in your browser or the Microsoft Store</h2>
+    <h2>7. Links that open in your browser or the Microsoft Store</h2>
     <p>A small number of buttons in the App launch links in whatever app your system uses to open them &mdash; for example:</p>
     <ul>
         <li>The "&#9749; Buy me a coffee" button opens the Buy Me a Coffee page for the App in your default browser.</li>
@@ -78,10 +87,10 @@
     <p>These actions happen only when you click those specific buttons.</p>
     <p>The App can also check whether a newer version is available when you choose "Check for updates": the Microsoft Store edition uses the Store's own built-in update system, and the direct-download edition checks a small version file hosted at davidarthur.app. A check sends only an ordinary web request (which, like any web request, includes your IP address) and transmits none of your settings, files, or footage. Nothing is downloaded or installed automatically, and you can ignore the result. Aside from the actions described above, the App makes no background network requests.</p>
 
-    <h2>7. Data retention</h2>
+    <h2>8. Data retention</h2>
     <p>All data the App writes is on your device for as long as you keep the App installed. Uninstalling or deleting <code>%LOCALAPPDATA%\CctvConverter\</code> permanently removes everything.</p>
 
-    <h2>8. Support emails and general correspondence</h2>
+    <h2>9. Support emails and general correspondence</h2>
     <p>If you email us directly &mdash; for example, to ask for help with the App or to report a problem &mdash; we will receive your message, including your email address and anything you choose to tell us. We use that information only to respond to you and to keep a brief record of the conversation so we can help you again later.</p>
     <ul>
         <li>We do <strong>not</strong> add your email address to any marketing list.</li>
@@ -91,7 +100,7 @@
     </ul>
     <p>If you would like us to delete any correspondence with us, email <a href="mailto:info@davidarthur.app">info@davidarthur.app</a> with "Delete my data" in the subject line and we will comply within 30 days.</p>
 
-    <h2>9. Your rights</h2>
+    <h2>10. Your rights</h2>
     <p>Because the App does not transmit or store any of your data outside your device, we (David Arthur Software) do not hold any personal data about you in respect of using the App, and there is nothing for us to access, correct, or delete on a server.</p>
     <p>For data the App stores locally, you can:</p>
     <ul>
@@ -101,13 +110,13 @@
     </ul>
     <p>If you believe we have handled your data incorrectly and are not happy with our response, you have the right to complain to the UK Information Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a> or by phone on 0303 123 1113.</p>
 
-    <h2>10. Website cookies and local storage</h2>
+    <h2>11. Website cookies and local storage</h2>
     <p>The davidarthur.app website is a static site. It uses Cloudflare Web Analytics, a privacy-first, cookieless service that records anonymous, aggregated visit data without setting cookies or tracking individual users. It does not use advertising cookies or any other tracking. It also stores a small language-preference value in your browser's local storage so the site can remember the language you selected; this never leaves your device.</p>
 
-    <h2>11. Changes to this policy</h2>
+    <h2>12. Changes to this policy</h2>
     <p>We may update this Privacy Policy from time to time. We will note any change with a new "Last updated" date at the top of this page.</p>
 
-    <h2>12. Contact us</h2>
+    <h2>13. Contact us</h2>
     <p>If you have any questions about this Privacy Policy, please contact:</p>
     <ul>
         <li>Email: <a href="mailto:info@davidarthur.app">info@davidarthur.app</a></li>

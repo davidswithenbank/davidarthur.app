@@ -50,7 +50,10 @@
 <li data-i18n-html="cctv.help.4"><a href="#getting-started">Getting started</a></li>
 <li data-i18n-html="cctv.help.5"><a href="#converting">Converting footage</a></li>
 <li data-i18n-html="cctv.help.6"><a href="#editor">The built-in editor</a></li>
+<li data-i18n-html="cctv.help.83"><a href="#redaction">Privacy &amp; redaction</a></li>
+<li data-i18n-html="cctv.help.84"><a href="#exporting">More ways to export</a></li>
 <li data-i18n-html="cctv.help.7"><a href="#multicam">Multi-camera view</a></li>
+<li data-i18n-html="cctv.help.85"><a href="#timeline">Continuous timeline</a></li>
 <li data-i18n-html="cctv.help.8"><a href="#motion">Motion highlights</a></li>
 <li data-i18n-html="cctv.help.9"><a href="#filmstrip">Filmstrip &amp; heatmap</a></li>
 <li data-i18n-html="cctv.help.10"><a href="#watch">Watch-folder mode</a></li>
@@ -82,12 +85,29 @@
 <ul>
 <li data-i18n-html="cctv.help.30"><strong>Trim</strong> — set the start and end points (down to a single frame) with the range slider or the <kbd>I</kbd>/<kbd>O</kbd> shortcuts, and mark multiple segments to export separately or merged.</li>
 <li data-i18n-html="cctv.help.31"><strong>Crop &amp; rotate</strong> — crop to a region of interest or rotate footage that was recorded sideways.</li>
-<li data-i18n-html="cctv.help.32"><strong>Image adjustments</strong> — brightness, contrast, saturation and sharpness, with a live preview.</li>
+<li data-i18n-html="cctv.help.32"><strong>Image adjustments</strong> — brightness, contrast, saturation, sharpness and gamma, with a live preview, plus one-tap look presets (Night, Bright, Clarify, Vivid, Black &amp; White) shown as thumbnails.</li>
 <li data-i18n-html="cctv.help.33"><strong>Noise reduction</strong> — Off / Light / Medium / Strong, to clean up grainy night footage.</li>
 <li data-i18n-html="cctv.help.34"><strong>Output size &amp; quality</strong> — pick a resolution and quality level for the exported file.</li>
 <li data-i18n-html="cctv.help.35"><strong>Presets</strong> — save a combination of edit settings and reapply it in one click.</li>
 </ul>
 <p data-i18n-html="cctv.help.36">Exports are written to a new MP4 — your original files are never modified. A progress bar (with cancel) shows the export as it runs.</p>
+<h2 data-i18n-html="cctv.help.67" id="redaction">Privacy &amp; face redaction</h2>
+<p data-i18n-html="cctv.help.68">In the editor, click <strong>Detect faces</strong> to automatically find and follow faces across the clip, then hide the ones you choose. Everything runs on your PC — nothing is uploaded.</p>
+<ul>
+<li data-i18n-html="cctv.help.69"><strong>Detect &amp; track</strong> — faces are found and followed as they move, each with a box that tracks it frame by frame.</li>
+<li data-i18n-html="cctv.help.70"><strong>Choose who to hide</strong> — click a box to keep that person visible or to redact them; only the faces you pick are hidden.</li>
+<li data-i18n-html="cctv.help.71"><strong>Blackout, pixelate or blur</strong> — choose how hidden areas look.</li>
+<li data-i18n-html="cctv.help.72"><strong>Draw your own</strong> — add manual boxes over anything the detector misses, such as a number plate or a screen.</li>
+</ul>
+<p data-i18n-html="cctv.help.73">Automatic detection is a helpful first pass, not a guarantee — always play the clip back and cover anything left exposed before sharing.</p>
+<h2 data-i18n-html="cctv.help.74" id="exporting">More ways to export</h2>
+<p data-i18n-html="cctv.help.75">The editor's <strong>Export</strong> menu offers more than a plain MP4:</p>
+<ul>
+<li data-i18n-html="cctv.help.76"><strong>Compress for email</strong> — re-encode to a small target size for email or messaging.</li>
+<li data-i18n-html="cctv.help.77"><strong>Animated GIF</strong> — save a short moment as a looping GIF.</li>
+<li data-i18n-html="cctv.help.78"><strong>Evidence report</strong> — a printable PDF with the source details and SHA-256 checksums for chain-of-custody.</li>
+<li data-i18n-html="cctv.help.79"><strong>Deinterlace &amp; watermark</strong> — smooth combing on older analogue cameras, and burn a case number or watermark into the exported copy.</li>
+</ul>
 <h2 data-i18n-html="cctv.help.37" id="multicam">Multi-camera view</h2>
 <p data-i18n-html="cctv.help.38">Tick two or more converted clips and click <strong>Multi View</strong> to open up to six cameras side by side on a shared timeline. You can:</p>
 <ul>
@@ -96,6 +116,8 @@
 <li data-i18n-html="cctv.help.41"><strong>Snapshot all</strong> cameras at once, or build a combined <strong>contact sheet</strong>.</li>
 <li data-i18n-html="cctv.help.42"><strong>Export a synchronized composite</strong> video of the whole grid.</li>
 </ul>
+<h2 data-i18n-html="cctv.help.80" id="timeline">Continuous timeline</h2>
+<p data-i18n-html="cctv.help.81">Right-click a day of recordings and choose <strong>Play as timeline</strong> to watch the whole day's files as one continuous video — scrub across the joins, jump between motion events across the day, and export any span without opening each file separately.</p>
 <h2 data-i18n-html="cctv.help.43" id="motion">Motion highlights</h2>
 <p data-i18n-html="cctv.help.44">Select footage and choose <strong>Detect motion</strong> to have the app scan for movement and extract only the clips where something happens.</p>
 <ul>
@@ -105,6 +127,7 @@
 <li data-i18n-html="cctv.help.48"><strong>Review</strong> — optionally review and deselect false positives before anything is written.</li>
 </ul>
 <p data-i18n-html="cctv.help.49">Results are cached, so changing the pre/post-roll and re-exporting doesn't repeat the scan.</p>
+<p data-i18n-html="cctv.help.82">You can also click <strong>Detect motion</strong> inside the editor to mark active stretches as segments and step between them with the prev/next-motion buttons.</p>
 <h2 data-i18n-html="cctv.help.50" id="filmstrip">Filmstrip &amp; motion heatmap</h2>
 <p data-i18n-html="cctv.help.51">In the preview, a <strong>thumbnail filmstrip</strong> sits above the seek bar for fast scrubbing, and hovering the bar shows a preview pop-up. After a motion scan, a <strong>heatmap</strong> is painted along the seek bar so you can jump straight to the busy moments; use the prev/next-motion buttons to hop between events.</p>
 <h2 data-i18n-html="cctv.help.52" id="watch">Watch-folder mode</h2>
