@@ -1,5 +1,5 @@
 {
   "version": "2.1.0",
   "url": "https://davidarthur.app/cctvconverter/",
-  "notes": "What's new in 2.1: automatic face redaction (blackout, pixelate or blur), one-tap look presets with live gamma, in-editor motion detection, compress-for-email, animated GIF and evidence-report exports, deinterlace and watermark, and a continuous whole-day timeline."
+  "notes": "What's new in 2.1: privacy redaction — automatically blur, pixelate or black out faces, and track any area you select (a number plate, a person, an object); one-tap look presets with live gamma, in-editor motion detection, compress-for-email, animated GIF and evidence-report exports, deinterlace and watermark, and a continuous whole-day timeline."
 }
