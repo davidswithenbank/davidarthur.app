@@ -224,7 +224,7 @@ def body_flowables():
     s += [P("It works <b>entirely offline</b>: your footage is read, converted and written locally and "
             "never leaves your machine. There are no accounts, no ads and no tracking.")]
     s += [P("This guide covers everything from a first conversion to the built-in editor, privacy "
-            "face-redaction, the multi-camera sync view, the continuous day timeline, and automatic motion "
+            "redaction (faces, number plates or any area), the multi-camera sync view, the continuous day timeline, and automatic motion "
             "highlights. Use the clickable Contents page (or your PDF reader's bookmarks panel) to jump to any section.")]
 
     s += [H1("2. Installation &amp; First Run")]
@@ -297,18 +297,37 @@ def body_flowables():
     ])
 
     s += [section(
-              H1("7. Privacy &amp; Face Redaction"),
-              P("The editor can hide faces and other sensitive details before you share a clip &mdash; useful "
-                "when handing footage to a neighbour, an insurer or the public. Everything runs on your own PC; "
-                "nothing is uploaded."),
+              H1("7. Privacy &mdash; Hide Faces, Plates &amp; Areas"),
+              P("The editor can hide faces, number plates and any other sensitive detail before you share a "
+                "clip &mdash; useful when handing footage to a neighbour, an insurer or the public. Everything "
+                "runs on your own PC; nothing is uploaded."),
               *bullets([
                   "<b>Detect faces</b> &mdash; automatically finds faces and follows each one as it moves through the clip, drawing a box that tracks it frame by frame.",
                   "<b>Choose who to hide</b> &mdash; click a box to keep that person visible or to hide them; only the faces you pick are redacted.",
-                  "<b>Blackout, pixelate or blur</b> &mdash; choose how hidden areas look: a solid black box, a coarse mosaic, or a soft blur.",
-                  "<b>Draw your own</b> &mdash; add manual boxes over anything the detector misses, such as a number plate, a screen or a document.",
+                  "<b>Black out, pixelate or blur</b> &mdash; choose how hidden areas look: a solid black box, a coarse mosaic, or a soft blur. The Box size slider grows every automatic box to cover hair or a full head.",
               ]),
-              tip("Automatic detection is a helpful first pass, not a guarantee &mdash; always play the clip back "
-                  "and cover anything left exposed with a manual box before sharing."),
+          ),
+          *img_block("privacy-redact-styles.png",
+                     caption="The three redaction styles applied to the same face. Pixelate and blur leave the "
+                             "scene readable while making the person unidentifiable."),
+          section(
+              H2("Hide and track anything else"),
+              P("Faces aren't the only thing worth hiding. Turn on <b>Hide areas manually</b> and drag a box "
+                "over anything &mdash; a number plate, a bystander, a screen, a document. A drawn box covers "
+                "that spot for the whole clip. If the subject moves, click <b>Track this area</b> and the app "
+                "follows it automatically: the box glides with the subject in the preview and in the export."),
+              *bullets([
+                  "<b>Draw where it's clearest</b> &mdash; tracking starts from the exact pixels inside your box, so draw it where the subject is big, sharp and fully visible.",
+                  "<b>Check the reported span</b> &mdash; after tracking, the app shows which part of the clip is covered (for example 0:00 to 0:27). A track ends when its subject leaves the frame or is hidden for more than a few seconds.",
+                  "<b>Cover other appearances</b> &mdash; if the subject shows up again later in the clip, draw another box there and track again; you can combine as many tracked and static boxes as you need.",
+              ]),
+          ),
+          *img_block("privacy-track-follow.png",
+                     caption="Track this area: the box stays locked on the vehicle as it moves through the "
+                             "frame &mdash; no manual keyframing."),
+          section(
+              tip("Automatic detection and tracking are a helpful first pass, not a guarantee &mdash; always "
+                  "play the clip back and cover anything left exposed with a manual box before sharing."),
           )]
 
     s += [section(
