@@ -31,7 +31,7 @@
 <!-- Privacy Policy Content -->
 <main class="legal">
     <h1 data-i18n="priv.title">Privacy Policy</h1>
-    <p class="last-updated">Last updated: 15 June 2026</p>
+    <p class="last-updated">Last updated: 11 July 2026</p>
 
     <p data-i18n="priv.intro">David Arthur Software ("DAS", "we", "our", "us") operates the DuoVox application (the "App"). This Privacy Policy explains how we collect, use and protect your information when you use our App. DAS is the data controller for all personal data processed in connection with the App.</p>
 
@@ -54,7 +54,7 @@
         <li><strong>Subscription information:</strong> Your subscription tier, purchase verification tokens (hashed), and billing cycle dates</li>
         <li><strong>Usage tracking:</strong> Minutes of AI usage consumed in the current billing cycle</li>
         <li><strong>Device verification:</strong> App integrity verification results to prevent unauthorised access</li>
-        <li><strong>Ad grant status:</strong> For Free tier users, a record of temporary translation grants earned through rewarded advertisements</li>
+        <li><strong>Session statistics:</strong> When a transcription session ends, the App sends a small technical summary to our infrastructure: app version, subscription tier, session length in minutes, whether on-device or online processing was used, and counts of any service errors. These summaries apply to all tiers, including the Free tier, and never include audio, transcriptions, translations, or any conversation content. We use them to monitor service health, plan capacity, and understand overall usage of the App.</li>
     </ul>
     <p>This data is stored on our cloud infrastructure provider's globally distributed network. It does <strong>not</strong> include any audio, transcription text, translation text, or conversation content. Device identifiers are randomly generated and cannot be linked to your personal identity.</p>
 
@@ -62,9 +62,9 @@
     <p>The App integrates with the following categories of third-party services:</p>
     <ul>
         <li><strong>AI Service Providers:</strong> For paid tiers, audio data is streamed to a third-party AI service for transcription, and text may be sent for translation. These providers process data in real time under their own privacy policies and data processing terms. Data submitted via API is not used to train AI models under current provider policies.</li>
-        <li><strong>Cloud Infrastructure Provider:</strong> Our service infrastructure (subscription management, usage tracking, ad grant verification) runs on a third-party cloud platform. This provider processes data on our behalf under a data processing agreement.</li>
-        <li><strong>Google AdMob (Android, Free tier):</strong> We display banner and rewarded video advertisements provided by Google AdMob. Google may collect device identifiers and usage data for ad personalisation. You can manage ad personalisation in your device's Google settings. Google's privacy policy is available at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</li>
-        <li><strong>Third-party ad networks (Windows, Free tier):</strong> Ads are displayed via embedded web content (Microsoft WebView2). These may set cookies and collect standard browsing data for ad serving.</li>
+        <li><strong>Cloud Infrastructure Provider:</strong> Our service infrastructure (subscription management, usage tracking, session statistics) runs on a third-party cloud platform. This provider processes data on our behalf under a data processing agreement.</li>
+        <li><strong>Google AdMob (Android, Free tier):</strong> Where advertising is offered on Android, banner and rewarded video advertisements may be displayed via Google AdMob. Google may collect device identifiers and usage data for ad personalisation. You can manage ad personalisation in your device's Google settings. Google's privacy policy is available at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</li>
+        <li><strong>Advertising (Windows, Free tier):</strong> The Windows Free tier currently shows only our own in-app promotional messages. No third-party advertising network is used, and no advertising cookies are set.</li>
         <li><strong>App Store Billing:</strong> Subscription purchases are processed through the Microsoft Store or Google Play. Payment information is handled entirely by the relevant store provider and is never accessed by DAS.</li>
         <li><strong>On-Device Processing:</strong> The offline transcription and translation features run entirely on your device using locally installed models. No audio or text data leaves your device when using these features.</li>
     </ul>
@@ -75,18 +75,18 @@
         <li>We do not collect personal information such as your name, email or phone number (unless you contact us for support)</li>
         <li>We do not track your location</li>
         <li>We do not sell any data to third parties</li>
-        <li>We do not use analytics or tracking SDKs beyond what Google AdMob requires for Free tier advertising</li>
+        <li>We do not use third-party analytics or tracking SDKs in the App; the only usage data we collect is the first-party session statistics described in section 2 (and, on Android, what Google AdMob requires for Free tier advertising)</li>
     </ul>
 
     <h2>5. Data Storage and Security</h2>
     <p>Session content (audio, transcriptions, translations) is held only in device memory and is never stored on our servers. App settings and preferences are stored locally on your device. On Windows, sensitive data such as API keys is encrypted using the operating system's built-in credential store. On Android, sensitive data is stored in the Android Keystore.</p>
-    <p>Service infrastructure data (subscription status, usage tracking, device verification) is stored on our cloud infrastructure provider's network and is protected by encryption in transit and at rest. This data is retained only for the duration of your subscription and a reasonable period thereafter for billing reconciliation, after which it is automatically deleted.</p>
+    <p>Service infrastructure data (subscription status, usage tracking, device verification) is stored on our cloud infrastructure provider's network and is protected by encryption in transit and at rest. This data is retained only for the duration of your subscription and a reasonable period thereafter for billing reconciliation, after which it is automatically deleted. Individual session statistics are kept on a rolling basis and automatically deleted, typically within 30 days and in any event within 12 months; after that only aggregate statistics (session counts and durations) that are not linked to any device are retained.</p>
 
     <h2>6. Legal Basis for Processing (GDPR)</h2>
     <p>If you are in the European Economic Area (EEA) or the United Kingdom, we process your data on the following legal bases:</p>
     <ul>
         <li><strong>Contract performance:</strong> Processing subscription data, usage tracking, and delivering the service you have subscribed to (Article 6(1)(b) GDPR)</li>
-        <li><strong>Legitimate interests:</strong> Preventing fraud and abuse, ensuring service integrity, and maintaining security (Article 6(1)(f) GDPR)</li>
+        <li><strong>Legitimate interests:</strong> Preventing fraud and abuse, ensuring service integrity, maintaining security, and monitoring service health and aggregate usage through anonymous session statistics (Article 6(1)(f) GDPR)</li>
         <li><strong>Consent:</strong> Displaying personalised advertisements on the Free tier via Google AdMob (Article 6(1)(a) GDPR). You may withdraw consent at any time through your device's ad personalisation settings.</li>
     </ul>
     <p>Service infrastructure data may be processed in countries outside the EEA/UK, including the United States. Where such transfers occur, they are protected by appropriate safeguards including the service provider's data processing agreements and standard contractual clauses.</p>
