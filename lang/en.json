@@ -216,5 +216,8 @@
   "dvx.56": "In-app promotional messages",
   "dvx.64a": "Document translation (Desktop)",
   "dvx.69": "Advanced AI translation",
-  "dvx.72": "Translate audio & video files (Desktop)"
+  "dvx.72": "Translate audio & video files (Desktop)",
+  "dvx.5": "51 languages and variants",
+  "dvx.23": "Select a primary language and a target language. DuoVox supports 51 languages and variants on paid tiers and 28 offline.",
+  "dvx.62": "51 supported languages and variants"
 }
