@@ -28,171 +28,117 @@
     </div>
 </nav>
 
-<main id="main-content">
-<section class="section legal-page">
-    <h1 class="section-title">Privacy Policy</h1>
-    <p class="legal-updated">Last updated: 15 June 2026</p>
+<main class="legal">
+    <h1 data-i18n="priv.title">Privacy Policy</h1>
+    <p class="last-updated">Last updated: 11 July 2026</p>
 
-    <div class="legal-content">
+    <p data-i18n="priv.intro">David Arthur Software ("DAS", "we", "our", "us") operates the DuoVox application (the "App"). This Privacy Policy explains what data the App collects, how it is used, how we protect it, and your rights. DAS is the data controller for all personal data processed in connection with the App.</p>
 
-        <p>David Arthur Software ("we", "us", "our") is committed to protecting your privacy. This policy explains what data our products collect, how it is used, and your rights. It covers all our products including DuoVox and QuietTime.</p>
+    <p><strong>Data Controller:</strong> David Arthur Software, Kirkbymoorside, York, YO62 6LJ, United Kingdom<br>
+    <strong>Contact:</strong> <a href="mailto:info@duovox.net">info@duovox.net</a></p>
 
-        <p><strong>Data Controller:</strong> David Arthur Software, Kirkbymoorside, York, YO62 6LJ, United Kingdom<br>
-        <strong>Contact:</strong> <a href="mailto:info@davidarthur.app">info@davidarthur.app</a></p>
+    <p data-i18n="priv.incorp">This Privacy Policy forms part of our Terms of Use. Where David Arthur Software processes personal data, it does so in accordance with this policy and applicable data-protection law and retains its own data-protection (controller) responsibilities.</p>
 
-        <!-- QUIETTIME -->
-        <h2>1. QuietTime</h2>
+    <h2>1. Information We Collect</h2>
 
-        <h3>1.1 Data Collected</h3>
-        <p>QuietTime operates entirely offline. It collects and stores the following data <strong>locally on your device only</strong>:</p>
-        <ul>
-            <li>Your PIN and recovery password (stored on your device as one-way hashes, not in plain text)</li>
-            <li>Schedule settings (weekday/weekend times, weekend day selections)</li>
-            <li>Theme and lock level preferences</li>
-            <li>Allowed app selections</li>
-            <li>Activity log (block start/end, overrides, extensions, settings changes)</li>
-        </ul>
+    <p><strong>Audio Data (Paid Tiers):</strong> When using online transcription (Standard, Professional, or Pay-As-You-Go), audio is captured from your device's microphone or internal audio and streamed in real time to third-party processing providers for transcription. Audio is processed in real time and is not stored by us. Our providers process it to return a result and may keep limited operational logs under their own privacy policies, which can change without notice &mdash; please review their policies. You are responsible for obtaining any consent required to record, transcribe, or translate a conversation.</p>
 
-        <h3>1.2 Data NOT Collected</h3>
-        <p>QuietTime does <strong>not</strong>:</p>
-        <ul>
-            <li>Transmit any data to any server</li>
-            <li>Require an account or login</li>
-            <li>Use analytics, tracking, or telemetry</li>
-            <li>Display advertisements</li>
-            <li>Collect personal information</li>
-            <li>Access contacts, messages, photos, or location</li>
-        </ul>
+    <p><strong>Audio Data (Free Tier):</strong> When using offline transcription, all audio processing occurs entirely on your device using locally installed speech-recognition models. No audio data leaves your device.</p>
 
-        <h3>1.3 Permissions (Android)</h3>
-        <p>QuietTime requires the following Android permissions to function:</p>
-        <ul>
-            <li><strong>Display over other apps</strong> &mdash; To show the block screen on top of other applications</li>
-            <li><strong>Accessibility service</strong> &mdash; To prevent the block screen from being dismissed by children</li>
-        </ul>
-        <p>These permissions are used solely for screen time control and are not used to monitor, record, or transmit any user activity.</p>
+    <p><strong>Transcription and Translation Text:</strong> Transcribed and translated text is displayed in the App during your session. This data is held in device memory only and is cleared when you clear the session or close the App. For paid tiers, text may be sent to a processing provider for translation; it is processed in real time and is not stored by us.</p>
 
-        <!-- DUOVOX -->
-        <h2>2. DuoVox</h2>
+    <p><strong>Preferences and Settings:</strong> Your app settings (selected language, theme, audio source, subscription tier) are stored locally on your device. They are not transmitted to any server.</p>
 
-        <h3>2.1 Data Collected</h3>
-        <p><strong>Free tier (offline):</strong> All audio processing happens on your device using local models. No data is sent to any server. No account is required.</p>
-        <p><strong>Paid tiers (online):</strong> Audio is streamed in real time to third-party AI service providers for transcription and translation. We do not store this audio ourselves and do not intentionally retain it; our providers process it to return the result and may keep limited operational logs under their own privacy policies, which can change without notice &mdash; please review their policies. Transcribed and translated text exists only in your device's memory during the session unless you choose to save it.</p>
+    <p><strong>Diagnostic Logs:</strong> If you enable diagnostics, log files are stored locally on your device. You may choose to share these with us for support purposes, but they are never collected automatically.</p>
 
-        <h3>2.2 Service Infrastructure Data</h3>
-        <p>For paid tiers, we maintain minimal infrastructure data to manage your subscription:</p>
-        <ul>
-            <li>An anonymous device identifier linked to your subscription tier</li>
-            <li>Usage minutes (for tracking against your monthly allocation)</li>
-            <li>Device verification data (to prevent subscription sharing)</li>
-            <li>Ad grant status (Free tier only)</li>
-        </ul>
+    <h2>2. Service Infrastructure Data</h2>
 
-        <h3>2.3 Data NOT Collected</h3>
-        <p>DuoVox does <strong>not</strong>:</p>
-        <ul>
-            <li>Store audio recordings on our own servers</li>
-            <li>Store transcriptions or translations on our own servers</li>
-            <li>Collect personal information unless you contact support</li>
-            <li>Track your location</li>
-            <li>Sell or share data with third parties for marketing</li>
-        </ul>
+    <p>To manage subscriptions, prevent abuse, and deliver the service, our cloud infrastructure stores the following data associated with an anonymous device identifier:</p>
+    <ul>
+        <li><strong>Subscription information:</strong> Your subscription tier, purchase verification tokens (hashed), and billing cycle dates</li>
+        <li><strong>Usage tracking:</strong> Minutes of AI usage consumed in the current billing cycle</li>
+        <li><strong>Device verification:</strong> App integrity verification results to prevent unauthorised access</li>
+        <li><strong>Session statistics:</strong> When a transcription session ends, the App sends a small technical summary to our infrastructure: app version, subscription tier, session length in minutes, whether on-device or online processing was used, and counts of any service errors. These summaries apply to all tiers, including the Free tier, and never include audio, transcriptions, translations, or any conversation content. We use them to monitor service health, plan capacity, and understand overall usage of the App.</li>
+    </ul>
+    <p>This data is stored on our cloud infrastructure provider's globally distributed network. It does <strong>not</strong> include any audio, transcription text, translation text, or conversation content. Device identifiers are randomly generated and are not linked to your personal identity by us.</p>
 
-        <h3>2.4 Third-Party Services</h3>
-        <p>DuoVox uses the following third-party services:</p>
-        <ul>
-            <li><strong>AI processing providers</strong> &mdash; For real-time transcription and translation (paid tiers). Audio is streamed and processed in real time; it is not stored.</li>
-            <li><strong>Google AdMob / Microsoft WebView2</strong> &mdash; For displaying advertisements (Free tier only). These services may use cookies or device identifiers as described in their own privacy policies. You can limit ad personalisation through your device's ad settings and Google's Ad Settings.</li>
-            <li><strong>Google Play Billing / Microsoft Store</strong> &mdash; For subscription management.</li>
-        </ul>
+    <h2>3. Third-Party Services and Sub-Processors</h2>
+    <p>To deliver paid features, we use third-party processors disclosed below by category. We do not name individual providers in this policy because providers may change over time; a current list of the specific providers is available on request from <a href="mailto:info@duovox.net">info@duovox.net</a>.</p>
+    <ul>
+        <li><strong>Speech and translation processing providers:</strong> For paid tiers, audio is streamed to processing providers for transcription, and text may be sent for translation. These providers process data in real time under their own privacy policies and data-processing terms. Their policies may change without notice; we do not control and cannot guarantee provider behaviour, and we encourage you to review their policies.</li>
+        <li><strong>Cloud infrastructure provider:</strong> Our service infrastructure (subscription management, usage tracking, session statistics) runs on a third-party cloud platform. This provider processes data on our behalf under a data-processing agreement and may keep limited operational logs under its own policies.</li>
+        <li><strong>Advertising (Free tier):</strong> On Windows, the Free tier currently shows only our own in-app promotional messages; no third-party advertising network is used and no advertising cookies are set. On Android, where advertising is offered, banner and rewarded-video advertisements may be provided by an advertising network that may collect device identifiers and usage data for ad personalisation; you can manage ad personalisation in your device's settings.</li>
+        <li><strong>App-store billing:</strong> Subscription purchases are processed by the Microsoft Store (Windows) or Google Play (Android). Payment information is handled entirely by the relevant app store and is never accessed by DAS.</li>
+        <li><strong>On-device processing:</strong> The offline transcription and translation features run entirely on your device using locally installed models. No audio or text data leaves your device when using these features.</li>
+    </ul>
 
-        <h3>2.5 Relationship to the Terms of Use</h3>
-        <p>For DuoVox, this Privacy Policy forms part of the DuoVox Terms of Use. The full DuoVox Privacy Policy is available at <a href="https://duovox.net/privacy.html" target="_blank" rel="noopener">duovox.net/privacy.html</a>.</p>
+    <h2>4. Data We Do NOT Collect</h2>
+    <ul>
+        <li>We do not store audio recordings, transcription text, or translation text on our own servers</li>
+        <li>We do not collect personal information such as your name, email or phone number (unless you contact us for support)</li>
+        <li>We do not track your location</li>
+        <li>We do not sell your data to third parties or share it with third parties for marketing</li>
+        <li>We do not use third-party analytics or tracking SDKs in the App; the only usage data we collect is the first-party session statistics described in section 2 (and, on Android, what Free-tier advertising requires)</li>
+    </ul>
 
-        <h3>2.6 Sensitive Information</h3>
-        <p>DuoVox is a general-purpose tool and is not intended for special-category data. You are responsible for any sensitive information (such as health or legal details) you choose to process through it; where such information is processed, we rely on your explicit consent. You must also obtain any consent required to record, transcribe, or translate a conversation.</p>
+    <h2>5. Data Storage and Security</h2>
+    <p>We use appropriate technical and organisational measures to protect personal data, including encryption in transit (TLS) for all online connections, encryption of sensitive app settings stored on your device, holding only the minimum data needed to run the service, and restricting access to it. Session content (audio, transcriptions, translations) is held only in device memory during your session and is not stored on our own servers. Service infrastructure data is protected by encryption in transit and at rest. No method of transmission or storage is completely secure, but we take reasonable steps to protect your information.</p>
 
-        <!-- WEBSITE -->
-        <h2>3. Our Websites</h2>
-        <p>Our websites (davidarthur.app and duovox.net) are static sites hosted on GitHub Pages. They use Cloudflare Web Analytics, a privacy-first, cookieless service that records anonymous, aggregated visit data (such as page views and country) without setting any cookies and without tracking individual users across sites. We do not use any other analytics or advertising trackers. Contact forms are processed by web3forms, which receives only the information you submit.</p>
+    <h2>6. Data Retention</h2>
+    <p>We keep personal data only as long as necessary for the purposes set out in this policy:</p>
+    <ul>
+        <li><strong>Service infrastructure / operational data</strong> (anonymous device identifier, usage minutes, device-verification data) &mdash; retained for up to <strong>12 months</strong> after a subscription ends or is cancelled, to prevent fraud and resolve billing disputes.</li>
+        <li><strong>Session statistics</strong> (see section 2) &mdash; individual session summaries are kept on a rolling basis and automatically deleted, typically within <strong>30 days</strong> and in any event within <strong>12 months</strong>; after that only aggregate statistics (session counts and durations) that are not linked to any device are retained.</li>
+        <li><strong>Support correspondence</strong> &mdash; retained for up to <strong>24 months</strong>.</li>
+        <li><strong>Audio and transcripts</strong> &mdash; processed in real time and not stored by us (see section 1).</li>
+        <li><strong>Settings and diagnostic logs</strong> &mdash; stored only on your device until you clear the App's data or uninstall; we hold none of it.</li>
+    </ul>
 
-        <!-- PAYMENTS -->
-        <h2>4. Payment Processing</h2>
-        <p>Purchases of paid features are processed by the Microsoft Store or Google Play; we do not process card payments on our website.</p>
-        <p>Payments made through app stores (Google Play, Microsoft Store) are governed by those platforms' respective privacy policies.</p>
+    <h2>7. Legal Basis for Processing (GDPR)</h2>
+    <p>If you are in the European Economic Area (EEA) or the United Kingdom, we process your data on the following legal bases:</p>
+    <ul>
+        <li><strong>Contract performance:</strong> Processing subscription data, usage tracking, and delivering the service you have subscribed to (Article 6(1)(b) GDPR)</li>
+        <li><strong>Legitimate interests:</strong> Preventing fraud and abuse, ensuring service integrity, maintaining security, and monitoring service health and aggregate usage through anonymous session statistics (Article 6(1)(f) GDPR)</li>
+        <li><strong>Consent:</strong> Displaying personalised advertisements on the Free tier (Article 6(1)(a) GDPR). You may withdraw consent at any time through your device's ad-personalisation settings.</li>
+        <li><strong>Explicit consent:</strong> Where audio or text you choose to process may contain special-category information, we rely on your explicit consent (see section 8).</li>
+    </ul>
 
-        <!-- GDPR -->
-        <h2>5. Your Rights (GDPR / UK GDPR)</h2>
-        <p>If you are in the UK or European Economic Area, you have the right to:</p>
-        <ul>
-            <li><strong>Access</strong> &mdash; Request a copy of any personal data we hold about you</li>
-            <li><strong>Rectification</strong> &mdash; Request correction of inaccurate data</li>
-            <li><strong>Erasure</strong> &mdash; Request deletion of your data</li>
-            <li><strong>Portability</strong> &mdash; Request your data in a portable format</li>
-            <li><strong>Objection</strong> &mdash; Object to processing based on legitimate interests</li>
-            <li><strong>Withdraw consent</strong> &mdash; Where processing is based on consent (e.g., ad personalisation)</li>
-        </ul>
-        <p>For QuietTime, all data is stored locally on your device &mdash; you can delete it at any time by clearing the app's data or uninstalling.</p>
-        <p>For DuoVox, contact <a href="mailto:info@duovox.net">info@duovox.net</a> to exercise any of these rights.</p>
-        <p>We will respond within one month (extendable by up to two further months for complex requests, and we will tell you if so). We may need to verify your identity first. There is no fee unless a request is manifestly unfounded or excessive. You also have the right to lodge a complaint with the UK Information Commissioner's Office (<a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a>) or your local data-protection authority.</p>
+    <h2>8. Special-Category Data</h2>
+    <p>DuoVox is a general-purpose tool and is not intended for special-category data (such as health, legal, religious, or other sensitive details). You are responsible for any sensitive information you choose to process through the App; where such information is processed, we rely on your explicit instruction and consent. You are also responsible for obtaining any consent required to record, transcribe, or translate a conversation. DuoVox is an assistive aid and is not a substitute for a qualified human interpreter; it should not be relied on for regulated medical or legal purposes.</p>
 
-        <h3>Legal Basis for Processing</h3>
-        <p>Where we process personal data, the legal basis is:</p>
-        <ul>
-            <li><strong>Contract performance</strong> &mdash; Processing audio for transcription/translation as part of the DuoVox service</li>
-            <li><strong>Legitimate interests</strong> &mdash; Subscription management, fraud prevention, service improvement</li>
-            <li><strong>Consent</strong> &mdash; Ad personalisation (Free tier, where applicable)</li>
-            <li><strong>Explicit consent</strong> &mdash; Where audio may contain special-category information (such as health or legal matters), we rely on your explicit consent. DuoVox is not intended for special-category data and you are responsible for any such data you choose to process.</li>
-        </ul>
+    <h2>9. International Data Transfers</h2>
+    <p>Paid tiers stream audio and text to third-party processing providers, and our service infrastructure runs on a cloud platform, whose servers may be located outside the UK/EEA (including, potentially, the United States). Where personal data is transferred outside the UK/EEA, it is subject to appropriate safeguards as required by data-protection law. We do not store this audio ourselves; providers process it to return a result and may keep limited operational logs under their own privacy policies, which can change without notice.</p>
 
-        <!-- CCPA -->
-        <h2>6. California Residents (CCPA/CPRA)</h2>
-        <p>If you are a California resident, you have the right to know what personal information we collect, request its deletion, and opt out of any sale of personal information. We do not sell personal information.</p>
+    <h2>10. Your Rights</h2>
+    <p>You have control over your data. Depending on your jurisdiction, you may have the following rights:</p>
+    <ul>
+        <li>Clear all session data at any time using the Clear button in the App</li>
+        <li>Delete diagnostic logs from your device storage</li>
+        <li>Uninstall the App to remove all locally stored data</li>
+        <li>Request access to, correction of, or deletion of your service infrastructure data by contacting us</li>
+        <li>Object to or request restriction of processing of your data</li>
+        <li>Request portability of your data in a structured, machine-readable format</li>
+        <li>Withdraw consent for ad personalisation at any time through your device settings</li>
+    </ul>
+    <p>To exercise any of these rights, contact <a href="mailto:info@duovox.net">info@duovox.net</a>. We will respond within one month (extendable by up to two further months for complex requests, and we will tell you if so). We may need to verify your identity first. There is no fee unless a request is manifestly unfounded or excessive. You also have the right to lodge a complaint with the UK Information Commissioner's Office (<a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a>) or your local data-protection authority.</p>
 
-        <!-- CHILDREN -->
-        <h2>7. Children's Privacy</h2>
-        <p>QuietTime is designed for parents to manage their children's screen time. The app does not collect any data from children.</p>
-        <p>DuoVox is not directed at children under 13 (or under 16 in the EEA/UK). If we become aware that we have collected data from a child, we will delete it promptly.</p>
+    <h2>11. Data Breaches</h2>
+    <p>If we become aware of a personal-data breach that is likely to result in a risk to your rights and freedoms, we will notify the relevant supervisory authority &mdash; and, where required, affected individuals &mdash; without undue delay and within the timeframes required by law.</p>
 
-        <!-- INTERNATIONAL -->
-        <h2>8. International Data Transfers</h2>
-        <p>DuoVox paid tiers stream audio to third-party AI providers whose servers may be located outside the UK/EEA. Where personal data is transferred outside the UK/EEA, it is subject to appropriate safeguards as required by data-protection law. We do not store this audio ourselves; providers process it to return the result and may retain limited operational logs under their own privacy policies.</p>
-        <p>QuietTime does not transfer any data internationally as it operates entirely offline.</p>
+    <h2>12. California Residents (CCPA/CPRA)</h2>
+    <p>If you are a California resident, you have the right to know what personal information we collect, request its deletion, and opt out of any sale of personal information. We do not sell personal information. To exercise your rights, contact us using the details below.</p>
 
-        <!-- RETENTION -->
-        <h2>9. Data Retention</h2>
-        <p>We keep personal data only as long as necessary for the purposes set out in this policy:</p>
-        <ul>
-            <li><strong>DuoVox infrastructure data</strong> (anonymous device identifier, usage minutes, device-verification data) &mdash; retained for up to <strong>12 months</strong> after a subscription ends, to prevent fraud and resolve billing disputes.</li>
-            <li><strong>Support correspondence</strong> &mdash; retained for up to <strong>24 months</strong>.</li>
-            <li><strong>Audio and transcripts</strong> &mdash; not stored by us; processed in real time only (see section 2).</li>
-            <li><strong>QuietTime data</strong> &mdash; stored only on your device until you clear the app's data or uninstall; we hold none of it.</li>
-            <li><strong>CCTV Converter</strong> &mdash; we collect and retain nothing; it operates entirely offline.</li>
-        </ul>
+    <h2>13. Children's Privacy</h2>
+    <p>The App is not directed at children under the age of 13 (or 16 in the EEA/UK). We do not knowingly collect personal information from children. If we learn that we have collected personal information from a child under the applicable age, we will take steps to delete that information as quickly as possible. If you believe we have collected information from a child, please contact us at <a href="mailto:info@duovox.net">info@duovox.net</a>.</p>
 
-        <!-- SECURITY -->
-        <h2>10. Security</h2>
-        <p>We use appropriate technical and organisational measures to protect personal data, including encryption in transit (TLS) for all online connections, encryption of app settings stored on your device, holding only the minimum data needed to run the service, and restricting access to it. No method of transmission or storage is completely secure, but we take reasonable steps to protect your information.</p>
+    <h2>14. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last updated" date at the top of this page. For material changes, we will provide notice through the App. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
 
-        <!-- BREACH -->
-        <h2>11. Data Breaches</h2>
-        <p>If we become aware of a personal-data breach that is likely to result in a risk to your rights and freedoms, we will notify the relevant supervisory authority &mdash; and, where required, affected individuals &mdash; without undue delay and within the timeframes required by law.</p>
-
-        <!-- CHANGES -->
-        <h2>12. Changes to This Policy</h2>
-        <p>We may update this policy from time to time. Changes will be reflected by the "Last updated" date at the top of this page. Continued use of our products constitutes acceptance of the updated policy.</p>
-
-        <!-- CONTACT -->
-        <h2>13. Contact</h2>
-        <p>For privacy-related enquiries:</p>
-        <ul>
-            <li><strong>General:</strong> <a href="mailto:info@davidarthur.app">info@davidarthur.app</a></li>
-            <li><strong>DuoVox:</strong> <a href="mailto:info@duovox.net">info@duovox.net</a></li>
-        </ul>
-
-        <p class="legal-copyright">&copy; 2026 David Arthur Software</p>
-    </div>
-</section>
+    <h2>15. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, wish to exercise your data rights, or have a complaint, please contact us at:</p>
+    <p><strong>David Arthur Software</strong><br>
+    Kirkbymoorside, York, YO62 6LJ, United Kingdom<br>
+    Email: <a href="mailto:info@duovox.net">info@duovox.net</a></p>
 </main>
 
 <footer class="footer">

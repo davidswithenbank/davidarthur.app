@@ -405,7 +405,7 @@
   "dvx.53": "Transcriptie op het apparaat (vertaling waar ondersteund)",
   "dvx.54": "28 offline talen",
   "dvx.55": "Werkt zonder internet",
-  "dvx.56": "Lichte bannerreclame",
+  "dvx.56": "Promotieberichten in de app",
   "dvx.57": "Geen account nodig. Voor altijd gratis.",
   "dvx.58": "Standaard",
   "dvx.59": "Beste voor: reizigers, studenten &amp; dagelijkse tweetalige gesprekken",
@@ -418,10 +418,10 @@
   "dvx.66": "Professioneel",
   "dvx.67": "Het meest geschikt voor: bedrijven en professionele tolken",
   "dvx.68": "Verbeterde terminologieherkenning voor gespecialiseerd vocabulaire",
-  "dvx.69": "Premium AI-vertaling",
+  "dvx.69": "Geavanceerde AI-vertaling",
   "dvx.70": "40 uur per maand inbegrepen",
   "dvx.71": "Ondertitels exporteren — SRT &amp; VTT (desktop)",
-  "dvx.72": "Audio-, video- &amp; documentbestanden vertalen (desktop)",
+  "dvx.72": "Audio- en videobestanden vertalen (Desktop)",
   "dvx.73": "Vertaalwoordenlijst (desktop)",
   "dvx.74": "Privémodus",
   "dvx.75": "Beste als je het meer dan 20 uur per maand gebruikt.",
@@ -556,5 +556,6 @@
   "cta.avail_note": "Windows komt als eerste uit via de Microsoft Store, gevolgd door Android op Google Play.",
   "dvx.103": "Vergelijking op basis van openbaar beschikbare informatie per juni 2026; functies van concurrenten kunnen veranderen.",
   "dvx.104": "Ga naar duovox.net →",
-  "idx.duovox.avail": "Windows — binnenkort in de Microsoft Store · Android komt naar Google Play"
+  "idx.duovox.avail": "Windows — binnenkort in de Microsoft Store · Android komt naar Google Play",
+  "dvx.64a": "Documentvertaling (Desktop)"
 }

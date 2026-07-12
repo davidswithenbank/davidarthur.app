@@ -405,7 +405,7 @@
   "dvx.53": "Phiên âm trên thiết bị (dịch nơi được hỗ trợ)",
   "dvx.54": "28 ngôn ngữ ngoại tuyến",
   "dvx.55": "Hoạt động không cần internet",
-  "dvx.56": "Quảng cáo biểu ngữ nhẹ",
+  "dvx.56": "Thông báo quảng bá trong ứng dụng",
   "dvx.57": "Không cần tài khoản. Miễn phí mãi mãi.",
   "dvx.58": "Tiêu chuẩn",
   "dvx.59": "Phù hợp nhất cho: du khách, sinh viên &amp; trò chuyện song ngữ hằng ngày",
@@ -418,10 +418,10 @@
   "dvx.66": "Chuyên nghiệp",
   "dvx.67": "Phù hợp nhất với: doanh nghiệp và phiên dịch viên chuyên nghiệp",
   "dvx.68": "Nhận diện thuật ngữ nâng cao cho vốn từ chuyên ngành",
-  "dvx.69": "Dịch bằng AI cao cấp",
+  "dvx.69": "Dịch AI nâng cao",
   "dvx.70": "Bao gồm 40 giờ mỗi tháng",
   "dvx.71": "Xuất phụ đề — SRT &amp; VTT (Máy tính)",
-  "dvx.72": "Dịch tệp âm thanh, video &amp; tài liệu (Máy tính)",
+  "dvx.72": "Dịch tệp âm thanh & video (trên máy tính)",
   "dvx.73": "Bảng thuật ngữ dịch (Máy tính)",
   "dvx.74": "Chế độ riêng tư",
   "dvx.75": "Tốt nhất nếu bạn dùng từ 20 giờ trở lên mỗi tháng.",
@@ -556,5 +556,6 @@
   "cta.avail_note": "Windows ra mắt trước trên Microsoft Store, sau đó Android sẽ có trên Google Play.",
   "dvx.103": "So sánh dựa trên thông tin công khai tính đến tháng 6 năm 2026; các tính năng của đối thủ có thể thay đổi.",
   "dvx.104": "Truy cập duovox.net →",
-  "idx.duovox.avail": "Windows — sắp có mặt trên Microsoft Store · Android sắp có trên Google Play"
+  "idx.duovox.avail": "Windows — sắp có mặt trên Microsoft Store · Android sắp có trên Google Play",
+  "dvx.64a": "Dịch tài liệu (trên máy tính)"
 }

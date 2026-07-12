@@ -405,7 +405,7 @@
   "dvx.53": "Cihaz üzerinde transkripsiyon (desteklenen yerlerde çeviri)",
   "dvx.54": "28 çevrimdışı dil",
   "dvx.55": "İnternet olmadan çalışır",
-  "dvx.56": "Hafif banner reklamlar",
+  "dvx.56": "Uygulama içi tanıtım mesajları",
   "dvx.57": "Hesap gerektirmez. Sonsuza dek ücretsiz.",
   "dvx.58": "Standart",
   "dvx.59": "En uygun: gezginler, öğrenciler &amp; günlük iki dilli sohbet için",
@@ -418,10 +418,10 @@
   "dvx.66": "Profesyonel",
   "dvx.67": "En uygun: işletmeler ve profesyonel tercümanlar",
   "dvx.68": "Uzmanlık gerektiren kelime dağarcığı için gelişmiş terminoloji tanıma",
-  "dvx.69": "Premium AI çeviri",
+  "dvx.69": "Gelişmiş yapay zekâ çevirisi",
   "dvx.70": "Aylık 40 saat dahil",
   "dvx.71": "Altyazı dışa aktarma — SRT &amp; VTT (Masaüstü)",
-  "dvx.72": "Ses, video &amp; belge dosyalarını çevirin (Masaüstü)",
+  "dvx.72": "Ses ve video dosyalarını çevirme (Masaüstü)",
   "dvx.73": "Çeviri Sözlüğü (Masaüstü)",
   "dvx.74": "Gizli Mod",
   "dvx.75": "Ayda 20+ saat kullanıyorsanız en iyisi.",
@@ -556,5 +556,6 @@
   "cta.avail_note": "Windows ilk olarak Microsoft Store üzerinden geliyor, ardından Android Google Play'de yer alacak.",
   "dvx.103": "Karşılaştırma, Haziran 2026 itibarıyla kamuya açık bilgilere dayanmaktadır; rakip özellikler değişebilir.",
   "dvx.104": "duovox.net adresini ziyaret edin →",
-  "idx.duovox.avail": "Windows — yakında Microsoft Store'da · Android Google Play'de yer alacak"
+  "idx.duovox.avail": "Windows — yakında Microsoft Store'da · Android Google Play'de yer alacak",
+  "dvx.64a": "Belge çevirisi (Masaüstü)"
 }

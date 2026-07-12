@@ -405,7 +405,7 @@
   "dvx.53": "Transcription sur l'appareil (traduction là où elle est prise en charge)",
   "dvx.54": "28 langues hors ligne",
   "dvx.55": "Fonctionne sans Internet",
-  "dvx.56": "Bannières publicitaires légères",
+  "dvx.56": "Messages promotionnels dans l'application",
   "dvx.57": "Aucun compte requis. Gratuit pour toujours.",
   "dvx.58": "Standard",
   "dvx.59": "Idéal pour : les voyageurs, les étudiants &amp; les échanges bilingues quotidiens",
@@ -418,10 +418,10 @@
   "dvx.66": "Professionnel",
   "dvx.67": "Idéal pour : les entreprises et les interprètes professionnels",
   "dvx.68": "Reconnaissance terminologique améliorée pour le vocabulaire spécialisé",
-  "dvx.69": "Traduction IA premium",
+  "dvx.69": "Traduction IA avancée",
   "dvx.70": "40 heures incluses par mois",
   "dvx.71": "Export de sous-titres — SRT &amp; VTT (Ordinateur)",
-  "dvx.72": "Traduisez des fichiers audio, vidéo &amp; documents (Ordinateur)",
+  "dvx.72": "Traduisez des fichiers audio et vidéo (ordinateur)",
   "dvx.73": "Glossaire de traduction (Ordinateur)",
   "dvx.74": "Mode privé",
   "dvx.75": "Idéal si vous l'utilisez plus de 20 heures par mois.",
@@ -556,5 +556,6 @@
   "cta.avail_note": "Windows arrive en premier via le Microsoft Store, suivi d'Android sur Google Play.",
   "dvx.103": "Comparaison fondée sur des informations accessibles au public en juin 2026 ; les fonctionnalités des concurrents peuvent évoluer.",
   "dvx.104": "Visiter duovox.net →",
-  "idx.duovox.avail": "Windows — bientôt disponible sur le Microsoft Store · Android arrive sur Google Play"
+  "idx.duovox.avail": "Windows — bientôt disponible sur le Microsoft Store · Android arrive sur Google Play",
+  "dvx.64a": "Traduction de documents (ordinateur)"
 }

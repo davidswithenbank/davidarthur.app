@@ -212,5 +212,9 @@
   "dvx.96": "Yes. DuoVox includes built-in offline transcription with 28 languages on every tier, including Free. Offline translation is available where your device resources allow. AI-powered features require an internet connection.",
   "dvx.104": "Visit duovox.net →",
   "idx.duovox.avail": "Windows — coming soon to the Microsoft Store · Android coming to Google Play",
-  "cnt.14": "Business and enterprise enquiries, partnerships, and priority support."
+  "cnt.14": "Business and enterprise enquiries, partnerships, and priority support.",
+  "dvx.56": "In-app promotional messages",
+  "dvx.64a": "Document translation (Desktop)",
+  "dvx.69": "Advanced AI translation",
+  "dvx.72": "Translate audio & video files (Desktop)"
 }

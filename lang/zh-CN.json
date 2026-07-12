@@ -405,7 +405,7 @@
   "dvx.53": "设备端转录（在支持的情况下提供翻译）",
   "dvx.54": "28 种离线语言",
   "dvx.55": "无需联网即可使用",
-  "dvx.56": "轻量横幅广告",
+  "dvx.56": "应用内推广信息",
   "dvx.57": "无需账户。永久免费。",
   "dvx.58": "标准版",
   "dvx.59": "最适合：旅行者、学生 &amp; 日常双语交流",
@@ -421,7 +421,7 @@
   "dvx.69": "高级 AI 翻译",
   "dvx.70": "每月包含 40 小时",
   "dvx.71": "字幕导出——SRT &amp; VTT（桌面版）",
-  "dvx.72": "翻译音频、视频 &amp; 文档文件（桌面版）",
+  "dvx.72": "翻译音频与视频文件（桌面端）",
   "dvx.73": "翻译术语表（桌面版）",
   "dvx.74": "隐私模式",
   "dvx.75": "若您每月使用 20 小时以上则最划算。",
@@ -556,5 +556,6 @@
   "cta.avail_note": "Windows 版率先通过 Microsoft Store 上线，Android 版随后登陆 Google Play。",
   "dvx.103": "对比基于截至 2026 年 6 月的公开信息；竞品功能可能会有所变化。",
   "dvx.104": "访问 duovox.net →",
-  "idx.duovox.avail": "Windows —— 即将登陆 Microsoft Store · Android 即将登陆 Google Play"
+  "idx.duovox.avail": "Windows —— 即将登陆 Microsoft Store · Android 即将登陆 Google Play",
+  "dvx.64a": "文档翻译（桌面端）"
 }

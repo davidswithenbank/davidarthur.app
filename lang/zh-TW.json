@@ -405,7 +405,7 @@
   "dvx.53": "裝置端轉錄（於支援的情況下提供翻譯）",
   "dvx.54": "28 種離線語言",
   "dvx.55": "無需網際網路即可運作",
-  "dvx.56": "輕量橫幅廣告",
+  "dvx.56": "應用程式內推廣訊息",
   "dvx.57": "無需帳號。永久免費。",
   "dvx.58": "標準版",
   "dvx.59": "最適合：旅行者、學生 &amp; 日常雙語對話",
@@ -421,7 +421,7 @@
   "dvx.69": "進階 AI 翻譯",
   "dvx.70": "每月包含 40 小時",
   "dvx.71": "字幕匯出——SRT &amp; VTT（桌面版）",
-  "dvx.72": "翻譯音訊、影片 &amp; 文件檔案（桌面版）",
+  "dvx.72": "翻譯音訊與影片檔案（桌面版）",
   "dvx.73": "翻譯詞彙表（桌面版）",
   "dvx.74": "私密模式",
   "dvx.75": "若您每月使用 20 小時以上最為划算。",
@@ -556,5 +556,6 @@
   "cta.avail_note": "Windows 版將率先透過 Microsoft Store 推出，Android 版隨後於 Google Play 上架。",
   "dvx.103": "比較內容係根據截至 2026 年 6 月的公開資訊；競爭對手的功能可能有所變動。",
   "dvx.104": "前往 duovox.net →",
-  "idx.duovox.avail": "Windows — 即將登陸 Microsoft Store · Android 即將登陸 Google Play"
+  "idx.duovox.avail": "Windows — 即將登陸 Microsoft Store · Android 即將登陸 Google Play",
+  "dvx.64a": "文件翻譯（桌面版）"
 }

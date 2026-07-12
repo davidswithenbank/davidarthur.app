@@ -405,7 +405,7 @@
   "dvx.53": "Transkripsi di perangkat (terjemahan bila didukung)",
   "dvx.54": "28 bahasa offline",
   "dvx.55": "Berfungsi tanpa internet",
-  "dvx.56": "Iklan banner ringan",
+  "dvx.56": "Pesan promosi dalam aplikasi",
   "dvx.57": "Tidak perlu akun. Gratis selamanya.",
   "dvx.58": "Standar",
   "dvx.59": "Terbaik untuk: pelancong, pelajar &amp; obrolan dwibahasa sehari-hari",
@@ -418,10 +418,10 @@
   "dvx.66": "Professional",
   "dvx.67": "Cocok untuk: bisnis dan penerjemah lisan profesional",
   "dvx.68": "Pengenalan terminologi yang ditingkatkan untuk kosakata khusus",
-  "dvx.69": "Terjemahan AI premium",
+  "dvx.69": "Terjemahan AI canggih",
   "dvx.70": "Termasuk 40 jam per bulan",
   "dvx.71": "Ekspor subtitel — SRT &amp; VTT (Desktop)",
-  "dvx.72": "Terjemahkan berkas audio, video &amp; dokumen (Desktop)",
+  "dvx.72": "Terjemahkan berkas audio & video (Desktop)",
   "dvx.73": "Glosarium Terjemahan (Desktop)",
   "dvx.74": "Mode Privat",
   "dvx.75": "Terbaik jika Anda menggunakannya 20+ jam per bulan.",
@@ -556,5 +556,6 @@
   "cta.avail_note": "Windows hadir lebih dulu melalui Microsoft Store, disusul Android di Google Play.",
   "dvx.103": "Perbandingan didasarkan pada informasi yang tersedia untuk umum per Juni 2026; fitur pesaing dapat berubah.",
   "dvx.104": "Kunjungi duovox.net →",
-  "idx.duovox.avail": "Windows — segera hadir di Microsoft Store · Android segera hadir di Google Play"
+  "idx.duovox.avail": "Windows — segera hadir di Microsoft Store · Android segera hadir di Google Play",
+  "dvx.64a": "Terjemahan dokumen (Desktop)"
 }
