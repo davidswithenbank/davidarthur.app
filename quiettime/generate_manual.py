@@ -206,7 +206,7 @@ def build():
     story.append(Paragraph("User Guide", ParagraphStyle("CoverSub", parent=styles["subtitle"],
                             fontSize=14, leading=18, textColor=TEXT_PRIMARY)))
     story.append(Spacer(1, 4*mm))
-    story.append(Paragraph("Version 2.0 &bull; Android &amp; Windows", styles["subtitle"]))
+    story.append(Paragraph("Version 2.1 &bull; Android &amp; Windows", styles["subtitle"]))
     story.append(Spacer(1, 80*mm))
     story.append(Paragraph("David Arthur Software", styles["cover_company"]))
     story.append(Paragraph("davidarthur.app", styles["cover_company"]))
@@ -224,12 +224,15 @@ def build():
         "5. Allowed Apps",
         "6. Wind-Down Warnings",
         "7. Parent Controls",
-        "8. Emergency Access",
-        "9. PIN &amp; Recovery Password",
-        "10. Activity Log",
-        "11. Windows-Specific Features",
-        "12. Privacy",
-        "13. Troubleshooting &amp; FAQ",
+        "8. Focus Sessions (Android)",
+        "9. Screen-Time Insights (Android)",
+        "10. Quick Tile &amp; Home-Screen Widget (Android)",
+        "11. Emergency Access",
+        "12. PIN &amp; Recovery Password",
+        "13. Activity Log",
+        "14. Windows-Specific Features",
+        "15. Privacy",
+        "16. Troubleshooting &amp; FAQ",
     ]
     for item in toc_items:
         story.append(Paragraph(item, styles["body"]))
@@ -316,12 +319,16 @@ def build():
         Paragraph("4. Block Screen Themes", styles["h1"]),
         Paragraph(
             "When the block period starts, the device shows a full-screen animated theme "
-            "instead of a harsh lockout message. Five themes are available:", styles["body"]),
+            "instead of a harsh lockout message. Nine themes are available:", styles["body"]),
         Paragraph("&bull; <b>Starry Night</b> &mdash; Twinkling stars with a crescent moon", styles["bullet"]),
         Paragraph("&bull; <b>Dreamy Clouds</b> &mdash; Soft, drifting clouds", styles["bullet"]),
         Paragraph("&bull; <b>Aquarium</b> &mdash; Underwater scene with gentle movement", styles["bullet"]),
         Paragraph("&bull; <b>Northern Lights</b> &mdash; Aurora borealis effect", styles["bullet"]),
         Paragraph("&bull; <b>Fireflies</b> &mdash; Warm glowing fireflies in the dark", styles["bullet"]),
+        Paragraph("&bull; <b>Lava Lamp</b> &mdash; Slow, glowing blobs rising and sinking <i>(Android, new in 2.1)</i>", styles["bullet"]),
+        Paragraph("&bull; <b>Galaxy</b> &mdash; A slowly turning spiral galaxy and a field of stars <i>(Android, new in 2.1)</i>", styles["bullet"]),
+        Paragraph("&bull; <b>Rain on Glass</b> &mdash; Raindrops running down a window past soft, out-of-focus lights <i>(Android, new in 2.1)</i>", styles["bullet"]),
+        Paragraph("&bull; <b>Silk Waves</b> &mdash; Iridescent ribbons folding over one another like satin <i>(Android, new in 2.1)</i>", styles["bullet"]),
     ]))
     add_image(story, "desktop-appearance.jpg", max_w=140*mm, max_h=85*mm,
               caption="Appearance section &mdash; pick a theme and lock level (Windows)")
@@ -330,7 +337,9 @@ def build():
     add_image(story, "desktop-blockscreen.png", max_w=140*mm, max_h=70*mm,
               caption="Starry Night block screen (Windows) with parent controls at the bottom")
     add_image(story, "blockscreen.jpg", max_w=60*mm, max_h=75*mm,
-              caption="Starry Night block screen (Android) with allowed apps and emergency call")
+              caption="Block screen (Android) with allowed apps, a named emergency contact, and the emergency call button")
+    add_image(story, "android-new-themes.jpg", max_w=150*mm, max_h=85*mm,
+              caption="The four themes added in version 2.1 (Android)")
     story.append(PageBreak())
 
     # ══════════════════════════════════════════
@@ -398,19 +407,99 @@ def build():
     hr(story)
 
     # ══════════════════════════════════════════
-    # 8. EMERGENCY ACCESS
+    # 8. FOCUS SESSIONS (Android, new in 2.1)
     # ══════════════════════════════════════════
-    story.append(Paragraph("8. Emergency Access", styles["h1"]))
+    story.append(Paragraph("8. Focus Sessions (Android)", styles["h1"]))
     story.append(Paragraph(
-        "The emergency call button is always visible on the block screen, even during an active block. "
-        "On Android, tapping it opens the phone dialler. Parents can also set a specific emergency "
-        "contact number that children can call directly from the block screen.", styles["body"]))
+        "A Focus session locks the device straight away for a fixed length of time &mdash; useful for "
+        "homework, revision, or sitting down to a meal. It works independently of the daily schedule, "
+        "so you can start one at any time of day without editing your bedtime settings.", styles["body"]))
+    add_bullets(story, "To start one, tap <b>Focus Lock</b> on the dashboard and choose a length:", [
+        "<b>25 minutes</b> &mdash; one short study block",
+        "<b>50 minutes</b> &mdash; a longer stretch of work",
+        "<b>90 minutes</b> &mdash; a full homework session",
+        "<b>Custom</b> &mdash; any length you like",
+    ])
+    add_image(story, "android-focus.jpg", max_w=62*mm, max_h=80*mm,
+              caption="Starting a Focus session from the dashboard (Android)")
     story.append(Paragraph(
-        "<i>Tip: Set an emergency contact number in Settings so your child can always reach you.</i>", styles["tip"]))
+        "While a Focus session is running the block screen behaves exactly as it does at bedtime: "
+        "allowed apps still work, the emergency call button is still there, and a parent can still "
+        "end the session early with the PIN. The session also survives a reboot, so restarting the "
+        "device is not a way around it.", styles["body"]))
+    story.append(Paragraph(
+        "<i>Tip: Focus sessions are recorded in the Activity Log, so you can see how much focused "
+        "time was actually completed.</i>", styles["tip"]))
     hr(story)
 
     # ══════════════════════════════════════════
-    # 9. PIN SECURITY
+    # 9. SCREEN-TIME INSIGHTS (Android, new in 2.1)
+    # ══════════════════════════════════════════
+    story.append(Paragraph("9. Screen-Time Insights (Android)", styles["h1"]))
+    story.append(Paragraph(
+        "Insights show how the device has actually been used: total screen time and the most-used "
+        "apps, for either today or the last seven days. It turns a conversation about screen time "
+        "into one about specific numbers rather than impressions.", styles["body"]))
+    add_image(story, "android-insights.jpg", max_w=62*mm, max_h=80*mm,
+              caption="Screen-Time Insights (Android) &mdash; total time and the most-used apps")
+    story.append(Paragraph(
+        "Android requires you to grant <b>Usage access</b> before any app can read these figures. "
+        "QuietTime asks for it the first time you open Insights and takes you to the right settings "
+        "screen; until it is granted, the screen stays empty.", styles["body"]))
+    story.append(Paragraph(
+        "The figures come from Android's own usage statistics, read at the moment you open the "
+        "screen. QuietTime displays them and nothing more &mdash; they are not stored by us, not "
+        "collected, and never leave the device.", styles["body"]))
+    hr(story)
+
+    # ══════════════════════════════════════════
+    # 10. QUICK TILE & WIDGET (Android, new in 2.1)
+    # ══════════════════════════════════════════
+    story.append(Paragraph("10. Quick Tile &amp; Home-Screen Widget (Android)", styles["h1"]))
+    story.append(Paragraph(
+        "Two shortcuts let a parent lock the device without opening the app.", styles["body"]))
+    story.append(Paragraph("Quick Settings tile", styles["h2"]))
+    story.append(Paragraph(
+        "Swipe down twice to open Quick Settings, tap the pencil or &lsquo;Edit&rsquo; button, and drag "
+        "the <b>QuietTime</b> tile into your active tiles. Tapping it starts the block immediately; "
+        "tapping it again asks for your PIN to end it.", styles["body"]))
+    add_image(story, "android-qs-tile.jpg", max_w=80*mm, max_h=70*mm,
+              caption="The QuietTime tile in Quick Settings, with the ongoing service notification below")
+    story.append(Paragraph("Home-screen widget", styles["h2"]))
+    story.append(Paragraph(
+        "Long-press an empty area of the home screen, choose <b>Widgets</b>, find QuietTime, and drop "
+        "the widget where you want it. It shows the current status at a glance and doubles as a "
+        "one-tap lock.", styles["body"]))
+    story.append(Paragraph(
+        "<i>Tip: Both shortcuts only ever start a block without a PIN. Ending one always needs the "
+        "PIN, so leaving the tile on a child's device is safe.</i>", styles["tip"]))
+    hr(story)
+
+    # ══════════════════════════════════════════
+    # 11. EMERGENCY ACCESS
+    # ══════════════════════════════════════════
+    story.append(Paragraph("11. Emergency Access", styles["h1"]))
+    story.append(Paragraph(
+        "The emergency call button is always visible on the block screen, even during an active "
+        "block. Tapping it opens the phone dialler so a genuine emergency number &mdash; 999 in the "
+        "UK, 911 in the US, 112 across the EU, or whatever applies where you are &mdash; can always "
+        "be dialled. This works whether or not you have set up an emergency contact.", styles["body"]))
+    story.append(Paragraph("Named emergency contact", styles["h2"]))
+    story.append(Paragraph(
+        "In Settings you can also add one emergency contact: a phone number and a name. When both "
+        "are set, a second button appears on the block screen reading, for example, "
+        "<b>Call Grandma</b> &mdash; so a child taps a familiar name rather than trying to remember "
+        "a number. The name is limited to 20 characters so the button stays readable. If no number "
+        "is set, the button is hidden entirely rather than shown and doing nothing.", styles["body"]))
+    add_image(story, "android-emergency-settings.jpg", max_w=130*mm, max_h=70*mm,
+              caption="Emergency contact name and number in Settings (Android)")
+    story.append(Paragraph(
+        "<i>Tip: Use a name your child actually uses &mdash; &lsquo;Mum&rsquo; or &lsquo;Grandma&rsquo; "
+        "reads better under pressure than a full name.</i>", styles["tip"]))
+    hr(story)
+
+    # ══════════════════════════════════════════
+    # 12. PIN SECURITY
     # ══════════════════════════════════════════
     add_bullets(story,
         "Your 6-digit PIN protects all settings and controls. Without the PIN, children cannot:",
@@ -420,7 +509,7 @@ def build():
             "Grant extra time",
             "Override the block",
             "Change the PIN",
-        ], h1="9. PIN &amp; Recovery Password")
+        ], h1="12. PIN &amp; Recovery Password")
     story.append(Paragraph(
         "You can change your PIN at any time from the Settings page.", styles["body"]))
     story.append(Paragraph("Recovery Password", styles["h2"]))
@@ -437,12 +526,12 @@ def build():
     hr(story)
 
     # ══════════════════════════════════════════
-    # 10. ACTIVITY LOG
+    # 13. ACTIVITY LOG
     # ══════════════════════════════════════════
     add_image(story, "desktop-activitylog.jpg", max_w=140*mm, max_h=85*mm,
               caption="Activity Log (Windows) &mdash; 7-day summary, filter, colour-coded entries grouped by day, with Export and PIN-protected Clear",
               prepend=[
-                  Paragraph("10. Activity Log", styles["h1"]),
+                  Paragraph("13. Activity Log", styles["h1"]),
                   Paragraph(
                       "QuietTime keeps a local activity log on your device so you can review how the app "
                       "has been used. Open it from the <b>Activity Log</b> entry in the Settings sidebar. "
@@ -453,6 +542,7 @@ def build():
         "Block period start and end times (paired into a single &lsquo;block period&rsquo; row with duration)",
         "Parent overrides used",
         "Extra time granted",
+        "Focus sessions started and ended (Android)",
         "Schedule preset applied, saved, or deleted",
         "Day off added or removed",
         "Settings changes",
@@ -510,7 +600,7 @@ def build():
     hr(story)
 
     # ══════════════════════════════════════════
-    # 10. WINDOWS-SPECIFIC FEATURES
+    # 14. WINDOWS-SPECIFIC FEATURES
     # ══════════════════════════════════════════
     add_bullets(story,
         "Windows offers three lock levels to control how strictly the block screen is enforced:",
@@ -518,7 +608,7 @@ def build():
             "<b>Gentle</b> &mdash; Shows the block screen but can be dismissed. Good for older children.",
             "<b>Standard</b> &mdash; Fullscreen overlay that requires the PIN to dismiss. Can be bypassed via Task Manager.",
             "<b>Strict</b> &mdash; Fullscreen overlay that cannot be bypassed without the PIN. Task Manager is blocked.",
-        ], h1="11. Windows-Specific Features", h2="Lock Level")
+        ], h1="14. Windows-Specific Features", h2="Lock Level")
     story.append(Paragraph("Start with Windows", styles["h2"]))
     story.append(Paragraph(
         "Enable this option to have QuietTime start automatically when the computer boots. "
@@ -526,24 +616,30 @@ def build():
     hr(story)
 
     # ══════════════════════════════════════════
-    # 11. PRIVACY — keep together so it doesn't split across pages
+    # 15. PRIVACY — keep together so it doesn't split across pages
     # ══════════════════════════════════════════
     privacy_block = [
-        Paragraph("12. Privacy", styles["h1"]),
+        Paragraph("15. Privacy", styles["h1"]),
         Paragraph("QuietTime is designed with privacy at its core:", styles["body"]),
         Paragraph("&bull; <b>No accounts</b> &mdash; No sign-up or login required.", styles["bullet"]),
         Paragraph("&bull; <b>No cloud</b> &mdash; All data stays on your device. Nothing is sent to any server.", styles["bullet"]),
         Paragraph("&bull; <b>No tracking</b> &mdash; No analytics, no usage data, no telemetry.", styles["bullet"]),
         Paragraph("&bull; <b>No ads</b> &mdash; No advertisements of any kind.", styles["bullet"]),
+        Paragraph(
+            "Screen-Time Insights is the one screen that reads data from outside QuietTime, and it "
+            "is worth being precise about: the figures come from Android's own usage statistics on "
+            "the device, are read only at the moment you open the screen, and are shown to you and "
+            "nothing else. They are not stored by us, not collected, and never leave the device.",
+            styles["body"]),
         Paragraph("For full details, see the Privacy Policy at davidarthur.app/quiettime/privacy/.", styles["body"]),
     ]
     story.append(KeepTogether(privacy_block))
     hr(story)
 
     # ══════════════════════════════════════════
-    # 12. TROUBLESHOOTING & FAQ
+    # 16. TROUBLESHOOTING & FAQ
     # ══════════════════════════════════════════
-    story.append(Paragraph("13. Troubleshooting &amp; FAQ", styles["h1"]))
+    story.append(Paragraph("16. Troubleshooting &amp; FAQ", styles["h1"]))
 
     faqs = [
         ("Can my child bypass QuietTime?",
@@ -551,7 +647,18 @@ def build():
          "On Windows, the Strict lock level blocks Task Manager. No method is 100% foolproof, but QuietTime is designed "
          "to make bypassing difficult for children."),
         ("What happens during emergencies?",
-         "The emergency call button is always visible on the block screen. Parents can also override or grant extra time at any moment with their PIN."),
+         "The emergency call button is always visible on the block screen and opens the dialler, so a genuine "
+         "emergency number (999, 911, 112, or whatever applies locally) can always be called &mdash; with or without "
+         "an emergency contact set up. If you have added a contact and a name, a second button appears showing that "
+         "name, so your child does not need to remember the number. Parents can also override or grant extra time "
+         "at any moment with their PIN."),
+        ("Does a Focus session survive a restart?",
+         "Yes. Restarting the device does not end a Focus session &mdash; QuietTime restores it on boot and the block "
+         "screen comes straight back. The session ends when its time is up, or earlier if a parent ends it with the PIN."),
+        ("Why does Screen-Time Insights need Usage access?",
+         "Android does not let any app see how long other apps have been used until you grant Usage access in system "
+         "settings. QuietTime asks once and takes you to the right screen. Nothing is read until you grant it, and the "
+         "figures are only ever displayed on your device."),
         ("What if I forget my PIN?",
          "Use your recovery password to reset it. If you've lost both your PIN and recovery password, "
          "you'll need to clear the app's data or reinstall, which will remove all settings and schedules. "
