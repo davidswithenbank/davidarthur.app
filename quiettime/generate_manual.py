@@ -643,9 +643,11 @@ def build():
 
     faqs = [
         ("Can my child bypass QuietTime?",
-         "On Android, QuietTime uses device administrator permissions and accessibility services to prevent bypass. "
-         "On Windows, the Strict lock level blocks Task Manager. No method is 100% foolproof, but QuietTime is designed "
-         "to make bypassing difficult for children."),
+         "On Android the block screen is a system overlay window, so it stays on top of games, video and other "
+         "fullscreen apps, and it comes back after a restart. Optional device administrator permission also stops "
+         "the app being uninstalled during quiet hours. QuietTime does <b>not</b> use an accessibility service and "
+         "never reads the contents of your screen. On Windows, the Strict lock level blocks Task Manager. No method "
+         "is 100% foolproof, but QuietTime is designed to make bypassing difficult for children."),
         ("What happens during emergencies?",
          "The emergency call button is always visible on the block screen and opens the dialler, so a genuine "
          "emergency number (999, 911, 112, or whatever applies locally) can always be called &mdash; with or without "
