@@ -24,7 +24,7 @@
   "home.features.title": "Why DuoVox?",
   "home.feat.dual.title": "Clear Two-Way Conversations",
   "home.feat.dual.desc": "See both sides of the dialogue separately, so nothing gets mixed up. Each language gets its own dedicated panel with real-time text.",
-  "home.feat.langs.title": "50+ Languages",
+  "home.feat.langs.title": "49 Languages",
   "home.feat.langs.desc": "From English and Russian to Japanese, Arabic, Hindi and many more. The full interface is available in every supported language, not just the transcription.",
   "home.feat.ai.title": "Instant Translations",
   "home.feat.ai.desc": "Get fast, natural-sounding translations that follow the flow of real speech. DuoVox understands idioms, accents, and everyday language.",
@@ -209,7 +209,7 @@
   "dvx.88": "Yes. DuoVox uses dual-lane transcription with automatic language detection to route each side to its own lane; you can switch lanes if needed. Each speaker's words appear in their own panel, and translations appear alongside in real time.",
   "dvx.90": "We don't store your audio. On paid tiers it's streamed to our AI provider for processing only and is not intentionally retained; the provider may keep limited operational logs under its own policy. Enable Private Mode for the strictest option. On the Free tier, all processing happens entirely on your device.",
   "dvx.92": "Windows is coming first via the Microsoft Store; Android to follow on Google Play. The full pricing structure shown above is locked in.",
-  "dvx.96": "Yes. DuoVox includes built-in offline transcription with 28 languages on every tier, including Free. Offline translation is available where your device resources allow. AI-powered features require an internet connection.",
+  "dvx.96": "Yes. DuoVox includes built-in offline transcription with 30 languages on every tier, including Free. Offline translation is available where your device resources allow. AI-powered features require an internet connection.",
   "dvx.104": "Visit duovox.net →",
   "idx.duovox.avail": "Windows — coming soon to the Microsoft Store · Android coming to Google Play",
   "cnt.14": "Business and enterprise enquiries, partnerships, and priority support.",
@@ -217,7 +217,7 @@
   "dvx.64a": "Document translation (Desktop)",
   "dvx.69": "Advanced AI translation",
   "dvx.72": "Translate audio & video files (Desktop)",
-  "dvx.5": "51 languages and variants",
-  "dvx.23": "Select a primary language and a target language. DuoVox supports 51 languages and variants on paid tiers and 28 offline.",
-  "dvx.62": "51 supported languages and variants"
+  "dvx.5": "49 languages",
+  "dvx.23": "Select a primary language and a target language. DuoVox offers 49 languages — 43 on Professional, 33 on Standard, and 30 that work offline on Free.",
+  "dvx.62": "33 supported languages"
 }
