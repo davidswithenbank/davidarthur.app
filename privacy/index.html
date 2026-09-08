@@ -30,9 +30,9 @@
 
 <main class="legal">
     <h1 data-i18n="priv.title">Privacy Policy</h1>
-    <p class="last-updated">Last updated: 11 July 2026</p>
+    <p class="last-updated">Last updated: 8 September 2026</p>
 
-    <p data-i18n="priv.intro">David Arthur Software ("DAS", "we", "our", "us") operates the DuoVox application (the "App"). This Privacy Policy explains what data the App collects, how it is used, how we protect it, and your rights. DAS is the data controller for all personal data processed in connection with the App.</p>
+    <p data-i18n="priv.intro">David Arthur Software ("DAS", "we", "our", "us") operates the DuoVox application (the "App"). DuoVox is currently a Windows desktop application distributed through the Microsoft Store; where this policy describes Android behaviour, that applies only if and when an Android version is offered. This Privacy Policy explains what data the App collects, how it is used, how we protect it, and your rights. DAS is the data controller for all personal data processed in connection with the App.</p>
 
     <p><strong>Data Controller:</strong> David Arthur Software, Kirkbymoorside, York, YO62 6LJ, United Kingdom<br>
     <strong>Contact:</strong> <a href="mailto:info@duovox.net">info@duovox.net</a></p>
@@ -43,7 +43,7 @@
 
     <p><strong>Audio Data (Paid Tiers):</strong> When using online transcription (Standard, Professional, or Pay-As-You-Go), audio is captured from your device's microphone or internal audio and streamed in real time to third-party processing providers for transcription. Audio is processed in real time and is not stored by us. Our providers process it to return a result and may keep limited operational logs under their own privacy policies, which can change without notice &mdash; please review their policies. You are responsible for obtaining any consent required to record, transcribe, or translate a conversation.</p>
 
-    <p><strong>Audio Data (Free Tier):</strong> When using offline transcription, all audio processing occurs entirely on your device using locally installed speech-recognition models. No audio data leaves your device.</p>
+    <p><strong>Audio Data (Free offline mode):</strong> When a session runs offline, all audio processing occurs entirely on your device using locally installed speech-recognition models and no audio data leaves your device. Note that &ldquo;Free&rdquo; describes the plan you are on, not necessarily how a given session runs: if you hold Pay-As-You-Go credits without a subscription, sessions funded by those credits run online and the audio and text are processed as described in the paragraph above, until your credits are exhausted.</p>
 
     <p><strong>Transcription and Translation Text:</strong> Transcribed and translated text is displayed in the App during your session. This data is held in device memory only and is cleared when you clear the session or close the App. For paid tiers, text may be sent to a processing provider for translation; it is processed in real time and is not stored by us.</p>
 
@@ -55,7 +55,7 @@
 
     <p>To manage subscriptions, prevent abuse, and deliver the service, our cloud infrastructure stores the following data associated with an anonymous device identifier:</p>
     <ul>
-        <li><strong>Subscription information:</strong> Your subscription tier, purchase verification tokens (hashed), and billing cycle dates</li>
+        <li><strong>Subscription information:</strong> Your subscription tier, purchase verification tokens, and billing cycle dates. A purchase token is held only while your subscription is active - it is what lets us re-check with the app store that the subscription is still valid - and it is deleted as soon as the subscription ends</li>
         <li><strong>Usage tracking:</strong> Minutes of AI usage consumed in the current billing cycle</li>
         <li><strong>Device verification:</strong> App integrity verification results to prevent unauthorised access</li>
         <li><strong>Session statistics:</strong> When a transcription session ends, the App sends a small technical summary to our infrastructure: app version, subscription tier, session length in minutes, whether on-device or online processing was used, and counts of any service errors. These summaries apply to all tiers, including the Free tier, and never include audio, transcriptions, translations, or any conversation content. We use them to monitor service health, plan capacity, and understand overall usage of the App.</li>
@@ -87,7 +87,7 @@
     <h2>6. Data Retention</h2>
     <p>We keep personal data only as long as necessary for the purposes set out in this policy:</p>
     <ul>
-        <li><strong>Service infrastructure / operational data</strong> (anonymous device identifier, usage minutes, device-verification data) &mdash; retained for up to <strong>12 months</strong> after a subscription ends or is cancelled, to prevent fraud and resolve billing disputes.</li>
+        <li><strong>Service infrastructure / operational data</strong> (anonymous device identifier, usage minutes, device-verification data) &mdash; retained for up to <strong>12 months</strong> after a subscription ends or is cancelled, to prevent fraud and resolve billing disputes. The one exception is a device still holding unspent Pay-As-You-Go credit: because credits never expire, that record is kept until the credit is spent. We also keep the list of purchases already credited to a device, so that a purchase cannot be credited twice.</li>
         <li><strong>Session statistics</strong> (see section 2) &mdash; individual session summaries are kept on a rolling basis and automatically deleted, typically within <strong>30 days</strong> and in any event within <strong>12 months</strong>; after that only aggregate statistics (session counts and durations) that are not linked to any device are retained.</li>
         <li><strong>Support correspondence</strong> &mdash; retained for up to <strong>24 months</strong>.</li>
         <li><strong>Audio and transcripts</strong> &mdash; processed in real time and not stored by us (see section 1).</li>
