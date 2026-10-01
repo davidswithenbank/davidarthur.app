@@ -815,5 +815,8 @@
   "sec.standard.f4": "Üçüncü taraf işleme sağlayıcıları verileri kendi gizlilik politikaları kapsamında işler ve mevcut veri politikaları uyarınca API verilerini model eğitimi için kullanmaz",
   "sec.standard.intro": "Özel Mod etkin değilken:",
   "sec.standard.title": "Standart Mod (Bulut İşleme)",
-  "sec.title": "DuoVox’ta Güvenlik ve Gizlilik"
+  "sec.title": "DuoVox’ta Güvenlik ve Gizlilik",
+  "dvx.video.title": "DuoVox'u iş başında görün",
+  "dvx.video.note": "Video YouTube üzerinden oynatılır. Oynat düğmesine basana kadar YouTube'dan hiçbir şey yüklenmez.",
+  "dvx.video.link": "YouTube'da izle"
 }

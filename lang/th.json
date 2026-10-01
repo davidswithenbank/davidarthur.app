@@ -815,5 +815,8 @@
   "sec.standard.f4": "ผู้ให้บริการประมวลผลของบุคคลที่สามจัดการข้อมูลภายใต้นโยบายความเป็นส่วนตัวของตนเอง และไม่ใช้ข้อมูล API เพื่อการฝึกโมเดลภายใต้นโยบายข้อมูลปัจจุบันของพวกเขา",
   "sec.standard.intro": "เมื่อไม่ได้เปิดใช้งาน Private Mode:",
   "sec.standard.title": "Standard Mode (Cloud Processing)",
-  "sec.title": "ความปลอดภัยและความเป็นส่วนตัวที่ DuoVox"
+  "sec.title": "ความปลอดภัยและความเป็นส่วนตัวที่ DuoVox",
+  "dvx.video.title": "ชม DuoVox ขณะใช้งานจริง",
+  "dvx.video.note": "วิดีโอนี้เล่นจาก YouTube จะไม่มีการโหลดข้อมูลใด ๆ จาก YouTube จนกว่าคุณจะกดเล่น",
+  "dvx.video.link": "ดูบน YouTube"
 }

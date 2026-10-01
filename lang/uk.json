@@ -815,5 +815,8 @@
   "sec.standard.f4": "Сторонні постачальники обробки працюють із даними відповідно до власних privacy policy і не використовують дані API для навчання моделей згідно зі своїми поточними політиками щодо даних",
   "sec.standard.intro": "Коли Private Mode не увімкнено:",
   "sec.standard.title": "Standard Mode (хмарна обробка)",
-  "sec.title": "Безпека та приватність у DuoVox"
+  "sec.title": "Безпека та приватність у DuoVox",
+  "dvx.video.title": "Подивіться DuoVox у дії",
+  "dvx.video.note": "Відео відтворюється з YouTube. З YouTube нічого не завантажується, доки ви не натиснете «Відтворити».",
+  "dvx.video.link": "Дивитися на YouTube"
 }

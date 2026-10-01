@@ -815,5 +815,8 @@
   "sec.standard.f4": "第三方处理服务提供商根据其自身隐私政策处理数据，并且根据其当前的数据政策，不会将 API 数据用于模型训练",
   "sec.standard.intro": "未启用 Private Mode 时：",
   "sec.standard.title": "标准模式（云端处理）",
-  "sec.title": "DuoVox 的安全与隐私"
+  "sec.title": "DuoVox 的安全与隐私",
+  "dvx.video.title": "观看 DuoVox 实际演示",
+  "dvx.video.note": "视频通过 YouTube 播放。在您点击播放之前，不会从 YouTube 加载任何内容。",
+  "dvx.video.link": "在 YouTube 上观看"
 }

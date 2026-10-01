@@ -815,5 +815,8 @@
   "sec.standard.f4": "Verarbeitungsanbieter von Drittanbietern verarbeiten Daten gemäß ihren eigenen Datenschutzrichtlinien und verwenden API-Daten nach ihren aktuellen Datenrichtlinien nicht für Modelltraining",
   "sec.standard.intro": "Wenn der Private Mode nicht aktiviert ist:",
   "sec.standard.title": "Standard Mode (Cloud-Verarbeitung)",
-  "sec.title": "Sicherheit & Datenschutz bei DuoVox"
+  "sec.title": "Sicherheit & Datenschutz bei DuoVox",
+  "dvx.video.title": "DuoVox in Aktion",
+  "dvx.video.note": "Das Video wird über YouTube abgespielt. Von YouTube wird nichts geladen, bis Sie auf Wiedergabe klicken.",
+  "dvx.video.link": "Auf YouTube ansehen"
 }

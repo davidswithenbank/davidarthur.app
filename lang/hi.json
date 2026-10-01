@@ -815,5 +815,8 @@
   "sec.standard.f4": "Third-party processing providers डेटा को अपनी privacy policies के तहत संभालते हैं और अपनी वर्तमान data policies के तहत model training के लिए API data का उपयोग नहीं करते",
   "sec.standard.intro": "जब Private Mode सक्षम नहीं होता:",
   "sec.standard.title": "Standard Mode (Cloud Processing)",
-  "sec.title": "DuoVox में सुरक्षा और गोपनीयता"
+  "sec.title": "DuoVox में सुरक्षा और गोपनीयता",
+  "dvx.video.title": "DuoVox को काम करते हुए देखें",
+  "dvx.video.note": "वीडियो YouTube से चलता है। जब तक आप प्ले नहीं दबाते, YouTube से कुछ भी लोड नहीं होता।",
+  "dvx.video.link": "YouTube पर देखें"
 }

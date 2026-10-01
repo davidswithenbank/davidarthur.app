@@ -309,5 +309,8 @@
   "dvx.95": "Does it work without internet?",
   "dvx.97": "Do I need to create an account?",
   "dvx.98": "No. DuoVox works without accounts or sign-ups. Download the app and start using it immediately. Subscriptions are managed through Google Play or the Microsoft Store.",
-  "dvx.99": "Accuracy Disclaimer"
+  "dvx.99": "Accuracy Disclaimer",
+  "dvx.video.title": "See DuoVox in action",
+  "dvx.video.note": "The video plays from YouTube. Nothing is loaded from YouTube until you press play.",
+  "dvx.video.link": "Watch on YouTube"
 }

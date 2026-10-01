@@ -815,5 +815,8 @@
   "sec.standard.f4": "Các nhà cung cấp xử lý bên thứ ba xử lý dữ liệu theo chính sách quyền riêng tư riêng của họ và không sử dụng dữ liệu API để huấn luyện mô hình theo các chính sách dữ liệu hiện hành của họ",
   "sec.standard.intro": "Khi Chế độ Riêng tư không được bật:",
   "sec.standard.title": "Chế độ Tiêu chuẩn (Xử lý đám mây)",
-  "sec.title": "Bảo mật & Quyền riêng tư tại DuoVox"
+  "sec.title": "Bảo mật & Quyền riêng tư tại DuoVox",
+  "dvx.video.title": "Xem DuoVox hoạt động",
+  "dvx.video.note": "Video được phát từ YouTube. Không có gì được tải từ YouTube cho đến khi bạn nhấn phát.",
+  "dvx.video.link": "Xem trên YouTube"
 }

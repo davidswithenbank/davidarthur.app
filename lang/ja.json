@@ -815,5 +815,8 @@
   "sec.standard.f4": "第三者の処理プロバイダーは、自社のプライバシーポリシーに基づいてデータを取り扱い、現在のデータポリシーの下ではAPIデータをモデル学習に使用しません",
   "sec.standard.intro": "Private Modeが有効でない場合：",
   "sec.standard.title": "Standard Mode（クラウド処理）",
-  "sec.title": "DuoVoxのセキュリティとプライバシー"
+  "sec.title": "DuoVoxのセキュリティとプライバシー",
+  "dvx.video.title": "DuoVox の動作をご覧ください",
+  "dvx.video.note": "動画は YouTube から再生されます。再生ボタンを押すまで、YouTube からは何も読み込まれません。",
+  "dvx.video.link": "YouTube で見る"
 }

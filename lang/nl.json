@@ -815,5 +815,8 @@
   "sec.standard.f4": "Externe verwerkingsproviders verwerken gegevens onder hun eigen privacybeleid en gebruiken API-gegevens niet voor modeltraining onder hun huidige gegevensbeleid",
   "sec.standard.intro": "Wanneer de Privémodus niet is ingeschakeld:",
   "sec.standard.title": "Standaardmodus (Cloudverwerking)",
-  "sec.title": "Beveiliging & privacy bij DuoVox"
+  "sec.title": "Beveiliging & privacy bij DuoVox",
+  "dvx.video.title": "Bekijk DuoVox in actie",
+  "dvx.video.note": "De video wordt afgespeeld via YouTube. Er wordt niets van YouTube geladen totdat je op afspelen drukt.",
+  "dvx.video.link": "Bekijk op YouTube"
 }

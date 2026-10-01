@@ -815,5 +815,8 @@
   "sec.standard.f4": "Penyedia pemrosesan pihak ketiga menangani data berdasarkan kebijakan privasi mereka sendiri dan tidak menggunakan data API untuk pelatihan model berdasarkan kebijakan data mereka saat ini",
   "sec.standard.intro": "Saat Private Mode tidak diaktifkan:",
   "sec.standard.title": "Standard Mode (Pemrosesan Cloud)",
-  "sec.title": "Keamanan & Privasi di DuoVox"
+  "sec.title": "Keamanan & Privasi di DuoVox",
+  "dvx.video.title": "Lihat DuoVox beraksi",
+  "dvx.video.note": "Video diputar dari YouTube. Tidak ada yang dimuat dari YouTube sampai Anda menekan putar.",
+  "dvx.video.link": "Tonton di YouTube"
 }

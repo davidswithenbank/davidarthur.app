@@ -815,5 +815,8 @@
   "sec.standard.f4": "제3자 처리 제공업체는 자체 개인정보 처리방침에 따라 데이터를 처리하며, 현재의 데이터 정책상 API 데이터를 모델 학습에 사용하지 않습니다",
   "sec.standard.intro": "Private Mode가 활성화되지 않은 경우:",
   "sec.standard.title": "Standard Mode (클라우드 처리)",
-  "sec.title": "DuoVox의 보안 및 개인정보 보호"
+  "sec.title": "DuoVox의 보안 및 개인정보 보호",
+  "dvx.video.title": "DuoVox가 작동하는 모습을 확인하세요",
+  "dvx.video.note": "동영상은 YouTube에서 재생됩니다. 재생 버튼을 누르기 전에는 YouTube에서 아무것도 불러오지 않습니다.",
+  "dvx.video.link": "YouTube에서 보기"
 }

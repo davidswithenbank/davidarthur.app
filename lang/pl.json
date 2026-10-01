@@ -815,5 +815,8 @@
   "sec.standard.f4": "Zewnętrzni dostawcy przetwarzania obsługują dane zgodnie z własnymi politykami prywatności i zgodnie z ich obecnymi zasadami dotyczącymi danych nie wykorzystują danych API do trenowania modeli",
   "sec.standard.intro": "Gdy Tryb prywatny nie jest włączony:",
   "sec.standard.title": "Tryb standardowy (przetwarzanie w chmurze)",
-  "sec.title": "Bezpieczeństwo i prywatność w DuoVox"
+  "sec.title": "Bezpieczeństwo i prywatność w DuoVox",
+  "dvx.video.title": "Zobacz DuoVox w akcji",
+  "dvx.video.note": "Film jest odtwarzany z YouTube. Nic nie jest pobierane z YouTube, dopóki nie naciśniesz odtwarzania.",
+  "dvx.video.link": "Obejrzyj w YouTube"
 }

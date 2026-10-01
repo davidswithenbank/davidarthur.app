@@ -815,5 +815,8 @@
   "sec.standard.f4": "Los proveedores de procesamiento de terceros manejan los datos conforme a sus propias políticas de privacidad y no utilizan datos de API para entrenamiento de modelos según sus políticas de datos actuales",
   "sec.standard.intro": "Cuando el Modo privado no está activado:",
   "sec.standard.title": "Modo estándar (procesamiento en la nube)",
-  "sec.title": "Seguridad y privacidad en DuoVox"
+  "sec.title": "Seguridad y privacidad en DuoVox",
+  "dvx.video.title": "Mira DuoVox en acción",
+  "dvx.video.note": "El vídeo se reproduce desde YouTube. No se carga nada de YouTube hasta que pulses reproducir.",
+  "dvx.video.link": "Ver en YouTube"
 }
