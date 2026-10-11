@@ -190,7 +190,7 @@
   "cta.ms_soon": "Coming soon to the Microsoft Store",
   "cta.play_soon": "Coming soon to Google Play",
   "cta.avail_note": "Available now on Windows via the Microsoft Store, with Android to follow on Google Play.",
-  "dvx.2": "DuoVox translates conversations as you speak. Whether you're travelling abroad or working with international clients, you'll understand the conversation in real time.",
+  "dvx.2": "Built for professional interpreters, and for anyone in a two-language conversation. DuoVox writes down both sides of the conversation as it happens, in both languages, so you can follow and check every detail in real time.",
   "dvx.14": "Get fast, natural-sounding translations that follow the flow of real speech. DuoVox is built to cope with real-world speech — idioms, accents, and everyday language — though accuracy can vary.",
   "dvx.16": "No signal? No problem. DuoVox includes built-in offline transcription that works without internet on every tier, with offline translation available where device resources allow. Great for holidays and travel.",
   "dvx.20": "We don't store your audio. On paid tiers it's streamed to our AI provider for processing only and is not intentionally retained; the provider may keep limited operational logs under its own policy. Enable Private Mode for the strictest option.",
@@ -368,5 +368,6 @@
   "home.cmpx.title": "Why DuoVox Stands Out",
   "home.cmpx.turn": "Turn-based",
   "home.pricing.free.micro": "No account needed. Free forever.",
-  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">How DuoVox helps interpreters &rarr;</a>"
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">How DuoVox helps interpreters &rarr;</a>",
+  "idx.4": "Built for professional interpreters and anyone in a two-language conversation: real-time captions and translation across 49 languages."
 }
