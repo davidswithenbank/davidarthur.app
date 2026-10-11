@@ -449,7 +449,7 @@
   "dvx.97": "Czy muszę zakładać konto?",
   "dvx.98": "Nie. DuoVox działa bez kont i rejestracji. Pobierz aplikację i zacznij z niej korzystać od razu. Subskrypcjami zarządza się przez Google Play lub Microsoft Store.",
   "dvx.99": "Zastrzeżenie dotyczące dokładności",
-  "dvx.100": "DuoVox wykorzystuje rozpoznawanie mowy oparte na AI oraz tłumaczenie maszynowe, aby wspomagać komunikację. Jak wszystkie narzędzia do transkrypcji i tłumaczenia, <strong>wyniki mogą zawierać błędy</strong> i nie powinny być traktowane jako dosłowny lub certyfikowany zapis. Na dokładność mogą wpływać hałas w tle, akcenty, jakość mikrofonu, nakładająca się mowa oraz terminologia specjalistyczna. DuoVox jest <strong>pomocą w komunikacji</strong> i nie należy na nim polegać w celach prawnych, medycznych, krytycznych dla bezpieczeństwa, finansowych ani urzędowych. Zawsze weryfikuj ważne informacje niezależnie.",
+  "dvx.100": "DuoVox wykorzystuje rozpoznawanie mowy oparte na AI oraz tłumaczenie maszynowe, aby wspomagać komunikację. Jak wszystkie narzędzia do transkrypcji i tłumaczenia, <strong>wyniki mogą zawierać błędy</strong> i nie powinny być traktowane jako dosłowny lub certyfikowany zapis. Na dokładność mogą wpływać hałas w tle, akcenty, jakość mikrofonu, nakładająca się mowa oraz terminologia specjalistyczna. DuoVox jest <strong>pomocą w komunikacji</strong> i nie należy na nim polegać jako na jedynym źródle znaczenia w sytuacjach prawnych, medycznych, krytycznych dla bezpieczeństwa, finansowych ani urzędowych. Zawsze weryfikuj ważne informacje niezależnie.",
   "dvx.101": "Gotowy, by przełamać barierę językową?",
   "dvx.102": "Zacznij od planu darmowego — bez konta, bez karty kredytowej, bez zobowiązań.",
   "qt.1": "Prosta kontrola czasu przed ekranem, która szanuje prywatność Twojej rodziny.",
@@ -875,5 +875,6 @@
   "home.cmpx.turn": "Naprzemienne",
   "home.pricing.free.micro": "Bez konieczności zakładania konta. Darmowy na zawsze.",
   "dvx.105": "Jak zacząć?",
-  "dvx.106": "Obejrzyj nasz dwuminutowy <a href=\"https://youtu.be/HkShFc4QTUs\">film dla początkujących</a>. Pokazuje on, jak wybrać dwa języki, określić, czego DuoVox ma słuchać, rozpocząć tworzenie napisów, zmienić układ i znaleźć wszystko inne w menu. Menu w aplikacji zawiera także pełny Przewodnik użytkownika i Pomoc."
+  "dvx.106": "Obejrzyj nasz dwuminutowy <a href=\"https://youtu.be/HkShFc4QTUs\">film dla początkujących</a>. Pokazuje on, jak wybrać dwa języki, określić, czego DuoVox ma słuchać, rozpocząć tworzenie napisów, zmienić układ i znaleźć wszystko inne w menu. Menu w aplikacji zawiera także pełny Przewodnik użytkownika i Pomoc.",
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Jak DuoVox pomaga tłumaczom ustnym &rarr;</a>"
 }

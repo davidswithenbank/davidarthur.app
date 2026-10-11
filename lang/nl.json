@@ -449,7 +449,7 @@
   "dvx.97": "Moet ik een account aanmaken?",
   "dvx.98": "Nee. DuoVox werkt zonder accounts of aanmeldingen. Download de app en begin meteen met gebruiken. Abonnementen worden beheerd via Google Play of de Microsoft Store.",
   "dvx.99": "Disclaimer over nauwkeurigheid",
-  "dvx.100": "DuoVox gebruikt AI-gestuurde spraakherkenning en machinevertaling om de communicatie te ondersteunen. Zoals bij alle transcriptie- en vertaaltools <strong>kunnen de resultaten fouten bevatten</strong> en mogen ze niet worden beschouwd als een woordelijk of gecertificeerd verslag. De nauwkeurigheid kan worden beïnvloed door achtergrondgeluid, accenten, microfoonkwaliteit, overlappende spraak en vakspecifieke terminologie. DuoVox is een <strong>hulpmiddel voor communicatie</strong> en mag niet worden vertrouwd voor juridische, medische, veiligheidskritieke, financiële of officiële doeleinden. Verifieer belangrijke informatie altijd onafhankelijk.",
+  "dvx.100": "DuoVox gebruikt AI-gestuurde spraakherkenning en machinevertaling om de communicatie te ondersteunen. Zoals bij alle transcriptie- en vertaaltools <strong>kunnen de resultaten fouten bevatten</strong> en mogen ze niet worden beschouwd als een woordelijk of gecertificeerd verslag. De nauwkeurigheid kan worden beïnvloed door achtergrondgeluid, accenten, microfoonkwaliteit, overlappende spraak en vakspecifieke terminologie. DuoVox is een <strong>hulpmiddel voor communicatie</strong> en mag niet worden vertrouwd als de enige bron van betekenis in juridische, medische, veiligheidskritieke, financiële of officiële situaties. Verifieer belangrijke informatie altijd onafhankelijk.",
   "dvx.101": "Klaar om de taalbarrière te doorbreken?",
   "dvx.102": "Begin met het gratis abonnement — geen account, geen creditcard, geen verplichtingen.",
   "qt.1": "Eenvoudige schermtijdcontrole die de privacy van je gezin respecteert.",
@@ -875,5 +875,6 @@
   "home.cmpx.turn": "Om de beurt",
   "home.pricing.free.micro": "Geen account nodig. Voor altijd gratis.",
   "dvx.105": "Hoe begin ik?",
-  "dvx.106": "Bekijk onze <a href=\"https://youtu.be/HkShFc4QTUs\">video van twee minuten om aan de slag te gaan</a>. Daarin zie je hoe je je twee talen kiest, kiest waar DuoVox naar luistert, ondertiteling start, de lay-out wijzigt en al het andere in het menu vindt. Het menu in de app bevat ook een volledige Gebruikershandleiding en Hulp."
+  "dvx.106": "Bekijk onze <a href=\"https://youtu.be/HkShFc4QTUs\">video van twee minuten om aan de slag te gaan</a>. Daarin zie je hoe je je twee talen kiest, kiest waar DuoVox naar luistert, ondertiteling start, de lay-out wijzigt en al het andere in het menu vindt. Het menu in de app bevat ook een volledige Gebruikershandleiding en Hulp.",
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Hoe DuoVox tolken helpt &rarr;</a>"
 }

@@ -449,7 +449,7 @@
   "dvx.97": "Apakah saya perlu membuat akun?",
   "dvx.98": "Tidak. DuoVox berfungsi tanpa akun atau pendaftaran. Unduh aplikasinya dan langsung gunakan. Langganan dikelola melalui Google Play atau Microsoft Store.",
   "dvx.99": "Penafian Akurasi",
-  "dvx.100": "DuoVox menggunakan pengenalan ucapan bertenaga AI dan terjemahan mesin untuk membantu komunikasi. Seperti semua alat transkripsi dan terjemahan, <strong>hasilnya mungkin mengandung kesalahan</strong> dan tidak boleh dianggap sebagai catatan kata demi kata atau tersertifikasi. Akurasi dapat dipengaruhi oleh kebisingan latar belakang, aksen, kualitas mikrofon, ucapan yang tumpang tindih, dan terminologi spesifik bidang. DuoVox adalah <strong>alat bantu komunikasi</strong> dan tidak boleh diandalkan untuk keperluan hukum, medis, keselamatan kritis, keuangan, atau resmi. Selalu verifikasi informasi penting secara independen.",
+  "dvx.100": "DuoVox menggunakan pengenalan ucapan bertenaga AI dan terjemahan mesin untuk membantu komunikasi. Seperti semua alat transkripsi dan terjemahan, <strong>hasilnya mungkin mengandung kesalahan</strong> dan tidak boleh dianggap sebagai catatan kata demi kata atau tersertifikasi. Akurasi dapat dipengaruhi oleh kebisingan latar belakang, aksen, kualitas mikrofon, ucapan yang tumpang tindih, dan terminologi spesifik bidang. DuoVox adalah <strong>alat bantu komunikasi</strong> dan tidak boleh diandalkan sebagai satu-satunya sumber makna dalam situasi hukum, medis, keselamatan kritis, keuangan, atau resmi. Selalu verifikasi informasi penting secara independen.",
   "dvx.101": "Siap mendobrak hambatan bahasa?",
   "dvx.102": "Mulailah dengan paket gratis — tanpa akun, tanpa kartu kredit, tanpa komitmen.",
   "qt.1": "Kontrol waktu layar sederhana yang menghormati privasi keluarga Anda.",
@@ -875,5 +875,6 @@
   "home.cmpx.turn": "Bergiliran",
   "home.pricing.free.micro": "Tidak perlu akun. Free selamanya.",
   "dvx.105": "Bagaimana cara memulainya?",
-  "dvx.106": "Tonton <a href=\"https://youtu.be/HkShFc4QTUs\">video memulai kami</a> berdurasi dua menit. Video ini menunjukkan cara memilih dua bahasa Anda, memilih apa yang didengarkan DuoVox, memulai caption, mengubah tata letak, dan menemukan semua hal lainnya di menu. Menu di aplikasi juga memiliki User guide dan Help yang lengkap."
+  "dvx.106": "Tonton <a href=\"https://youtu.be/HkShFc4QTUs\">video memulai kami</a> berdurasi dua menit. Video ini menunjukkan cara memilih dua bahasa Anda, memilih apa yang didengarkan DuoVox, memulai caption, mengubah tata letak, dan menemukan semua hal lainnya di menu. Menu di aplikasi juga memiliki User guide dan Help yang lengkap.",
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Bagaimana DuoVox membantu para interpreter &rarr;</a>"
 }

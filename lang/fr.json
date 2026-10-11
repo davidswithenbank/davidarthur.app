@@ -449,7 +449,7 @@
   "dvx.97": "Dois-je créer un compte ?",
   "dvx.98": "Non. DuoVox fonctionne sans comptes ni inscriptions. Téléchargez l'application et commencez à l'utiliser immédiatement. Les abonnements sont gérés via Google Play ou le Microsoft Store.",
   "dvx.99": "Avertissement sur l'exactitude",
-  "dvx.100": "DuoVox utilise la reconnaissance vocale et la traduction automatique basées sur l'IA pour faciliter la communication. Comme tous les outils de transcription et de traduction, <strong>les résultats peuvent contenir des erreurs</strong> et ne doivent pas être considérés comme un compte rendu textuel ou certifié. L'exactitude peut être affectée par le bruit de fond, les accents, la qualité du microphone, les paroles qui se chevauchent et la terminologie spécifique à un domaine. DuoVox est une <strong>aide à la communication</strong> et ne doit pas être utilisé à des fins juridiques, médicales, critiques pour la sécurité, financières ou officielles. Vérifiez toujours les informations importantes de manière indépendante.",
+  "dvx.100": "DuoVox utilise la reconnaissance vocale et la traduction automatique basées sur l'IA pour faciliter la communication. Comme tous les outils de transcription et de traduction, <strong>les résultats peuvent contenir des erreurs</strong> et ne doivent pas être considérés comme un compte rendu textuel ou certifié. L'exactitude peut être affectée par le bruit de fond, les accents, la qualité du microphone, les paroles qui se chevauchent et la terminologie spécifique à un domaine. DuoVox est une <strong>aide à la communication</strong> et ne doit pas être considéré comme la seule source de sens dans des situations juridiques, médicales, critiques pour la sécurité, financières ou officielles. Vérifiez toujours les informations importantes de manière indépendante.",
   "dvx.101": "Prêt à briser la barrière de la langue ?",
   "dvx.102": "Commencez avec la formule gratuite — pas de compte, pas de carte bancaire, pas d'engagement.",
   "qt.1": "Un contrôle du temps d'écran simple qui respecte la vie privée de votre famille.",
@@ -875,5 +875,6 @@
   "home.cmpx.turn": "À tour de rôle",
   "home.pricing.free.micro": "Aucun compte requis. Gratuit pour toujours.",
   "dvx.105": "Comment puis-je commencer ?",
-  "dvx.106": "Regardez notre <a href=\"https://youtu.be/HkShFc4QTUs\">vidéo de prise en main</a> de deux minutes. Elle montre comment choisir vos deux langues, choisir ce que DuoVox écoute, démarrer le sous-titrage, modifier la mise en page et trouver tout le reste dans le menu. Le menu de l’application contient aussi le Guide de l'utilisateur complet et l’Aide."
+  "dvx.106": "Regardez notre <a href=\"https://youtu.be/HkShFc4QTUs\">vidéo de prise en main</a> de deux minutes. Elle montre comment choisir vos deux langues, choisir ce que DuoVox écoute, démarrer le sous-titrage, modifier la mise en page et trouver tout le reste dans le menu. Le menu de l’application contient aussi le Guide de l'utilisateur complet et l’Aide.",
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Comment DuoVox aide les interprètes &rarr;</a>"
 }

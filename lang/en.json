@@ -234,7 +234,7 @@
   "cta.ms_get": "Get it from the Microsoft Store",
   "dvx.1": "Speak freely across languages — anywhere, with anyone.",
   "dvx.10": "See both sides of the dialogue separately, so nothing gets mixed up. Each language gets its own dedicated panel with real-time text.",
-  "dvx.100": "DuoVox uses AI-powered speech recognition and machine translation to assist communication. Like all transcription and translation tools, <strong>results may contain errors</strong> and should not be treated as a verbatim or certified record. Accuracy can be affected by background noise, accents, microphone quality, overlapping speech and domain-specific terminology. DuoVox is a <strong>communication aid</strong> and should not be relied upon for legal, medical, safety-critical, financial or official purposes. Always verify important information independently.",
+  "dvx.100": "DuoVox uses AI-powered speech recognition and machine translation to assist communication. Like all transcription and translation tools, <strong>results may contain errors</strong> and should not be treated as a verbatim or certified record. Accuracy can be affected by background noise, accents, microphone quality, overlapping speech and domain-specific terminology. DuoVox is a <strong>communication aid</strong> and should not be relied upon as the only source of meaning in legal, medical, safety-critical, financial or official situations. Always verify important information independently.",
   "dvx.101": "Ready to break the language barrier?",
   "dvx.102": "Start with the free tier — no account, no credit card, no commitment.",
   "dvx.11": "49 Languages",
@@ -367,5 +367,6 @@
   "home.cmpx.sys.sub": "Calls, meetings, YouTube and films &mdash; from any app",
   "home.cmpx.title": "Why DuoVox Stands Out",
   "home.cmpx.turn": "Turn-based",
-  "home.pricing.free.micro": "No account needed. Free forever."
+  "home.pricing.free.micro": "No account needed. Free forever.",
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">How DuoVox helps interpreters &rarr;</a>"
 }

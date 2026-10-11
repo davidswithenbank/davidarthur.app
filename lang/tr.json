@@ -449,7 +449,7 @@
   "dvx.97": "Hesap oluşturmam gerekiyor mu?",
   "dvx.98": "Hayır. DuoVox hesap veya kayıt olmadan çalışır. Uygulamayı indirin ve hemen kullanmaya başlayın. Abonelikler Google Play veya Microsoft Store üzerinden yönetilir.",
   "dvx.99": "Doğruluk Sorumluluk Reddi",
-  "dvx.100": "DuoVox, iletişime yardımcı olmak için AI destekli konuşma tanıma ve makine çevirisi kullanır. Tüm transkripsiyon ve çeviri araçlarında olduğu gibi, <strong>sonuçlar hatalar içerebilir</strong> ve birebir veya onaylı bir kayıt olarak değerlendirilmemelidir. Doğruluk; arka plan gürültüsü, aksanlar, mikrofon kalitesi, üst üste binen konuşma ve alana özgü terminolojiden etkilenebilir. DuoVox bir <strong>iletişim yardımcısıdır</strong> ve hukuki, tıbbi, güvenlik açısından kritik, finansal veya resmi amaçlar için güvenilmemelidir. Önemli bilgileri her zaman bağımsız olarak doğrulayın.",
+  "dvx.100": "DuoVox, iletişime yardımcı olmak için AI destekli konuşma tanıma ve makine çevirisi kullanır. Tüm transkripsiyon ve çeviri araçlarında olduğu gibi, <strong>sonuçlar hatalar içerebilir</strong> ve birebir veya onaylı bir kayıt olarak değerlendirilmemelidir. Doğruluk; arka plan gürültüsü, aksanlar, mikrofon kalitesi, üst üste binen konuşma ve alana özgü terminolojiden etkilenebilir. DuoVox bir <strong>iletişim yardımcısıdır</strong> ve hukuki, tıbbi, güvenlik açısından kritik, finansal veya resmi durumlarda anlamın tek kaynağı olarak güvenilmemelidir. Önemli bilgileri her zaman bağımsız olarak doğrulayın.",
   "dvx.101": "Dil bariyerini kırmaya hazır mısınız?",
   "dvx.102": "Ücretsiz katmanla başlayın — hesap yok, kredi kartı yok, taahhüt yok.",
   "qt.1": "Ailenizin gizliliğine saygı duyan basit ekran süresi kontrolü.",
@@ -875,5 +875,6 @@
   "home.cmpx.turn": "Sırayla",
   "home.pricing.free.micro": "Hesap gerekmez. Sonsuza dek ücretsiz.",
   "dvx.105": "Nasıl başlayabilirim?",
-  "dvx.106": "İki dakikalık <a href=\"https://youtu.be/HkShFc4QTUs\">başlangıç videomuzu</a> izleyin. Bu videoda iki dilinizi nasıl seçeceğiniz, DuoVox'un neyi dinleyeceğini nasıl belirleyeceğiniz, altyazıları nasıl başlatacağınız, düzeni nasıl değiştireceğiniz ve menüde diğer her şeyi nasıl bulacağınız gösterilir. Uygulamadaki menüde ayrıca kapsamlı bir Kullanım kılavuzu ve Yardım da bulunur."
+  "dvx.106": "İki dakikalık <a href=\"https://youtu.be/HkShFc4QTUs\">başlangıç videomuzu</a> izleyin. Bu videoda iki dilinizi nasıl seçeceğiniz, DuoVox'un neyi dinleyeceğini nasıl belirleyeceğiniz, altyazıları nasıl başlatacağınız, düzeni nasıl değiştireceğiniz ve menüde diğer her şeyi nasıl bulacağınız gösterilir. Uygulamadaki menüde ayrıca kapsamlı bir Kullanım kılavuzu ve Yardım da bulunur.",
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox tercümanlara nasıl yardımcı olur &rarr;</a>"
 }

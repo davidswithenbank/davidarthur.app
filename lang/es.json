@@ -449,7 +449,7 @@
   "dvx.97": "¿Necesito crear una cuenta?",
   "dvx.98": "No. DuoVox funciona sin cuentas ni registros. Descarga la aplicación y empieza a usarla de inmediato. Las suscripciones se gestionan a través de Google Play o la Microsoft Store.",
   "dvx.99": "Aviso sobre la precisión",
-  "dvx.100": "DuoVox utiliza reconocimiento de voz y traducción automática con IA para facilitar la comunicación. Como todas las herramientas de transcripción y traducción, <strong>los resultados pueden contener errores</strong> y no deben considerarse un registro literal ni certificado. La precisión puede verse afectada por el ruido de fondo, los acentos, la calidad del micrófono, el habla superpuesta y la terminología específica de cada ámbito. DuoVox es una <strong>ayuda a la comunicación</strong> y no debe utilizarse para fines legales, médicos, de seguridad crítica, financieros u oficiales. Verifica siempre la información importante de forma independiente.",
+  "dvx.100": "DuoVox utiliza reconocimiento de voz y traducción automática con IA para facilitar la comunicación. Como todas las herramientas de transcripción y traducción, <strong>los resultados pueden contener errores</strong> y no deben considerarse un registro literal ni certificado. La precisión puede verse afectada por el ruido de fondo, los acentos, la calidad del micrófono, el habla superpuesta y la terminología específica de cada ámbito. DuoVox es una <strong>ayuda a la comunicación</strong> y no debe considerarse como la única fuente de significado en situaciones legales, médicas, de seguridad crítica, financieras u oficiales. Verifica siempre la información importante de forma independiente.",
   "dvx.101": "¿Listo para romper la barrera del idioma?",
   "dvx.102": "Empieza con el plan gratuito: sin cuenta, sin tarjeta de crédito, sin compromiso.",
   "qt.1": "Control sencillo del tiempo de pantalla que respeta la privacidad de tu familia.",
@@ -875,5 +875,6 @@
   "home.cmpx.turn": "Por turnos",
   "home.pricing.free.micro": "No necesita cuenta. Gratis para siempre.",
   "dvx.105": "¿Cómo empiezo?",
-  "dvx.106": "Mira nuestro <a href=\"https://youtu.be/HkShFc4QTUs\">video de introducción</a> de dos minutos. Muestra cómo elegir tus dos idiomas, elegir lo que escucha DuoVox, empezar a mostrar subtítulos, cambiar el diseño y encontrar todo lo demás en el menú. El menú de la aplicación también incluye una Guía del usuario completa y Ayuda."
+  "dvx.106": "Mira nuestro <a href=\"https://youtu.be/HkShFc4QTUs\">video de introducción</a> de dos minutos. Muestra cómo elegir tus dos idiomas, elegir lo que escucha DuoVox, empezar a mostrar subtítulos, cambiar el diseño y encontrar todo lo demás en el menú. El menú de la aplicación también incluye una Guía del usuario completa y Ayuda.",
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Cómo ayuda DuoVox a los intérpretes &rarr;</a>"
 }

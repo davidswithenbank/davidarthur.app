@@ -449,7 +449,7 @@
   "dvx.97": "Tôi có cần tạo tài khoản không?",
   "dvx.98": "Không. DuoVox hoạt động mà không cần tài khoản hay đăng ký. Hãy tải ứng dụng và bắt đầu sử dụng ngay lập tức. Gói thuê bao được quản lý qua Google Play hoặc Microsoft Store.",
   "dvx.99": "Tuyên bố miễn trừ về độ chính xác",
-  "dvx.100": "DuoVox sử dụng nhận dạng giọng nói và dịch máy bằng AI để hỗ trợ giao tiếp. Như mọi công cụ phiên âm và dịch thuật khác, <strong>kết quả có thể chứa lỗi</strong> và không nên được coi là bản ghi nguyên văn hay được chứng thực. Độ chính xác có thể bị ảnh hưởng bởi tiếng ồn nền, giọng địa phương, chất lượng micrô, lời nói chồng chéo và thuật ngữ chuyên ngành. DuoVox là một <strong>công cụ hỗ trợ giao tiếp</strong> và không nên được dựa vào cho các mục đích pháp lý, y tế, an toàn quan trọng, tài chính hay chính thức. Hãy luôn kiểm chứng độc lập những thông tin quan trọng.",
+  "dvx.100": "DuoVox sử dụng nhận dạng giọng nói và dịch máy bằng AI để hỗ trợ giao tiếp. Như mọi công cụ phiên âm và dịch thuật khác, <strong>kết quả có thể chứa lỗi</strong> và không nên được coi là bản ghi nguyên văn hay được chứng thực. Độ chính xác có thể bị ảnh hưởng bởi tiếng ồn nền, giọng địa phương, chất lượng micrô, lời nói chồng chéo và thuật ngữ chuyên ngành. DuoVox là một <strong>công cụ hỗ trợ giao tiếp</strong> và không nên được dựa vào như là nguồn ý nghĩa duy nhất trong các tình huống pháp lý, y tế, an toàn quan trọng, tài chính hay chính thức. Hãy luôn kiểm chứng độc lập những thông tin quan trọng.",
   "dvx.101": "Sẵn sàng phá vỡ rào cản ngôn ngữ?",
   "dvx.102": "Bắt đầu với gói miễn phí — không tài khoản, không thẻ tín dụng, không ràng buộc.",
   "qt.1": "Kiểm soát thời gian sử dụng thiết bị đơn giản, tôn trọng quyền riêng tư của gia đình bạn.",
@@ -875,5 +875,6 @@
   "home.cmpx.turn": "Theo lượt",
   "home.pricing.free.micro": "Không cần tài khoản. Free vĩnh viễn.",
   "dvx.105": "Làm thế nào để bắt đầu?",
-  "dvx.106": "Hãy xem <a href=\"https://youtu.be/HkShFc4QTUs\">video bắt đầu sử dụng trong hai phút</a> của chúng tôi. Video cho thấy cách chọn hai ngôn ngữ của bạn, chọn nội dung DuoVox sẽ nghe, bắt đầu tạo phụ đề, thay đổi bố cục và tìm mọi thứ khác trong menu. Menu trong ứng dụng cũng có User guide đầy đủ và Help."
+  "dvx.106": "Hãy xem <a href=\"https://youtu.be/HkShFc4QTUs\">video bắt đầu sử dụng trong hai phút</a> của chúng tôi. Video cho thấy cách chọn hai ngôn ngữ của bạn, chọn nội dung DuoVox sẽ nghe, bắt đầu tạo phụ đề, thay đổi bố cục và tìm mọi thứ khác trong menu. Menu trong ứng dụng cũng có User guide đầy đủ và Help.",
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox hỗ trợ phiên dịch viên như thế nào &rarr;</a>"
 }
