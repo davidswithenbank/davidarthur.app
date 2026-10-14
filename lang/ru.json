@@ -876,5 +876,10 @@
   "home.pricing.free.micro": "Аккаунт не нужен. Бесплатно навсегда.",
   "dvx.105": "Как начать?",
   "dvx.106": "Посмотрите наше короткое <a href=\"https://youtu.be/9iUqWWRRXXA\">видео для начала работы</a>. В нём показано, как выбрать два языка, выбрать, что слушает DuoVox, начать показ субтитров, изменить макет и найти всё остальное в меню. Для каждой другой функции есть своё короткое видео в наших <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">видеоруководствах</a>. В меню приложения также есть полное Руководство пользователя и Справка.",
-  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Как DuoVox помогает устным переводчикам &rarr;</a>"
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Как DuoVox помогает устным переводчикам &rarr;</a>",
+  "dvx.pcaudio.title": "Работает с любым звуком, который воспроизводит ваш ПК",
+  "dvx.pcaudio.desc": "Звонки в Teams, Zoom, Google Meet и WhatsApp, YouTube и фильмы — без подключения к встрече. Или переключитесь на микрофон для людей в комнате. <a href=\"https://duovox.net/calls.html\">Видеозвонки &rarr;</a>",
+  "cta.avail_win": "Для Windows 10 и 11, в Microsoft Store.",
+  "dvx.92b": "Для Windows 10 и 11, в Microsoft Store.",
+  "dvx.98b": "Нет. DuoVox работает без аккаунтов и регистрации. Скачайте приложение и сразу начните пользоваться. Подписки управляются через Microsoft Store."
 }

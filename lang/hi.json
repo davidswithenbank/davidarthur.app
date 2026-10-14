@@ -876,5 +876,10 @@
   "home.pricing.free.micro": "किसी खाते की आवश्यकता नहीं। हमेशा के लिए मुफ़्त।",
   "dvx.105": "मैं कैसे शुरू करूँ?",
   "dvx.106": "हमारा छोटा <a href=\"https://youtu.be/9iUqWWRRXXA\">शुरू करने का वीडियो</a> देखें। इसमें दिखाया गया है कि अपनी दो भाषाएँ कैसे चुनें, DuoVox क्या सुने यह कैसे चुनें, कैप्शनिंग कैसे शुरू करें, लेआउट कैसे बदलें और मेनू में बाकी सब कुछ कैसे पाएँ। हर दूसरे फ़ीचर के लिए हमारे <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">वीडियो ट्यूटोरियल</a> में उसका अपना छोटा वीडियो है। ऐप के मेनू में पूरी उपयोगकर्ता मार्गदर्शिका और सहायता भी है।",
-  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox दुभाषियों की कैसे मदद करता है &rarr;</a>"
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox दुभाषियों की कैसे मदद करता है &rarr;</a>",
+  "dvx.pcaudio.title": "आपके PC पर चलने वाली किसी भी चीज़ के साथ काम करता है",
+  "dvx.pcaudio.desc": "Teams, Zoom, Google Meet और WhatsApp कॉल, YouTube और फ़िल्में, बिना किसी चीज़ के मीटिंग में शामिल हुए। या कमरे में मौजूद लोगों के लिए माइक्रोफ़ोन पर स्विच करें। <a href=\"https://duovox.net/calls.html\">वीडियो कॉल &rarr;</a>",
+  "cta.avail_win": "Windows 10 और 11 के लिए, Microsoft Store से।",
+  "dvx.92b": "Windows 10 और 11 के लिए, Microsoft Store से।",
+  "dvx.98b": "नहीं। DuoVox खातों या साइन-अप के बिना काम करता है। ऐप डाउनलोड करें और तुरंत इस्तेमाल शुरू करें। सदस्यताएँ Microsoft Store के माध्यम से प्रबंधित की जाती हैं।"
 }

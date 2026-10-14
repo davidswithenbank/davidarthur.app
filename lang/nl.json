@@ -876,5 +876,10 @@
   "home.pricing.free.micro": "Geen account nodig. Voor altijd gratis.",
   "dvx.105": "Hoe begin ik?",
   "dvx.106": "Bekijk onze korte <a href=\"https://youtu.be/9iUqWWRRXXA\">video om aan de slag te gaan</a>. Daarin zie je hoe je je twee talen kiest, kiest waar DuoVox naar luistert, ondertiteling start, de lay-out wijzigt en al het andere in het menu vindt. Elke andere functie heeft een eigen korte video in onze <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">videotutorials</a>. Het menu in de app bevat ook een volledige Gebruikershandleiding en Hulp.",
-  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Hoe DuoVox tolken helpt &rarr;</a>"
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Hoe DuoVox tolken helpt &rarr;</a>",
+  "dvx.pcaudio.title": "Werkt met alles wat je pc afspeelt",
+  "dvx.pcaudio.desc": "Teams-, Zoom-, Google Meet- en WhatsApp-gesprekken, YouTube en films, zonder dat er iets aan de vergadering deelneemt. Of schakel over naar de microfoon voor de mensen in de kamer. <a href=\"https://duovox.net/calls.html\">Videogesprekken &rarr;</a>",
+  "cta.avail_win": "Voor Windows 10 en 11, in de Microsoft Store.",
+  "dvx.92b": "Voor Windows 10 en 11, in de Microsoft Store.",
+  "dvx.98b": "Nee. DuoVox werkt zonder accounts of aanmeldingen. Download de app en begin hem meteen te gebruiken. Abonnementen worden beheerd via de Microsoft Store."
 }

@@ -876,5 +876,10 @@
   "home.pricing.free.micro": "ไม่ต้องมีบัญชี Free ตลอดไป",
   "dvx.105": "ฉันจะเริ่มต้นอย่างไร?",
   "dvx.106": "ชม<a href=\"https://youtu.be/9iUqWWRRXXA\">วิดีโอเริ่มต้นใช้งาน</a>สั้น ๆ ของเรา วิดีโอนี้จะแสดงวิธีเลือกสองภาษาของคุณ เลือกสิ่งที่ DuoVox จะรับฟัง เริ่มทำคำบรรยาย เปลี่ยนเลย์เอาต์ และดูอย่างอื่นทั้งหมดในเมนู ฟีเจอร์อื่น ๆ แต่ละอย่างมีวิดีโอสั้นของตัวเองใน<a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">วิดีโอสอนการใช้งาน</a>ของเรา เมนูในแอปยังมี User guide และ Help ฉบับเต็มด้วย",
-  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox ช่วยล่ามอย่างไร &rarr;</a>"
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox ช่วยล่ามอย่างไร &rarr;</a>",
+  "dvx.pcaudio.title": "ใช้ได้กับทุกอย่างที่พีซีของคุณเล่น",
+  "dvx.pcaudio.desc": "สาย Teams, Zoom, Google Meet และ WhatsApp, YouTube และภาพยนตร์ โดยไม่ต้องให้อะไรเข้าร่วมการประชุม หรือสลับไปใช้ไมโครโฟนสำหรับผู้คนในห้อง <a href=\"https://duovox.net/calls.html\">วิดีโอคอล &rarr;</a>",
+  "cta.avail_win": "สำหรับ Windows 10 และ 11 จาก Microsoft Store",
+  "dvx.92b": "สำหรับ Windows 10 และ 11 จาก Microsoft Store",
+  "dvx.98b": "ไม่ DuoVox ใช้งานได้โดยไม่ต้องมีบัญชีหรือสมัครใช้งาน ดาวน์โหลดแอปแล้วเริ่มใช้งานได้ทันที การสมัครสมาชิกจัดการผ่าน Microsoft Store"
 }

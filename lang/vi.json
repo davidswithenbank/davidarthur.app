@@ -876,5 +876,10 @@
   "home.pricing.free.micro": "Không cần tài khoản. Free vĩnh viễn.",
   "dvx.105": "Làm thế nào để bắt đầu?",
   "dvx.106": "Hãy xem <a href=\"https://youtu.be/9iUqWWRRXXA\">video hướng dẫn bắt đầu ngắn của chúng tôi</a>. Video này cho thấy cách chọn hai ngôn ngữ của bạn, chọn nội dung DuoVox sẽ nghe, bắt đầu tạo phụ đề, thay đổi bố cục và tìm mọi thứ khác trong menu. Mỗi tính năng khác đều có video ngắn riêng trong <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">các video hướng dẫn</a> của chúng tôi. Menu trong ứng dụng cũng có User guide đầy đủ và Help.",
-  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox hỗ trợ phiên dịch viên như thế nào &rarr;</a>"
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox hỗ trợ phiên dịch viên như thế nào &rarr;</a>",
+  "dvx.pcaudio.title": "Hoạt động với mọi thứ mà PC của bạn phát",
+  "dvx.pcaudio.desc": "Cuộc gọi Teams, Zoom, Google Meet và WhatsApp, YouTube và phim, mà không cần bất cứ thứ gì tham gia cuộc họp. Hoặc chuyển sang micrô cho những người trong phòng. <a href=\"https://duovox.net/calls.html\">Cuộc gọi video &rarr;</a>",
+  "cta.avail_win": "Dành cho Windows 10 và 11, từ Microsoft Store.",
+  "dvx.92b": "Dành cho Windows 10 và 11, từ Microsoft Store.",
+  "dvx.98b": "Không. DuoVox hoạt động mà không cần tài khoản hoặc đăng ký. Tải ứng dụng xuống và bắt đầu dùng ngay. Các gói đăng ký được quản lý qua Microsoft Store."
 }

@@ -876,5 +876,10 @@
   "home.pricing.free.micro": "No necesita cuenta. Gratis para siempre.",
   "dvx.105": "¿Cómo empiezo?",
   "dvx.106": "Mira nuestro breve <a href=\"https://youtu.be/9iUqWWRRXXA\">vídeo para empezar</a>. Muestra cómo elegir tus dos idiomas, elegir lo que escucha DuoVox, iniciar el subtitulado, cambiar el diseño y encontrar todo lo demás en el menú. Todas las demás funciones tienen su propio vídeo breve en nuestros <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">tutoriales en vídeo</a>. El menú de la aplicación también incluye una guía del usuario completa y ayuda.",
-  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Cómo ayuda DuoVox a los intérpretes &rarr;</a>"
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Cómo ayuda DuoVox a los intérpretes &rarr;</a>",
+  "dvx.pcaudio.title": "Funciona con cualquier cosa que reproduzca tu PC",
+  "dvx.pcaudio.desc": "Llamadas de Teams, Zoom, Google Meet y WhatsApp, YouTube y películas, sin que nada se una a la reunión. O cambia al micrófono para las personas en la sala. <a href=\"https://duovox.net/calls.html\">Videollamadas &rarr;</a>",
+  "cta.avail_win": "Para Windows 10 y 11, en Microsoft Store.",
+  "dvx.92b": "Para Windows 10 y 11, en Microsoft Store.",
+  "dvx.98b": "No. DuoVox funciona sin cuentas ni registros. Descarga la aplicación y empieza a usarla de inmediato. Las suscripciones se gestionan a través de Microsoft Store."
 }

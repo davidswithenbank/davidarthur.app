@@ -876,5 +876,10 @@
   "home.pricing.free.micro": "Kein Konto erforderlich. Für immer kostenlos.",
   "dvx.105": "Wie lege ich los?",
   "dvx.106": "Sehen Sie sich unser kurzes <a href=\"https://youtu.be/9iUqWWRRXXA\">Video für den Einstieg</a> an. Es zeigt, wie Sie Ihre beiden Sprachen auswählen, festlegen, was DuoVox hören soll, die Untertitelung starten, das Layout ändern und alles andere im Menü finden. Jede weitere Funktion hat ihr eigenes kurzes Video in unseren <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">Video-Tutorials</a>. Das Menü in der App enthält außerdem ein vollständiges Benutzerhandbuch und Hilfe.",
-  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Wie DuoVox Dolmetscherinnen und Dolmetschern hilft &rarr;</a>"
+  "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Wie DuoVox Dolmetscherinnen und Dolmetschern hilft &rarr;</a>",
+  "dvx.pcaudio.title": "Funktioniert mit allem, was Ihr PC abspielt",
+  "dvx.pcaudio.desc": "Anrufe über Teams, Zoom, Google Meet und WhatsApp, YouTube und Filme – ohne dass irgendetwas dem Meeting beitritt. Oder wechseln Sie zum Mikrofon für die Menschen im Raum. <a href=\"https://duovox.net/calls.html\">Videoanrufe &rarr;</a>",
+  "cta.avail_win": "Für Windows 10 und 11, im Microsoft Store erhältlich.",
+  "dvx.92b": "Für Windows 10 und 11, im Microsoft Store erhältlich.",
+  "dvx.98b": "Nein. DuoVox funktioniert ohne Konten oder Registrierungen. Laden Sie die App herunter und nutzen Sie sie sofort. Abonnements werden über den Microsoft Store verwaltet."
 }
