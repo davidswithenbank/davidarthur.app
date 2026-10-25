@@ -881,5 +881,22 @@
   "dvx.pcaudio.desc": "支持 Teams、Zoom、Google Meet 和 WhatsApp 通话，也支持 YouTube 和电影，无需加入会议。或者切换到麦克风，用于房间里的人。<a href=\"https://duovox.net/calls.html\">视频通话 &rarr;</a>",
   "cta.avail_win": "适用于 Windows 10 和 11，可从 Microsoft Store 获取。",
   "dvx.92b": "适用于 Windows 10 和 11，可从 Microsoft Store 获取。",
-  "dvx.98b": "不需要。DuoVox 无需账户或注册即可使用。下载应用后即可立即开始使用。订阅通过 Microsoft Store 管理。"
+  "dvx.98b": "不需要。DuoVox 无需账户或注册即可使用。下载应用后即可立即开始使用。订阅通过 Microsoft Store 管理。",
+  "about.intro1": "David Arthur Software 是一家位于英格兰北约克郡的小型独立软件工作室。我们为 Windows 和 Android 开发简洁、以隐私为先的应用：专注把一件事做好、无需账户即可使用，也不会把你的个人信息拿去交换使用权。",
+  "about.intro2": "我们有意保持小而精。设计和编写我们应用的人，也正是回复你邮件的人，所以当你联系我们时，接触到的是了解代码的人。",
+  "about.why.q1": "&ldquo;我一直看到同样的问题：大多数翻译应用都让两个人轮流操作、点击按钮，再把手机来回递。真实对话不是这样进行的，我们电脑上的 Teams 和 Zoom 通话也不是。&rdquo;",
+  "about.why.p1": "所以我们打造了 DuoVox，把双语对话的双方内容放在同一个屏幕上：每个人说的话及其翻译，在交谈过程中并排显示。我们最初是为专业口译员打造它的，作为他们工作时身旁的实时转录工具；对于任何跨语言交流中的人来说，它同样好用。DuoVox 是对合格口译员的支持，而不是替代。",
+  "about.how.1": "<strong>你的数据始终属于你。</strong>我们只收集应用运行所必需的数据，而且绝不出售。QuietTime 和 CCTV Converter 的所有内容都保留在你的设备上，而 DuoVox 的 Free 方案完全在你的 PC 上运行。",
+  "about.how.2": "<strong>无需账户，没有广告。</strong>下载应用即可开始使用。无需注册，也没有第三方广告。",
+  "about.how.3": "<strong>可离线使用。</strong>每款应用的核心功能都无需互联网连接即可运行。",
+  "about.how.4": "<strong>坦诚说明限制。</strong>我们会明确说明应用能做什么、不能做什么。自动翻译可能出错，因此我们会告诉你应在哪些地方进行核查。",
+  "about.find.p1": "我们的应用已上架 <a href=\"https://apps.microsoft.com/search/publisher?name=David+Arthur+Software\">Microsoft Store</a>；QuietTime 还可在 Google Play 获取。你也可以在 <a href=\"https://www.youtube.com/@DuoVoxApp\">YouTube</a> 和 <a href=\"https://www.linkedin.com/company/duovox-app\">LinkedIn</a> 上关注 DuoVox。想报道我们？你需要的一切都在我们的 <a href=\"/press/\">媒体资料包</a> 中。",
+  "about.find.p2": "有问题、想法或反馈？请发送邮件至 <a href=\"mailto:info@davidarthur.app\">info@davidarthur.app</a>，或使用我们的 <a href=\"/contact/\">联系页面</a>。我们会阅读每一条消息。",
+  "about.title": "关于我们",
+  "about.why.title": "我们为何打造 DuoVox",
+  "about.why.cite": "David，创始人",
+  "about.apps.title": "我们的产品",
+  "about.how.title": "我们的工作方式",
+  "about.find.title": "找到我们",
+  "footer.about": "关于我们"
 }

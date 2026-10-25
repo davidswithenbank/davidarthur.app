@@ -881,5 +881,22 @@
   "dvx.pcaudio.desc": "Teams-, Zoom-, Google Meet- en WhatsApp-gesprekken, YouTube en films, zonder dat er iets aan de vergadering deelneemt. Of schakel over naar de microfoon voor de mensen in de kamer. <a href=\"https://duovox.net/calls.html\">Videogesprekken &rarr;</a>",
   "cta.avail_win": "Voor Windows 10 en 11, in de Microsoft Store.",
   "dvx.92b": "Voor Windows 10 en 11, in de Microsoft Store.",
-  "dvx.98b": "Nee. DuoVox werkt zonder accounts of aanmeldingen. Download de app en begin hem meteen te gebruiken. Abonnementen worden beheerd via de Microsoft Store."
+  "dvx.98b": "Nee. DuoVox werkt zonder accounts of aanmeldingen. Download de app en begin hem meteen te gebruiken. Abonnementen worden beheerd via de Microsoft Store.",
+  "about.intro1": "David Arthur Software is een kleine, onafhankelijke softwarestudio in North Yorkshire, Engeland. We maken eenvoudige apps met privacy op de eerste plaats voor Windows en Android: software die één taak goed uitvoert, werkt zonder account en je persoonlijke gegevens niet verhandelt voor dat privilege.",
+  "about.intro2": "We zijn bewust klein. De mensen die onze apps ontwerpen en bouwen, zijn dezelfde mensen die je e-mails beantwoorden, dus als je contact opneemt, krijg je iemand te spreken die de code kent.",
+  "about.why.q1": "&ldquo;Ik bleef hetzelfde probleem zien: bij de meeste vertaalapps moeten twee mensen om de beurt praten, op knoppen tikken en een telefoon heen en weer doorgeven. Echte gesprekken werken niet zo, en de Teams- en Zoom-gesprekken op onze computers ook niet.&rdquo;",
+  "about.why.p1": "Daarom hebben we DuoVox gebouwd, dat beide kanten van een gesprek in twee talen op één scherm zet: wat elke persoon zegt en de vertaling daarvan, naast elkaar, terwijl ze praten. We hebben het in de eerste plaats gebouwd voor professionele tolken, als een live transcriptie naast hen terwijl ze werken, en het werkt net zo goed voor iedereen in een gesprek over een taalbarrière heen. DuoVox ondersteunt een gekwalificeerde tolk en vervangt die niet.",
+  "about.how.1": "<strong>Je gegevens blijven van jou.</strong> We verzamelen alleen wat een app nodig heeft om te werken, en we verkopen het nooit. QuietTime en CCTV Converter bewaren alles op je apparaat, en het Free-abonnement van DuoVox draait volledig op je pc.",
+  "about.how.2": "<strong>Geen accounts, geen advertenties.</strong> Download een app en begin hem te gebruiken. Je hoeft je niet aan te melden en er is geen reclame van derden.",
+  "about.how.3": "<strong>Werkt offline.</strong> De kernfuncties van elke app werken zonder internetverbinding.",
+  "about.how.4": "<strong>Eerlijk over beperkingen.</strong> We zeggen duidelijk wat onze apps wel en niet kunnen. Geautomatiseerde vertaling kan fouten maken, dus we vertellen je waar je die moet controleren.",
+  "about.find.p1": "Onze apps staan in de <a href=\"https://apps.microsoft.com/search/publisher?name=David+Arthur+Software\">Microsoft Store</a> en, voor QuietTime, in Google Play. Je kunt DuoVox volgen op <a href=\"https://www.youtube.com/@DuoVoxApp\">YouTube</a> en <a href=\"https://www.linkedin.com/company/duovox-app\">LinkedIn</a>. Schrijf je over ons? Alles wat je nodig hebt staat in onze <a href=\"/press/\">perskit</a>.",
+  "about.find.p2": "Vragen, ideeën of feedback: mail naar <a href=\"mailto:info@davidarthur.app\">info@davidarthur.app</a> of gebruik onze <a href=\"/contact/\">contactpagina</a>. We lezen elk bericht.",
+  "about.title": "Over ons",
+  "about.why.title": "Waarom we DuoVox hebben gebouwd",
+  "about.why.cite": "David, oprichter",
+  "about.apps.title": "Wat we maken",
+  "about.how.title": "Hoe we werken",
+  "about.find.title": "Waar je ons vindt",
+  "footer.about": "Over ons"
 }

@@ -881,5 +881,22 @@
   "dvx.pcaudio.desc": "Teams、Zoom、Google Meet 和 WhatsApp 通話，YouTube 和電影，都不會有任何機器人或程式加入會議。或者切換到麥克風，收錄房間裡的人聲。<a href=\"https://duovox.net/calls.html\">視訊通話 &rarr;</a>",
   "cta.avail_win": "適用於 Windows 10 和 11，可從 Microsoft Store 取得。",
   "dvx.92b": "適用於 Windows 10 和 11，可從 Microsoft Store 取得。",
-  "dvx.98b": "不需要。DuoVox 無需帳號或註冊即可使用。下載 app 後即可立即開始使用。訂閱透過 Microsoft Store 管理。"
+  "dvx.98b": "不需要。DuoVox 無需帳號或註冊即可使用。下載 app 後即可立即開始使用。訂閱透過 Microsoft Store 管理。",
+  "about.intro1": "David Arthur Software 是位於英格蘭北約克郡的一間小型獨立軟體工作室。我們為 Windows 和 Android 製作簡單、以隱私為先的應用程式：把一件事做好、無需帳號即可使用，且不會把你的個人資訊拿去交換使用權限的軟體。",
+  "about.intro2": "我們刻意維持小規模。設計和撰寫我們應用程式的人，也就是回覆你電子郵件的人，所以當你聯絡我們時，你接觸到的是懂程式碼的人。",
+  "about.why.q1": "&ldquo;我一直看到同樣的問題：大多數翻譯應用程式都讓兩個人輪流操作、點按按鈕，再把手機傳來傳去。真實對話不是這樣進行的，我們電腦上的 Teams 和 Zoom 通話也不是。&rdquo;",
+  "about.why.p1": "所以我們打造了 DuoVox，將雙語對話的雙方內容放在同一個畫面上：每個人說的話及其翻譯，隨著對話進行並排顯示。我們最初是為專業口譯員而打造，作為他們工作時身旁的即時逐字稿；對任何跨語言溝通的人來說，它也同樣好用。DuoVox 是用來支援合格口譯員，而不是取代他們。",
+  "about.how.1": "<strong>你的資料仍然屬於你。</strong> 我們只收集應用程式運作所需的資料，且絕不出售。QuietTime 和 CCTV Converter 會將一切保留在你的裝置上，而 DuoVox 的 Free 方案則完全在你的 PC 上執行。",
+  "about.how.2": "<strong>無須帳號，沒有廣告。</strong> 下載應用程式後就能開始使用。無須註冊，也沒有第三方廣告。",
+  "about.how.3": "<strong>可離線運作。</strong> 每個應用程式的核心功能都能在沒有網際網路連線的情況下運作。",
+  "about.how.4": "<strong>坦誠說明限制。</strong> 我們會清楚說明應用程式能做什麼、不能做什麼。自動翻譯可能會出錯，因此我們會告訴你該在哪裡加以確認。",
+  "about.find.p1": "我們的應用程式可在 <a href=\"https://apps.microsoft.com/search/publisher?name=David+Arthur+Software\">Microsoft Store</a> 找到，而 QuietTime 也可在 Google Play 取得。你可以在 <a href=\"https://www.youtube.com/@DuoVoxApp\">YouTube</a> 和 <a href=\"https://www.linkedin.com/company/duovox-app\">LinkedIn</a> 追蹤 DuoVox。想報導我們嗎？你需要的一切都在我們的 <a href=\"/press/\">媒體資料包</a> 中。",
+  "about.find.p2": "有問題、想法或意見回饋：請寄信至 <a href=\"mailto:info@davidarthur.app\">info@davidarthur.app</a>，或使用我們的 <a href=\"/contact/\">聯絡頁面</a>。我們會閱讀每一則訊息。",
+  "about.title": "關於我們",
+  "about.why.title": "我們為什麼打造 DuoVox",
+  "about.why.cite": "David，創辦人",
+  "about.apps.title": "我們製作什麼",
+  "about.how.title": "我們如何工作",
+  "about.find.title": "找到我們",
+  "footer.about": "關於我們"
 }

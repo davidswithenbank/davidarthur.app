@@ -881,5 +881,22 @@
   "dvx.pcaudio.desc": "Toplantıya hiçbir şey katılmadan Teams, Zoom, Google Meet ve WhatsApp aramaları, YouTube ve filmler. Ya da odadaki insanlar için mikrofona geçin. <a href=\"https://duovox.net/calls.html\">Görüntülü aramalar &rarr;</a>",
   "cta.avail_win": "Windows 10 ve 11 için, Microsoft Store'da.",
   "dvx.92b": "Windows 10 ve 11 için, Microsoft Store'da.",
-  "dvx.98b": "Hayır. DuoVox, hesap veya kayıt gerektirmeden çalışır. Uygulamayı indirin ve hemen kullanmaya başlayın. Abonelikler Microsoft Store üzerinden yönetilir."
+  "dvx.98b": "Hayır. DuoVox, hesap veya kayıt gerektirmeden çalışır. Uygulamayı indirin ve hemen kullanmaya başlayın. Abonelikler Microsoft Store üzerinden yönetilir.",
+  "about.intro1": "David Arthur Software, İngiltere’nin North Yorkshire bölgesinde bulunan küçük ve bağımsız bir yazılım stüdyosudur. Windows ve Android için sade, gizliliği önceleyen uygulamalar geliştiriyoruz: tek bir işi iyi yapan, hesap olmadan çalışan ve bu ayrıcalık karşılığında kişisel bilgilerinizi takas etmeyen yazılımlar.",
+  "about.intro2": "Bilerek küçük kaldık. Uygulamalarımızı tasarlayan ve yazan kişiler, e-postalarınızı yanıtlayan kişilerle aynıdır; yani bize ulaştığınızda, kodu bilen birine ulaşırsınız.",
+  "about.why.q1": "&ldquo;Aynı sorunu durmadan görüyordum: çoğu çeviri uygulaması iki kişinin sırayla konuşmasını, düğmelere dokunmasını ve telefonu birbirine uzatıp geri vermesini gerektiriyor. Gerçek konuşmalar böyle yürümez; bilgisayarlarımızdaki Teams ve Zoom görüşmeleri de öyle.&rdquo;",
+  "about.why.p1": "Bu yüzden DuoVox'u geliştirdik. DuoVox, iki dilli bir konuşmanın her iki tarafını da tek ekranda bir araya getirir: her kişinin söylediklerini ve bunların çevirisini, konuşurlarken yan yana gösterir. Onu her şeyden önce profesyonel tercümanlar için, çalışırken yanlarında duran canlı bir döküm olarak geliştirdik; dil farkı olan herhangi bir konuşmada da aynı derecede iyi çalışır. DuoVox, yetkin bir tercümanı destekler; onun yerini almaz.",
+  "about.how.1": "<strong>Verileriniz size ait kalır.</strong> Yalnızca bir uygulamanın çalışması için gereken verileri toplarız ve bunları asla satmayız. QuietTime ve CCTV Converter her şeyi cihazınızda tutar; DuoVox'un Free planı ise tamamen PC'nizde çalışır.",
+  "about.how.2": "<strong>Hesap yok, reklam yok.</strong> Uygulamayı indirin ve kullanmaya başlayın. Kayıt olmanız gerekmez ve üçüncü taraf reklamlar yoktur.",
+  "about.how.3": "<strong>Çevrimdışı çalışır.</strong> Her uygulamanın temel özellikleri internet bağlantısı olmadan çalışır.",
+  "about.how.4": "<strong>Sınırlar konusunda dürüstüz.</strong> Uygulamalarımızın neleri yapabildiğini ve neleri yapamadığını açıkça söyleriz. Otomatik çeviri hata yapabilir; bu yüzden nereleri kontrol etmeniz gerektiğini size belirtiriz.",
+  "about.find.p1": "Uygulamalarımız <a href=\"https://apps.microsoft.com/search/publisher?name=David+Arthur+Software\">Microsoft Store</a>'da ve QuietTime için Google Play'de yer alıyor. DuoVox'u <a href=\"https://www.youtube.com/@DuoVoxApp\">YouTube</a> ve <a href=\"https://www.linkedin.com/company/duovox-app\">LinkedIn</a>'de takip edebilirsiniz. Hakkımızda yazı mı hazırlıyorsunuz? İhtiyacınız olan her şey <a href=\"/press/\">basın kitimizde</a> var.",
+  "about.find.p2": "Sorular, fikirler veya geri bildirim için: <a href=\"mailto:info@davidarthur.app\">info@davidarthur.app</a> adresine e-posta gönderin ya da <a href=\"/contact/\">iletişim sayfamızı</a> kullanın. Her mesajı okuyoruz.",
+  "about.title": "Hakkımızda",
+  "about.why.title": "DuoVox'u neden geliştirdik",
+  "about.why.cite": "David, kurucu",
+  "about.apps.title": "Neler yapıyoruz",
+  "about.how.title": "Nasıl çalışıyoruz",
+  "about.find.title": "Bize ulaşın",
+  "footer.about": "Hakkımızda"
 }

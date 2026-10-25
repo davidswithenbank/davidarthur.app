@@ -881,5 +881,22 @@
   "dvx.pcaudio.desc": "Teams、Zoom、Google Meet、WhatsApp の通話、YouTube や映画にも対応し、会議に何も参加させる必要はありません。あるいはマイクに切り替えて、その場にいる人々の声を扱えます。<a href=\"https://duovox.net/calls.html\">ビデオ通話 &rarr;</a>",
   "cta.avail_win": "Windows 10 と 11 向け。Microsoft Store から入手できます。",
   "dvx.92b": "Windows 10 と 11 向け。Microsoft Store から入手できます。",
-  "dvx.98b": "いいえ。DuoVox はアカウント作成や登録なしで使えます。アプリをダウンロードして、すぐに使い始められます。サブスクリプションは Microsoft Store を通じて管理されます。"
+  "dvx.98b": "いいえ。DuoVox はアカウント作成や登録なしで使えます。アプリをダウンロードして、すぐに使い始められます。サブスクリプションは Microsoft Store を通じて管理されます。",
+  "about.intro1": "David Arthur Softwareは、イングランド・ノースヨークシャーにある小規模で独立系のソフトウェアスタジオです。私たちは、WindowsとAndroid向けに、シンプルでプライバシーを最優先にしたアプリを作っています。ひとつの役割をしっかり果たし、アカウントなしで使え、その代わりに個人情報を差し出さなくてよいソフトウェアです。",
+  "about.intro2": "私たちは意図的に小規模であり続けています。アプリを設計し開発している人たち自身がメールにも返信しているので、ご連絡いただければ、コードを理解している相手に直接届きます。",
+  "about.why.q1": "&ldquo;同じ問題を何度も目にしていました。多くの翻訳アプリでは、2人が交代で話し、ボタンをタップし、スマートフォンを行ったり来たり渡し合わなければなりません。実際の会話はそんなふうには進みませんし、パソコンでのTeamsやZoomの通話も同じです。&rdquo;",
+  "about.why.p1": "そこで私たちはDuoVoxを作りました。2言語での会話の両側を1つの画面に表示し、それぞれの発言とその翻訳を、話しているそばから並べて見られるようにしたものです。まず第一に、仕事中のプロ通訳者のそばで使うライブ文字起こしとして開発しましたが、言葉の壁を越えて会話するあらゆる人にとっても同じように役立ちます。DuoVoxは有資格の通訳者を支援するものであり、置き換えるものではありません。",
+  "about.how.1": "<strong>あなたのデータは、あなたのものです。</strong> 私たちは、アプリの動作に必要な情報だけを収集し、それを販売することは決してありません。QuietTimeとCCTV Converterはすべてをお使いのデバイス内に保持し、DuoVoxのFreeプランは完全にお使いのPC上で動作します。",
+  "about.how.2": "<strong>アカウント不要、広告なし。</strong> アプリをダウンロードすれば、すぐに使い始められます。登録は不要で、第三者による広告もありません。",
+  "about.how.3": "<strong>オフラインで動作。</strong> すべてのアプリの中核機能は、インターネット接続がなくても利用できます。",
+  "about.how.4": "<strong>限界についても率直に。</strong> 私たちは、アプリにできることとできないことを明確にお伝えします。自動翻訳は誤ることがあるため、どこを確認すべきかもお知らせします。",
+  "about.find.p1": "私たちのアプリは<a href=\"https://apps.microsoft.com/search/publisher?name=David+Arthur+Software\">Microsoft Store</a>で、またQuietTimeはGoogle Playでも提供しています。DuoVoxは<a href=\"https://www.youtube.com/@DuoVoxApp\">YouTube</a>と<a href=\"https://www.linkedin.com/company/duovox-app\">LinkedIn</a>でフォローできます。私たちについて掲載される方へ：必要なものはすべて<a href=\"/press/\">プレスキット</a>にあります。",
+  "about.find.p2": "ご質問、ご提案、ご感想は、<a href=\"mailto:info@davidarthur.app\">info@davidarthur.app</a>までメールでお送りいただくか、<a href=\"/contact/\">お問い合わせページ</a>をご利用ください。すべてのメッセージに目を通しています。",
+  "about.title": "私たちについて",
+  "about.why.title": "DuoVoxを作った理由",
+  "about.why.cite": "創業者 David",
+  "about.apps.title": "作っているもの",
+  "about.how.title": "私たちの取り組み方",
+  "about.find.title": "掲載・連絡先",
+  "footer.about": "私たちについて"
 }

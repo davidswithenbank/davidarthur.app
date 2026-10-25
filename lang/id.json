@@ -881,5 +881,22 @@
   "dvx.pcaudio.desc": "Panggilan Teams, Zoom, Google Meet, dan WhatsApp, YouTube dan film, tanpa ada apa pun yang bergabung ke rapat. Atau beralih ke mikrofon untuk orang-orang di ruangan. <a href=\"https://duovox.net/calls.html\">Panggilan video &rarr;</a>",
   "cta.avail_win": "Untuk Windows 10 dan 11, dari Microsoft Store.",
   "dvx.92b": "Untuk Windows 10 dan 11, dari Microsoft Store.",
-  "dvx.98b": "Tidak. DuoVox berfungsi tanpa akun atau pendaftaran. Unduh aplikasinya dan langsung mulai gunakan. Langganan dikelola melalui Microsoft Store."
+  "dvx.98b": "Tidak. DuoVox berfungsi tanpa akun atau pendaftaran. Unduh aplikasinya dan langsung mulai gunakan. Langganan dikelola melalui Microsoft Store.",
+  "about.intro1": "David Arthur Software adalah studio perangkat lunak kecil dan independen di North Yorkshire, Inggris. Kami membuat aplikasi sederhana yang mengutamakan privasi untuk Windows dan Android: perangkat lunak yang melakukan satu tugas dengan baik, bisa digunakan tanpa akun, dan tidak menukar informasi pribadi Anda demi hak istimewa tersebut.",
+  "about.intro2": "Kami sengaja tetap kecil. Orang-orang yang merancang dan menulis aplikasi kami adalah orang yang sama yang membalas email Anda, jadi saat Anda menghubungi kami, Anda akan terhubung dengan seseorang yang memahami kodenya.",
+  "about.why.q1": "&ldquo;Saya terus melihat masalah yang sama: sebagian besar aplikasi terjemahan membuat dua orang harus bergantian, mengetuk tombol, dan saling menyerahkan ponsel. Percakapan nyata tidak berjalan seperti itu, begitu juga panggilan Teams dan Zoom di komputer kita.&rdquo;",
+  "about.why.p1": "Karena itu kami membuat DuoVox, yang menampilkan kedua sisi percakapan dua bahasa dalam satu layar: apa yang diucapkan masing-masing orang dan terjemahannya, berdampingan, saat mereka berbicara. Kami pertama-tama membuatnya untuk juru bahasa profesional, sebagai transkrip langsung di samping mereka saat bekerja, dan aplikasi ini juga bekerja sama baiknya untuk siapa pun yang sedang bercakap-cakap melintasi perbedaan bahasa. DuoVox mendukung, dan tidak menggantikan, juru bahasa yang berkualifikasi.",
+  "about.how.1": "<strong>Data Anda tetap milik Anda.</strong> Kami hanya mengumpulkan apa yang dibutuhkan aplikasi agar berfungsi, dan kami tidak pernah menjualnya. QuietTime dan CCTV Converter menyimpan semuanya di perangkat Anda, dan paket Free DuoVox berjalan sepenuhnya di PC Anda.",
+  "about.how.2": "<strong>Tanpa akun, tanpa iklan.</strong> Unduh aplikasi dan langsung mulai menggunakannya. Tidak ada pendaftaran, dan tidak ada iklan pihak ketiga.",
+  "about.how.3": "<strong>Berfungsi secara offline.</strong> Fitur inti dari setiap aplikasi berfungsi tanpa koneksi internet.",
+  "about.how.4": "<strong>Jujur tentang batasannya.</strong> Kami menjelaskan dengan gamblang apa yang bisa dan tidak bisa dilakukan aplikasi kami. Terjemahan otomatis bisa membuat kesalahan, jadi kami memberi tahu Anda bagian mana yang perlu diperiksa.",
+  "about.find.p1": "Aplikasi kami tersedia di <a href=\"https://apps.microsoft.com/search/publisher?name=David+Arthur+Software\">Microsoft Store</a> dan, untuk QuietTime, di Google Play. Anda dapat mengikuti DuoVox di <a href=\"https://www.youtube.com/@DuoVoxApp\">YouTube</a> dan <a href=\"https://www.linkedin.com/company/duovox-app\">LinkedIn</a>. Sedang menulis tentang kami? Semua yang Anda perlukan ada di <a href=\"/press/\">kit pers</a> kami.",
+  "about.find.p2": "Pertanyaan, ide, atau masukan: kirim email ke <a href=\"mailto:info@davidarthur.app\">info@davidarthur.app</a> atau gunakan <a href=\"/contact/\">halaman kontak</a> kami. Kami membaca setiap pesan.",
+  "about.title": "Tentang kami",
+  "about.why.title": "Mengapa kami membangun DuoVox",
+  "about.why.cite": "David, pendiri",
+  "about.apps.title": "Apa yang kami buat",
+  "about.how.title": "Cara kami bekerja",
+  "about.find.title": "Temukan kami",
+  "footer.about": "Tentang kami"
 }

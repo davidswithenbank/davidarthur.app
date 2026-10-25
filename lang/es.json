@@ -881,5 +881,22 @@
   "dvx.pcaudio.desc": "Llamadas de Teams, Zoom, Google Meet y WhatsApp, YouTube y películas, sin que nada se una a la reunión. O cambia al micrófono para las personas en la sala. <a href=\"https://duovox.net/calls.html\">Videollamadas &rarr;</a>",
   "cta.avail_win": "Para Windows 10 y 11, en Microsoft Store.",
   "dvx.92b": "Para Windows 10 y 11, en Microsoft Store.",
-  "dvx.98b": "No. DuoVox funciona sin cuentas ni registros. Descarga la aplicación y empieza a usarla de inmediato. Las suscripciones se gestionan a través de Microsoft Store."
+  "dvx.98b": "No. DuoVox funciona sin cuentas ni registros. Descarga la aplicación y empieza a usarla de inmediato. Las suscripciones se gestionan a través de Microsoft Store.",
+  "about.intro1": "David Arthur Software es un pequeño estudio de software independiente en North Yorkshire, Inglaterra. Creamos aplicaciones sencillas, centradas en la privacidad, para Windows y Android: software que hace bien una sola tarea, funciona sin cuenta y no intercambia tu información personal por ese privilegio.",
+  "about.intro2": "Somos pequeños por decisión propia. Las personas que diseñan y desarrollan nuestras aplicaciones son las mismas que responden a tus correos, así que cuando te pones en contacto llegas a alguien que conoce el código.",
+  "about.why.q1": "&ldquo;No paraba de ver el mismo problema: la mayoría de las aplicaciones de traducción hacen que dos personas tengan que turnarse, tocar botones y pasarse el teléfono de un lado a otro. Las conversaciones reales no funcionan así, y tampoco las llamadas de Teams y Zoom en nuestros ordenadores.&rdquo;",
+  "about.why.p1": "Por eso creamos DuoVox, que pone ambos lados de una conversación en dos idiomas en una sola pantalla: lo que dice cada persona y su traducción, uno al lado del otro, mientras hablan. Lo creamos ante todo para intérpretes profesionales, como una transcripción en directo a su lado mientras trabajan, y funciona igual de bien para cualquier persona en una conversación a través de una barrera lingüística. DuoVox complementa a un intérprete cualificado, no lo sustituye.",
+  "about.how.1": "<strong>Tus datos siguen siendo tuyos.</strong> Recogemos solo lo que una aplicación necesita para funcionar, y nunca lo vendemos. QuietTime y CCTV Converter mantienen todo en tu dispositivo, y el plan Free de DuoVox funciona por completo en tu PC.",
+  "about.how.2": "<strong>Sin cuentas ni anuncios.</strong> Descarga una aplicación y empieza a usarla. No hay registro ni publicidad de terceros.",
+  "about.how.3": "<strong>Funciona sin conexión.</strong> Las funciones principales de cada aplicación funcionan sin conexión a internet.",
+  "about.how.4": "<strong>Honestos sobre los límites.</strong> Decimos claramente lo que nuestras aplicaciones pueden y no pueden hacer. La traducción automática puede cometer errores, así que te indicamos dónde comprobarla.",
+  "about.find.p1": "Nuestras aplicaciones están en <a href=\"https://apps.microsoft.com/search/publisher?name=David+Arthur+Software\">Microsoft Store</a> y, en el caso de QuietTime, en Google Play. Puedes seguir a DuoVox en <a href=\"https://www.youtube.com/@DuoVoxApp\">YouTube</a> y <a href=\"https://www.linkedin.com/company/duovox-app\">LinkedIn</a>. ¿Vas a escribir sobre nosotros? Todo lo que necesitas está en nuestro <a href=\"/press/\">kit de prensa</a>.",
+  "about.find.p2": "Preguntas, ideas o comentarios: escribe a <a href=\"mailto:info@davidarthur.app\">info@davidarthur.app</a> o usa nuestra <a href=\"/contact/\">página de contacto</a>. Leemos todos los mensajes.",
+  "about.title": "Sobre nosotros",
+  "about.why.title": "Por qué creamos DuoVox",
+  "about.why.cite": "David, fundador",
+  "about.apps.title": "Lo que creamos",
+  "about.how.title": "Cómo trabajamos",
+  "about.find.title": "Dónde encontrarnos",
+  "footer.about": "Sobre nosotros"
 }
