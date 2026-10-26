@@ -414,6 +414,31 @@ a:focus-visible,
     gap: 1.5rem;
 }
 
+/* Home page 'Why Our Apps Are Different': four cards in one row (26 Oct 2026), two per row below 1100px, one on phones. */
+.features-grid.four-up {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1180px;
+    margin: 0 auto;
+    gap: 1.25rem;
+}
+
+.features-grid.four-up .feature-card {
+    padding: 1.5rem;
+}
+
+@media (max-width: 1100px) {
+    .features-grid.four-up {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 760px;
+    }
+}
+
+@media (max-width: 600px) {
+    .features-grid.four-up {
+        grid-template-columns: 1fr;
+    }
+}
+
 .feature-card {
     background: var(--bg-card);
     border: 1px solid var(--border);
