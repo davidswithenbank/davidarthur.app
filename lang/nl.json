@@ -837,7 +837,7 @@
   "home.cmp.55": "Informele spraak",
   "home.cmp.56": "Vertaling zin voor zin op een telefoon",
   "home.cmp.57": "Schriftelijke vertaling en zakelijke vergaderingen",
-  "home.cmp.58": "Informatie over concurrenten gecontroleerd op 6 oktober 2026 aan de hand van de eigen website en appstorevermeldingen van elk bedrijf. &mdash; betekent niet aangeboden, of niet gevonden op de eigen pagina’s van het bedrijf. Functies veranderen vaak; als iets hier verouderd is, laat het ons dan weten via <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
+  "home.cmp.58": "Concurrentie-informatie gecontroleerd op 6 oktober 2026 (onderwerpmodi voor tolken: 2 november 2026) aan de hand van de eigen website van elk bedrijf en appstorevermeldingen. &mdash; betekent niet aangeboden, of niet gevonden op de eigen pagina&rsquo;s van het bedrijf. Functies veranderen vaak; als iets hier verouderd is, laat het ons dan weten via <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
   "home.cmp.feature": "Functie",
   "home.cmpx.4box": "4-vaksweergave met twee banen",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4 live vakken <span class=\"unique-badge\">Opvallend</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "Waar je ons vindt",
   "footer.about": "Over ons",
   "dvx.chat.title": "Nieuw: de chatweergave",
-  "dvx.chat.desc": "Bekijk het hele gesprek als spraakballonnen: elke persoon aan een eigen kant, met de vertaling in elke ballon."
+  "dvx.chat.desc": "Bekijk het hele gesprek als spraakballonnen: elke persoon aan een eigen kant, met de vertaling in elke ballon.",
+  "home.cmpx.subject": "Onderwerpmodi voor tolken",
+  "home.cmpx.subject.deepl": "Alleen woordenlijst",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">Onderscheidend</span>",
+  "home.cmpx.subject.itr": "Afzonderlijke medische app",
+  "home.cmpx.subject.sub": "Woordenschat voor zorg, recht, immigratie, onderwijs, IT en zakelijke gesprekken",
+  "home.layouts.4box.desc": "De exacte woorden van elke spreker en de vertaling, in vier vakken naast elkaar. Gemaakt voor tolken en voor iedereen die wil controleren wat er is gezegd, in beide talen, terwijl het gebeurt.",
+  "home.layouts.4box.title": "4-vakkenweergave: voor professionals",
+  "home.layouts.chat.desc": "Het gesprek als tekstballonnen, zoals in een berichtenapp, met de vertaling in elke ballon. Makkelijk te volgen tijdens een familiegesprek, op reis of bij het oefenen van een taal.",
+  "home.layouts.chat.title": "Chatweergave: voor alledaagse gesprekken",
+  "home.layouts.title": "Twee indelingen, voor twee soorten gesprekken",
+  "interp.legal.link": "Juridisch of vreemdelingenwerk? <a href=\"https://duovox.net/legal-interpreting.html\">Bekijk DuoVox voor juridisch tolken &rarr;</a>",
+  "interp.med.link": "Tolken in de zorg? <a href=\"https://duovox.net/medical-interpreting.html\">Bekijk DuoVox voor medische tolken &rarr;</a>"
 }

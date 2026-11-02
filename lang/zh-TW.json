@@ -837,7 +837,7 @@
   "home.cmp.55": "日常語音",
   "home.cmp.56": "在手機上逐句翻譯",
   "home.cmp.57": "書面翻譯與商務會議",
-  "home.cmp.58": "競品資訊已於 2026 年 10 月 6 日，依各公司自己的網站與 app 商店頁面進行查核。&mdash; 表示未提供，或未在該公司自己的頁面上找到。功能經常變動；如果這裡有任何內容已過時，請來信告知：<a href=\"mailto:support@duovox.net\">support@duovox.net</a>。",
+  "home.cmp.58": "競品資訊於 2026 年 10 月 6 日查核（口譯員的主題模式：2026 年 11 月 2 日），依據各公司自己的網站與 app 商店頁面。&mdash; 表示未提供，或未在該公司自己的頁面找到。功能經常變更；如果這裡有任何內容已過時，請透過 <a href=\"mailto:support@duovox.net\">support@duovox.net</a> 告訴我們。",
   "home.cmp.feature": "功能",
   "home.cmpx.4box": "4 格雙軌視圖",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4 個即時方塊 <span class=\"unique-badge\">表現突出</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "找到我們",
   "footer.about": "關於我們",
   "dvx.chat.title": "全新：聊天檢視",
-  "dvx.chat.desc": "以對話氣泡查看完整對話：每個人各自在一側，每個氣泡中都顯示翻譯。"
+  "dvx.chat.desc": "以對話氣泡查看完整對話：每個人各自在一側，每個氣泡中都顯示翻譯。",
+  "home.cmpx.subject": "口譯員適用的主題模式",
+  "home.cmpx.subject.deepl": "僅限術語表",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">亮點</span>",
+  "home.cmpx.subject.itr": "獨立醫療應用程式",
+  "home.cmpx.subject.sub": "醫療、法律、移民、教育、IT 和商務詞彙",
+  "home.layouts.4box.desc": "將每位說話者的原話與翻譯，以四個方框並排顯示。專為口譯員，以及任何需要在對話進行時，同步核對雙語內容的人而設計。",
+  "home.layouts.4box.title": "4 格檢視：適合專業人士",
+  "home.layouts.chat.desc": "以對話泡泡呈現，就像訊息 app 一樣，每個泡泡都附有翻譯。在家庭通話、旅行途中或練習語言時，都很容易跟上內容。",
+  "home.layouts.chat.title": "聊天檢視：適合日常對話",
+  "home.layouts.title": "兩種版面，適合兩種對話情境",
+  "interp.legal.link": "法律或移民相關工作？<a href=\"https://duovox.net/legal-interpreting.html\">查看法律口譯員適用的 DuoVox &rarr;</a>",
+  "interp.med.link": "在醫療領域做口譯？<a href=\"https://duovox.net/medical-interpreting.html\">查看適用於醫療口譯員的 DuoVox &rarr;</a>"
 }

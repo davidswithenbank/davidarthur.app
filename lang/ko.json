@@ -837,7 +837,7 @@
   "home.cmp.55": "일상적인 음성",
   "home.cmp.56": "휴대전화에서 문장별 번역",
   "home.cmp.57": "문서 번역 및 비즈니스 회의",
-  "home.cmp.58": "경쟁사 정보는 2026년 10월 6일에 각 회사의 자체 웹사이트와 앱 스토어 등록 정보를 기준으로 확인했습니다. &mdash;는 제공되지 않거나, 해당 회사의 자체 페이지에서 확인되지 않았음을 의미합니다. 기능은 자주 변경되므로, 여기 내용 중 최신이 아닌 것이 있다면 <a href=\"mailto:support@duovox.net\">support@duovox.net</a>으로 알려 주세요.",
+  "home.cmp.58": "경쟁사 정보는 각 회사의 자체 웹사이트와 앱 스토어 등록 정보를 기준으로 2026년 10월 6일에 확인했습니다(통역사를 위한 주제 모드는 2026년 11월 2일). &mdash;는 제공되지 않거나 해당 회사의 자체 페이지에서 찾을 수 없음을 의미합니다. 기능은 자주 변경되므로, 여기의 내용 중 오래된 정보가 있다면 <a href=\"mailto:support@duovox.net\">support@duovox.net</a>으로 알려 주세요.",
   "home.cmp.feature": "기능",
   "home.cmpx.4box": "4박스 듀얼 레인 보기",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 실시간 4박스 <span class=\"unique-badge\">주요 강점</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "저희를 찾아보세요",
   "footer.about": "회사 소개",
   "dvx.chat.title": "새 기능: 채팅 보기",
-  "dvx.chat.desc": "전체 대화를 말풍선으로 확인하세요: 각 사람은 각자의 쪽에 표시되고, 모든 말풍선에 번역이 함께 표시됩니다."
+  "dvx.chat.desc": "전체 대화를 말풍선으로 확인하세요: 각 사람은 각자의 쪽에 표시되고, 모든 말풍선에 번역이 함께 표시됩니다.",
+  "home.cmpx.subject": "통역사를 위한 주제 모드",
+  "home.cmpx.subject.deepl": "용어집만",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">눈에 띔</span>",
+  "home.cmpx.subject.itr": "별도의 의료 앱",
+  "home.cmpx.subject.sub": "의료, 법률, 이민, 교육, IT, 비즈니스 어휘",
+  "home.layouts.4box.desc": "각 화자의 정확한 말과 번역이 네 개의 박스에 나란히 표시됩니다. 통역사와, 두 언어에서 실제로 무엇이 말해졌는지 실시간으로 확인해야 하는 모든 사람을 위해 만들어졌습니다.",
+  "home.layouts.4box.title": "4박스 보기: 전문가용",
+  "home.layouts.chat.desc": "대화가 메신저 앱처럼 말풍선으로 표시되며, 모든 말풍선에 번역이 함께 표시됩니다. 가족과의 통화, 여행 중, 또는 언어를 연습할 때 쉽게 따라갈 수 있습니다.",
+  "home.layouts.chat.title": "채팅 보기: 일상 대화용",
+  "home.layouts.title": "두 가지 대화 방식에 맞춘 두 가지 레이아웃",
+  "interp.legal.link": "법률 또는 이민 업무이신가요? <a href=\"https://duovox.net/legal-interpreting.html\">법률 통역사를 위한 DuoVox 보기 &rarr;</a>",
+  "interp.med.link": "의료 통역을 하시나요? <a href=\"https://duovox.net/medical-interpreting.html\">의료 통역사를 위한 DuoVox 보기 &rarr;</a>"
 }

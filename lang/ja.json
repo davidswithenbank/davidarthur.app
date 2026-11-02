@@ -837,7 +837,7 @@
   "home.cmp.55": "気軽な音声翻訳",
   "home.cmp.56": "スマートフォンでのフレーズごとの翻訳",
   "home.cmp.57": "文章翻訳とビジネス会議",
-  "home.cmp.58": "競合情報は各社の公式サイトおよびアプリストア掲載情報をもとに、2026年10月6日に確認しました。&mdash; は、提供されていないか、各社の公式ページで確認できなかったことを示します。機能は頻繁に変更されます。ここに古い情報がありましたら、<a href=\"mailto:support@duovox.net\">support@duovox.net</a> までお知らせください。",
+  "home.cmp.58": "競合情報は2026年10月6日に、各社の公式ウェブサイトおよびアプリストア掲載情報をもとに確認しました（通訳者向けの主題モードは2026年11月2日時点）。&mdash; は、提供されていないか、または各社の公式ページで確認できなかったことを意味します。機能は頻繁に変更されるため、ここに古い情報がありましたら、<a href=\"mailto:support@duovox.net\">support@duovox.net</a> までお知らせください。",
   "home.cmp.feature": "機能",
   "home.cmpx.4box": "4ボックスのデュアルレーン表示",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4つのライブボックス <span class=\"unique-badge\">特長</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "掲載・連絡先",
   "footer.about": "私たちについて",
   "dvx.chat.title": "新機能：チャット表示",
-  "dvx.chat.desc": "会話全体を吹き出しで表示します。各発言者がそれぞれ左右に分かれて表示され、すべての吹き出しに翻訳が入ります。"
+  "dvx.chat.desc": "会話全体を吹き出しで表示します。各発言者がそれぞれ左右に分かれて表示され、すべての吹き出しに翻訳が入ります。",
+  "home.cmpx.subject": "通訳者向けの専門分野モード",
+  "home.cmpx.subject.deepl": "用語集のみ",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">注目</span>",
+  "home.cmpx.subject.itr": "医療向けの別アプリ",
+  "home.cmpx.subject.sub": "医療、法律、移民、教育、IT、ビジネスの語彙",
+  "home.layouts.4box.desc": "各話者の正確な発言とその翻訳を、4つのボックスに並べて表示します。通訳者のために、また、会話の進行に合わせて両言語で何が話されたかを確認する必要がある方のために作られています。",
+  "home.layouts.4box.title": "4ボックス表示：プロ向け",
+  "home.layouts.chat.desc": "会話をメッセージアプリのような吹き出しで表示し、各吹き出しに翻訳も表示します。家族との通話、旅行中、語学の練習中でも追いやすくなっています。",
+  "home.layouts.chat.title": "チャット表示：日常会話向け",
+  "home.layouts.title": "2つの会話スタイルに合わせた、2つのレイアウト",
+  "interp.legal.link": "法律・入管業務ですか？ <a href=\"https://duovox.net/legal-interpreting.html\">法律通訳者向け DuoVox を見る &rarr;</a>",
+  "interp.med.link": "医療通訳をしていますか？ <a href=\"https://duovox.net/medical-interpreting.html\">医療通訳者向けのDuoVoxを見る &rarr;</a>"
 }

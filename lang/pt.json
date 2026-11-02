@@ -837,7 +837,7 @@
   "home.cmp.55": "Voz casual",
   "home.cmp.56": "Tradução frase a frase num telemóvel",
   "home.cmp.57": "Tradução escrita e reuniões de negócios",
-  "home.cmp.58": "Informações sobre concorrentes verificadas em 6 de outubro de 2026 com base no próprio website e nas listagens nas lojas de aplicações de cada empresa. &mdash; significa não oferecido, ou não encontrado nas páginas da própria empresa. As funcionalidades mudam com frequência; se alguma coisa aqui estiver desatualizada, avise-nos em <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
+  "home.cmp.58": "Informações dos concorrentes verificadas em 6 de outubro de 2026 (modos de assunto para intérpretes: 2 de novembro de 2026) em comparação com o website e as listagens na loja de aplicações de cada empresa. &mdash; significa que não é oferecido ou não foi encontrado nas páginas da própria empresa. As funcionalidades mudam frequentemente; se alguma coisa aqui estiver desatualizada, informe-nos em <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
   "home.cmp.feature": "Funcionalidade",
   "home.cmpx.4box": "Vista de 4 caixas em pista dupla",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4 caixas em direto <span class=\"unique-badge\">Em destaque</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "Onde nos encontrar",
   "footer.about": "Sobre nós",
   "dvx.chat.title": "Novo: a vista Conversa",
-  "dvx.chat.desc": "Veja toda a conversa em balões de fala: cada pessoa do seu lado, com a tradução em cada balão."
+  "dvx.chat.desc": "Veja toda a conversa em balões de fala: cada pessoa do seu lado, com a tradução em cada balão.",
+  "home.cmpx.subject": "Modos por tema para intérpretes",
+  "home.cmpx.subject.deepl": "Apenas glossário",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">Destaque</span>",
+  "home.cmpx.subject.itr": "Aplicação médica separada",
+  "home.cmpx.subject.sub": "Vocabulário de medicina, direito, imigração, educação, TI e negócios",
+  "home.layouts.4box.desc": "As palavras exatas de cada interlocutor e a tradução, em quatro caixas lado a lado. Feito para intérpretes e para qualquer pessoa que precise de verificar o que foi dito, em ambas as línguas, à medida que acontece.",
+  "home.layouts.4box.title": "Vista de 4 caixas: para profissionais",
+  "home.layouts.chat.desc": "A conversa em balões de fala, como numa app de mensagens, com a tradução em cada balão. Fácil de acompanhar numa chamada em família, em viagem ou a praticar uma língua.",
+  "home.layouts.chat.title": "Vista de chat: para conversas do dia a dia",
+  "home.layouts.title": "Dois layouts, para dois tipos de conversa",
+  "interp.legal.link": "Trabalho jurídico ou de imigração? <a href=\"https://duovox.net/legal-interpreting.html\">Veja o DuoVox para intérpretes jurídicos &rarr;</a>",
+  "interp.med.link": "Interpretação em cuidados de saúde? <a href=\"https://duovox.net/medical-interpreting.html\">Veja o DuoVox para intérpretes médicos &rarr;</a>"
 }

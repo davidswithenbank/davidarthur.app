@@ -837,7 +837,7 @@
   "home.cmp.55": "Voix occasionnelle",
   "home.cmp.56": "Traduction phrase par phrase sur téléphone",
   "home.cmp.57": "Traduction écrite et réunions professionnelles",
-  "home.cmp.58": "Informations sur les concurrents vérifiées le 6 octobre 2026 d’après le propre site web de chaque entreprise et ses fiches sur les app stores. &mdash; signifie non proposé, ou non trouvé sur les propres pages de l’entreprise. Les fonctionnalités changent souvent ; si quelque chose ici n’est pas à jour, merci de nous le signaler à <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
+  "home.cmp.58": "Informations sur les concurrents vérifiées le 6 octobre 2026 (modes de sujet pour les interprètes\u0000a0: 2 novembre 2026) d&rsquo;apr\u0000e8s le site web et les fiches des boutiques d&rsquo;applications de chaque entreprise. &mdash; signifie non propos\u0000e9, ou introuvable sur les pages de l&rsquo;entreprise elle-m\u0000eame. Les fonctionnalit\u0000e9s changent souvent\u0000a0; si quelque chose ici n&rsquo;est plus \u0000e0 jour, merci de nous le signaler \u0000e0 <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
   "home.cmp.feature": "Fonctionnalité",
   "home.cmpx.4box": "Vue à 4 panneaux sur deux voies",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4 panneaux en direct <span class=\"unique-badge\">Remarquable</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "Où nous trouver",
   "footer.about": "À propos de nous",
   "dvx.chat.title": "Nouveau : la vue Chat",
-  "dvx.chat.desc": "Affichez toute la conversation sous forme de bulles de dialogue : chaque personne de son côté, avec la traduction dans chaque bulle."
+  "dvx.chat.desc": "Affichez toute la conversation sous forme de bulles de dialogue : chaque personne de son côté, avec la traduction dans chaque bulle.",
+  "home.cmpx.subject": "Modes par sujet pour les interprètes",
+  "home.cmpx.subject.deepl": "Glossaire uniquement",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">Remarquable</span>",
+  "home.cmpx.subject.itr": "Application médicale distincte",
+  "home.cmpx.subject.sub": "Vocabulaire médical, juridique, de l’immigration, de l’éducation, de l’informatique et des affaires",
+  "home.layouts.4box.desc": "Les mots exacts de chaque interlocuteur et la traduction, dans quatre cases côte à côte. Conçue pour les interprètes et pour toute personne ayant besoin de vérifier ce qui a été dit, dans les deux langues, au fur et à mesure.",
+  "home.layouts.4box.title": "Vue à 4 cases : pour les professionnels",
+  "home.layouts.chat.desc": "La conversation sous forme de bulles, comme dans une appli de messagerie, avec la traduction dans chaque bulle. Facile à suivre lors d’un appel en famille, en voyage ou pour pratiquer une langue.",
+  "home.layouts.chat.title": "Vue chat : pour les conversations du quotidien",
+  "home.layouts.title": "Deux dispositions, pour deux types de conversation",
+  "interp.legal.link": "Travail juridique ou en immigration ? <a href=\"https://duovox.net/legal-interpreting.html\">Voir DuoVox pour les interprètes juridiques &rarr;</a>",
+  "interp.med.link": "Interprétation en santé ? <a href=\"https://duovox.net/medical-interpreting.html\">Voir DuoVox pour les interprètes médicaux &rarr;</a>"
 }

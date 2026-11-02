@@ -837,7 +837,7 @@
   "home.cmp.55": "日常语音",
   "home.cmp.56": "在手机上逐句翻译",
   "home.cmp.57": "书面翻译和商务会议",
-  "home.cmp.58": "竞品信息于 2026 年 10 月 6 日根据各家公司自己的网站和应用商店列表核对。&mdash; 表示未提供，或未在该公司自己的页面上找到。功能经常变化；如果这里有任何信息已过时，请通过 <a href=\"mailto:support@duovox.net\">support@duovox.net</a> 告知我们。",
+  "home.cmp.58": "竞品信息于 2026 年 10 月 6 日核对（口译员主题模式：2026 年 11 月 2 日），依据各公司官网及应用商店页面。&mdash; 表示未提供，或未在该公司自有页面中找到。功能经常变化；如果这里有任何内容已过时，请通过 <a href=\"mailto:support@duovox.net\">support@duovox.net</a> 告知我们。",
   "home.cmp.feature": "功能",
   "home.cmpx.4box": "4 框双通道视图",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4 个实时框 <span class=\"unique-badge\">亮点</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "找到我们",
   "footer.about": "关于我们",
   "dvx.chat.title": "新功能：聊天视图",
-  "dvx.chat.desc": "以对话气泡形式查看整个对话：每个人各在一侧，并且每个气泡中都显示翻译。"
+  "dvx.chat.desc": "以对话气泡形式查看整个对话：每个人各在一侧，并且每个气泡中都显示翻译。",
+  "home.cmpx.subject": "面向口译员的主题模式",
+  "home.cmpx.subject.deepl": "仅术语表",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">亮点</span>",
+  "home.cmpx.subject.itr": "独立医疗应用",
+  "home.cmpx.subject.sub": "医疗、法律、移民、教育、IT 和商务词汇",
+  "home.layouts.4box.desc": "每位说话者的原话及其翻译，分成四个并排显示的框。专为口译员以及任何需要在对话进行时用两种语言核对说了什么的人而设计。",
+  "home.layouts.4box.title": "4 框视图：适合专业人士",
+  "home.layouts.chat.desc": "对话会像消息应用那样以聊天气泡显示，每个气泡里都带有翻译。无论是在家庭通话中、旅行途中，还是在练习语言时，都能轻松跟上对话。",
+  "home.layouts.chat.title": "聊天视图：适合日常对话",
+  "home.layouts.title": "两种布局，适合两类对话",
+  "interp.legal.link": "法律或移民相关工作？<a href=\"https://duovox.net/legal-interpreting.html\">查看面向法律口译员的 DuoVox &rarr;</a>",
+  "interp.med.link": "医疗口译？<a href=\"https://duovox.net/medical-interpreting.html\">查看面向医疗口译员的 DuoVox &rarr;</a>"
 }

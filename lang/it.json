@@ -837,7 +837,7 @@
   "home.cmp.55": "Voce per uso occasionale",
   "home.cmp.56": "Traduzione frase per frase su telefono",
   "home.cmp.57": "Traduzione scritta e riunioni di lavoro",
-  "home.cmp.58": "Informazioni sui concorrenti verificate il 6 ottobre 2026 confrontando il sito web di ciascuna azienda e le relative schede negli app store. &mdash; significa non offerto, o non trovato nelle pagine dell&rsquo;azienda. Le funzionalità cambiano spesso; se qualcosa qui non è aggiornato, faccelo sapere a <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
+  "home.cmp.58": "Informazioni sui concorrenti verificate il 6 ottobre 2026 (modalità argomento per interpreti: 2 novembre 2026) rispetto al sito web e alle schede negli app store di ciascuna azienda. &mdash; significa non offerto, oppure non trovato nelle pagine dell&rsquo;azienda stessa. Le funzionalità cambiano spesso; se qualcosa qui non è aggiornato, faccelo sapere scrivendo a <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
   "home.cmp.feature": "Funzionalità",
   "home.cmpx.4box": "Vista a 4 riquadri a doppia corsia",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4 riquadri dal vivo <span class=\"unique-badge\">In evidenza</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "Dove trovarci",
   "footer.about": "Chi siamo",
   "dvx.chat.title": "Novità: la vista Chat",
-  "dvx.chat.desc": "Visualizza l'intera conversazione come fumetti: ogni persona sul proprio lato, con la traduzione in ogni fumetto."
+  "dvx.chat.desc": "Visualizza l'intera conversazione come fumetti: ogni persona sul proprio lato, con la traduzione in ogni fumetto.",
+  "home.cmpx.subject": "Modalità per argomento per interpreti",
+  "home.cmpx.subject.deepl": "Solo glossario",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">In evidenza</span>",
+  "home.cmpx.subject.itr": "App medica separata",
+  "home.cmpx.subject.sub": "Vocabolario medico, legale, per l'immigrazione, per l'istruzione, IT e business",
+  "home.layouts.4box.desc": "Le parole esatte di ciascun interlocutore e la traduzione, in quattro riquadri affiancati. Pensata per gli interpreti e per chiunque abbia bisogno di verificare cosa è stato detto, in entrambe le lingue, mentre accade.",
+  "home.layouts.4box.title": "Vista a 4 riquadri: per professionisti",
+  "home.layouts.chat.desc": "La conversazione in bolle di messaggio, come in un'app di messaggistica, con la traduzione in ogni bolla. Facile da seguire durante una chiamata con la famiglia, in viaggio o mentre si pratica una lingua.",
+  "home.layouts.chat.title": "Vista chat: per le conversazioni di tutti i giorni",
+  "home.layouts.title": "Due layout, per due tipi di conversazione",
+  "interp.legal.link": "Lavori in ambito legale o immigrazione? <a href=\"https://duovox.net/legal-interpreting.html\">Scopri DuoVox per interpreti legali &rarr;</a>",
+  "interp.med.link": "Interpretariato in ambito sanitario? <a href=\"https://duovox.net/medical-interpreting.html\">Scopri DuoVox per gli interpreti medici &rarr;</a>"
 }

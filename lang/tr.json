@@ -837,7 +837,7 @@
   "home.cmp.55": "Günlük sesli kullanım",
   "home.cmp.56": "Telefonda cümle cümle çeviri",
   "home.cmp.57": "Yazılı çeviri ve iş toplantıları",
-  "home.cmp.58": "Rakip bilgileri, her şirketin kendi web sitesi ve uygulama mağazası listelerine göre 6 Ekim 2026 tarihinde kontrol edilmiştir. &mdash; sunulmadığı veya şirketin kendi sayfalarında bulunmadığı anlamına gelir. Özellikler sık sık değişir; burada bir şey güncel değilse lütfen bize <a href=\"mailto:support@duovox.net\">support@duovox.net</a> adresinden bildirin.",
+  "home.cmp.58": "Rakip bilgileri 6 Ekim 2026 tarihinde (tercümanlar için konu modları: 2 Kasım 2026) her şirketin kendi web sitesi ve uygulama mağazası listeleri üzerinden kontrol edilmiştir. &mdash; sunulmadığı veya şirketin kendi sayfalarında bulunamadığı anlamına gelir. Özellikler sık sık değişir; burada herhangi bir şey güncel değilse lütfen bize <a href=\"mailto:support@duovox.net\">support@duovox.net</a> adresinden bildirin.",
   "home.cmp.feature": "Özellik",
   "home.cmpx.4box": "4 kutulu çift şeritli görünüm",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4 canlı kutu <span class=\"unique-badge\">Öne Çıkan</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "Bize ulaşın",
   "footer.about": "Hakkımızda",
   "dvx.chat.title": "Yeni: Sohbet görünümü",
-  "dvx.chat.desc": "Tüm konuşmayı konuşma balonları olarak görün: her kişi kendi tarafında, çeviri ise her balonun içinde."
+  "dvx.chat.desc": "Tüm konuşmayı konuşma balonları olarak görün: her kişi kendi tarafında, çeviri ise her balonun içinde.",
+  "home.cmpx.subject": "Tercümanlar için konu modları",
+  "home.cmpx.subject.deepl": "Yalnızca sözlükçe",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">Öne çıkan</span>",
+  "home.cmpx.subject.itr": "Ayrı tıbbi uygulama",
+  "home.cmpx.subject.sub": "Tıp, hukuk, göçmenlik, eğitim, BT ve iş dünyası kelime dağarcığı",
+  "home.layouts.4box.desc": "Her konuşmacının tam sözleri ve çeviri, yan yana dört kutuda. Tercümanlar ve her iki dilde de ne dendiğini, söylenirken kontrol etmesi gereken herkes için tasarlandı.",
+  "home.layouts.4box.title": "4 kutulu görünüm: profesyoneller için",
+  "home.layouts.chat.desc": "Konuşma, her balonda çeviriyle birlikte, bir mesajlaşma uygulamasındaki gibi konuşma balonları halinde gösterilir. Aile görüşmesinde, seyahat ederken veya dil pratiği yaparken takip etmesi kolaydır.",
+  "home.layouts.chat.title": "Sohbet görünümü: günlük konuşmalar için",
+  "home.layouts.title": "İki tür konuşma için iki düzen",
+  "interp.legal.link": "Hukuki veya göçmenlik işi mi? <a href=\"https://duovox.net/legal-interpreting.html\">Hukuk tercümanları için DuoVox'a bakın &rarr;</a>",
+  "interp.med.link": "Sağlık hizmetlerinde sözlü çeviri mi yapıyorsunuz? <a href=\"https://duovox.net/medical-interpreting.html\">Tıbbi tercümanlar için DuoVox'u görün &rarr;</a>"
 }

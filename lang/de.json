@@ -837,7 +837,7 @@
   "home.cmp.55": "Alltägliche Sprache",
   "home.cmp.56": "Übersetzung Satz für Satz auf einem Smartphone",
   "home.cmp.57": "Schriftliche Übersetzung & Geschäftstreffen",
-  "home.cmp.58": "Informationen zu Wettbewerbern wurden am 6. Oktober 2026 anhand der jeweiligen Unternehmenswebsite und App-Store-Einträge geprüft. &mdash; bedeutet: nicht angeboten oder auf den eigenen Seiten des Unternehmens nicht gefunden. Funktionen ändern sich häufig; wenn hier etwas nicht mehr aktuell ist, teilen Sie es uns bitte mit unter <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
+  "home.cmp.58": "Informationen zu Wettbewerbern geprüft am 6. Oktober 2026 (Themenmodi für Dolmetscher: 2. November 2026) anhand der jeweiligen eigenen Website und App-Store-Einträge des Unternehmens. &mdash; bedeutet: nicht angeboten oder nicht auf den eigenen Seiten des Unternehmens gefunden. Funktionen ändern sich häufig; wenn hier etwas nicht mehr aktuell ist, teilen Sie es uns bitte unter <a href=\"mailto:support@duovox.net\">support@duovox.net</a> mit.",
   "home.cmp.feature": "Funktion",
   "home.cmpx.4box": "4-Felder-Ansicht mit zwei Spuren",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4 Live-Felder <span class=\"unique-badge\">Herausragend</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "Hier finden Sie uns",
   "footer.about": "Über uns",
   "dvx.chat.title": "Neu: die Chat-Ansicht",
-  "dvx.chat.desc": "Sehen Sie die ganze Unterhaltung als Sprechblasen: jede Person auf ihrer eigenen Seite des Bildschirms, mit der Übersetzung in jeder Sprechblase."
+  "dvx.chat.desc": "Sehen Sie die ganze Unterhaltung als Sprechblasen: jede Person auf ihrer eigenen Seite des Bildschirms, mit der Übersetzung in jeder Sprechblase.",
+  "home.cmpx.subject": "Themenmodi für Dolmetschende",
+  "home.cmpx.subject.deepl": "Nur Glossar",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">Herausragend</span>",
+  "home.cmpx.subject.itr": "Separate medizinische App",
+  "home.cmpx.subject.sub": "Wortschatz für Medizin, Recht, Einwanderung, Bildung, IT und Wirtschaft",
+  "home.layouts.4box.desc": "Die genauen Worte jeder sprechenden Person und die Übersetzung, in vier Feldern nebeneinander. Gemacht für Dolmetschende und für alle, die in beiden Sprachen prüfen müssen, was gesagt wurde, während es geschieht.",
+  "home.layouts.4box.title": "4-Box-Ansicht: für Fachleute",
+  "home.layouts.chat.desc": "Das Gespräch als Sprechblasen, wie in einer Messenger-App, mit der Übersetzung in jeder Blase. Leicht zu verfolgen bei einem Familienanruf, auf Reisen oder beim Üben einer Sprache.",
+  "home.layouts.chat.title": "Chat-Ansicht: für Alltagsgespräche",
+  "home.layouts.title": "Zwei Layouts für zwei Arten von Gesprächen",
+  "interp.legal.link": "Juristische oder Einwanderungsfälle? <a href=\"https://duovox.net/legal-interpreting.html\">Mehr zu DuoVox für Gerichtsdolmetscher &rarr;</a>",
+  "interp.med.link": "Dolmetschen im Gesundheitswesen? <a href=\"https://duovox.net/medical-interpreting.html\">Mehr zu DuoVox für medizinische Dolmetscher &rarr;</a>"
 }

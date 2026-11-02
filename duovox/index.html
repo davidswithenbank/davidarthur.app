@@ -70,6 +70,15 @@
     @media (max-width: 820px) { .video-pair { grid-template-columns: 1fr; } }
     .video-note { text-align: center; margin-top: 0.9rem; font-size: 0.85rem; color: var(--text-secondary); }
     .video-note a { color: var(--accent-light); }
+/* Two layouts (2 Nov 2026, as duovox.net home-condensed.css) */
+.layouts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; align-items: stretch; max-width: 1100px; margin: 0 auto; }
+.layout-card { margin: 0; background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 1rem; }
+.layout-card img { width: 100%; height: auto; display: block; border-radius: 10px; aspect-ratio: 1164 / 1040; object-fit: cover; object-position: top; }
+.layout-card img.layout-img-full { object-fit: contain; object-position: center; }
+.layout-card figcaption { padding: .9rem .3rem .2rem; }
+.layout-card h3 { font-size: 1.1rem; margin-bottom: .35rem; }
+.layout-card p { color: var(--text-secondary); font-size: .9rem; line-height: 1.5; }
+@media (max-width: 700px) { .layouts-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -202,13 +211,25 @@
 </div>
 </div>
 </section>
-<!-- Chat view (12.3.145, 2 Nov 2026): a real capture - English/Spanish on Standard, every line the app's own output -->
-<section class="section" id="chat-view" style="padding-top:20px; padding-bottom:40px;">
-<h2 class="section-title" data-i18n="dvx.chat.title">New: the Chat view</h2>
-<p class="section-subtitle" data-i18n="dvx.chat.desc">See the whole conversation as speech bubbles: each person on their own side, with the translation in every bubble.</p>
-<figure style="max-width:520px; margin:1.5rem auto 0;">
-<a href="/duovox/duovox-chat-view.png"><img src="/duovox/duovox-chat-view.png" alt="DuoVox Chat view: an English and a Spanish speaker as speech bubbles, each line with its translation" width="904" height="954" loading="lazy" style="width:100%; height:auto; border-radius:14px; box-shadow:0 12px 40px rgba(0,0,0,.35);"></a>
-</figure>
+<!-- Two layouts (2 Nov 2026, as duovox.net): real captures from 12.3.145 -->
+<section class="section" id="layouts" style="padding-top:20px; padding-bottom:40px;">
+    <h2 class="section-title" data-i18n="home.layouts.title">Two layouts, for two kinds of conversation</h2>
+    <div class="layouts-grid">
+        <figure class="layout-card">
+            <a href="/duovox/duovox-four-box.png"><img src="/duovox/duovox-four-box.png" alt="The 4-box view" width="1164" height="1040" loading="lazy"></a>
+            <figcaption>
+                <h3 data-i18n="home.layouts.4box.title">4-box view: for professionals</h3>
+                <p data-i18n="home.layouts.4box.desc">Each speaker's exact words and the translation, in four boxes side by side. Made for interpreters and for anyone who needs to check what was said, in both languages, as it happens.</p>
+            </figcaption>
+        </figure>
+        <figure class="layout-card">
+            <a href="/duovox/duovox-chat-view.png"><img class="layout-img-full" src="/duovox/duovox-chat-view.png" alt="The Chat view" width="904" height="954" loading="lazy"></a>
+            <figcaption>
+                <h3 data-i18n="home.layouts.chat.title">Chat view: for everyday conversations</h3>
+                <p data-i18n="home.layouts.chat.desc">The conversation as speech bubbles, like a messaging app, with the translation in every bubble. Easy to follow on a family call, while travelling or practising a language.</p>
+            </figcaption>
+        </figure>
+    </div>
 </section>
 <!-- Mid-page CTA -->
 <section class="section" style="padding-top:0; padding-bottom:40px;">
@@ -260,94 +281,94 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Live conversations -->
-                <tr class="category-row"><td colspan="6" data-i18n-html="home.cmpx.cat.live"><strong>Live Conversations</strong></td></tr>
                 <tr>
                     <td><span class="cmp-feat" data-i18n="home.cmpx.4box">4-box dual-lane view</span><span class="cmp-sub" data-i18n="home.cmpx.4box.sub">Both speakers&rsquo; words and both translations on screen at the same time</span></td>
-                    <td class="highlight-col" data-i18n-html="home.cmpx.4box.dv"><span class="check">&#10003;</span> 4 live boxes <span class="unique-badge">Standout</span></td>
-                    <td class="cmp-note" data-i18n="home.cmpx.split.phone">Phone split screen</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-note" data-i18n="home.cmpx.split.phone">Phone split screen</td>
-                    <td class="cmp-note" data-i18n="home.cmpx.split.f2f">Face-to-face split screen</td>
+                    <td data-label="DuoVox" class="highlight-col" data-i18n-html="home.cmpx.4box.dv"><span class="check">&#10003;</span> 4 live boxes <span class="unique-badge">Standout</span></td>
+                    <td data-label="Google" class="cmp-note" data-i18n="home.cmpx.split.phone">Phone split screen</td>
+                    <td data-label="iTranslate" class="cmp-none">&mdash;</td>
+                    <td data-label="Microsoft" class="cmp-note" data-i18n="home.cmpx.split.phone">Phone split screen</td>
+                    <td data-label="DeepL" class="cmp-note" data-i18n="home.cmpx.split.f2f">Face-to-face split screen</td>
                 </tr>
                 <tr>
                     <td><span class="cmp-feat" data-i18n="home.cmpx.cont">Continuous, hands-free translation</span><span class="cmp-sub" data-i18n="home.cmpx.cont.sub">Just talk &mdash; no tapping a button and waiting your turn</span></td>
-                    <td class="highlight-col" data-i18n-html="home.cmp.5"><span class="check">&#10003;</span> Continuous</td>
-                    <td class="cmp-note" data-i18n="home.cmpx.cont.google">Conversations take turns</td>
-                    <td class="cmp-note" data-i18n="home.cmpx.turn">Turn-based</td>
-                    <td class="cmp-note" data-i18n="home.cmpx.turn">Turn-based</td>
-                    <td class="cmp-note" data-i18n="home.cmpx.paid.voice">Paid plans only (DeepL Voice)</td>
+                    <td data-label="DuoVox" class="highlight-col" data-i18n-html="home.cmp.5"><span class="check">&#10003;</span> Continuous</td>
+                    <td data-label="Google" class="cmp-note" data-i18n="home.cmpx.cont.google">Conversations take turns</td>
+                    <td data-label="iTranslate" class="cmp-note" data-i18n="home.cmpx.turn">Turn-based</td>
+                    <td data-label="Microsoft" class="cmp-note" data-i18n="home.cmpx.turn">Turn-based</td>
+                    <td data-label="DeepL" class="cmp-note" data-i18n="home.cmpx.paid.voice">Paid plans only (DeepL Voice)</td>
                 </tr>
                 <tr>
                     <td><span class="cmp-feat" data-i18n="home.cmpx.sys">Captions anything playing on your PC</span><span class="cmp-sub" data-i18n="home.cmpx.sys.sub">Calls, meetings, YouTube and films &mdash; from any app</span></td>
-                    <td class="highlight-col" data-i18n-html="home.cmpx.sys.dv"><span class="check">&#10003;</span> Any app <span class="unique-badge">Standout</span></td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-note" data-i18n="home.cmpx.sys.deepl">Teams, Zoom &amp; Meet only (paid)</td>
+                    <td data-label="DuoVox" class="highlight-col" data-i18n-html="home.cmpx.sys.dv"><span class="check">&#10003;</span> Any app <span class="unique-badge">Standout</span></td>
+                    <td data-label="Google" class="cmp-none">&mdash;</td>
+                    <td data-label="iTranslate" class="cmp-none">&mdash;</td>
+                    <td data-label="Microsoft" class="cmp-none">&mdash;</td>
+                    <td data-label="DeepL" class="cmp-note" data-i18n="home.cmpx.sys.deepl">Teams, Zoom &amp; Meet only (paid)</td>
                 </tr>
-                <!-- Works your way -->
-                <tr class="category-row"><td colspan="6" data-i18n-html="home.cmpx.cat.yours"><strong>Works Your Way</strong></td></tr>
                 <tr>
                     <td><span class="cmp-feat" data-i18n="home.cmpx.offline">Free offline mode</span><span class="cmp-sub" data-i18n="home.cmpx.offline.sub">No internet needed, and your audio never leaves your PC</span></td>
-                    <td class="highlight-col" data-i18n-html="home.cmp.25"><span class="check">&#10003;</span> Free plan, 31 languages</td>
-                    <td class="cmp-note" data-i18n="home.cmpx.offline.google">Text and camera; live on Pixel phones only</td>
-                    <td class="cmp-note" data-i18n="home.cmp.27">Paid only</td>
-                    <td class="cmp-note" data-i18n="home.cmp.28">Text only</td>
-                    <td class="cmp-none">&mdash;</td>
+                    <td data-label="DuoVox" class="highlight-col" data-i18n-html="home.cmp.25"><span class="check">&#10003;</span> Free plan, 31 languages</td>
+                    <td data-label="Google" class="cmp-note" data-i18n="home.cmpx.offline.google">Text and camera; live on Pixel phones only</td>
+                    <td data-label="iTranslate" class="cmp-note" data-i18n="home.cmp.27">Paid only</td>
+                    <td data-label="Microsoft" class="cmp-note" data-i18n="home.cmp.28">Text only</td>
+                    <td data-label="DeepL" class="cmp-none">&mdash;</td>
                 </tr>
                 <tr>
                     <td><span class="cmp-feat" data-i18n="home.cmpx.desktop">Desktop app for Windows</span></td>
-                    <td class="highlight-col"><span class="check">&#10003;</span></td>
-                    <td class="cmp-note" data-i18n="home.cmp.39">Web only</td>
-                    <td class="cmp-note" data-i18n="home.cmp.40">Web and Mac only</td>
-                    <td class="cmp-note" data-i18n="home.cmpx.retired">Retired in 2021</td>
-                    <td><span class="check-muted">&#10003;</span></td>
+                    <td data-label="DuoVox" class="highlight-col"><span class="check">&#10003;</span></td>
+                    <td data-label="Google" class="cmp-note" data-i18n="home.cmp.39">Web only</td>
+                    <td data-label="iTranslate" class="cmp-note" data-i18n="home.cmp.40">Web and Mac only</td>
+                    <td data-label="Microsoft" class="cmp-note" data-i18n="home.cmpx.retired">Retired in 2021</td>
+                    <td data-label="DeepL"><span class="check-muted">&#10003;</span></td>
                 </tr>
-                <!-- Professional tools -->
-                <tr class="category-row"><td colspan="6" data-i18n-html="home.cmp.29"><strong>Professional Tools</strong></td></tr>
                 <tr>
                     <td><span class="cmp-feat" data-i18n="home.cmpx.subs">Subtitles from live sessions and media files</span><span class="cmp-sub" data-i18n="home.cmpx.subs.sub">Ready-to-use SRT and VTT files, transcribed and, if you want, translated</span></td>
-                    <td class="highlight-col" data-i18n-html="home.cmpx.subs.dv"><span class="check">&#10003;</span> Professional <span class="unique-badge">Standout</span></td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-note" data-i18n="home.cmpx.subs.deepl">Existing subtitle files only</td>
+                    <td data-label="DuoVox" class="highlight-col" data-i18n-html="home.cmpx.subs.dv"><span class="check">&#10003;</span> Professional <span class="unique-badge">Standout</span></td>
+                    <td data-label="Google" class="cmp-none">&mdash;</td>
+                    <td data-label="iTranslate" class="cmp-none">&mdash;</td>
+                    <td data-label="Microsoft" class="cmp-none">&mdash;</td>
+                    <td data-label="DeepL" class="cmp-note" data-i18n="home.cmpx.subs.deepl">Existing subtitle files only</td>
+                </tr>
+                                <tr class="cmp-new">
+                    <td><span class="cmp-feat" data-i18n="home.cmpx.subject">Subject modes for interpreters</span><span class="cmp-sub" data-i18n="home.cmpx.subject.sub">Medical, legal, immigration, education, IT and business vocabulary</span></td>
+                    <td data-label="DuoVox" class="highlight-col" data-i18n-html="home.cmpx.subject.dv"><span class="check">&#10003;</span> <span class="unique-badge">Standout</span></td>
+                    <td data-label="Google" class="cmp-none">&mdash;</td>
+                    <td data-label="iTranslate" class="cmp-note" data-i18n="home.cmpx.subject.itr">Separate medical app</td>
+                    <td data-label="Microsoft" class="cmp-none">&mdash;</td>
+                    <td data-label="DeepL" class="cmp-note" data-i18n="home.cmpx.subject.deepl">Glossary only</td>
                 </tr>
                 <tr>
                     <td><span class="cmp-feat" data-i18n="home.cmpx.gloss">Glossary &amp; keyword boost</span><span class="cmp-sub" data-i18n="home.cmpx.gloss.sub">Names, jargon and specialist terms come through right</span></td>
-                    <td class="highlight-col" data-i18n-html="home.cmp.37"><span class="check">&#10003;</span> Professional</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td data-i18n-html="home.cmpx.gloss.deepl"><span class="check-muted">&#10003;</span> Glossary</td>
+                    <td data-label="DuoVox" class="highlight-col" data-i18n-html="home.cmp.37"><span class="check">&#10003;</span> Professional</td>
+                    <td data-label="Google" class="cmp-none">&mdash;</td>
+                    <td data-label="iTranslate" class="cmp-none">&mdash;</td>
+                    <td data-label="Microsoft" class="cmp-none">&mdash;</td>
+                    <td data-label="DeepL" data-i18n-html="home.cmpx.gloss.deepl"><span class="check-muted">&#10003;</span> Glossary</td>
                 </tr>
-                <!-- Privacy -->
-                <tr class="category-row"><td colspan="6" data-i18n-html="home.cmp.42"><strong>Privacy &amp; Security</strong></td></tr>
                 <tr>
                     <td><span class="cmp-feat" data-i18n="home.cmpx.private">Private Mode</span><span class="cmp-sub" data-i18n="home.cmpx.private.sub">Captions are cleared when you stop, with no local log, copy or export</span></td>
-                    <td class="highlight-col" data-i18n-html="home.cmp.44"><span class="check">&#10003;</span> Professional <span class="unique-badge">Standout</span></td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-none">&mdash;</td>
+                    <td data-label="DuoVox" class="highlight-col" data-i18n-html="home.cmp.44"><span class="check">&#10003;</span> Professional <span class="unique-badge">Standout</span></td>
+                    <td data-label="Google" class="cmp-none">&mdash;</td>
+                    <td data-label="iTranslate" class="cmp-none">&mdash;</td>
+                    <td data-label="Microsoft" class="cmp-none">&mdash;</td>
+                    <td data-label="DeepL" class="cmp-none">&mdash;</td>
                 </tr>
                 <tr>
                     <td><span class="cmp-feat" data-i18n="home.cmp.49">No third-party ads or tracking</span></td>
-                    <td class="highlight-col"><span class="check">&#10003;</span></td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td class="cmp-none">&mdash;</td>
-                    <td data-i18n-html="home.cmp.50"><span class="check-muted">&#10003;</span> Apps</td>
-                    <td class="cmp-note" data-i18n="home.cmp.51">No ads; tracking on its website</td>
+                    <td data-label="DuoVox" class="highlight-col"><span class="check">&#10003;</span></td>
+                    <td data-label="Google" class="cmp-none">&mdash;</td>
+                    <td data-label="iTranslate" class="cmp-none">&mdash;</td>
+                    <td data-label="Microsoft" data-i18n-html="home.cmp.50"><span class="check-muted">&#10003;</span> Apps</td>
+                    <td data-label="DeepL" class="cmp-note" data-i18n="home.cmp.51">No ads; tracking on its website</td>
                 </tr>
                 <!-- Best For -->
                 <tr class="category-row best-for-row">
                     <td data-i18n-html="home.cmp.52"><strong>Best for&hellip;</strong></td>
-                    <td class="highlight-col" data-i18n-html="home.cmpx.best.dv"><strong>Live two-way conversations, calls and videos on your PC</strong></td>
-                    <td data-i18n="home.cmp.54">Casual text &amp; voice</td>
-                    <td data-i18n="home.cmp.55">Casual voice</td>
-                    <td data-i18n="home.cmp.56">Phrase-by-phrase translation on a phone</td>
-                    <td data-i18n="home.cmp.57">Written translation &amp; business meetings</td>
+                    <td data-label="DuoVox" class="highlight-col" data-i18n-html="home.cmpx.best.dv"><strong>Live two-way conversations, calls and videos on your PC</strong></td>
+                    <td data-label="Google" data-i18n="home.cmp.54">Casual text &amp; voice</td>
+                    <td data-label="iTranslate" data-i18n="home.cmp.55">Casual voice</td>
+                    <td data-label="Microsoft" data-i18n="home.cmp.56">Phrase-by-phrase translation on a phone</td>
+                    <td data-label="DeepL" data-i18n="home.cmp.57">Written translation &amp; business meetings</td>
                 </tr>
             </tbody>
         </table>
@@ -356,7 +377,7 @@
         <a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="home.cmpx.cta">Try DuoVox free on Windows</a>
         <p class="cta-micro" data-i18n="home.pricing.free.micro">No account needed. Free forever.</p>
     </div>
-    <p class="pricing-footnote compare-checked" style="max-width:900px;margin:1rem auto 0;" data-i18n-html="home.cmp.58">Competitor information checked on 6 October 2026 against each company&rsquo;s own website and app store listings. &mdash; means not offered, or not found on the company&rsquo;s own pages. Features change often; if anything here is out of date, please tell us at <a href="mailto:support@duovox.net">support@duovox.net</a>.</p>
+    <p class="pricing-footnote compare-checked" style="max-width:900px;margin:1rem auto 0;" data-i18n-html="home.cmp.58">Competitor information checked on 6 October 2026 (subject modes: 2 November 2026) against each company&rsquo;s own website and app store listings. &mdash; means not offered, or not found on the company&rsquo;s own pages. Features change often; if anything here is out of date, please tell us at <a href="mailto:support@duovox.net">support@duovox.net</a>.</p>
 </section>
 <!-- Reassurance -->
 <section class="section reassurance-section">
@@ -374,6 +395,8 @@
 <h3 data-i18n-html="dvx.43">Professional Interpreters</h3>
 <p data-i18n-html="dvx.44">Enhanced terminology recognition for specialist professional settings, with Private Mode for sensitive content. As an assistive aid, DuoVox supports &mdash; but does not replace &mdash; a qualified human interpreter.</p>
 <p data-i18n-html="dvx.107"><a href="https://duovox.net/interpreters.html">How DuoVox helps interpreters &rarr;</a></p>
+<p data-i18n-html="interp.med.link">Interpreting in healthcare? <a href="https://duovox.net/medical-interpreting.html">See DuoVox for medical interpreters &rarr;</a></p>
+<p data-i18n-html="interp.legal.link">Legal or immigration work? <a href="https://duovox.net/legal-interpreting.html">See DuoVox for legal interpreters &rarr;</a></p>
 <span class="audience-plan" data-i18n-html="dvx.45">Professional</span>
 </div>
 <div class="audience-card">

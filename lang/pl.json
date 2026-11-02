@@ -837,7 +837,7 @@
   "home.cmp.55": "Codzienne użycie głosowe",
   "home.cmp.56": "Tłumaczenie fraza po frazie na telefonie",
   "home.cmp.57": "Tłumaczenie pisemne i spotkania biznesowe",
-  "home.cmp.58": "Informacje o konkurencji sprawdzone 6 października 2026 na stronie internetowej każdej firmy oraz w jej ofertach w sklepach z aplikacjami. &mdash; oznacza, że funkcja nie jest oferowana albo nie została znaleziona na stronach danej firmy. Funkcje często się zmieniają; jeśli coś tutaj jest nieaktualne, daj nam znać pod adresem <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
+  "home.cmp.58": "Informacje o konkurencji sprawdzone 6 października 2026 r. (tryby tematyczne dla tłumaczy ustnych: 2 listopada 2026 r.) na podstawie stron internetowych i ofert w sklepach z aplikacjami poszczególnych firm. &mdash; oznacza, że funkcja nie jest oferowana lub nie została znaleziona na stronach danej firmy. Funkcje często się zmieniają; jeśli coś tutaj jest nieaktualne, daj nam znać pod adresem <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
   "home.cmp.feature": "Funkcja",
   "home.cmpx.4box": "Widok 4 pól w dwóch torach",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4 pola na żywo <span class=\"unique-badge\">Wyróżnik</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "Gdzie nas znaleźć",
   "footer.about": "O nas",
   "dvx.chat.title": "Nowość: widok Czatu",
-  "dvx.chat.desc": "Zobacz całą rozmowę w formie dymków: każda osoba po swojej stronie, a tłumaczenie w każdym dymku."
+  "dvx.chat.desc": "Zobacz całą rozmowę w formie dymków: każda osoba po swojej stronie, a tłumaczenie w każdym dymku.",
+  "home.cmpx.subject": "Tryby tematyczne dla tłumaczy ustnych",
+  "home.cmpx.subject.deepl": "Tylko glosariusz",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">Wyróżnione</span>",
+  "home.cmpx.subject.itr": "Oddzielna aplikacja medyczna",
+  "home.cmpx.subject.sub": "Słownictwo medyczne, prawnicze, imigracyjne, edukacyjne, IT i biznesowe",
+  "home.layouts.4box.desc": "Dokładne słowa każdego rozmówcy i tłumaczenie, w czterech polach obok siebie. Stworzone dla tłumaczy ustnych i dla każdego, kto potrzebuje sprawdzać to, co zostało powiedziane, w obu językach, na bieżąco.",
+  "home.layouts.4box.title": "Widok 4 pól: dla profesjonalistów",
+  "home.layouts.chat.desc": "Rozmowa w dymkach, jak w aplikacji do wiadomości, z tłumaczeniem w każdym dymku. Łatwa do śledzenia podczas rodzinnej rozmowy, w podróży lub podczas ćwiczenia języka.",
+  "home.layouts.chat.title": "Widok czatu: do codziennych rozmów",
+  "home.layouts.title": "Dwa układy, do dwóch rodzajów rozmów",
+  "interp.legal.link": "Praca prawna lub imigracyjna? <a href=\"https://duovox.net/legal-interpreting.html\">Zobacz DuoVox dla tłumaczy prawnych &rarr;</a>",
+  "interp.med.link": "Tłumaczenia ustne w ochronie zdrowia? <a href=\"https://duovox.net/medical-interpreting.html\">Zobacz DuoVox dla tłumaczy medycznych &rarr;</a>"
 }

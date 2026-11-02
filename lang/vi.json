@@ -837,7 +837,7 @@
   "home.cmp.55": "Giọng nói thông thường",
   "home.cmp.56": "Dịch từng cụm trên điện thoại",
   "home.cmp.57": "Dịch văn bản và họp công việc",
-  "home.cmp.58": "Thông tin đối thủ cạnh tranh được kiểm tra vào ngày 6 tháng 10 năm 2026 dựa trên website và danh sách ứng dụng trên cửa hàng ứng dụng của từng công ty. &mdash; nghĩa là không được cung cấp, hoặc không tìm thấy trên các trang của chính công ty đó. Tính năng thường xuyên thay đổi; nếu có nội dung nào ở đây đã lỗi thời, vui lòng báo cho chúng tôi tại <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
+  "home.cmp.58": "Thông tin về đối thủ cạnh tranh được kiểm tra vào ngày 6 tháng 10 năm 2026 (chế độ chủ đề cho thông dịch viên: 2 tháng 11 năm 2026) dựa trên chính trang web và danh sách cửa hàng ứng dụng của từng công ty. &mdash; nghĩa là không được cung cấp hoặc không tìm thấy trên các trang riêng của công ty. Các tính năng thường thay đổi; nếu có điều gì ở đây đã lỗi thời, vui lòng cho chúng tôi biết tại <a href=\"mailto:support@duovox.net\">support@duovox.net</a>.",
   "home.cmp.feature": "Tính năng",
   "home.cmpx.4box": "Chế độ xem 4 ô với hai luồng",
   "home.cmpx.4box.dv": "<span class=\"check\">&#10003;</span> 4 ô trực tiếp <span class=\"unique-badge\">Nổi bật</span>",
@@ -900,5 +900,17 @@
   "about.find.title": "Tìm chúng tôi",
   "footer.about": "Về chúng tôi",
   "dvx.chat.title": "Mới: chế độ xem Chat",
-  "dvx.chat.desc": "Xem toàn bộ cuộc trò chuyện dưới dạng bong bóng lời thoại: mỗi người ở một bên riêng, với bản dịch trong từng bong bóng."
+  "dvx.chat.desc": "Xem toàn bộ cuộc trò chuyện dưới dạng bong bóng lời thoại: mỗi người ở một bên riêng, với bản dịch trong từng bong bóng.",
+  "home.cmpx.subject": "Chế độ chủ đề cho phiên dịch viên",
+  "home.cmpx.subject.deepl": "Chỉ có bảng thuật ngữ",
+  "home.cmpx.subject.dv": "<span class=\"check\">&#10003;</span> <span class=\"unique-badge\">Nổi bật</span>",
+  "home.cmpx.subject.itr": "Ứng dụng y tế riêng biệt",
+  "home.cmpx.subject.sub": "Từ vựng về y tế, pháp lý, nhập cư, giáo dục, CNTT và kinh doanh",
+  "home.layouts.4box.desc": "Lời nói chính xác của từng người và bản dịch được hiển thị trong bốn ô cạnh nhau. Được tạo cho phiên dịch viên và cho bất kỳ ai cần kiểm tra nội dung đã được nói ra, bằng cả hai ngôn ngữ, ngay khi cuộc trò chuyện diễn ra.",
+  "home.layouts.4box.title": "Chế độ xem 4 ô: dành cho người làm chuyên môn",
+  "home.layouts.chat.desc": "Cuộc trò chuyện hiển thị dưới dạng bong bóng thoại, như một ứng dụng nhắn tin, với bản dịch trong từng bong bóng. Dễ theo dõi khi gọi cho gia đình, khi đi du lịch hoặc khi luyện một ngôn ngữ.",
+  "home.layouts.chat.title": "Chế độ xem trò chuyện: cho các cuộc trò chuyện hằng ngày",
+  "home.layouts.title": "Hai bố cục, cho hai kiểu trò chuyện",
+  "interp.legal.link": "Công việc pháp lý hoặc nhập cư? <a href=\"https://duovox.net/legal-interpreting.html\">Xem DuoVox dành cho phiên dịch viên pháp lý &rarr;</a>",
+  "interp.med.link": "Phiên dịch trong lĩnh vực y tế? <a href=\"https://duovox.net/medical-interpreting.html\">Xem DuoVox cho phiên dịch viên y khoa &rarr;</a>"
 }
