@@ -393,5 +393,7 @@
   "about.apps.title": "What we make",
   "about.how.title": "How we work",
   "about.find.title": "Find us",
-  "footer.about": "About us"
+  "footer.about": "About us",
+  "dvx.chat.title": "New: the Chat view",
+  "dvx.chat.desc": "See the whole conversation as speech bubbles: each person on their own side, with the translation in every bubble."
 }
