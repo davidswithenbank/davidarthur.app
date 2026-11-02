@@ -406,7 +406,7 @@
   "dvx.54": "31 çevrimdışı dil",
   "dvx.55": "İnternet olmadan çalışır",
   "dvx.56": "Uygulama içi tanıtım mesajları",
-  "dvx.57": "Hesap gerektirmez. Sonsuza dek ücretsiz.",
+  "dvx.57": "Hesap gerekmez.",
   "dvx.58": "Standart",
   "dvx.59": "En uygun: gezginler, öğrenciler &amp; günlük iki dilli sohbet için",
   "dvx.60": "Canlı AI transkripsiyon &amp; çeviri",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "Aramalar, toplantılar, YouTube ve filmler — herhangi bir uygulamadan",
   "home.cmpx.title": "DuoVox’u Öne Çıkaran Nedir",
   "home.cmpx.turn": "Sırayla",
-  "home.pricing.free.micro": "Hesap gerekmez. Sonsuza dek ücretsiz.",
+  "home.pricing.free.micro": "Hesap gerekmez.",
   "dvx.105": "Nasıl başlayabilirim?",
   "dvx.106": "Kısa <a href=\"https://youtu.be/0zPZ4HyJcn4\">başlangıç videomuzu</a> izleyin. Bu videoda iki dilinizi nasıl seçeceğiniz, DuoVox'un neyi dinleyeceğini nasıl belirleyeceğiniz, altyazıları nasıl başlatacağınız, düzeni nasıl değiştireceğiniz ve menüde diğer her şeyi nasıl bulacağınız gösterilir. Diğer tüm özelliklerin de <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">video eğitimlerimizde</a> kendi kısa videosu vardır. Uygulamadaki menüde ayrıca tam bir Kullanım kılavuzu ve Yardım da bulunur.",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox tercümanlara nasıl yardımcı olur &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "Sohbet görünümü: günlük konuşmalar için",
   "home.layouts.title": "İki tür konuşma için iki düzen",
   "interp.legal.link": "Hukuki veya göçmenlik işi mi? <a href=\"https://duovox.net/legal-interpreting.html\">Hukuk tercümanları için DuoVox'a bakın &rarr;</a>",
-  "interp.med.link": "Sağlık hizmetlerinde sözlü çeviri mi yapıyorsunuz? <a href=\"https://duovox.net/medical-interpreting.html\">Tıbbi tercümanlar için DuoVox'u görün &rarr;</a>"
+  "interp.med.link": "Sağlık hizmetlerinde sözlü çeviri mi yapıyorsunuz? <a href=\"https://duovox.net/medical-interpreting.html\">Tıbbi tercümanlar için DuoVox'u görün &rarr;</a>",
+  "home.pricing.free.period": "aylık"
 }

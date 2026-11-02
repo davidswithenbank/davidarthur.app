@@ -406,7 +406,7 @@
   "dvx.54": "31 języków offline",
   "dvx.55": "Działa bez internetu",
   "dvx.56": "Komunikaty promocyjne w aplikacji",
-  "dvx.57": "Konto niepotrzebne. Za darmo na zawsze.",
+  "dvx.57": "Nie wymaga konta.",
   "dvx.58": "Standard",
   "dvx.59": "Najlepszy do: podróżników, studentów i codziennych dwujęzycznych rozmów",
   "dvx.60": "Transkrypcja i tłumaczenie AI na żywo",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "Połączenia, spotkania, YouTube i filmy — z dowolnej aplikacji",
   "home.cmpx.title": "Dlaczego DuoVox się wyróżnia",
   "home.cmpx.turn": "Naprzemienne",
-  "home.pricing.free.micro": "Bez konieczności zakładania konta. Darmowy na zawsze.",
+  "home.pricing.free.micro": "Nie wymaga konta.",
   "dvx.105": "Jak zacząć?",
   "dvx.106": "Obejrzyj nasz krótki <a href=\"https://youtu.be/0zPZ4HyJcn4\">film na początek</a>. Pokazuje, jak wybrać dwa języki, określić, czego DuoVox ma nasłuchiwać, uruchomić napisy, zmienić układ i znaleźć wszystko inne w menu. Każda inna funkcja ma własny krótki film w naszych <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">samouczkach wideo</a>. W menu aplikacji znajdziesz też pełny Przewodnik użytkownika i Pomoc.",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Jak DuoVox pomaga tłumaczom ustnym &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "Widok czatu: do codziennych rozmów",
   "home.layouts.title": "Dwa układy, do dwóch rodzajów rozmów",
   "interp.legal.link": "Praca prawna lub imigracyjna? <a href=\"https://duovox.net/legal-interpreting.html\">Zobacz DuoVox dla tłumaczy prawnych &rarr;</a>",
-  "interp.med.link": "Tłumaczenia ustne w ochronie zdrowia? <a href=\"https://duovox.net/medical-interpreting.html\">Zobacz DuoVox dla tłumaczy medycznych &rarr;</a>"
+  "interp.med.link": "Tłumaczenia ustne w ochronie zdrowia? <a href=\"https://duovox.net/medical-interpreting.html\">Zobacz DuoVox dla tłumaczy medycznych &rarr;</a>",
+  "home.pricing.free.period": "miesięcznie"
 }

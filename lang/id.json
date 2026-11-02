@@ -406,7 +406,7 @@
   "dvx.54": "31 bahasa offline",
   "dvx.55": "Berfungsi tanpa internet",
   "dvx.56": "Pesan promosi dalam aplikasi",
-  "dvx.57": "Tidak perlu akun. Gratis selamanya.",
+  "dvx.57": "Tidak perlu akun.",
   "dvx.58": "Standar",
   "dvx.59": "Terbaik untuk: pelancong, pelajar &amp; obrolan dwibahasa sehari-hari",
   "dvx.60": "Transkripsi &amp; terjemahan AI langsung",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "Panggilan, rapat, YouTube, dan film — dari aplikasi apa pun",
   "home.cmpx.title": "Mengapa DuoVox Unggul",
   "home.cmpx.turn": "Bergiliran",
-  "home.pricing.free.micro": "Tidak perlu akun. Free selamanya.",
+  "home.pricing.free.micro": "Tidak perlu akun.",
   "dvx.105": "Bagaimana cara memulainya?",
   "dvx.106": "Tonton <a href=\"https://youtu.be/0zPZ4HyJcn4\">video memulai</a> singkat kami. Video ini menunjukkan cara memilih dua bahasa Anda, memilih apa yang didengarkan DuoVox, memulai caption, mengubah tata letak, dan menemukan semua hal lainnya di menu. Setiap fitur lainnya memiliki video singkatnya sendiri di <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">tutorial video</a> kami. Menu di aplikasi juga memiliki User guide dan Help yang lengkap.",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Bagaimana DuoVox membantu para interpreter &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "Tampilan chat: untuk percakapan sehari-hari",
   "home.layouts.title": "Dua tata letak, untuk dua jenis percakapan",
   "interp.legal.link": "Pekerjaan hukum atau imigrasi? <a href=\"https://duovox.net/legal-interpreting.html\">Lihat DuoVox untuk juru bahasa hukum &rarr;</a>",
-  "interp.med.link": "Menafsirkan di layanan kesehatan? <a href=\"https://duovox.net/medical-interpreting.html\">Lihat DuoVox untuk juru bahasa medis &rarr;</a>"
+  "interp.med.link": "Menafsirkan di layanan kesehatan? <a href=\"https://duovox.net/medical-interpreting.html\">Lihat DuoVox untuk juru bahasa medis &rarr;</a>",
+  "home.pricing.free.period": "per bulan"
 }

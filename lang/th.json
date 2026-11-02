@@ -406,7 +406,7 @@
   "dvx.54": "31 ภาษาแบบออฟไลน์",
   "dvx.55": "ทำงานได้โดยไม่ต้องใช้อินเทอร์เน็ต",
   "dvx.56": "ข้อความประชาสัมพันธ์ในแอป",
-  "dvx.57": "ไม่ต้องมีบัญชี ฟรีตลอดไป",
+  "dvx.57": "ไม่ต้องมีบัญชี",
   "dvx.58": "Standard",
   "dvx.59": "เหมาะสำหรับ: นักเดินทาง นักเรียน &amp; การพูดคุยสองภาษาในชีวิตประจำวัน",
   "dvx.60": "การถอดความ &amp; การแปลด้วย AI แบบสด",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "สายโทร, การประชุม, YouTube และภาพยนตร์ — จากทุกแอป",
   "home.cmpx.title": "ทำไม DuoVox ถึงโดดเด่น",
   "home.cmpx.turn": "แบบผลัดกันพูด",
-  "home.pricing.free.micro": "ไม่ต้องมีบัญชี Free ตลอดไป",
+  "home.pricing.free.micro": "ไม่ต้องมีบัญชี",
   "dvx.105": "ฉันจะเริ่มต้นอย่างไร?",
   "dvx.106": "ชม<a href=\"https://youtu.be/0zPZ4HyJcn4\">วิดีโอเริ่มต้นใช้งาน</a>สั้น ๆ ของเรา วิดีโอนี้จะแสดงวิธีเลือกสองภาษาของคุณ เลือกสิ่งที่ DuoVox จะรับฟัง เริ่มทำคำบรรยาย เปลี่ยนเลย์เอาต์ และดูอย่างอื่นทั้งหมดในเมนู ฟีเจอร์อื่น ๆ แต่ละอย่างมีวิดีโอสั้นของตัวเองใน<a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">วิดีโอสอนการใช้งาน</a>ของเรา เมนูในแอปยังมี User guide และ Help ฉบับเต็มด้วย",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox ช่วยล่ามอย่างไร &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "มุมมองแชท: สำหรับการสนทนาในชีวิตประจำวัน",
   "home.layouts.title": "2 รูปแบบ สำหรับการสนทนา 2 แบบ",
   "interp.legal.link": "งานด้านกฎหมายหรือการเข้าเมือง? <a href=\"https://duovox.net/legal-interpreting.html\">ดู DuoVox สำหรับล่ามกฎหมาย &rarr;</a>",
-  "interp.med.link": "ล่ามในสถานพยาบาล? <a href=\"https://duovox.net/medical-interpreting.html\">ดู DuoVox สำหรับล่ามทางการแพทย์ &rarr;</a>"
+  "interp.med.link": "ล่ามในสถานพยาบาล? <a href=\"https://duovox.net/medical-interpreting.html\">ดู DuoVox สำหรับล่ามทางการแพทย์ &rarr;</a>",
+  "home.pricing.free.period": "ต่อเดือน"
 }

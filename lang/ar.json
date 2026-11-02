@@ -406,7 +406,7 @@
   "dvx.54": "31 لغة دون اتصال",
   "dvx.55": "يعمل دون إنترنت",
   "dvx.56": "رسائل ترويجية داخل التطبيق",
-  "dvx.57": "لا حاجة إلى حساب. مجاني للأبد.",
+  "dvx.57": "لا حاجة إلى حساب.",
   "dvx.58": "قياسي",
   "dvx.59": "الأفضل لـ: المسافرين &amp; الطلاب &amp; المحادثات اليومية بلغتين",
   "dvx.60": "نسخ نصي وترجمة مباشرة بالذكاء الاصطناعي",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "المكالمات والاجتماعات وYouTube والأفلام — من أي تطبيق",
   "home.cmpx.title": "لماذا يتميز DuoVox",
   "home.cmpx.turn": "بالتناوب",
-  "home.pricing.free.micro": "لا حاجة إلى حساب. مجاني إلى الأبد.",
+  "home.pricing.free.micro": "لا حاجة إلى حساب.",
   "dvx.105": "كيف أبدأ؟",
   "dvx.106": "شاهد <a href=\"https://youtu.be/0zPZ4HyJcn4\">فيديو البدء</a> القصير. يوضّح لك كيفية اختيار لغتيك، واختيار ما يستمع إليه DuoVox، وبدء عرض التسميات التوضيحية، وتغيير التخطيط، والعثور على كل شيء آخر في القائمة. لكل ميزة أخرى فيديو قصير خاص بها في <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">الدروس المرئية</a> الخاصة بنا. تحتوي القائمة في التطبيق أيضًا على «دليل المستخدم» الكامل و«المساعدة».",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">كيف يساعد DuoVox المترجمين الشفهيين &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "عرض الدردشة: للمحادثات اليومية",
   "home.layouts.title": "تخطيطان، لنوعين من المحادثات",
   "interp.legal.link": "عمل قانوني أو متعلق بالهجرة؟ <a href=\"https://duovox.net/legal-interpreting.html\">اطّلع على DuoVox للمترجمين الفوريين القانونيين &rarr;</a>",
-  "interp.med.link": "الترجمة الشفوية في الرعاية الصحية؟ <a href=\"https://duovox.net/medical-interpreting.html\">اطّلع على DuoVox للمترجمين الشفويين الطبيين &rarr;</a>"
+  "interp.med.link": "الترجمة الشفوية في الرعاية الصحية؟ <a href=\"https://duovox.net/medical-interpreting.html\">اطّلع على DuoVox للمترجمين الشفويين الطبيين &rarr;</a>",
+  "home.pricing.free.period": "شهريًا"
 }

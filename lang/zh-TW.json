@@ -406,7 +406,7 @@
   "dvx.54": "31 種離線語言",
   "dvx.55": "無需網際網路即可運作",
   "dvx.56": "應用程式內推廣訊息",
-  "dvx.57": "無需帳號。永久免費。",
+  "dvx.57": "無需帳戶。",
   "dvx.58": "標準版",
   "dvx.59": "最適合：旅行者、學生 &amp; 日常雙語對話",
   "dvx.60": "即時 AI 轉錄 &amp; 翻譯",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "通話、會議、YouTube 和電影——來自任何 app",
   "home.cmpx.title": "為什麼 DuoVox 脫穎而出",
   "home.cmpx.turn": "輪流模式",
-  "home.pricing.free.micro": "不需要帳戶。Free 永久可用。",
+  "home.pricing.free.micro": "無需帳戶。",
   "dvx.105": "我要如何開始使用？",
   "dvx.106": "觀看我們的簡短<a href=\"https://youtu.be/0zPZ4HyJcn4\">入門影片</a>。影片會示範如何選擇兩種語言、選擇 DuoVox 要聆聽的內容、開始字幕、變更版面配置，以及在選單中找到其他所有功能。其他每項功能在我們的<a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">影片教學</a>中都有各自的簡短影片。App 的選單中也有完整的使用指南和說明。",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox 如何協助口譯員 &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "聊天檢視：適合日常對話",
   "home.layouts.title": "兩種版面，適合兩種對話情境",
   "interp.legal.link": "法律或移民相關工作？<a href=\"https://duovox.net/legal-interpreting.html\">查看法律口譯員適用的 DuoVox &rarr;</a>",
-  "interp.med.link": "在醫療領域做口譯？<a href=\"https://duovox.net/medical-interpreting.html\">查看適用於醫療口譯員的 DuoVox &rarr;</a>"
+  "interp.med.link": "在醫療領域做口譯？<a href=\"https://duovox.net/medical-interpreting.html\">查看適用於醫療口譯員的 DuoVox &rarr;</a>",
+  "home.pricing.free.period": "每月"
 }

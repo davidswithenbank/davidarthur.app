@@ -406,7 +406,7 @@
   "dvx.54": "31 offline talen",
   "dvx.55": "Werkt zonder internet",
   "dvx.56": "Promotieberichten in de app",
-  "dvx.57": "Geen account nodig. Voor altijd gratis.",
+  "dvx.57": "Geen account nodig.",
   "dvx.58": "Standaard",
   "dvx.59": "Beste voor: reizigers, studenten &amp; dagelijkse tweetalige gesprekken",
   "dvx.60": "Live AI-transcriptie &amp; -vertaling",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "Gesprekken, meetings, YouTube en films — vanuit elke app",
   "home.cmpx.title": "Waarom DuoVox eruit springt",
   "home.cmpx.turn": "Om de beurt",
-  "home.pricing.free.micro": "Geen account nodig. Voor altijd gratis.",
+  "home.pricing.free.micro": "Geen account nodig.",
   "dvx.105": "Hoe begin ik?",
   "dvx.106": "Bekijk onze korte <a href=\"https://youtu.be/0zPZ4HyJcn4\">video om aan de slag te gaan</a>. Daarin zie je hoe je je twee talen kiest, kiest waar DuoVox naar luistert, ondertiteling start, de lay-out wijzigt en al het andere in het menu vindt. Elke andere functie heeft een eigen korte video in onze <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">videotutorials</a>. Het menu in de app bevat ook een volledige Gebruikershandleiding en Hulp.",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Hoe DuoVox tolken helpt &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "Chatweergave: voor alledaagse gesprekken",
   "home.layouts.title": "Twee indelingen, voor twee soorten gesprekken",
   "interp.legal.link": "Juridisch of vreemdelingenwerk? <a href=\"https://duovox.net/legal-interpreting.html\">Bekijk DuoVox voor juridisch tolken &rarr;</a>",
-  "interp.med.link": "Tolken in de zorg? <a href=\"https://duovox.net/medical-interpreting.html\">Bekijk DuoVox voor medische tolken &rarr;</a>"
+  "interp.med.link": "Tolken in de zorg? <a href=\"https://duovox.net/medical-interpreting.html\">Bekijk DuoVox voor medische tolken &rarr;</a>",
+  "home.pricing.free.period": "per maand"
 }

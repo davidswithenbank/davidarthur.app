@@ -406,7 +406,7 @@
   "dvx.54": "31 ऑफ़लाइन भाषाएँ",
   "dvx.55": "इंटरनेट के बिना काम करता है",
   "dvx.56": "ऐप में प्रचार संदेश",
-  "dvx.57": "किसी अकाउंट की आवश्यकता नहीं। हमेशा के लिए मुफ़्त।",
+  "dvx.57": "कोई खाता आवश्यक नहीं है।",
   "dvx.58": "Standard",
   "dvx.59": "सबसे अच्छा: यात्रियों, छात्रों &amp; रोज़मर्रा की द्विभाषी बातचीत के लिए",
   "dvx.60": "लाइव AI ट्रांसक्रिप्शन &amp; अनुवाद",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "कॉल, मीटिंग, YouTube और फ़िल्में — किसी भी ऐप से",
   "home.cmpx.title": "DuoVox क्यों अलग नज़र आता है",
   "home.cmpx.turn": "बारी-आधारित",
-  "home.pricing.free.micro": "किसी खाते की आवश्यकता नहीं। हमेशा के लिए मुफ़्त।",
+  "home.pricing.free.micro": "कोई खाता आवश्यक नहीं है।",
   "dvx.105": "मैं कैसे शुरू करूँ?",
   "dvx.106": "हमारा छोटा <a href=\"https://youtu.be/0zPZ4HyJcn4\">शुरू करने का वीडियो</a> देखें। इसमें दिखाया गया है कि अपनी दो भाषाएँ कैसे चुनें, DuoVox क्या सुने यह कैसे चुनें, कैप्शनिंग कैसे शुरू करें, लेआउट कैसे बदलें और मेनू में बाकी सब कुछ कैसे पाएँ। हर दूसरे फ़ीचर के लिए हमारे <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">वीडियो ट्यूटोरियल</a> में उसका अपना छोटा वीडियो है। ऐप के मेनू में पूरी उपयोगकर्ता मार्गदर्शिका और सहायता भी है।",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox दुभाषियों की कैसे मदद करता है &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "चैट व्यू: रोज़मर्रा की बातचीत के लिए",
   "home.layouts.title": "दो तरह की बातचीत के लिए, दो लेआउट",
   "interp.legal.link": "कानूनी या इमिग्रेशन का काम? <a href=\"https://duovox.net/legal-interpreting.html\">कानूनी दुभाषियों के लिए DuoVox देखें &rarr;</a>",
-  "interp.med.link": "स्वास्थ्य सेवा में दुभाषियापन? <a href=\"https://duovox.net/medical-interpreting.html\">मेडिकल दुभाषियों के लिए DuoVox देखें &rarr;</a>"
+  "interp.med.link": "स्वास्थ्य सेवा में दुभाषियापन? <a href=\"https://duovox.net/medical-interpreting.html\">मेडिकल दुभाषियों के लिए DuoVox देखें &rarr;</a>",
+  "home.pricing.free.period": "प्रति माह"
 }

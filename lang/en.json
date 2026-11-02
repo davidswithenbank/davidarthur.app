@@ -273,7 +273,7 @@
   "dvx.52": "Best for: trying it out &amp; offline privacy",
   "dvx.54": "31 offline languages",
   "dvx.55": "Works without internet",
-  "dvx.57": "No account needed. Free forever.",
+  "dvx.57": "No account needed.",
   "dvx.58": "Standard",
   "dvx.59": "Best for: travellers, students &amp; everyday bilingual chat",
   "dvx.6": "Private mode",
@@ -367,7 +367,7 @@
   "home.cmpx.sys.sub": "Calls, meetings, YouTube and films &mdash; from any app",
   "home.cmpx.title": "Why DuoVox Stands Out",
   "home.cmpx.turn": "Turn-based",
-  "home.pricing.free.micro": "No account needed. Free forever.",
+  "home.pricing.free.micro": "No account needed.",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">How DuoVox helps interpreters &rarr;</a>",
   "idx.4": "Built for professional interpreters and anyone in a two-language conversation: real-time captions and translation across 62 languages.",
   "about.intro1": "David Arthur Software is a small, independent software studio in North Yorkshire, England. We make simple, privacy-first apps for Windows and Android: software that does one job well, works without an account, and doesn't trade your personal information for the privilege.",
@@ -407,5 +407,6 @@
   "home.layouts.chat.title": "Chat view: for everyday conversations",
   "home.layouts.title": "Two layouts, for two kinds of conversation",
   "interp.legal.link": "Legal or immigration work? <a href=\"https://duovox.net/legal-interpreting.html\">See DuoVox for legal interpreters &rarr;</a>",
-  "interp.med.link": "Interpreting in healthcare? <a href=\"https://duovox.net/medical-interpreting.html\">See DuoVox for medical interpreters &rarr;</a>"
+  "interp.med.link": "Interpreting in healthcare? <a href=\"https://duovox.net/medical-interpreting.html\">See DuoVox for medical interpreters &rarr;</a>",
+  "home.pricing.free.period": "per month"
 }

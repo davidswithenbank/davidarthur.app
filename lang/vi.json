@@ -406,7 +406,7 @@
   "dvx.54": "31 ngôn ngữ ngoại tuyến",
   "dvx.55": "Hoạt động không cần internet",
   "dvx.56": "Thông báo quảng bá trong ứng dụng",
-  "dvx.57": "Không cần tài khoản. Miễn phí mãi mãi.",
+  "dvx.57": "Không cần tài khoản.",
   "dvx.58": "Tiêu chuẩn",
   "dvx.59": "Phù hợp nhất cho: du khách, sinh viên &amp; trò chuyện song ngữ hằng ngày",
   "dvx.60": "Phiên âm &amp; dịch bằng AI trực tiếp",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "Cuộc gọi, cuộc họp, YouTube và phim — từ bất kỳ ứng dụng nào",
   "home.cmpx.title": "Vì sao DuoVox nổi bật",
   "home.cmpx.turn": "Theo lượt",
-  "home.pricing.free.micro": "Không cần tài khoản. Free vĩnh viễn.",
+  "home.pricing.free.micro": "Không cần tài khoản.",
   "dvx.105": "Làm thế nào để bắt đầu?",
   "dvx.106": "Hãy xem <a href=\"https://youtu.be/0zPZ4HyJcn4\">video hướng dẫn bắt đầu ngắn của chúng tôi</a>. Video này cho thấy cách chọn hai ngôn ngữ của bạn, chọn nội dung DuoVox sẽ nghe, bắt đầu tạo phụ đề, thay đổi bố cục và tìm mọi thứ khác trong menu. Mỗi tính năng khác đều có video ngắn riêng trong <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">các video hướng dẫn</a> của chúng tôi. Menu trong ứng dụng cũng có User guide đầy đủ và Help.",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVox hỗ trợ phiên dịch viên như thế nào &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "Chế độ xem trò chuyện: cho các cuộc trò chuyện hằng ngày",
   "home.layouts.title": "Hai bố cục, cho hai kiểu trò chuyện",
   "interp.legal.link": "Công việc pháp lý hoặc nhập cư? <a href=\"https://duovox.net/legal-interpreting.html\">Xem DuoVox dành cho phiên dịch viên pháp lý &rarr;</a>",
-  "interp.med.link": "Phiên dịch trong lĩnh vực y tế? <a href=\"https://duovox.net/medical-interpreting.html\">Xem DuoVox cho phiên dịch viên y khoa &rarr;</a>"
+  "interp.med.link": "Phiên dịch trong lĩnh vực y tế? <a href=\"https://duovox.net/medical-interpreting.html\">Xem DuoVox cho phiên dịch viên y khoa &rarr;</a>",
+  "home.pricing.free.period": "mỗi tháng"
 }

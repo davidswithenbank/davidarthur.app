@@ -406,7 +406,7 @@
   "dvx.54": "31 idiomas sin conexión",
   "dvx.55": "Funciona sin internet",
   "dvx.56": "Mensajes promocionales en la aplicación",
-  "dvx.57": "No se necesita cuenta. Gratis para siempre.",
+  "dvx.57": "No se necesita cuenta.",
   "dvx.58": "Standard",
   "dvx.59": "Ideal para: viajeros, estudiantes &amp; conversaciones bilingües cotidianas",
   "dvx.60": "Transcripción &amp; traducción con IA en vivo",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "Llamadas, reuniones, YouTube y películas — desde cualquier app",
   "home.cmpx.title": "Por qué DuoVox destaca",
   "home.cmpx.turn": "Por turnos",
-  "home.pricing.free.micro": "No necesita cuenta. Gratis para siempre.",
+  "home.pricing.free.micro": "No se necesita cuenta.",
   "dvx.105": "¿Cómo empiezo?",
   "dvx.106": "Mira nuestro breve <a href=\"https://youtu.be/0zPZ4HyJcn4\">vídeo para empezar</a>. Muestra cómo elegir tus dos idiomas, elegir lo que escucha DuoVox, iniciar el subtitulado, cambiar el diseño y encontrar todo lo demás en el menú. Todas las demás funciones tienen su propio vídeo breve en nuestros <a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">tutoriales en vídeo</a>. El menú de la aplicación también incluye una guía del usuario completa y ayuda.",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">Cómo ayuda DuoVox a los intérpretes &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "Vista de chat: para conversaciones cotidianas",
   "home.layouts.title": "Dos diseños, para dos tipos de conversación",
   "interp.legal.link": "¿Trabajo legal o de inmigración? <a href=\"https://duovox.net/legal-interpreting.html\">Ver DuoVox para intérpretes legales &rarr;</a>",
-  "interp.med.link": "¿Interpretación en el ámbito sanitario? <a href=\"https://duovox.net/medical-interpreting.html\">Ver DuoVox para intérpretes médicos &rarr;</a>"
+  "interp.med.link": "¿Interpretación en el ámbito sanitario? <a href=\"https://duovox.net/medical-interpreting.html\">Ver DuoVox para intérpretes médicos &rarr;</a>",
+  "home.pricing.free.period": "por mes"
 }

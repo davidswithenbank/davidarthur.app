@@ -406,7 +406,7 @@
   "dvx.54": "31のオフライン言語",
   "dvx.55": "インターネットなしで動作",
   "dvx.56": "アプリ内のプロモーション表示",
-  "dvx.57": "アカウント不要。ずっと無料。",
+  "dvx.57": "アカウントは不要です。",
   "dvx.58": "スタンダード",
   "dvx.59": "おすすめ：旅行者、学生 &amp; 日常のバイリンガル会話",
   "dvx.60": "ライブAI文字起こし &amp; 翻訳",
@@ -873,7 +873,7 @@
   "home.cmpx.sys.sub": "通話、会議、YouTube、映画まで — どのアプリからでも",
   "home.cmpx.title": "DuoVoxが際立つ理由",
   "home.cmpx.turn": "ターン制",
-  "home.pricing.free.micro": "アカウント不要。永久無料。",
+  "home.pricing.free.micro": "アカウントは不要です。",
   "dvx.105": "どうやって始めればよいですか？",
   "dvx.106": "短い<a href=\"https://youtu.be/0zPZ4HyJcn4\">使い方の動画</a>をご覧ください。2つの言語の選び方、DuoVoxで何を聞き取るかの選び方、字幕表示の開始、レイアウトの変更、そしてそのほかの機能がメニューのどこにあるかを紹介しています。ほかの各機能についても、それぞれ短い動画を<a href=\"https://www.youtube.com/playlist?list=PLBsH7wbVquRE\">動画チュートリアル</a>でご覧いただけます。アプリのメニューには、完全なユーザーガイドとヘルプもあります。",
   "dvx.107": "<a href=\"https://duovox.net/interpreters.html\">DuoVoxが通訳者をどう支援するか &rarr;</a>",
@@ -912,5 +912,6 @@
   "home.layouts.chat.title": "チャット表示：日常会話向け",
   "home.layouts.title": "2つの会話スタイルに合わせた、2つのレイアウト",
   "interp.legal.link": "法律・入管業務ですか？ <a href=\"https://duovox.net/legal-interpreting.html\">法律通訳者向け DuoVox を見る &rarr;</a>",
-  "interp.med.link": "医療通訳をしていますか？ <a href=\"https://duovox.net/medical-interpreting.html\">医療通訳者向けのDuoVoxを見る &rarr;</a>"
+  "interp.med.link": "医療通訳をしていますか？ <a href=\"https://duovox.net/medical-interpreting.html\">医療通訳者向けのDuoVoxを見る &rarr;</a>",
+  "home.pricing.free.period": "月あたり"
 }
