@@ -76,7 +76,7 @@
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.9" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Can I burn the date and time into the video?</button>
-<div class="faq-answer"><p data-i18n-html="cctv.faq.10">Yes — tick “Add timestamp overlay to converted video” in the options panel before you convert. A date/time clock taken from each file’s recording time is burned into the bottom-left of the MP4, incrementing per frame. Required by most insurance companies and accepted as evidence by courts in many jurisdictions. (See our <a href="/terms/">Terms</a> on relying on output as a sole legal record.)</p></div>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.10">Yes — tick “Add timestamp overlay to converted video” in the <strong>Convert options</strong> menu before you convert. A date/time clock taken from each file’s recording time is burned into the bottom-left of the MP4, incrementing per frame. Required by most insurance companies and accepted as evidence by courts in many jurisdictions. (See our <a href="/terms/">Terms</a> on relying on output as a sole legal record.)</p></div>
 </div>
 </div>
 <div class="faq-cat">New in version 2.0</div>
@@ -93,12 +93,24 @@
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.15" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">How do the motion highlights work?</button>
 <div class="faq-answer"><p data-i18n-html="cctv.faq.16">Point the app at your footage and it scans for movement, then exports just the clips where something happens — with adjustable sensitivity and pre/post-roll padding so you keep the run-up and run-out of each event. Save each event separately or as one combined highlight reel, and skip hours of an empty driveway.</p></div>
 </div>
+<div class="faq-item">
+<button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.28" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">How do I hand footage to the police or an insurer?</button>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.29">Open the clip in the editor and choose <strong>Evidence package</strong> from the Export menu. You get one folder with a checked copy of the original recording, the MP4 as edited, a report listing what was changed, SHA-256 checksums and a README. If you only need the details and checksums, <strong>Evidence report</strong> creates a page that opens in any browser and can be printed to PDF. (See our <a href="/terms/">Terms</a> on relying on output as a sole legal record.)</p></div>
+</div>
+<div class="faq-item">
+<button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.30" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Can I send a clip on WhatsApp?</button>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.31">Yes. In the editor, choose <strong>For phone / WhatsApp</strong> from the Export menu to save a small copy (16 MB or less) that plays on phones and can be sent in a chat. <strong>Compress for email</strong> makes a copy of 25 MB or less.</p></div>
+</div>
+<div class="faq-item">
+<button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.32" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">My raw .264 file plays too fast or too slow — why?</button>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.33">Raw .264 and .265 files don't always store how fast they were recorded. CCTV Converter works it out from the recording times in the file names where it can. If a file still plays at the wrong speed, open its ⋯ menu, set the camera's frame rate under <em>Recorded at</em>, and the app offers to convert it again.</p></div>
+</div>
 </div>
 <div class="faq-cat">Performance, languages &amp; requirements</div>
 <div class="faq-list">
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.17" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">How fast is it?</button>
-<div class="faq-answer"><p data-i18n-html="cctv.faq.18">Around 200× realtime for a typical CCTV bitrate. A 30-second clip converts in well under a second. With parallel conversion enabled (up to 8 files at once), a full day of recordings — a few hundred clips — takes well under a minute on a normal laptop. Optional GPU acceleration (NVIDIA / Intel / AMD) speeds up re-encodes. Stop and resume any time.</p></div>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.18">Around 200× realtime for a typical CCTV bitrate. A 30-second clip converts in well under a second. With parallel conversion enabled (up to 16 files at once), a full day of recordings — a few hundred clips — takes well under a minute on a normal laptop. Optional GPU acceleration (NVIDIA / Intel / AMD) speeds up re-encodes. Stop and resume any time.</p></div>
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.19" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">What languages is it available in?</button>
@@ -106,7 +118,7 @@
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.21" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Does it work without internet?</button>
-<div class="faq-answer"><p data-i18n-html="cctv.faq.22">Yes. CCTV Converter does its work entirely on your machine and never uploads your footage. Once installed you can disconnect from the internet and it keeps working — the only optional network use is checking for an update when you ask it to.</p></div>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.22">Yes. CCTV Converter does its work entirely on your machine and never uploads your footage. Once installed you can disconnect from the internet and it keeps working — the only network use is a quick check for a newer version when the app starts (or when you ask), and if you're offline the check is simply skipped.</p></div>
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.23" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Are there any system requirements?</button>

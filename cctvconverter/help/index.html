@@ -66,34 +66,37 @@
 <h2 data-i18n-html="cctv.help.14" id="getting-started">Getting started</h2>
 <p data-i18n-html="cctv.help.15">Install from the <a href="https://apps.microsoft.com/detail/9P247CN4QC7L" rel="noopener" target="_blank">Microsoft Store</a> and launch the app. Then:</p>
 <ol>
-<li data-i18n-html="cctv.help.16"><strong>Pick a source</strong> — drag a folder (or your DVR's SD card) onto the window, or click <em>Browse</em> next to "Source folder". The app walks any date subfolders and lists every video file it finds.</li>
-<li data-i18n-html="cctv.help.17"><strong>Pick an output folder</strong> — where converted MP4s are written. Your last-used source and output folders are remembered for next time.</li>
-<li data-i18n-html="cctv.help.18"><strong>Filter and select</strong> — narrow the list by duration, date, time of day or filename, then tick the files (or whole days) you want.</li>
+<li data-i18n-html="cctv.help.16"><strong>Open your footage</strong> — drag a recorder folder (or your DVR's SD card), or some video files, onto the window, or click <em>Choose folder…</em> or <em>Choose files…</em>. The app walks any date subfolders and lists every video file it finds. Once footage is open, the <em>Source folder</em> box at the top lets you switch to another folder.</li>
+<li data-i18n-html="cctv.help.17"><strong>Pick an output folder</strong> — where converted MP4s are written. It must be a different folder from your recordings, so your originals are never overwritten. Your recent source and output folders are remembered for next time.</li>
+<li data-i18n-html="cctv.help.18"><strong>Filter and tick</strong> — narrow the list by duration, date, time of day or filename. Files that don't match are hidden and unticked, so only the files you can see get converted. Then tick the files (or whole days) you want.</li>
 </ol>
 <p data-i18n-html="cctv.help.19">Everything runs on your own machine; nothing is uploaded.</p>
 <h2 data-i18n-html="cctv.help.20" id="converting">Converting footage</h2>
-<p data-i18n-html="cctv.help.21">Tick the files you want and click <strong>Convert selected</strong>. Where the source stream is already MP4-compatible the app does a <em>stream copy</em> (no re-encoding, no quality loss, near-instant); otherwise it re-encodes to clean H.264.</p>
+<p data-i18n-html="cctv.help.21">Tick the files you want and click <strong>Convert ticked</strong>. Where the source stream is already MP4-compatible the app does a <em>stream copy</em> (no re-encoding, no quality loss, usually very quick); otherwise it re-encodes to clean H.264. The settings below are in the <strong>Convert options</strong> menu.</p>
 <ul>
-<li data-i18n-html="cctv.help.22"><strong>Parallel conversion</strong> — convert up to 8 files at once (set in Settings). A full day of clips finishes in seconds on a multi-core PC.</li>
-<li data-i18n-html="cctv.help.23"><strong>Encoder</strong> — choose Auto, CPU, or a specific GPU (NVIDIA / Intel / AMD) in Settings. Auto detects the best available and silently falls back to CPU if a GPU encode fails.</li>
+<li data-i18n-html="cctv.help.22"><strong>Parallel conversion</strong> — convert several files at once (up to 16). A day of clips goes much faster on a multi-core PC.</li>
+<li data-i18n-html="cctv.help.23"><strong>Encoder</strong> — choose Auto, CPU, or a specific GPU (NVIDIA / Intel / AMD). Auto detects the best available and falls back to CPU if a GPU encode fails.</li>
 <li data-i18n-html="cctv.help.24"><strong>Date/time burn-in</strong> — tick "Add timestamp overlay" to burn a per-frame clock into the bottom-left of the output, useful for insurance or incident reports.</li>
-<li data-i18n-html="cctv.help.25"><strong>Merge</strong> — combine a day's clips, or any selection, into one continuous MP4 in chronological order.</li>
-<li data-i18n-html="cctv.help.26"><strong>CSV export</strong> — export the file list (name, size, duration, resolution, format, timestamps) for cataloguing.</li>
+<li data-i18n-html="cctv.help.25"><strong>Merge</strong> — from the <strong>Tools</strong> menu, combine any ticked clips into one continuous MP4 in time order, or right-click a day to merge the whole day.</li>
+<li data-i18n-html="cctv.help.26"><strong>CSV export</strong> — from the <strong>Tools</strong> menu, export the file list (name, size, duration, resolution, format, timestamps) for cataloguing.</li>
 <li data-i18n-html="cctv.help.27"><strong>Optional cleanup</strong> — "Delete source files after successful conversion" reclaims space as you go (with confirmation).</li>
+<li data-i18n-html="cctv.help.86"><strong>Show: Unconverted</strong> — hide the files that are already converted, so you only see what is left to do.</li>
+<li data-i18n-html="cctv.help.87"><strong>Raw .264 / .265 files</strong> — these don't always store their playback speed. Where it can, the app works it out from the recording times in the file names; if a file still plays too fast or too slow, set the camera's frame rate under <em>⋯ › Recorded at</em>.</li>
+<li data-i18n-html="cctv.help.88"><strong>Join and split</strong> — when recordings carry straight on from each other, a banner offers to join them into one video (the original files are unchanged). A file that holds several cameras can be split into one video per camera.</li>
 </ul>
 <h2 data-i18n-html="cctv.help.28" id="editor">The built-in editor</h2>
-<p data-i18n-html="cctv.help.29">Select a converted clip and click <strong>Edit</strong> to open the in-place editor. From there you can:</p>
+<p data-i18n-html="cctv.help.29">Select a playable file (a converted MP4, or footage that already plays) and click <strong>Edit</strong> to open the in-place editor. Its settings are arranged in five tabs — Clip, Privacy, Picture, Text &amp; audio and Output — and a gold dot marks any tab you have changed. From there you can:</p>
 <ul>
 <li data-i18n-html="cctv.help.30"><strong>Trim</strong> — set the start and end points (down to a single frame) with the range slider or the <kbd>I</kbd>/<kbd>O</kbd> shortcuts, and mark multiple segments to export separately or merged.</li>
 <li data-i18n-html="cctv.help.31"><strong>Crop &amp; rotate</strong> — crop to a region of interest or rotate footage that was recorded sideways.</li>
 <li data-i18n-html="cctv.help.32"><strong>Image adjustments</strong> — brightness, contrast, saturation, sharpness and gamma, with a live preview, plus one-tap look presets (Night, Bright, Clarify, Vivid, Black &amp; White) shown as thumbnails.</li>
 <li data-i18n-html="cctv.help.33"><strong>Noise reduction</strong> — Off / Light / Medium / Strong, to clean up grainy night footage.</li>
-<li data-i18n-html="cctv.help.34"><strong>Output size &amp; quality</strong> — pick a resolution and quality level for the exported file.</li>
+<li data-i18n-html="cctv.help.34"><strong>Output size &amp; quality</strong> — pick a resolution and quality level for the exported file. The Output tab shows an estimated file size before you save.</li>
 <li data-i18n-html="cctv.help.35"><strong>Presets</strong> — save a combination of edit settings and reapply it in one click.</li>
 </ul>
 <p data-i18n-html="cctv.help.36">Exports are written to a new MP4 — your original files are never modified. A progress bar (with cancel) shows the export as it runs.</p>
 <h2 data-i18n-html="cctv.help.67" id="redaction">Privacy — hide faces, plates &amp; areas</h2>
-<p data-i18n-html="cctv.help.68">In the editor, click <strong>Detect faces</strong> to automatically find and follow faces across the clip, then hide the ones you choose. Everything runs on your PC — nothing is uploaded.</p>
+<p data-i18n-html="cctv.help.68">On the editor's <strong>Privacy</strong> tab, click <strong>Detect faces</strong> to automatically find and follow faces across the clip, then hide the ones you choose — or click <strong>Blur all faces</strong> to find and blur every face in one go, then review the boxes. Everything runs on your PC — nothing is uploaded.</p>
 <ul>
 <li data-i18n-html="cctv.help.69"><strong>Detect &amp; track</strong> — faces are found and followed as they move, each with a box that tracks it frame by frame.</li>
 <li data-i18n-html="cctv.help.70"><strong>Choose who to hide</strong> — click a box to keep that person visible or to redact them; only the faces you pick are hidden.</li>
@@ -102,25 +105,27 @@
 </ul>
 <p data-i18n-html="cctv.help.73">Automatic detection is a helpful first pass, not a guarantee — always play the clip back and cover anything left exposed before sharing.</p>
 <h2 data-i18n-html="cctv.help.74" id="exporting">More ways to export</h2>
-<p data-i18n-html="cctv.help.75">The editor's <strong>Export</strong> menu offers more than a plain MP4:</p>
+<p data-i18n-html="cctv.help.75">The editor's <strong>Export ▾</strong> menu offers more than a plain MP4:</p>
+<li data-i18n-html="cctv.help.89"><strong>For phone / WhatsApp</strong> — a small copy (16 MB or less) that plays on phones and can be sent in a chat.</li>
 <ul>
-<li data-i18n-html="cctv.help.76"><strong>Compress for email</strong> — re-encode to a small target size for email or messaging.</li>
+<li data-i18n-html="cctv.help.76"><strong>Compress for email</strong> — re-encode to 25 MB or less for email or messaging.</li>
 <li data-i18n-html="cctv.help.77"><strong>Animated GIF</strong> — save a short moment as a looping GIF.</li>
-<li data-i18n-html="cctv.help.78"><strong>Evidence report</strong> — a printable PDF with the source details and SHA-256 checksums for chain-of-custody.</li>
+<li data-i18n-html="cctv.help.78"><strong>Evidence report</strong> — the source details and SHA-256 checksums for chain-of-custody, as a page that opens in any browser and can be printed to PDF.</li>
+<li data-i18n-html="cctv.help.90"><strong>Evidence package</strong> — a folder with a checked copy of the original recording, the MP4 as edited, a report listing what was changed, the checksums and a README.</li>
 <li data-i18n-html="cctv.help.79"><strong>Deinterlace &amp; watermark</strong> — smooth combing on older analogue cameras, and burn a case number or watermark into the exported copy.</li>
 </ul>
 <h2 data-i18n-html="cctv.help.37" id="multicam">Multi-camera view</h2>
-<p data-i18n-html="cctv.help.38">Tick two or more converted clips and click <strong>Multi View</strong> to open up to six cameras side by side on a shared timeline. You can:</p>
+<p data-i18n-html="cctv.help.38">Tick two to six converted clips and choose <strong>Multi View</strong> from the <strong>Tools</strong> menu (or right-click a day) to watch the cameras side by side on a shared timeline. You can:</p>
 <ul>
 <li data-i18n-html="cctv.help.39">Nudge each camera's <strong>sync offset</strong> to line up clocks that have drifted apart.</li>
 <li data-i18n-html="cctv.help.40">Rename and rearrange cells, and solo a cell to hear its audio.</li>
 <li data-i18n-html="cctv.help.41"><strong>Snapshot all</strong> cameras at once, or build a combined <strong>contact sheet</strong>.</li>
-<li data-i18n-html="cctv.help.42"><strong>Export a synchronized composite</strong> video of the whole grid.</li>
+<li data-i18n-html="cctv.help.42"><strong>Export a synchronized composite</strong> video of the whole grid; click <em>Stop</em> to cancel an export that is running.</li>
 </ul>
 <h2 data-i18n-html="cctv.help.80" id="timeline">Continuous timeline</h2>
-<p data-i18n-html="cctv.help.81">Right-click a day of recordings and choose <strong>Play as timeline</strong> to watch the whole day's files as one continuous video — scrub across the joins, jump between motion events across the day, and export any span without opening each file separately.</p>
+<p data-i18n-html="cctv.help.81">Right-click a day of recordings (or use the <strong>Tools</strong> menu) and choose <strong>Play as timeline</strong> to watch the whole day's files as one continuous video — scrub across the joins, jump between motion events across the day, and export any span without opening each file separately.</p>
 <h2 data-i18n-html="cctv.help.43" id="motion">Motion highlights</h2>
-<p data-i18n-html="cctv.help.44">Select footage and choose <strong>Detect motion</strong> to have the app scan for movement and extract only the clips where something happens.</p>
+<p data-i18n-html="cctv.help.44">Tick footage and choose <strong>Extract motion highlights…</strong> from the <strong>Tools</strong> menu (or right-click a file or a day) to have the app scan for movement and keep only the clips where something happens.</p>
 <ul>
 <li data-i18n-html="cctv.help.45"><strong>Sensitivity</strong> — Low / Medium / High controls how much movement counts as an event.</li>
 <li data-i18n-html="cctv.help.46"><strong>Pre/post-roll</strong> — keep a few seconds before and after each event so nothing is clipped.</li>
@@ -132,7 +137,7 @@
 <h2 data-i18n-html="cctv.help.50" id="filmstrip">Filmstrip &amp; motion heatmap</h2>
 <p data-i18n-html="cctv.help.51">In the preview, a <strong>thumbnail filmstrip</strong> sits above the seek bar for fast scrubbing, and hovering the bar shows a preview pop-up. After a motion scan, a <strong>heatmap</strong> is painted along the seek bar so you can jump straight to the busy moments; use the prev/next-motion buttons to hop between events.</p>
 <h2 data-i18n-html="cctv.help.52" id="watch">Watch-folder mode</h2>
-<p data-i18n-html="cctv.help.53">Turn on <strong>Watch source folder</strong> in Settings and the app monitors that folder, automatically converting new recordings as they appear — a hands-off workflow for an always-on DVR. It waits until each file has finished being written before converting, and can pop a notification when a batch completes.</p>
+<p data-i18n-html="cctv.help.53">In the <strong>Convert options</strong> menu, turn on <strong>Watch source folder</strong> and the app rescans that folder whenever new recordings appear; turn on <strong>Auto-convert new files</strong> as well and it converts them too — a hands-off workflow for an always-on DVR. It waits until each file has finished being written before converting, and can pop a notification when a batch completes.</p>
 <h2 data-i18n-html="cctv.help.54" id="shortcuts">Keyboard shortcuts</h2>
 <table class="kbd-table">
 <tr><td><kbd>Space</kbd></td><td>Play / pause the preview</td></tr>
@@ -149,10 +154,14 @@
 <p data-i18n-html="cctv.help.59">Another program (Windows' Films &amp; TV, an Explorer preview, or antivirus) may be holding the file. Close any preview windows and try again; the app retries automatically for a few seconds.</p>
 <h3 data-i18n-html="cctv.help.60">The preview won't play a source file</h3>
 <p data-i18n-html="cctv.help.61">Some raw CCTV formats can't be previewed until converted. Convert the file first, then preview or edit the MP4.</p>
+<h3 data-i18n-html="cctv.help.91">A raw file plays too fast or too slow</h3>
+<p data-i18n-html="cctv.help.92">Raw .264/.265 files don't always store their speed. Open the file's <em>⋯</em> menu, set the camera's frame rate under <em>Recorded at</em>, and the app offers to convert it again at the new speed.</p>
+<h3 data-i18n-html="cctv.help.93">It says the output folder is the same as the source folder</h3>
+<p data-i18n-html="cctv.help.94">Converting into the folder that holds your recordings could overwrite them, so the app won't do it. Choose a different output folder — a new folder on the same drive is fine.</p>
 <h3 data-i18n-html="cctv.help.62">Where are my settings and logs?</h3>
-<p data-i18n-html="cctv.help.63">Open <em>About → Open log/data folder</em>, or browse to <code>%LOCALAPPDATA%\CctvConverter\</code>. It holds your config, the thumbnail cache and an error log — handy if you ever need to send a support report.</p>
+<p data-i18n-html="cctv.help.63">Open <em>About → Open log + cache folder</em>. In the direct-download edition this is <code>%LOCALAPPDATA%\CctvConverter\</code>; the Microsoft Store edition keeps it inside its own app package folder, so the button is the easiest way there. It holds your config, the thumbnail cache and an error log — handy if you ever need to send a support report.</p>
 <h2 data-i18n-html="cctv.help.64" id="updates">Updates &amp; support</h2>
-<p data-i18n-html="cctv.help.65">The Microsoft Store edition updates automatically. You can also choose <em>About → Check for updates</em> at any time. The app makes no other network requests; see the <a href="/cctvconverter/privacy/">Privacy Policy</a> for details.</p>
+<p data-i18n-html="cctv.help.65">Each time it starts, the app checks whether a newer version is available. You can skip an optional update; a required update must be installed before you carry on. The Microsoft Store edition also updates through the Store. You can choose <em>About → Check for updates</em> at any time. The app makes no other network requests; see the <a href="/cctvconverter/privacy/">Privacy Policy</a> for details.</p>
 <p data-i18n-html="cctv.help.66">Still stuck? Email <a href="mailto:info@davidarthur.app?subject=CCTV%20Converter%20support">info@davidarthur.app</a> and we'll help.</p>
 </main>
 <!-- Footer -->
