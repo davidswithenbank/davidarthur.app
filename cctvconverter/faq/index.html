@@ -14,7 +14,7 @@
       "@type": "FAQPage",
       "mainEntity": [
         {"@type":"Question","name":"My CCTV files are .ps — will this work?","acceptedAnswer":{"@type":"Answer","text":"Yes. Most Chinese DVRs wrap MPEG-PS in a proprietary header starting with the bytes IMKH. CCTV Converter detects that signature and converts to MP4 with no quality loss."}},
-        {"@type":"Question","name":"Can I edit or trim clips?","acceptedAnswer":{"@type":"Answer","text":"Yes. The built-in editor (new in v2.0) lets you trim, crop, rotate, adjust brightness, contrast, saturation and sharpness, reduce night-time grain, set output resolution and quality, and save presets. Originals are never modified."}},
+        {"@type":"Question","name":"Can I edit or trim clips?","acceptedAnswer":{"@type":"Answer","text":"Yes. The built-in editor lets you trim, crop, rotate, adjust brightness, contrast, saturation and sharpness, reduce night-time grain, set output resolution and quality, and save presets. Originals are never modified."}},
         {"@type":"Question","name":"Can I watch several cameras at once?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Multi-Camera view plays up to six recordings side by side on one timeline with per-camera offset nudging, snapshot-all and synchronized composite export."}},
         {"@type":"Question","name":"How do the motion highlights work?","acceptedAnswer":{"@type":"Answer","text":"The app scans footage for movement and exports only the clips where something happens, with adjustable sensitivity and pre/post-roll. Save events separately or as one combined highlight reel."}}
       ]
@@ -60,7 +60,7 @@
 </section>
 <section class="section" style="padding-top: 0.5rem;">
 <p class="faq-intro" data-i18n-html="cctv.faq.2">Can't find an answer here? See the <a href="/cctvconverter/help/">full user guide</a> or email <a href="mailto:info@davidarthur.app?subject=CCTV%20Converter%20support">info@davidarthur.app</a>.</p>
-<div class="faq-cat">Formats &amp; conversion</div>
+<div class="faq-cat" data-i18n-html="cctv.faq.34">Formats &amp; conversion</div>
 <div class="faq-list">
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.3" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">My CCTV files are <code>.ps</code> — will this work?</button>
@@ -78,8 +78,12 @@
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.9" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Can I burn the date and time into the video?</button>
 <div class="faq-answer"><p data-i18n-html="cctv.faq.10">Yes — tick “Add timestamp overlay to converted video” in the <strong>Convert options</strong> menu before you convert. A date/time clock taken from each file’s recording time is burned into the bottom-left of the MP4, incrementing per frame. Required by most insurance companies and accepted as evidence by courts in many jurisdictions. (See our <a href="/terms/">Terms</a> on relying on output as a sole legal record.)</p></div>
 </div>
+<div class="faq-item">
+<button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.32" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">My raw .264 file plays too fast or too slow — why?</button>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.33">Raw .264 and .265 files don't always store how fast they were recorded. CCTV Converter works it out from the recording times in the file names where it can. If a file still plays at the wrong speed, open its ⋯ menu, set the camera's frame rate under <em>Recorded at</em>, and the app offers to convert it again.</p></div>
 </div>
-<div class="faq-cat">New in version 2.0</div>
+</div>
+<div class="faq-cat" data-i18n-html="cctv.faq.35">Editing, viewing &amp; sharing</div>
 <div class="faq-list">
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.11" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Can I edit or trim clips?</button>
@@ -101,12 +105,8 @@
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.30" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Can I send a clip on WhatsApp?</button>
 <div class="faq-answer"><p data-i18n-html="cctv.faq.31">Yes. In the editor, choose <strong>For phone / WhatsApp</strong> from the Export menu to save a small copy (16 MB or less) that plays on phones and can be sent in a chat. <strong>Compress for email</strong> makes a copy of 25 MB or less.</p></div>
 </div>
-<div class="faq-item">
-<button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.32" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">My raw .264 file plays too fast or too slow — why?</button>
-<div class="faq-answer"><p data-i18n-html="cctv.faq.33">Raw .264 and .265 files don't always store how fast they were recorded. CCTV Converter works it out from the recording times in the file names where it can. If a file still plays at the wrong speed, open its ⋯ menu, set the camera's frame rate under <em>Recorded at</em>, and the app offers to convert it again.</p></div>
 </div>
-</div>
-<div class="faq-cat">Performance, languages &amp; requirements</div>
+<div class="faq-cat" data-i18n-html="cctv.faq.36">Performance, languages &amp; requirements</div>
 <div class="faq-list">
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.17" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">How fast is it?</button>
