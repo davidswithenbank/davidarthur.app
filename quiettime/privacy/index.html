@@ -37,7 +37,7 @@
     <p>David Arthur Software ("we", "us", "our") publishes the QuietTime app ("the App") as a free application. This page informs you of our policies regarding the collection, use, and disclosure of information when you use the App.</p>
 
     <h2>1. Information Collection and Use</h2>
-    <p>QuietTime does NOT transmit any data to us or to any third party. The App has no network code of any kind. Everything you enter or configure is stored only on the device where the App is installed.</p>
+    <p>QuietTime does NOT transmit any of your data to us or to any third party. The only network activity is the Windows version's update check, described in section 2, which sends nothing about you beyond the IP address that any web request necessarily reveals. Everything you enter or configure is stored only on the device where the App is installed.</p>
     <p>The App stores the following data locally on your device:</p>
     <ul>
         <li>A hashed PIN (your actual PIN is never stored)</li>
@@ -52,7 +52,7 @@
     <p>This data never leaves your device.</p>
 
     <h2>2. No Cloud Services</h2>
-    <p>QuietTime operates entirely offline. There are no:</p>
+    <p>QuietTime does not need an internet connection to work. There are no:</p>
     <ul>
         <li>User accounts or registration</li>
         <li>Cloud servers or databases</li>
@@ -60,6 +60,7 @@
         <li>Advertising networks or ad SDKs</li>
         <li>Third-party data sharing</li>
     </ul>
+    <p><strong>Update check (Windows version).</strong> The Windows version of QuietTime checks whether a newer version is available &mdash; shortly after it starts, every 12 hours while it is running, and whenever you choose &ldquo;Check for updates&rdquo; in Settings. The Microsoft Store edition asks the Store&rsquo;s own built-in update service and, only when the Store reports an update, also reads a small version file hosted at davidarthur.app to see whether that update is required; the direct-download edition checks the same version file. A check sends only an ordinary web request (which, like any web request, includes your IP address) and transmits none of your PIN, schedules, activity log or other settings. An optional update is offered only to the parent, inside the PIN-protected Settings. If an update is marked as required, the App installs it by itself &mdash; never while the block screen is showing &mdash; and then reopens in the background. If the check fails or the computer is offline, nothing happens and QuietTime keeps working as before. The Android version does not check for updates itself; Google Play updates it.</p>
 
     <h2>3. Children's Privacy</h2>
     <p>QuietTime is designed to be configured by a parent or guardian and used on a child's device. The App does not collect any personal information from children. All settings are protected by a PIN set by the parent.</p>
@@ -83,6 +84,7 @@
     <ul>
         <li>Startup registration: To start with Windows (optional)</li>
         <li>Foreground window management: To display the block screen</li>
+        <li>Internet access: only for the update check described in section 2</li>
     </ul>
 
     <h2>5. Data Security</h2>
@@ -121,6 +123,7 @@
     <ul>
         <li><strong>davidarthur.app</strong>, our company website, including the Privacy Policy, Terms of Service and User Guide.</li>
         <li><strong>Microsoft Store</strong> review page &mdash; opens the Store app if you choose to rate QuietTime.</li>
+        <li><strong>Microsoft Store</strong> app page &mdash; opens the Store app if an update can&rsquo;t be installed from inside QuietTime and you choose &ldquo;Open the Store&rdquo;.</li>
         <li><strong>info@davidarthur.app</strong> &mdash; clicking the email link opens your default mail client; sending email to us is covered by section 7 above.</li>
     </ul>
     <p>The App never opens any of these links automatically; they only open when you click them.</p>
