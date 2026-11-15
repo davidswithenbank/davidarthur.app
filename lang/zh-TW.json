@@ -320,7 +320,7 @@
   "cctv.help.62": "我的設定與記錄檔在哪裡？",
   "cctv.help.63": "開啟<em>關於 → 開啟記錄檔與快取資料夾</em>。在直接下載版中，位置是 <code>%LOCALAPPDATA%\\CctvConverter\\</code>；Microsoft Store 版本則存放在其自身的應用程式套件資料夾內，因此使用這個按鈕是最簡單的方式。其中存放您的設定、縮圖快取與錯誤記錄——在您需要傳送支援報告時很方便。",
   "cctv.help.64": "更新 &amp; 支援",
-  "cctv.help.65": "應用程式每次啟動時都會檢查是否有較新的版本。選用的更新可以略過；必要的更新則必須先安裝才能繼續使用。Microsoft Store 版本也會透過 Store 更新。您也可以隨時選擇<em>關於 → 檢查更新</em>。應用程式不會發出任何其他網路要求；詳情請參閱<a href=\"/cctvconverter/privacy/\">隱私權政策</a>。",
+  "cctv.help.65": "應用程式每次啟動時都會檢查是否有較新的版本。選用的更新可以略過；必要的更新則會自動安裝，完成後應用程式會自動關閉並重新開啟。Microsoft Store 版本也會透過 Store 更新。您也可以隨時選擇<em>關於 → 檢查更新</em>。應用程式不會發出任何其他網路要求；詳情請參閱<a href=\"/cctvconverter/privacy/\">隱私權政策</a>。",
   "cctv.help.66": "仍卡住嗎？來信 <a href=\"mailto:info@davidarthur.app?subject=CCTV%20Converter%20support\">info@davidarthur.app</a>，我們會協助您。",
   "cctv.help.67": "隱私 — 隱藏人臉、車牌與區域",
   "cctv.help.68": "在編輯器的<strong>隱私</strong>分頁中點選<strong>偵測人臉</strong>，即可自動找出並在整段片段中跟隨人臉，然後隱藏您選擇的那些——或點選<strong>模糊所有人臉</strong>，一次找出並模糊每張臉，再檢查各個方框。全部在您的電腦上執行——絕不會上傳任何內容。",

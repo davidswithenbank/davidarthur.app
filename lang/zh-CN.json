@@ -320,7 +320,7 @@
   "cctv.help.62": "我的设置和日志在哪里？",
   "cctv.help.63": "打开<em>关于 → 打开日志和缓存文件夹</em>。在直接下载版中，它位于 <code>%LOCALAPPDATA%\\CctvConverter\\</code>；Microsoft Store 版本则将其保存在自身的应用包文件夹中，因此使用该按钮是最简便的途径。其中保存着您的配置、缩略图缓存和一份错误日志——如果您需要发送支持报告，会很有用。",
   "cctv.help.64": "更新 &amp; 支持",
-  "cctv.help.65": "每次启动时，应用都会检查是否有新版本。可选更新可以跳过；必需更新则必须安装后才能继续使用。Microsoft Store 版本也会通过 Store 更新。您也可以随时选择<em>关于 → 检查更新</em>。应用不发出任何其他网络请求；详情请参阅<a href=\"/cctvconverter/privacy/\">隐私政策</a>。",
+  "cctv.help.65": "每次启动时，应用都会检查是否有新版本。可选更新可以跳过；必需更新会自动安装，完成后应用会自动关闭并重新打开。Microsoft Store 版本也会通过 Store 更新。您也可以随时选择<em>关于 → 检查更新</em>。应用不发出任何其他网络请求；详情请参阅<a href=\"/cctvconverter/privacy/\">隐私政策</a>。",
   "cctv.help.66": "仍然卡住了？发送邮件至 <a href=\"mailto:info@davidarthur.app?subject=CCTV%20Converter%20support\">info@davidarthur.app</a>，我们会提供帮助。",
   "cctv.help.67": "隐私——遮蔽人脸、车牌 &amp; 区域",
   "cctv.help.68": "在编辑器的<strong>隐私</strong>选项卡中，点击<strong>检测人脸</strong>即可自动在整段片段中查找并跟随人脸，然后隐藏您选择的那些——或点击<strong>模糊所有人脸</strong>，一次性找出并模糊每一张脸，然后检查各个方框。一切都在您的电脑上运行——绝不上传任何内容。",
