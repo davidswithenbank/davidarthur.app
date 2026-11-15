@@ -256,22 +256,27 @@ def body_flowables():
     ])
     s += [H2("Finding the clips you want")]
     s += bullets([
-        "Filter by minimum duration, by date, by time of day, or by filename.",
+        "Filter with the search box and the duration, date and time filters (<b>Reset</b> clears them).",
         "Files that don't match are hidden and unticked, and folders with no matching clips collapse out of the way, "
         "so only the files you can see get converted.",
-        "<b>Show: Unconverted</b> hides the files that are already converted, so you only see what is left to do.",
-        "Tick individual files or whole days, use <b>Tick: All / Unconverted</b>, or <b>Tick matching</b> to tick "
+        "<b>Unconverted tab</b> &mdash; above the file list, switch from <i>All</i> to <i>Unconverted</i> to hide the "
+        "files that are already converted, so you only see what is left to do.",
+        "Tick individual files or whole days (each day has its own tick box), use the <b>Tick:</b> links above the list "
+        "to tick <i>All</i> or <i>Unconverted</i> files or <i>Clear</i> the ticks, or click <b>Tick matching</b> to tick "
         "everything that passes the current filter.",
+        "Every file and every day has a <b>&hellip;</b> menu (or right-click it) with the actions for that item.",
     ])
 
     s += [H1("4. Converting Footage")]
     s += [P("Tick the files you want and click <b>Convert ticked</b>. Where the source is already "
             "MP4-compatible the app does a <i>stream copy</i> &mdash; the video is repackaged without being "
             "re-encoded, so it is usually very quick and bit-identical in quality. Otherwise it re-encodes to clean H.264. "
-            "The settings below are in the <b>Convert options</b> menu; merging and CSV export are in the <b>Tools</b> menu.")]
+            "Most of the settings below are in the <b>Convert options</b> menu next to the Output folder; merging and CSV "
+            "export are in the <b>Tools</b> menu.")]
     s += bullets([
         "<b>Parallel conversion</b> &mdash; convert several files at once (up to 16). A day of clips goes much faster on a multi-core PC.",
         "<b>Encoder</b> &mdash; Auto, CPU, or a specific GPU (NVIDIA / Intel / AMD). Auto picks the best available and falls back to CPU automatically if a GPU encode fails.",
+        "<b>File names</b> &mdash; keep the original name, add the date before or after it, or choose <i>Custom&hellip;</i> and build a name from {name}, {folder} and {date}.",
         "<b>Date/time burn-in</b> &mdash; tick &ldquo;Add timestamp overlay&rdquo; to burn a per-frame clock into the bottom-left of the output, taken from each file's recording time.",
         "<b>Merge</b> &mdash; from the Tools menu, combine any ticked clips into one continuous MP4 in time order, or right-click a day to merge the whole day.",
         "<b>CSV export</b> &mdash; from the Tools menu, export the file list (name, size, duration, resolution, format, timestamps).",
@@ -284,7 +289,8 @@ def body_flowables():
         "and set the camera's frame rate under <b>Recorded at</b>. The app then offers to convert it again at the new speed.",
         "<b>Join</b> &mdash; when recordings carry straight on from each other, a banner offers to join them into one video. "
         "The original files are unchanged.",
-        "<b>Split</b> &mdash; a file that holds several cameras can be split into one video per camera (normal conversion keeps only one).",
+        "<b>Split</b> &mdash; a file that holds several cameras shows a <b>Split into &hellip;</b> button on its row (also in "
+        "its <b>&hellip;</b> menu) that makes one video per camera (normal conversion keeps only one).",
     ])
     s += [tip("Conversions are cancellable at any point, and partly-written files are cleaned up automatically, "
               "so nothing is left in a bad state.")]
@@ -293,15 +299,16 @@ def body_flowables():
     s += [P("Select any clip to load it into the preview. Play and pause, step frame by frame, change the "
             "playback speed (0.5&times;&ndash;8&times;), adjust volume, and go fullscreen with draggable on-screen controls.")]
     s += bullets([
-        "<b>Filmstrip</b> &mdash; a strip of thumbnails above the seek bar lets you scrub by sight; hovering the bar shows a preview pop-up.",
-        "<b>Motion heatmap</b> &mdash; after a motion scan, a coloured heatmap along the seek bar shows where the action is; jump straight between events with the prev/next-motion buttons.",
-        "<b>Snapshots</b> &mdash; capture any frame as a JPEG or PNG, or copy it straight to the clipboard.",
+        "<b>Filmstrip</b> &mdash; turn on <b>Show filmstrip</b> for a strip of thumbnails above the seek bar to scrub by sight; hovering the bar shows a preview pop-up.",
+        "<b>Motion heatmap</b> &mdash; after a motion scan (<b>Detect motion</b>), a coloured heatmap along the seek bar shows where the action is; jump straight between events with the prev/next-motion buttons.",
+        "<b>Snapshot</b> &mdash; saves the current frame as a JPG; Ctrl+click copies it to the clipboard instead.",
+        "<b>Convert &amp; view</b> &mdash; a raw file that can't be previewed yet can be converted and played straight away from under the preview.",
     ])
 
     s += [KeepTogether([
               H1("6. The Built-in Editor"),
-              P("Select a playable file (a converted MP4, or footage that already plays) and click <b>Edit</b> to open "
-                "the in-place editor. Its settings sit in five tabs &mdash; <b>Clip</b>, <b>Privacy</b>, <b>Picture</b>, "
+              P("Select a playable file (a converted MP4, or footage that already plays) and click <b>Edit&hellip;</b> under the "
+                "preview to open the in-place editor. Its settings sit in five tabs &mdash; <b>Clip</b>, <b>Privacy</b>, <b>Picture</b>, "
                 "<b>Text &amp; audio</b> and <b>Output</b> &mdash; and a gold dot marks any tab you have changed. Edits always "
                 "export to a new MP4 &mdash; your original files are never modified &mdash; and a progress bar with a cancel "
                 "button shows the export as it runs."),
@@ -309,13 +316,17 @@ def body_flowables():
     s += bullets([
         "<b>Trim</b> &mdash; set the start and end points (down to a single frame) with the range slider or the I / O keyboard shortcuts; mark multiple segments to export separately or merged.",
         "<b>Crop &amp; rotate</b> &mdash; crop to a region of interest or rotate footage recorded sideways.",
-        "<b>Image adjustments</b> &mdash; brightness, contrast, saturation, sharpness and gamma, all with a live preview.",
+        "<b>Speed</b> &mdash; make the exported copy play slower or faster (0.5&times; to 8&times;), for example to skim a long, quiet stretch.",
+        "<b>Picture</b> &mdash; on the Picture tab, adjust brightness, contrast, saturation, sharpness and gamma, all with a live preview.",
         "<b>One-tap looks</b> &mdash; instant presets (Night, Bright, Clarify, Vivid, Black &amp; White), each shown as a thumbnail so you can preview the effect before applying it.",
-        "<b>Noise reduction</b> &mdash; Off / Light / Medium / Strong, to clean up grainy night footage.",
+        "<b>Noise reduction</b> &mdash; None / Light / Medium / Strong, to clean up grainy night footage.",
+        "<b>Text &amp; audio</b> &mdash; burn the date/time, a label or a watermark into the exported copy, or mute the audio.",
         "<b>Output size &amp; quality</b> &mdash; choose a resolution and quality level; the Output tab shows an estimated file size before you save.",
         "<b>Reset</b> &mdash; Reset transform and Reset picture undo those changes in one click.",
         "<b>Presets</b> &mdash; save a combination of edit settings and reapply it to other clips in one click.",
     ])
+    s += [P("When you're ready, click <b>Save clip&hellip;</b> to write a new MP4, or use <b>Export</b> for the other "
+            "formats in section 8. Click <b>Done</b> to go back to your files.")]
 
     s += [section(
               H1("7. Privacy &mdash; Hide Faces, Plates &amp; Areas"),
@@ -368,30 +379,31 @@ def body_flowables():
 
     s += [KeepTogether([
               H1("9. Multi-Camera View"),
-              P("Tick two to six converted clips and choose <b>Multi View</b> from the <b>Tools</b> menu (or right-click "
-                "a day) to play the cameras side by side on a single shared timeline."),
+              P("Tick two to six converted clips and choose <b>Multi View</b> from the <b>Tools</b> menu (or <b>Open day in "
+                "multi-camera view</b> from a day's <b>&hellip;</b> menu) to play the cameras side by side on a single shared timeline."),
           ] + img_block("screen-multicam.png", caption="Multi-camera view: up to six cameras on one timeline with per-camera sync offsets."))]
     s += bullets([
         "Nudge each camera's <b>sync offset</b> to line up clocks that have drifted apart.",
         "Rename and rearrange cells, and solo a cell to hear its audio.",
+        "Pick a <b>Layout</b> (or leave it on Auto), swap two cameras round, and double-click a camera to see it full-window.",
         "<b>Snapshot all</b> cameras at once, or build a combined <b>contact sheet</b>.",
         "<b>Export a synchronized composite</b> video of the whole grid; click Stop to cancel an export that is running.",
     ])
 
     s += [section(
               H1("10. Continuous Timeline"),
-              P("DVRs chop a day into many short files. Right-click a day (or use the <b>Tools</b> menu) and choose "
+              P("DVRs chop a day into many short files. Right-click a day (or use its <b>&hellip;</b> menu or the <b>Tools</b> menu) and choose "
                 "<b>Play as timeline</b> to watch them as one seamless recording instead of opening each file in turn."),
               *bullets([
                   "<b>One scrubber for the whole day</b> &mdash; drag across the joins between files without a gap.",
-                  "<b>Jump between motion events</b> across the entire span, even across file boundaries.",
+                  "<b>Jump to the next motion</b> once motion has been detected in those files, even across file boundaries.",
                   "<b>Export any span</b> &mdash; set an in and out point anywhere on the day and export just that stretch, trimmed and joined for you.",
               ]),
           )]
 
     s += [H1("11. Motion Highlights")]
-    s += [P("Tick footage and choose <b>Extract motion highlights&hellip;</b> from the <b>Tools</b> menu (or right-click a "
-            "file or a day) to have the app scan for movement and keep only the clips where something happens &mdash; "
+    s += [P("Tick footage and choose <b>Extract motion highlights&hellip;</b> from the <b>Tools</b> menu (or a file's or a day's "
+            "<b>&hellip;</b> menu) to have the app scan for movement and keep only the clips where something happens &mdash; "
             "turning hours of recording into a short reel of events.")]
     s += bullets([
         "<b>Sensitivity</b> &mdash; Low / Medium / High controls how much movement counts as an event.",
@@ -410,14 +422,15 @@ def body_flowables():
 
     s += [KeepTogether([
               H1("13. Settings"),
-              P("Open <b>Settings</b> from the toolbar to configure conversion and automation. Changes apply immediately. "
-                "The everyday options are also in the <b>Convert options</b> menu on the main window."),
+              P("The everyday conversion options are in the <b>Convert options</b> menu next to the Output folder "
+                "(pictured below). The <b>Settings</b> button at the top holds the same options and lets you save them "
+                "as named presets. Changes apply immediately."),
           ] + img_block("screen-settings.png", caption="The Convert options menu: burn-in, cleanup, parallel conversions, encoder, file naming, watch folder and notifications."))]
     s += bullets([
         "<b>Encoder</b> &mdash; Auto, CPU, or a specific GPU.",
-        "<b>Filename</b> &mdash; how output files are named (original name, or with a date prefix/suffix).",
+        "<b>File names</b> &mdash; the original name, the date before or after it, or a <i>Custom&hellip;</i> name built from {name}, {folder} and {date}.",
         "<b>Parallel</b> &mdash; how many files convert at once (1&ndash;16).",
-        "<b>Presets</b> &mdash; save the encoder, concurrency and naming settings as a named preset.",
+        "<b>Presets</b> &mdash; in Settings, save the encoder, concurrency and naming settings as a named preset and switch between presets in one click.",
         "<b>Watch folder</b> &mdash; auto-convert new files, with a file-stability delay.",
         "<b>Notifications</b> &mdash; pop a notification when a batch finishes.",
     ])
@@ -429,7 +442,7 @@ def body_flowables():
         ["I / O", "Set the start (in) / end (out) point in the editor"],
         ["F", "Fullscreen preview"],
         ["M", "Mute / unmute"],
-        ["Esc", "Exit fullscreen, or exit the editor"],
+        ["Esc", "Leave the editor, cancel an export, or close fullscreen"],
     ]
     body = ParagraphStyle("kbd", parent=S["body"], spaceAfter=0)
     keyst = ParagraphStyle("kbdk", parent=body, fontName="Helvetica-Bold", textColor=ACCENTLT)
@@ -485,7 +498,7 @@ def body_flowables():
     s += [section(
         H1("17. Support &amp; Updates"),
         P("Each time it starts, the app checks whether a newer version is available. You can skip an optional "
-          "update; a required update must be installed before you carry on. The Microsoft Store edition also updates "
+          "update; a required update installs by itself, and the app closes and reopens when it is done. The Microsoft Store edition also updates "
           "through the Store, and you can choose <i>About &rarr; Check for updates</i> at any time. For help, email "
           "info@davidarthur.app or see the online guide and FAQ at davidarthur.app/cctvconverter/help/ and "
           "davidarthur.app/cctvconverter/faq/."),
