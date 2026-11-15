@@ -40,17 +40,19 @@
     <p>CCTV Converter does <strong>not</strong> collect, transmit, or share any personal information. It has no accounts, no cloud services, no analytics and no advertising. Everything you do in the App stays on your computer. The only network activity is the update check described below, which sends nothing about you or your footage beyond the IP address that any web request necessarily reveals. This includes the face-blurring tools added in version 2.1: faces are detected and hidden entirely on your device, and no facial or biometric data is ever created, stored, or sent anywhere.</p>
 
     <h2>2. What the App stores locally</h2>
-    <p>The App writes a small configuration file at <code>%LOCALAPPDATA%\CctvConverter\config.json</code> on your machine. It records only:</p>
+    <p>The App writes a small configuration file at <code>%LOCALAPPDATA%\CctvConverter\config.json</code> on your machine. It records your settings and preferences, including:</p>
     <ul>
         <li>The last source folder you scanned and the last output folder you chose (so the paths appear next time you open the App)</li>
         <li>Up to five recent source folders and five recent output folders, for the &#9660; quick-pick menus beside those fields</li>
         <li>Your "Delete source files after successful conversion" checkbox state</li>
         <li>Your "Add timestamp overlay to converted video" checkbox state</li>
-        <li>Your chosen number of parallel conversions (1 to 8)</li>
+        <li>Your chosen number of parallel conversions (1 to 16)</li>
         <li>Your chosen interface language (or the language auto-detected from your Windows settings on first launch)</li>
         <li>A count of how many files you have successfully converted, used only to know when to offer a one-time "rate the app on the Microsoft Store" prompt, and a flag recording your reply to that prompt</li>
+        <li>Your other app settings, such as the encoder, file naming, watch-folder, motion-highlight, window-size and volume choices, and any frame rate you set for a raw file under "Recorded at" (stored with that file's path)</li>
+        <li>The time of the last update check</li>
     </ul>
-    <p>It also caches video thumbnails at <code>%LOCALAPPDATA%\CctvConverter\thumbs\</code> to make repeat browsing faster.</p>
+    <p>It also caches video thumbnails at <code>%LOCALAPPDATA%\CctvConverter\thumbs\</code> to make repeat browsing faster, and similar caches for the preview filmstrip, audio waveforms and motion-detection results; old cache entries are cleared out automatically. If something goes wrong, it writes an error log in the same folder. The Microsoft Store edition keeps this folder inside its own app package folder; <em>About &rarr; Open log + cache folder</em> opens it.</p>
     <p>None of this data is transmitted off your device. You can delete it any time by removing the <code>%LOCALAPPDATA%\CctvConverter\</code> folder.</p>
 
     <h2>3. Your video files</h2>
@@ -85,10 +87,10 @@
         <li>If you click "Rate on Store" in the one-time rating prompt, the App opens the App's review page in the Microsoft Store.</li>
     </ul>
     <p>These actions happen only when you click those specific buttons.</p>
-    <p>The App also checks whether a newer version is available — automatically about once a day when it starts, and whenever you choose "Check for updates". The Microsoft Store edition asks the Store's own built-in update service; the direct-download edition checks a small version file hosted at davidarthur.app. A check sends only an ordinary web request (which, like any web request, includes your IP address) and transmits none of your settings, files, or footage. Nothing is downloaded or installed without your consent, and you can ignore the result. Aside from the actions described above, the App makes no background network requests.</p>
+    <p>The App also checks whether a newer version is available — automatically each time it starts, and whenever you choose "Check for updates". The Microsoft Store edition asks the Store's own built-in update service and, only when the Store reports an update, also reads a small version file hosted at davidarthur.app to see whether that update is required; the direct-download edition checks the same version file. A check sends only an ordinary web request (which, like any web request, includes your IP address) and transmits none of your settings, files, or footage. You can skip an optional update. If an update is marked as required, the App installs it by itself &mdash; after any conversion or export in progress has finished &mdash; and then reopens; if it cannot install it, it asks you to update before you carry on using it. If the check fails or you are offline, nothing happens. Aside from the actions described above, the App makes no background network requests.</p>
 
     <h2>8. Data retention</h2>
-    <p>All data the App writes is on your device for as long as you keep the App installed. Uninstalling or deleting <code>%LOCALAPPDATA%\CctvConverter\</code> permanently removes everything.</p>
+    <p>All data the App writes is on your device for as long as you keep the App installed. Deleting <code>%LOCALAPPDATA%\CctvConverter\</code> permanently removes everything. Uninstalling the Microsoft Store edition removes it all; the direct-download edition's uninstaller removes the caches and logs but keeps your small settings file, so a reinstall remembers your folders.</p>
 
     <h2>9. Support emails and general correspondence</h2>
     <p>If you email us directly &mdash; for example, to ask for help with the App or to report a problem &mdash; we will receive your message, including your email address and anything you choose to tell us. We use that information only to respond to you and to keep a brief record of the conversation so we can help you again later.</p>
