@@ -41,6 +41,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://davidarthur.app/duovox/refunds/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://davidarthur.app/terms/</loc>
     <lastmod>2026-11-18</lastmod>
     <priority>0.6</priority>
