@@ -223,5 +223,8 @@
  "cctv.help.97": "<strong>Speed</strong> — make the exported copy play slower or faster (0.5× to 8×), for example to skim a long, quiet stretch.",
  "cctv.help.98": "<strong>Text &amp; audio</strong> — burn the date/time, a label or a watermark into the exported copy, or mute the audio.",
  "cctv.help.99": "Pick a <strong>Layout</strong> (or leave it on Auto), swap two cameras round, and double-click a camera to see it full-window.",
- "cctv.help.100": "<strong>Snapshot</strong> saves the current frame as a JPG (Ctrl+click copies it to the clipboard instead), and <strong>Fullscreen</strong> (or <kbd>F</kbd>) fills the screen."
+ "cctv.help.100": "<strong>Snapshot</strong> saves the current frame as a JPG (Ctrl+click copies it to the clipboard instead), and <strong>Fullscreen</strong> (or <kbd>F</kbd>) fills the screen.",
+ "cctv.home.97": "Format detection, lossless and parallel conversion, a built-in editor with face and area redaction, six cameras in sync, motion search, a whole-day timeline, evidence reports and more.",
+ "cctv.home.98": "See every feature and screenshot →",
+ "cctv.feat.1": "CCTV Converter Features"
 }
