@@ -68,15 +68,15 @@
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.5" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">What about Dahua <code>.dav</code> or Hikvision files?</button>
-<div class="faq-answer"><p data-i18n-html="cctv.faq.6">Dahua DHAV files convert directly. Hikvision is more varied — standard H.264 backups work fine; encrypted backups (<code>.crypt</code>) cannot be decrypted by any third-party tool and need Hikvision's own player.</p></div>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.6">Dahua DHAV files convert directly. Hikvision is more varied — standard H.264 backups work fine; encrypted backups (<code>.crypt</code>) can't be decrypted by CCTV Converter and need Hikvision's own player.</p></div>
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.7" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Does it really keep all the original quality?</button>
-<div class="faq-answer"><p data-i18n-html="cctv.faq.8">Yes. The default conversion is a stream copy, meaning the video and audio packets are repackaged into MP4 without being decoded or re-encoded. The output is bit-identical in quality to the source. Re-encoding only happens as a fallback if the original stream is incompatible with MP4, and it uses high-quality H.264.</p></div>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.8">Yes. The default conversion is a stream copy, meaning the video and audio packets are repackaged into MP4 without being decoded or re-encoded. The picture quality is the same as the source. Re-encoding only happens as a fallback if the original stream is incompatible with MP4, and it uses high-quality H.264.</p></div>
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.9" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Can I burn the date and time into the video?</button>
-<div class="faq-answer"><p data-i18n-html="cctv.faq.10">Yes — tick “Add timestamp overlay to converted video” in the <strong>Convert options</strong> menu before you convert. A date/time clock taken from each file’s recording time is burned into the bottom-left of the MP4, incrementing per frame. Required by most insurance companies and accepted as evidence by courts in many jurisdictions. (See our <a href="/terms/">Terms</a> on relying on output as a sole legal record.)</p></div>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.10">Yes — tick “Add timestamp overlay to converted video” in the <strong>Convert options</strong> menu before you convert. A date/time clock taken from each file’s recording time is burned into the bottom-left of the MP4, incrementing per frame. (See our <a href="/terms/">Terms</a> on relying on output as a sole legal record.)</p></div>
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.32" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">My raw .264 file plays too fast or too slow — why?</button>
@@ -98,7 +98,7 @@
 <div class="faq-answer"><p data-i18n-html="cctv.faq.16">Tick your footage and choose <strong>Extract motion highlights…</strong> from the <strong>Tools</strong> menu (or a day's <em>⋯</em> menu). The app scans for movement, then exports just the clips where something happens — with adjustable sensitivity and pre/post-roll padding so you keep the run-up and run-out of each event. Save each event separately or as one combined highlight reel, and skip hours of an empty driveway.</p></div>
 </div>
 <div class="faq-item">
-<button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.28" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">How do I hand footage to the police or an insurer?</button>
+<button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.28" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">How do I hand footage to someone else, such as an insurer?</button>
 <div class="faq-answer"><p data-i18n-html="cctv.faq.29">Open the clip in the editor and choose <strong>Evidence package</strong> from the Export menu. You get one folder with a checked copy of the original recording, the MP4 as edited, a report listing what was changed, SHA-256 checksums and a README. If you only need the details and checksums, <strong>Evidence report</strong> creates a page that opens in any browser and can be printed to PDF. (See our <a href="/terms/">Terms</a> on relying on output as a sole legal record.)</p></div>
 </div>
 <div class="faq-item">
@@ -110,7 +110,7 @@
 <div class="faq-list">
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.17" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">How fast is it?</button>
-<div class="faq-answer"><p data-i18n-html="cctv.faq.18">Around 200× realtime for a typical CCTV bitrate. A 30-second clip converts in well under a second. With parallel conversion enabled (up to 16 files at once), a full day of recordings — a few hundred clips — takes well under a minute on a normal laptop. Optional GPU acceleration (NVIDIA / Intel / AMD) speeds up re-encodes. You can stop at any time; converting again picks up the files that aren't done yet.</p></div>
+<div class="faq-answer"><p data-i18n-html="cctv.faq.18">Usually many times faster than realtime for a typical CCTV bitrate: a 30-second clip often converts in under a second. With parallel conversion enabled (up to 16 files at once), a full day of recordings — a few hundred clips — can take under a minute on a typical laptop. Optional GPU acceleration (NVIDIA / Intel / AMD) speeds up re-encodes. You can stop at any time; converting again picks up the files that aren't done yet.</p></div>
 </div>
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="cctv.faq.19" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">What languages is it available in?</button>
