@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CCTV Converter Privacy Policy | David Arthur Software</title>
-    <meta name="description" content="Privacy Policy for CCTV Converter - free Windows utility. No data collection, everything local; the only network request is an update check.">
+    <meta name="description" content="Privacy Policy for CCTV Converter for Windows. Your footage never leaves your PC; covers the update check and buying CCTV Converter Pro through the Microsoft Store or our online checkout (Paddle).">
     <link rel="icon" type="image/png" href="/cctvconverter-icon.png">
     <link rel="canonical" href="https://davidarthur.app/cctvconverter/privacy/">
     <link rel="stylesheet" href="/style.css">
@@ -32,12 +32,12 @@
 <!-- Privacy Policy -->
 <main class="legal">
     <h1>Privacy Policy for CCTV Converter</h1>
-    <p class="last-updated">Last updated: 15 November 2026</p>
+    <p class="last-updated">Last updated: 18 November 2026</p>
 
-    <p>David Arthur Software ("we", "us", "our") publishes the CCTV Converter app ("the App") as a free Windows utility. This page describes how the App handles your information.</p>
+    <p>David Arthur Software ("we", "us", "our") publishes the CCTV Converter app ("the App"), a Windows utility that is free to download and use, with an optional paid upgrade, CCTV Converter Pro. This page describes how the App handles your information.</p>
 
     <h2>1. The short version</h2>
-    <p>CCTV Converter does <strong>not</strong> collect, transmit, or share any personal information. It has no accounts, no cloud services, no analytics and no advertising. Everything you do in the App stays on your computer. The only network activity is the update check described below, which sends nothing about you or your footage beyond the IP address that any web request necessarily reveals. This includes the face-blurring tools added in version 2.1: faces are detected and hidden entirely on your device, and no facial data is kept after processing or sent anywhere.</p>
+    <p>CCTV Converter does <strong>not</strong> collect, transmit, or share your footage or anything about what you do with it. It has no accounts, no analytics and no advertising. Everything you do in the App stays on your computer. The only network activity is the update check and, for CCTV Converter Pro, the purchase and licence checks described in section 7; none of them sends anything about your footage. If you buy Pro, Microsoft or our online reseller Paddle handles the payment, as described in section 7. This includes the face-blurring tools added in version 2.1: faces are detected and hidden entirely on your device, and no facial or biometric data is ever created, stored, or sent anywhere.</p>
 
     <h2>2. What the App stores locally</h2>
     <p>The App writes a small configuration file at <code>%LOCALAPPDATA%\CctvConverter\config.json</code> on your machine. It records your settings and preferences, including:</p>
@@ -51,6 +51,7 @@
         <li>A count of how many files you have successfully converted, used only to know when to offer a one-time "rate the app on the Microsoft Store" prompt, and a flag recording your reply to that prompt</li>
         <li>Your other app settings, such as the encoder, file naming, watch-folder, motion-highlight, window-size and volume choices, and any frame rate you set for a raw file under "Recorded at" (stored with that file's path)</li>
         <li>The time of the last update check</li>
+        <li>Your CCTV Converter Pro status: whether this PC has Pro (and which plan), when it was last confirmed, and, if you used the App before Pro existed, when your free month ends. It is kept in an encrypted file (<code>pro.dat</code>) in the same folder, protected by Windows for your user account. If you bought Pro with card or PayPal, the file also holds a random install identifier and the licence our server issued to it (see section 7).</li>
     </ul>
     <p>It also caches video thumbnails at <code>%LOCALAPPDATA%\CctvConverter\thumbs\</code> to make repeat browsing faster, and similar caches for the preview filmstrip, audio waveforms and motion-detection results; old cache entries are cleared out automatically. If something goes wrong, it writes an error log in the same folder. The Microsoft Store edition keeps this folder inside its own app package folder; <em>About &rarr; Open log + cache folder</em> opens it.</p>
     <p>None of this data is transmitted off your device. You can delete it any time by removing the <code>%LOCALAPPDATA%\CctvConverter\</code> folder.</p>
@@ -67,11 +68,11 @@
         <li>You choose which detected faces to hide, and can add or remove boxes by hand. The redaction is written into the new file you export; your original files are never changed.</li>
     </ul>
 
-    <h2>5. No cloud services</h2>
+    <h2>5. No cloud services for your footage</h2>
     <p>The App has no:</p>
     <ul>
         <li>User accounts or registration</li>
-        <li>Cloud servers or databases</li>
+        <li>Cloud storage or processing of your footage</li>
         <li>Analytics or tracking services</li>
         <li>Advertising networks or ad SDKs</li>
         <li>Third-party data sharing</li>
@@ -80,7 +81,7 @@
     <h2>6. Permissions</h2>
     <p>The App runs as a standard Windows desktop application. It needs read access to the folders you point it at, write access to the output folder you choose, and the ability to launch the bundled <code>ffmpeg.exe</code>. It does not require administrator rights for normal use.</p>
 
-    <h2>7. Links that open in your browser or the Microsoft Store</h2>
+    <h2>7. Updates, CCTV Converter Pro and links that open in your browser or the Microsoft Store</h2>
     <p>A small number of buttons in the App launch links in whatever app your system uses to open them &mdash; for example:</p>
     <ul>
         <li>The footer links to <strong>davidarthur.app</strong> and <code>info@davidarthur.app</code> open your default browser or email client.</li>
@@ -88,6 +89,13 @@
     </ul>
     <p>These actions happen only when you click those specific buttons.</p>
     <p>The App also checks whether a newer version is available — automatically each time it starts, and whenever you choose "Check for updates". The Microsoft Store edition asks the Store's own built-in update service and, only when the Store reports an update, also reads a small version file hosted at davidarthur.app to see whether that update is required; the direct-download edition checks the same version file. A check sends only an ordinary web request (which, like any web request, includes your IP address) and transmits none of your settings, files, or footage. You can skip an optional update. If an update is marked as required, the App installs it by itself &mdash; after any conversion or export in progress has finished &mdash; and then reopens; if it cannot install it, it asks you to update before you carry on using it. If the check fails or you are offline, nothing happens. Aside from the actions described above, the App makes no background network requests.</p>
+    <p><strong>CCTV Converter Pro.</strong> Pro is optional. You can buy it in two ways:</p>
+    <ul>
+        <li><strong>Microsoft Store:</strong> the purchase is made and billed by Microsoft, in the Microsoft Store's own window and under Microsoft's privacy statement (<a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener">privacy.microsoft.com</a>). To know whether you own Pro, the App asks the Microsoft Store's licensing service on your PC; Microsoft tells the App only which Pro plan you own and until when. We receive Microsoft's usual sales reports, which do not identify you to us.</li>
+        <li><strong>Card or PayPal (online checkout, Paddle):</strong> purchases made through our online checkout are sold and processed by Paddle.com, our reseller and Merchant of Record. Paddle collects the details needed to take payment, charge the right tax and prevent fraud (such as your name, email address, payment details, billing country and postcode, and your IP address) and is an independent controller of them under its own privacy notice (<a href="https://www.paddle.com/legal/privacy" target="_blank" rel="noopener">paddle.com/legal/privacy</a>). Paddle may use cookies or similar technologies needed for checkout and fraud prevention. We never see your full payment details. Paddle shares with us what we need to deliver and support your order: the order, customer and subscription identifiers, what was bought, the billing country, the subscription's status and dates, and, in its dashboard, your email address so that we can answer questions about your order.</li>
+    </ul>
+    <p>If you buy with card or PayPal, the App creates a random install identifier (it contains nothing about you or your PC) and uses it to ask our licence server, at api.duovox.net, for your licence: when you buy or activate Pro, when you enter a CCTV Converter code, and from time to time while a subscription is running so that a renewal or cancellation reaches the App. Our server keeps the identifiers Paddle gives the order, the customer and any subscription, the product bought, the billing country, the subscription's status and paid-up date and the activation code we issue, linked to the install identifiers of the PCs that use it. It keeps these for as long as the purchase is active and then for up to 7 years for our tax and accounting records. These requests, like any web request, include your IP address, which our server uses only to deliver the request and to limit abuse; it never receives your settings, files or footage.</p>
+
 
     <h2>8. Data retention</h2>
     <p>All data the App writes is on your device for as long as you keep the App installed. In the direct-download edition, deleting <code>%LOCALAPPDATA%\CctvConverter\</code> removes everything. Uninstalling the Microsoft Store edition removes it all; the direct-download edition's uninstaller removes the caches and logs but keeps your small settings file, so a reinstall remembers your folders.</p>
@@ -103,7 +111,7 @@
     <p>If you would like us to delete any correspondence with us, email <a href="mailto:info@davidarthur.app">info@davidarthur.app</a> with "Delete my data" in the subject line and we will comply within 30 days.</p>
 
     <h2>10. Your rights</h2>
-    <p>Because the App does not transmit or store any of your data outside your device, we (David Arthur Software) do not hold any personal data about you in respect of using the App, and there is nothing for us to access, correct, or delete on a server.</p>
+    <p>Unless you buy CCTV Converter Pro through our online checkout, we (David Arthur Software) do not hold any personal data about you in respect of using the App, and there is nothing for us to access, correct, or delete on a server. If you did buy through our online checkout, you can ask us for a copy of the order record described in section 7, or to correct or delete it (we may need to keep what tax and accounting law requires), by emailing <a href="mailto:info@davidarthur.app">info@davidarthur.app</a>. For the payment details Paddle holds, contact Paddle as described in its privacy notice; for Microsoft Store purchases, use your Microsoft account privacy dashboard.</p>
     <p>For data the App stores locally, you can:</p>
     <ul>
         <li><strong>Access / view:</strong> open <code>%LOCALAPPDATA%\CctvConverter\config.json</code> in a text editor.</li>
@@ -124,7 +132,7 @@
         <li>Email: <a href="mailto:info@davidarthur.app">info@davidarthur.app</a></li>
         <li>Web: <a href="https://davidarthur.app">https://davidarthur.app</a></li>
     </ul>
-    <p>CCTV Converter is published by <strong>David Arthur Software</strong>, a sole trader based in <strong>York, United Kingdom</strong>. Full trader details are available on written request by email.</p>
+    <p>CCTV Converter is published by <strong>David Arthur Software</strong>, a sole trader based in <strong>York, United Kingdom</strong>. Full trader details are available on written request by email. For purchases through our online checkout, the data controller for your order record is David Arthur Software Ltd, company number 14318326, registered office Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, United Kingdom.</p>
 </main>
 
 <!-- Footer -->
