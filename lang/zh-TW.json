@@ -133,14 +133,14 @@
   "footer.refunds": "退款",
   "cctv.home.1": "轉換並檢視您的中國 CCTV 攝影機檔案。",
   "cctv.home.2": "免費播放與轉換 • 選用 Pro • 無廣告 • 無需帳號 • 可離線運作 • 16 種語言",
-  "cctv.home.3": "大多數中國 DVR 以專屬格式儲存錄影，一般播放器無法開啟。CCTV Converter 會偵測格式並轉換為標準 MP4，大量批次處理時可並行轉換，並可選擇將日期/時間時鐘燒錄進影片以供作為證據使用——全部在您自己的機器上、以您的語言完成。v2.3 新功能：CCTV Converter Pro，適用於進階工具的選用升級。播放與轉換仍然免費。",
+  "cctv.home.3": "大多數中國 DVR 以專屬格式儲存錄影，一般播放器無法開啟。CCTV Converter 會偵測格式並轉換為標準 MP4，大量批次處理時可並行轉換，並可選擇將日期/時間時鐘燒錄進影片——全部在您自己的機器上、以您的語言完成。v2.3 新功能：CCTV Converter Pro，適用於進階工具的選用升級。播放與轉換仍然免費。",
   "cctv.home.5": "無需帳號",
   "cctv.home.6": "可離線運作",
   "cctv.home.7": "無追蹤",
   "cctv.home.8": "Windows 10 / 11",
   "cctv.home.9": "16 種語言",
   "cctv.home.12": "自動遮蔽與區域追蹤",
-  "cctv.home.13": "自動模糊、馬賽克或塗黑人臉——編輯器會找出每張臉並在其移動時持續追蹤。需要隱藏其他東西嗎？在車牌、人物或物件上框選一個方框，「追蹤此區域」就會替你在整段影片中跟隨它。一切都在你的電腦上執行——絕不會上傳任何內容。分享片段前，請務必先檢查結果。這是隱私遮蔽，不是臉部辨識：它會找出人臉，讓你可以把它們隱藏起來，而且不會識別任何人。",
+  "cctv.home.13": "自動模糊、馬賽克或塗黑人臉——編輯器會找出每張臉並在其移動時持續追蹤。需要隱藏其他東西嗎？在車牌、人物或物件上框選一個方框，「追蹤此區域」就會替你在整段影片中跟隨它。一切都在你的電腦上執行——絕不會上傳任何內容。分享片段前，請務必先檢查結果。分享片段前，請務必先檢查結果。",
   "cctv.home.14": "一鍵外觀 &amp; 即時 Gamma",
   "cctv.home.15": "即時外觀預設——夜間、明亮、清晰、鮮明與黑白——每一種都以縮圖呈現，讓您預覽結果。可透過亮度、對比度、飽和度、銳利度與全新的 gamma 控制項細部微調，全程即時預覽。",
   "cctv.home.16": "在片段中尋找動作",
@@ -1069,5 +1069,6 @@
   "cctv.help.106": "<strong>已经购买？</strong> — 在另一台 PC 上，或重新安裝 Windows 後，請使用相同的 Microsoft 帳戶登入 Microsoft Store，開啟 Pro 視窗並按一下 <strong>已经购买？</strong>。",
   "cctv.help.107": "<strong>免費一個月</strong>——如果您在 2.3 版之前使用過 CCTV Converter，自您第一次開啟 2.3 起，所有 Pro 功能都可免費使用一個月；Pro 視窗會顯示結束日期。",
   "cctv.help.108": "<strong>取消</strong> — 可在您的 Microsoft 帳戶中管理或取消 Microsoft Store 訂閱（<a href=\"https://account.microsoft.com/services\" rel=\"noopener\" target=\"_blank\">account.microsoft.com/services</a>）。Pro 會持續啟用到您已付款期間結束。退款請參閱我們的 <a href=\"/refunds/\">退款頁面</a>。",
-  "cctv.help.109": "<strong>银行卡或 PayPal</strong>——在 Pro 視窗中，或在<a href=\"/cctvconverter/#pro\">CCTV Converter 頁面</a>上，選擇<strong>银行卡或 PayPal</strong>；付款由我們的線上經銷商 Paddle 在您的瀏覽器中處理。在應用程式中付款了嗎？Pro 會自動啟用。在網站上付款了嗎？在 Pro 視窗中按一下<strong>有 CCTV Converter 代码？</strong>，輸入您付款後看到的頁面中的代碼，然後按一下<strong>使用代码</strong>。一次購買最多可在您的 3 部 PC 上使用（Pro 視窗會顯示要在其他電腦上輸入的代碼）。可透過 Paddle 收據電子郵件中的連結管理或取消，或使用 Pro 視窗中的<strong>管理或取消</strong>。"
+  "cctv.help.109": "<strong>银行卡或 PayPal</strong>——在 Pro 視窗中，或在<a href=\"/cctvconverter/#pro\">CCTV Converter 頁面</a>上，選擇<strong>银行卡或 PayPal</strong>；付款由我們的線上經銷商 Paddle 在您的瀏覽器中處理。在應用程式中付款了嗎？Pro 會自動啟用。在網站上付款了嗎？在 Pro 視窗中按一下<strong>有 CCTV Converter 代码？</strong>，輸入您付款後看到的頁面中的代碼，然後按一下<strong>使用代码</strong>。一次購買最多可在您的 3 部 PC 上使用（Pro 視窗會顯示要在其他電腦上輸入的代碼）。可透過 Paddle 收據電子郵件中的連結管理或取消，或使用 Pro 視窗中的<strong>管理或取消</strong>。",
+  "sec.closing": "如需完整的資料處理政策，請參閱<a href=\"privacy.html\">隱私政策</a>。如有資料保護相關問題，請聯絡 <a href=\"mailto:info@duovox.net\">info@duovox.net</a>。如對受監管環境有疑問，請參閱<a href=\"privacy.html\">隱私政策</a>。"
 }
