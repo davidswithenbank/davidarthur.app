@@ -4,19 +4,19 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>CCTV Converter - Free Chinese CCTV Video Converter for Windows | David Arthur Software</title>
-<meta content="Free Windows app to convert and view Chinese CCTV camera files (Xiongmai, Dahua, Hikvision and 20+ formats). v2.2 adds a simpler start, a phone/WhatsApp copy, an evidence package and raw files at the right speed, alongside automatic face redaction and a whole-day timeline. Built-in editor, six-camera sync view, motion highlights, 16-language interface. No ads, no accounts." name="description"/>
-<meta content="CCTV converter, DVR converter, Xiongmai, Dahua, Hikvision, IMKH, .ps file player, surveillance video, security camera, MP4 converter, H.264, timestamp overlay, evidence video, CCTV editor, multi-camera viewer, motion detection, highlight extraction, GPU encoding, free Windows utility, multilingual" name="keywords"/>
+<title>CCTV Converter - Chinese CCTV Video Converter for Windows | David Arthur Software</title>
+<meta content="Windows app to convert and view Chinese CCTV camera files (Xiongmai, Dahua, Hikvision and 20+ formats). Playing and converting are free; the optional CCTV Converter Pro adds face and area redaction, a six-camera sync view, evidence reports, motion highlights, motion search and a whole-day timeline. Built-in editor, 16-language interface. No ads, no accounts." name="description"/>
+<meta content="CCTV converter, DVR converter, Xiongmai, Dahua, Hikvision, IMKH, .ps file player, surveillance video, security camera, MP4 converter, H.264, timestamp overlay, evidence video, CCTV editor, multi-camera viewer, motion detection, highlight extraction, GPU encoding, Windows utility, multilingual" name="keywords"/>
 <!-- Open Graph -->
-<meta content="CCTV Converter - Free Chinese CCTV Video Converter for Windows" property="og:title"/>
-<meta content="Convert and view Chinese CCTV camera files - Xiongmai .ps, Dahua, Hikvision and 20+ formats. Now with a built-in editor, six-camera sync view and automatic motion highlights. Free, no ads, no accounts." property="og:description"/>
+<meta content="CCTV Converter - Chinese CCTV Video Converter for Windows" property="og:title"/>
+<meta content="Convert and view Chinese CCTV camera files - Xiongmai .ps, Dahua, Hikvision and 20+ formats. Free to play and convert; the optional Pro upgrade adds redaction, a six-camera sync view and automatic motion highlights. No ads, no accounts." property="og:description"/>
 <meta content="https://davidarthur.app/cctvconverter-icon.png" property="og:image"/>
 <meta content="https://davidarthur.app/cctvconverter/" property="og:url"/>
 <meta content="website" property="og:type"/>
 <meta content="David Arthur Software" property="og:site_name"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="CCTV Converter - Free Chinese CCTV Video Converter for Windows" name="twitter:title"/>
-<meta content="Convert and view Chinese CCTV camera files - Xiongmai, Dahua, Hikvision and 20+ formats. Parallel conversion, timestamp burn-in, 16-language UI. Free, no ads, no accounts." name="twitter:description"/>
+<meta content="CCTV Converter - Chinese CCTV Video Converter for Windows" name="twitter:title"/>
+<meta content="Convert and view Chinese CCTV camera files - Xiongmai, Dahua, Hikvision and 20+ formats. Parallel conversion, timestamp burn-in, 16-language UI. Free to play and convert, optional Pro. No ads, no accounts." name="twitter:description"/>
 <meta content="https://davidarthur.app/cctvconverter-icon.png" name="twitter:image"/>
 <link href="/cctvconverter-icon.png" rel="icon" type="image/png"/>
 <link href="/style.css" rel="stylesheet"/>
@@ -27,12 +27,13 @@
       "name": "CCTV Converter",
       "applicationCategory": "MultimediaApplication",
       "operatingSystem": "Windows 10, Windows 11",
-      "description": "Free Windows utility to convert and view Chinese CCTV camera files including Xiongmai IMKH .ps, Dahua DHAV, Hikvision and 20+ formats. Includes automatic privacy redaction with face and area tracking, a built-in editor, one-tap looks, a whole-day timeline, six-camera sync view, automatic motion highlights, parallel conversion, optional date/time burn-in, and a 16-language interface.",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "GBP"
-      },
+      "description": "Windows utility to convert and view Chinese CCTV camera files including Xiongmai IMKH .ps, Dahua DHAV, Hikvision and 20+ formats. Includes automatic privacy redaction with face and area tracking, a built-in editor, one-tap looks, a whole-day timeline, six-camera sync view, automatic motion highlights, parallel conversion, optional date/time burn-in for evidence footage, and a 16-language interface. Playing and converting are free; CCTV Converter Pro (monthly, yearly or lifetime) adds redaction, the multi-camera view, evidence reports, GIF and phone exports, motion highlights, motion search and the timeline.",
+      "offers": [
+        { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "CCTV Converter Pro - Monthly", "price": "2.49", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "CCTV Converter Pro - Yearly", "price": "19.99", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "CCTV Converter Pro - Lifetime", "price": "39.99", "priceCurrency": "GBP" }
+      ],
       "author": {
         "@type": "Organization",
         "name": "David Arthur Software",
@@ -129,6 +130,22 @@
         @media (max-width: 700px) {
             .steps { grid-template-columns: 1fr; }
         }
+        .pro-tag {
+            position: absolute; top: 12px; right: 12px;
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            color: #fff; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em;
+            padding: 3px 10px; border-radius: 20px;
+        }
+        .pro-tag--inline { position: static; display: inline-block; margin-bottom: 0.5rem; }
+        .features-grid .feature-card { position: relative; }
+        .card-pay { max-width: 420px; margin: 1.25rem auto 0; text-align: center; }
+        .card-pay[hidden] { display: none !important; }
+        .card-pay > summary { list-style: none; cursor: pointer; display: inline-flex; justify-content: center; }
+        .card-pay > summary::-webkit-details-marker { display: none; }
+        .card-pay-options { display: flex; flex-direction: column; gap: 0.45rem; margin-top: 0.6rem; }
+        .card-pay-options a { display: block; text-align: center; padding: 0.5rem 0.75rem; border: 1px solid var(--border);
+            border-radius: 8px; color: var(--text-primary); text-decoration: none; font-size: 0.92rem; }
+        .card-pay-options a:hover { background: var(--bg-card-hover); }
     </style>
 <link rel="canonical" href="https://davidarthur.app/cctvconverter/">
 </head>
@@ -156,8 +173,8 @@
 <img alt="CCTV Converter" class="hero-icon" src="/cctvconverter-icon.png"/>
 <h1 class="hero" style="padding:0; margin:0;">CCTV Converter</h1>
 <p class="subtitle" data-i18n-html="cctv.home.1" style="margin-top:0.5rem;">Convert and view your Chinese CCTV camera files.</p>
-<span class="tagline-badge" data-i18n-html="cctv.home.2">Free • No ads • No accounts • Works offline • 16 languages</span>
-<p class="tagline" data-i18n-html="cctv.home.3" style="margin-top:1.5rem;">Most Chinese DVRs save footage in proprietary formats that no normal player will open. CCTV Converter detects the format and converts to standard MP4 in parallel for big batches, optionally burning a date/time clock into the video. New in v2.2: a simpler start, a copy ready for phone and WhatsApp, an evidence package for handing footage over, and raw files that play at the right speed — all on your own machine, in your language.</p>
+<span class="tagline-badge" data-i18n-html="cctv.home.2">Free to play and convert • Optional Pro • No ads • No accounts • Works offline • 16 languages</span>
+<p class="tagline" data-i18n-html="cctv.home.3" style="margin-top:1.5rem;">Most Chinese DVRs save footage in proprietary formats that no normal player will open. CCTV Converter detects the format and converts to standard MP4 in parallel for big batches, optionally burning a date/time clock into the video for evidence use — all on your own machine, in your language. New in v2.3: CCTV Converter Pro, an optional upgrade for the advanced tools. Playing and converting stay free.</p>
 <div class="store-badges" style="margin-top:1.5rem;"><a class="store-badge store-badge--ms" href="https://apps.microsoft.com/detail/9P247CN4QC7L" rel="noopener" target="_blank"><img src="/img/badges/microsoft-store-badge.svg" alt="Get it from Microsoft Store" width="190" height="52"/></a></div>
 <div class="btn-group" style="margin-top:1rem;"><a class="btn btn-secondary" data-i18n-html="cctv.home.98" href="/cctvconverter/features/">See every feature and screenshot →</a></div>
 </section>
@@ -186,42 +203,52 @@
 </div>
 </div>
 </section>
-<!-- New in 2.2 -->
-<section class="section" style="padding-top: 1rem;">
-<h2 class="section-title" data-i18n-html="cctv.home.83">New in Version 2.2</h2>
-<p class="section-subtitle" data-i18n-html="cctv.home.84" style="max-width:760px; margin: 0 auto 2rem;">Version 2.2 makes CCTV Converter quicker to start with and adds new ways to share and hand over footage — still entirely on your own PC. It also checks for updates each time it starts.</p>
-<div class="features-grid">
-<div class="feature-card">
-<div class="feature-icon">📂</div>
-<h3 data-i18n-html="cctv.home.85">A Simpler Start</h3>
-<p data-i18n-html="cctv.home.86">Drop a recorder folder or some video files onto the window, or use <em>Choose folder…</em> or <em>Choose files…</em>. Filters now hide the files that don't match and untick them, so only the files you can see get converted. The list has <em>All</em> / <em>Unconverted</em> tabs, quick <em>Tick</em> links and a <em>⋯</em> menu on every row, and every conversion setting sits in one <em>Convert options</em> menu.</p>
+<!-- New in 2.3: CCTV Converter Pro -->
+<section class="section" id="pro" style="padding-top: 1rem;">
+<h2 class="section-title" data-i18n-html="cctv.home.99">New in Version 2.3: CCTV Converter Pro</h2>
+<p class="section-subtitle" style="max-width:760px; margin: 0 auto 2rem;" data-i18n-html="cctv.home.100">Playing, converting and splitting your footage, saving plain clips and snapshots, and the picture adjustments stay free. CCTV Converter Pro is an optional upgrade that adds the advanced tools. Everything still runs on your own PC, and nothing is uploaded.</p>
+<div class="pricing-grid">
+<div class="price-card">
+<h3 data-i18n-html="cctv.home.101">Free</h3>
+<ul class="price-features" style="margin-bottom:0;" data-i18n-html="cctv.home.102"><li>Play and convert 20+ CCTV formats to MP4</li><li>Split, join and merge recordings</li><li>Save plain clips and snapshots</li><li>Picture adjustments, looks and noise reduction</li><li>Date/time burn-in, batch conversion and watch folder</li></ul>
 </div>
-<div class="feature-card">
-<div class="feature-icon">📱</div>
-<h3 data-i18n-html="cctv.home.87">Ready for Phone &amp; WhatsApp</h3>
-<p data-i18n-html="cctv.home.88">Save a small copy (16 MB or less) that plays on phones and can be sent straight into a chat.</p>
-</div>
-<div class="feature-card">
-<div class="feature-icon">🗂️</div>
-<h3 data-i18n-html="cctv.home.89">Evidence Package</h3>
-<p data-i18n-html="cctv.home.90">One folder to hand over: a checked copy of the original recording, the MP4 as edited, a report listing what was changed, SHA-256 checksums and a README.</p>
-</div>
-<div class="feature-card">
-<div class="feature-icon">⏱️</div>
-<h3 data-i18n-html="cctv.home.91">Raw Files at the Right Speed</h3>
-<p data-i18n-html="cctv.home.92">Raw .264 and .265 files often don't store their speed. The app works it out from the recording times in the file names, and you can set the camera's frame rate yourself under <em>Recorded at</em>.</p>
-</div>
-<div class="feature-card">
-<div class="feature-icon">🔗</div>
-<h3 data-i18n-html="cctv.home.93">Join &amp; Split Recordings</h3>
-<p data-i18n-html="cctv.home.94">When recordings carry straight on from each other, a banner offers to join them into one video. A file that holds several cameras can be split into one video per camera.</p>
-</div>
-<div class="feature-card">
-<div class="feature-icon">🧭</div>
-<h3 data-i18n-html="cctv.home.95">A Tidier Editor</h3>
-<p data-i18n-html="cctv.home.96">The editor's settings now sit in five tabs, with a gold dot on any tab you've changed, an estimated file size before you save, and <em>Blur all faces</em> in one click.</p>
+<div class="price-card featured">
+<h3 data-i18n-html="cctv.home.103">Pro</h3>
+<ul class="price-features" style="margin-bottom:0;" data-i18n-html="cctv.home.104"><li>Hide faces and areas, with automatic tracking</li><li>Multi-camera view and synchronised composite export</li><li>Evidence reports and evidence packages</li><li>GIF, email-size and phone/WhatsApp exports</li><li>Motion highlights and motion search</li><li>The whole-day timeline</li></ul>
 </div>
 </div>
+<div class="pricing-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top:1.5rem;">
+<div class="price-card">
+<h3 data-i18n-html="cctv.home.105">Monthly</h3>
+<div class="price-amount" style="font-size:1.7rem;" data-i18n-html="cctv.home.106">£2.49 a month</div>
+<p class="price-period" data-i18n-html="cctv.home.107">7-day free trial · cancel any time</p>
+</div>
+<div class="price-card">
+<h3 data-i18n-html="cctv.home.108">Yearly</h3>
+<div class="price-amount" style="font-size:1.7rem;" data-i18n-html="cctv.home.109">£19.99 a year</div>
+<p class="price-period" data-i18n-html="cctv.home.110">Cancel any time</p>
+</div>
+<div class="price-card">
+<h3 data-i18n-html="cctv.home.111">Lifetime</h3>
+<div class="price-amount" style="font-size:1.7rem;" data-i18n-html="cctv.home.112">£39.99 once</div>
+<p class="price-period" data-i18n-html="cctv.home.113">One payment · no renewals</p>
+</div>
+</div>
+<p class="pricing-footnote" data-i18n-html="cctv.home.114">UK prices, including VAT. In other countries the price in your currency is shown at checkout.</p>
+<div style="text-align:center; margin-top:1.5rem;"><div class="store-badges"><a class="store-badge store-badge--ms" href="https://apps.microsoft.com/detail/9P247CN4QC7L" rel="noopener" target="_blank"><img src="/img/badges/microsoft-store-badge.svg" alt="Get it from Microsoft Store" width="190" height="52"/></a></div></div>
+<!-- Card / PayPal (Paddle): HELD. Remove `hidden` only when the Worker's PADDLE_CCTV_OPEN = customers;
+     until then /cctv/buy/<token> refuses everyone except an admin test link. -->
+<details class="card-pay" hidden>
+<summary class="btn btn-secondary" data-i18n-html="cctv.home.117">Pay by card or PayPal</summary>
+<div class="card-pay-options">
+<a href="https://api.duovox.net/cctv/buy/cctv_pro_monthly" rel="nofollow" data-i18n-html="cctv.home.118">Monthly — £2.49 a month, 7-day free trial</a>
+<a href="https://api.duovox.net/cctv/buy/cctv_pro_yearly" rel="nofollow" data-i18n-html="cctv.home.119">Yearly — £19.99 a year</a>
+<a href="https://api.duovox.net/cctv/buy/cctv_pro_lifetime" rel="nofollow" data-i18n-html="cctv.home.120">Lifetime — £39.99 once</a>
+</div>
+<p class="cta-micro" style="margin-top:0.6rem;" data-i18n-html="cctv.home.121">Payment is handled by Paddle, our online reseller. After paying you get a CCTV Converter code: in the app's Pro window click <em>Have a CCTV Converter code?</em> and enter it. One purchase works on up to 3 of your PCs. Card and PayPal payment isn't offered in every country; where it isn't, use the Microsoft Store.</p>
+</details>
+<p style="max-width:760px; margin:1.5rem auto 0; color:var(--text-secondary); text-align:center; line-height:1.6;" data-i18n-html="cctv.home.115"><strong>How to buy:</strong> get CCTV Converter from the Microsoft Store, then choose <em>Tools › CCTV Converter Pro…</em> — or simply use a Pro feature and the Pro window opens. Pay through the Microsoft Store and Pro switches on straight away. Bought it before? Click <em>Already bought?</em> in the Pro window.</p>
+<p style="max-width:760px; margin:0.75rem auto 0; color:var(--text-muted); text-align:center; font-size:0.92rem;" data-i18n-html="cctv.home.116">Used CCTV Converter before version 2.3? As a thank-you, every Pro feature is free for you for a month from the first time you open 2.3.</p>
 </section>
 <!-- The Problem -->
 <section class="section">
@@ -283,13 +310,13 @@
 <section class="section" style="padding-top: 0; padding-bottom: 0;">
 <div class="privacy-callout">
 <h3 data-i18n-html="cctv.home.70">Fully offline — your footage stays yours</h3>
-<p data-i18n-html="cctv.home.71">Nothing is uploaded, no accounts, no telemetry, no ads. The only network request CCTV Converter makes is an update check when it starts (or when you ask). The app keeps its settings (such as your recent folders) and a few caches on your own PC. <a href="/cctvconverter/privacy/">Read our Privacy Policy →</a></p>
+<p data-i18n-html="cctv.home.71">Nothing is uploaded, no accounts, no telemetry, no ads. CCTV Converter goes online only to check for updates when it starts (or when you ask) and, for CCTV Converter Pro, to make a purchase you start and to check your licence — never with your footage. The app keeps its settings (such as your recent folders) and a few caches on your own PC. <a href="/cctvconverter/privacy/">Read our Privacy Policy →</a></p>
 </div>
 </section>
 <!-- FAQ teaser -->
 <section class="section">
 <h2 class="section-title" data-i18n-html="cctv.home.72">Questions?</h2>
-<p class="section-subtitle" data-i18n-html="cctv.home.73" style="max-width:680px; margin: 0 auto 1.75rem;">Formats, quality, the new editor and multi-camera tools, languages, privacy and system requirements — all answered on the FAQ page, with a step-by-step walkthrough in the user guide.</p>
+<p class="section-subtitle" data-i18n-html="cctv.home.73" style="max-width:680px; margin: 0 auto 1.75rem;">Formats, quality, the editor and multi-camera tools, CCTV Converter Pro, languages, privacy and system requirements — all answered on the FAQ page, with a step-by-step walkthrough in the user guide.</p>
 <div style="text-align:center;">
 <a class="store-link" href="/cctvconverter/faq/" style="display:inline-block;">Read the FAQ →</a>
 <p data-i18n-html="cctv.home.74" style="margin-top:1.1rem; color:var(--text-muted);"><a href="/cctvconverter/help/" style="color:var(--accent-light); text-decoration:underline;">Open the online user guide</a>  ·  <a href="/cctvconverter/CCTV-Converter-User-Guide.pdf" style="color:var(--accent-light); text-decoration:underline;">Download the PDF manual</a></p>
@@ -303,7 +330,7 @@
 <div style="max-width: 460px; margin: 0 auto;">
 <div class="download-card" style="background: var(--bg-card); border: 2px solid var(--accent); padding: 32px 28px;">
 <h4 data-i18n-html="cctv.home.77" style="font-size: 1.5rem;">Microsoft Store</h4>
-<div class="price" style="font-size: 1.4rem;">Free</div>
+<div class="price" data-i18n-html="cctv.home.122" style="font-size: 1.2rem;">Free download · Pro optional</div>
 <p data-i18n-html="cctv.home.78" style="color: var(--text-secondary); font-size: 0.9rem; margin: 0.5rem 0 1.25rem;">
                 Installed and updated by the Microsoft Store
             </p>

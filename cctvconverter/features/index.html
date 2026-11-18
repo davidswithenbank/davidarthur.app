@@ -5,18 +5,18 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>CCTV Converter Features and Screenshots | David Arthur Software</title>
-<meta content="Free Windows app to convert and view Chinese CCTV camera files (Xiongmai, Dahua, Hikvision and 20+ formats). v2.2 adds a simpler start, a phone/WhatsApp copy, an evidence package and raw files at the right speed, alongside automatic face redaction and a whole-day timeline. Built-in editor, six-camera sync view, motion highlights, 16-language interface. No ads, no accounts." name="description"/>
-<meta content="CCTV converter, DVR converter, Xiongmai, Dahua, Hikvision, IMKH, .ps file player, surveillance video, security camera, MP4 converter, H.264, timestamp overlay, evidence video, CCTV editor, multi-camera viewer, motion detection, highlight extraction, GPU encoding, free Windows utility, multilingual" name="keywords"/>
+<meta content="Windows app to convert and view Chinese CCTV camera files (Xiongmai, Dahua, Hikvision and 20+ formats). Playing and converting are free; the optional CCTV Converter Pro adds face and area redaction, a six-camera sync view, evidence reports, motion highlights, motion search and a whole-day timeline. Built-in editor, 16-language interface. No ads, no accounts." name="description"/>
+<meta content="CCTV converter, DVR converter, Xiongmai, Dahua, Hikvision, IMKH, .ps file player, surveillance video, security camera, MP4 converter, H.264, timestamp overlay, evidence video, CCTV editor, multi-camera viewer, motion detection, highlight extraction, GPU encoding, Windows utility, multilingual" name="keywords"/>
 <!-- Open Graph -->
-<meta content="CCTV Converter - Free Chinese CCTV Video Converter for Windows" property="og:title"/>
-<meta content="Convert and view Chinese CCTV camera files - Xiongmai .ps, Dahua, Hikvision and 20+ formats. Now with a built-in editor, six-camera sync view and automatic motion highlights. Free, no ads, no accounts." property="og:description"/>
+<meta content="CCTV Converter - Chinese CCTV Video Converter for Windows" property="og:title"/>
+<meta content="Convert and view Chinese CCTV camera files - Xiongmai .ps, Dahua, Hikvision and 20+ formats. Free to play and convert; the optional Pro upgrade adds redaction, a six-camera sync view and automatic motion highlights. No ads, no accounts." property="og:description"/>
 <meta content="https://davidarthur.app/cctvconverter-icon.png" property="og:image"/>
 <meta content="https://davidarthur.app/cctvconverter/features/" property="og:url"/>
 <meta content="website" property="og:type"/>
 <meta content="David Arthur Software" property="og:site_name"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="CCTV Converter - Free Chinese CCTV Video Converter for Windows" name="twitter:title"/>
-<meta content="Convert and view Chinese CCTV camera files - Xiongmai, Dahua, Hikvision and 20+ formats. Parallel conversion, timestamp burn-in, 16-language UI. Free, no ads, no accounts." name="twitter:description"/>
+<meta content="CCTV Converter - Chinese CCTV Video Converter for Windows" name="twitter:title"/>
+<meta content="Convert and view Chinese CCTV camera files - Xiongmai, Dahua, Hikvision and 20+ formats. Parallel conversion, timestamp burn-in, 16-language UI. Free to play and convert, optional Pro. No ads, no accounts." name="twitter:description"/>
 <meta content="https://davidarthur.app/cctvconverter-icon.png" name="twitter:image"/>
 <link href="/cctvconverter-icon.png" rel="icon" type="image/png"/>
 <link href="/style.css" rel="stylesheet"/>
@@ -109,6 +109,22 @@
         @media (max-width: 700px) {
             .steps { grid-template-columns: 1fr; }
         }
+        .pro-tag {
+            position: absolute; top: 12px; right: 12px;
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            color: #fff; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em;
+            padding: 3px 10px; border-radius: 20px;
+        }
+        .pro-tag--inline { position: static; display: inline-block; margin-bottom: 0.5rem; }
+        .features-grid .feature-card { position: relative; }
+        .card-pay { max-width: 420px; margin: 1.25rem auto 0; text-align: center; }
+        .card-pay[hidden] { display: none !important; }
+        .card-pay > summary { list-style: none; cursor: pointer; display: inline-flex; justify-content: center; }
+        .card-pay > summary::-webkit-details-marker { display: none; }
+        .card-pay-options { display: flex; flex-direction: column; gap: 0.45rem; margin-top: 0.6rem; }
+        .card-pay-options a { display: block; text-align: center; padding: 0.5rem 0.75rem; border: 1px solid var(--border);
+            border-radius: 8px; color: var(--text-primary); text-decoration: none; font-size: 0.92rem; }
+        .card-pay-options a:hover { background: var(--bg-card-hover); }
     </style>
 <link rel="canonical" href="https://davidarthur.app/cctvconverter/features/">
 </head>
@@ -158,6 +174,7 @@
 <figure style="margin:0; text-align:center;">
 <div class="desktop-frame"><img alt="CCTV Converter multi-camera sync view showing six cameras at once" loading="lazy" src="../img/screen-multicam.png"/></div>
 <figcaption style="margin-top:1rem;">
+<div class="pro-tag pro-tag--inline" data-i18n="cctv.feat.2">Pro</div>
 <h3 data-i18n-html="cctv.home.39" style="margin-bottom:0.35rem;">Compare six cameras in sync</h3>
 <p data-i18n-html="cctv.home.40" style="color:var(--text-secondary); max-width:640px; margin:0 auto;">Play up to six angles side by side on a single timeline, nudge each camera's offset to line up clocks that drifted, then snapshot every view at once or export a synchronized composite.</p>
 </figcaption>
@@ -174,6 +191,7 @@
 <!-- Features -->
 <section class="section" id="features">
 <h2 class="section-title" data-i18n-html="cctv.home.43">Features</h2>
+<p class="section-subtitle" style="max-width:760px; margin: 0 auto 2rem;" data-i18n-html="cctv.feat.3">Cards marked <strong>Pro</strong> need CCTV Converter Pro; everything else is free. <a href="/cctvconverter/#pro">See the Pro plans →</a></p>
 <div class="features-grid">
 <div class="feature-card">
 <div class="feature-icon">🔍</div>
@@ -241,6 +259,7 @@
 <p data-i18n-html="cctv.home.69">Tick "Delete source files after successful conversion" to reclaim SD-card or drive space as you go — with confirmation.</p>
 </div>
 <div class="feature-card">
+<div class="pro-tag" data-i18n="cctv.feat.2">Pro</div>
 <div class="feature-icon">🫥</div>
 <h3 data-i18n-html="cctv.home.12">Automatic Redaction &amp; Area Tracking</h3>
 <p data-i18n-html="cctv.home.13">Blur, pixelate or black out faces automatically — the editor finds each face and follows it as it moves. Need to hide something else? Draw a box over a number plate, a person or an object and Track this area follows it through the clip for you. It all runs on your PC — nothing is ever uploaded. Always check the result before you share a clip. This is privacy redaction, not facial recognition: it finds faces so you can hide them, and it does not identify anyone.</p>
@@ -251,16 +270,19 @@
 <p data-i18n-html="cctv.home.15">Instant look presets — Night, Bright, Clarify, Vivid and Black &amp; White — each shown as a thumbnail so you can preview the result. Fine-tune with brightness, contrast, saturation, sharpness and a new gamma control, all with a live preview.</p>
 </div>
 <div class="feature-card">
+<div class="pro-tag" data-i18n="cctv.feat.2">Pro</div>
 <div class="feature-icon">🔎</div>
 <h3 data-i18n-html="cctv.home.16">Find Motion Inside a Clip</h3>
 <p data-i18n-html="cctv.home.17">Detect motion right in the editor to mark every active stretch as a segment, then jump straight between events — skip the empty hours without leaving the clip you're working on.</p>
 </div>
 <div class="feature-card">
+<div class="pro-tag" data-i18n="cctv.feat.2">Pro</div>
 <div class="feature-icon">📤</div>
 <h3 data-i18n-html="cctv.home.18">Compress, GIF &amp; Evidence Reports</h3>
 <p data-i18n-html="cctv.home.19">Shrink a clip to email it, save a moment as an animated GIF, or generate an evidence report with source details and SHA-256 checksums, so a copy can be checked against the original — it opens in any browser and can be printed to PDF.</p>
 </div>
 <div class="feature-card">
+<div class="pro-tag" data-i18n="cctv.feat.2">Pro</div>
 <div class="feature-icon">🕒</div>
 <h3 data-i18n-html="cctv.home.20">Continuous Day Timeline</h3>
 <p data-i18n-html="cctv.home.21">Right-click a day of recordings (or use the Tools menu) and play the whole day as one seamless video. Scrub across the joins between files, jump to the next motion, and export any span without opening each file.</p>
@@ -270,7 +292,38 @@
 <h3 data-i18n-html="cctv.home.22">Deinterlace &amp; Watermark</h3>
 <p data-i18n-html="cctv.home.23">Smooth the combing on older analogue cameras, and burn a case number or watermark into an exported copy.</p>
 </div>
-
+<div class="feature-card">
+<div class="feature-icon">📂</div>
+<h3 data-i18n-html="cctv.home.85">A Simpler Start</h3>
+<p data-i18n-html="cctv.home.86">Drop a recorder folder or some video files onto the window, or use <em>Choose folder…</em> or <em>Choose files…</em>. Filters now hide the files that don't match and untick them, so only the files you can see get converted. The list has <em>All</em> / <em>Unconverted</em> tabs, quick <em>Tick</em> links and a <em>⋯</em> menu on every row, and every conversion setting sits in one <em>Convert options</em> menu.</p>
+</div>
+<div class="feature-card">
+<div class="pro-tag" data-i18n="cctv.feat.2">Pro</div>
+<div class="feature-icon">📱</div>
+<h3 data-i18n-html="cctv.home.87">Ready for Phone &amp; WhatsApp</h3>
+<p data-i18n-html="cctv.home.88">Save a small copy (16 MB or less) that plays on phones and can be sent straight into a chat.</p>
+</div>
+<div class="feature-card">
+<div class="pro-tag" data-i18n="cctv.feat.2">Pro</div>
+<div class="feature-icon">🗂️</div>
+<h3 data-i18n-html="cctv.home.89">Evidence Package</h3>
+<p data-i18n-html="cctv.home.90">One folder to hand over: a checked copy of the original recording, the MP4 as edited, a report listing what was changed, SHA-256 checksums and a README.</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon">⏱️</div>
+<h3 data-i18n-html="cctv.home.91">Raw Files at the Right Speed</h3>
+<p data-i18n-html="cctv.home.92">Raw .264 and .265 files often don't store their speed. The app works it out from the recording times in the file names, and you can set the camera's frame rate yourself under <em>Recorded at</em>.</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon">🔗</div>
+<h3 data-i18n-html="cctv.home.93">Join &amp; Split Recordings</h3>
+<p data-i18n-html="cctv.home.94">When recordings carry straight on from each other, a banner offers to join them into one video. A file that holds several cameras can be split into one video per camera.</p>
+</div>
+<div class="feature-card">
+<div class="feature-icon">🧭</div>
+<h3 data-i18n-html="cctv.home.95">A Tidier Editor</h3>
+<p data-i18n-html="cctv.home.96">The editor's settings now sit in five tabs, with a gold dot on any tab you've changed, an estimated file size before you save, and <em>Blur all faces</em> in one click.</p>
+</div>
 </div>
 </section>
 <!-- Download -->
@@ -281,7 +334,7 @@
 <div style="max-width: 460px; margin: 0 auto;">
 <div class="download-card" style="background: var(--bg-card); border: 2px solid var(--accent); padding: 32px 28px;">
 <h4 data-i18n-html="cctv.home.77" style="font-size: 1.5rem;">Microsoft Store</h4>
-<div class="price" style="font-size: 1.4rem;">Free</div>
+<div class="price" data-i18n-html="cctv.home.122" style="font-size: 1.2rem;">Free download · Pro optional</div>
 <p data-i18n-html="cctv.home.78" style="color: var(--text-secondary); font-size: 0.9rem; margin: 0.5rem 0 1.25rem;">
                 Installed and updated by the Microsoft Store
             </p>

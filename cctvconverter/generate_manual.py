@@ -186,7 +186,7 @@ def cover_flowables():
         Spacer(1, 6*mm),
         Paragraph("User Guide", S["coversub"]),
         Spacer(1, 3*mm),
-        Paragraph("Version 2.2 &nbsp;&bull;&nbsp; Windows 10 &amp; 11", S["covermeta"]),
+        Paragraph("Version 2.3 &nbsp;&bull;&nbsp; Windows 10 &amp; 11", S["covermeta"]),
         Spacer(1, 96*mm),
         Paragraph("David Arthur Software", S["coversmall"]),
         Paragraph("davidarthur.app/cctvconverter", S["coversmall"]),
@@ -223,16 +223,19 @@ def body_flowables():
             "enhance, redact and pull highlights from that footage, all on your own PC.")]
     s += [P("It does all its work <b>on your PC</b>: your footage is read, converted and written locally and "
             "never leaves your machine, and it keeps working with no internet connection. There are no accounts, "
-            "no ads and no tracking; the only network use is a quick check for a newer version when the app starts.")]
+            "no ads and no tracking; it goes online only for a quick check for a newer version when the app starts and, "
+            "if you buy CCTV Converter Pro, for the purchase and licence checks.")]
+    s += [P("Playing, converting and splitting your footage, saving plain clips and snapshots and the picture "
+            "adjustments are free. The advanced tools are part of CCTV Converter Pro, an optional upgrade &mdash; "
+            "see section 15.")]
     s += [P("This guide covers everything from a first conversion to the built-in editor, privacy "
             "redaction (faces, number plates or any area), the multi-camera sync view, the continuous day timeline, and automatic motion "
             "highlights. Use the clickable Contents page (or your PDF reader's bookmarks panel) to jump to any section.")]
 
     s += [H1("2. Installation &amp; First Run")]
     s += bullets([
-        "<b>Microsoft Store (recommended)</b> &mdash; one-click install, automatic updates, signed by Microsoft. "
+        "<b>Microsoft Store</b> &mdash; one-click install, automatic updates, signed by Microsoft. "
         "Get it at apps.microsoft.com or from davidarthur.app/cctvconverter.",
-        "<b>Direct download</b> &mdash; a self-contained installer is also available from the website for offline PCs.",
     ])
     s += [P("The Store version is self-contained: it bundles everything it needs (including its video engine), "
             "so there are no prerequisites to install and no administrator rights are required for normal use.")]
@@ -458,7 +461,28 @@ def body_flowables():
     s += [t, Spacer(1, 3*mm)]
 
     s += [section(
-        H1("15. Troubleshooting"),
+        H1("15. CCTV Converter Pro"),
+        P("Playing, converting, splitting and joining, saving plain clips and snapshots, the picture adjustments, "
+          "settings and help are free. <b>CCTV Converter Pro</b> is an optional upgrade that unlocks hiding faces and "
+          "areas, the multi-camera view, evidence reports and packages, GIF, email and phone exports, motion highlights, "
+          "motion search and the timeline. If you use one of these without Pro, the Pro window opens instead."),
+        *bullets([
+            "<b>Plans</b> &mdash; Monthly (new subscribers get a 7-day free trial), Yearly, or Lifetime (one payment, "
+            "no renewals). The Pro window shows each price in your currency.",
+            "<b>Buying</b> &mdash; choose <i>Tools &rsaquo; CCTV Converter Pro&hellip;</i> (or use a Pro feature), pick a "
+            "plan and pay in the Microsoft Store's own window. Pro switches on as soon as the purchase goes through.",
+            "<b>Already bought?</b> &mdash; on another PC or after reinstalling Windows, sign in to the Microsoft Store "
+            "with the same Microsoft account, open the Pro window and click <b>Already bought?</b>.",
+            "<b>The free month</b> &mdash; if you used CCTV Converter before version 2.3, every Pro feature is free for "
+            "you for a month from the first time you open 2.3; the Pro window shows the date it ends.",
+            "<b>Cancelling</b> &mdash; manage or cancel a Microsoft Store subscription in your Microsoft account "
+            "(account.microsoft.com/services). Pro stays on until the end of the period you paid for. For refunds, see "
+            "davidarthur.app/refunds/.",
+        ]),
+    )]
+
+    s += [section(
+        H1("16. Troubleshooting"),
         H2("A file is flagged &ldquo;can't convert&rdquo;"),
         P("A few formats are genuinely undecodable by any third-party tool &mdash; most notably Hikvision "
           "encrypted backups (.crypt), which need Hikvision's own player. Standard Hikvision H.264 backups convert fine."),
@@ -481,22 +505,23 @@ def body_flowables():
     )]
 
     s += [section(
-        H1("16. Privacy &amp; Licensing"),
+        H1("17. Privacy &amp; Licensing"),
         *bullets([
             "<b>Offline</b> &mdash; your footage is processed locally and never uploaded.",
-            "<b>No accounts, no tracking, no ads.</b> The only network use is a quick check for a newer version when the app starts (or when you ask); if you're offline, it is skipped.",
+            "<b>No accounts, no tracking, no ads.</b> The app goes online only for a quick check for a newer version when it starts (or when you ask) "
+            "and, for CCTV Converter Pro, for purchases you start and licence checks; if you're offline, the update check is skipped.",
             "<b>Local data</b> &mdash; your settings, folder paths and caches are stored on your PC, in the app's own data folder.",
         ]),
         P("CCTV Converter uses the open-source <b>ffmpeg</b> project (under the GPL) for video processing; the "
           "licence and source details ship with the app. The full Privacy Policy and Terms are at "
-          "davidarthur.app/cctvconverter/privacy/ and davidarthur.app/terms/."),
+          "davidarthur.app/cctvconverter/privacy/ and davidarthur.app/cctvconverter/terms/."),
         tip("Converted, edited or timestamped output should not be relied upon as the sole forensic or legal "
             "record &mdash; always retain and verify the original source files for insurance, legal or "
             "law-enforcement use."),
     )]
 
     s += [section(
-        H1("17. Support &amp; Updates"),
+        H1("18. Support &amp; Updates"),
         P("Each time it starts, the app checks whether a newer version is available. You can skip an optional "
           "update; a required update installs by itself, and the app closes and reopens when it is done. The Microsoft Store edition also updates "
           "through the Store, and you can choose <i>About &rarr; Check for updates</i> at any time. For help, email "
