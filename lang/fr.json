@@ -140,7 +140,7 @@
   "cctv.home.8": "Windows 10 / 11",
   "cctv.home.9": "16 langues",
   "cctv.home.12": "Occultation &amp; suivi de zone automatiques",
-  "cctv.home.13": "Floutez, pixelisez ou masquez automatiquement les visages — l'éditeur repère chaque visage et le suit à mesure qu'il se déplace. Besoin de masquer autre chose ? Tracez un cadre sur une plaque d'immatriculation, une personne ou un objet, et « Suivre cette zone » le suit tout au long du clip pour vous. Tout s'exécute sur votre PC — rien n'est jamais téléversé. Vérifiez toujours le résultat avant de partager un clip.",
+  "cctv.home.13": "Floutez, pixelisez ou masquez automatiquement les visages — l'éditeur repère chaque visage et le suit à mesure qu'il se déplace. Besoin de masquer autre chose ? Tracez un cadre sur une plaque d'immatriculation, une personne ou un objet, et « Suivre cette zone » le suit tout au long du clip pour vous. Tout s'exécute sur votre PC — rien n'est jamais téléversé. Vérifiez toujours le résultat avant de partager un clip. Il s'agit d'un masquage de confidentialité, pas de reconnaissance faciale : l'outil repère les visages pour que vous puissiez les masquer, et il n'identifie personne.",
   "cctv.home.14": "Rendus en un clic &amp; gamma en direct",
   "cctv.home.15": "Des préréglages de rendu instantanés — Nuit, Lumineux, Netteté, Éclatant et Noir &amp; blanc — chacun présenté sous forme de vignette pour que vous puissiez prévisualiser le résultat. Peaufinez avec la luminosité, le contraste, la saturation, la netteté et une nouvelle commande de gamma, le tout avec un aperçu en direct.",
   "cctv.home.16": "Repérez le mouvement dans un clip",
