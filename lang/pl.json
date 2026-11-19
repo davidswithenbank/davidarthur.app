@@ -140,7 +140,7 @@
   "cctv.home.8": "Windows 10 / 11",
   "cctv.home.9": "16 języków",
   "cctv.home.12": "Automatyczne zamazywanie &amp; śledzenie obszarów",
-  "cctv.home.13": "Rozmyj, pikselizuj lub zaczerniaj twarze automatycznie — edytor znajduje każdą twarz i podąża za nią w miarę ruchu. Chcesz ukryć coś jeszcze? Narysuj ramkę na tablicy rejestracyjnej, osobie lub obiekcie, a funkcja „Śledź ten obszar” poprowadzi ją przez cały klip. Wszystko działa na Twoim komputerze — nic nigdy nie jest przesyłane. Zawsze sprawdź wynik, zanim udostępnisz klip. Zawsze sprawdź wynik, zanim udostępnisz klip.",
+  "cctv.home.13": "Rozmyj, pikselizuj lub zaczerniaj twarze automatycznie — edytor znajduje każdą twarz i podąża za nią w miarę ruchu. Chcesz ukryć coś jeszcze? Narysuj ramkę na tablicy rejestracyjnej, osobie lub obiekcie, a funkcja „Śledź ten obszar” poprowadzi ją za nim przez cały klip. Wszystko działa na Twoim komputerze — nic nigdy nie jest przesyłane. Zawsze sprawdź wynik, zanim udostępnisz klip. To maskowanie danych dla ochrony prywatności, a nie rozpoznawanie twarzy: znajduje twarze, aby można je było ukryć, i nie identyfikuje nikogo.",
   "cctv.home.14": "Efekty jednym dotknięciem &amp; korekta gamma na żywo",
   "cctv.home.15": "Natychmiastowe gotowe efekty — Noc, Jasność, Wyostrzenie, Żywe kolory oraz Czerń i biel — każdy pokazany jako miniatura, dzięki czemu możesz podejrzeć wynik. Dostrajaj jasnością, kontrastem, nasyceniem, ostrością oraz nową kontrolą gamma, wszystko z podglądem na żywo.",
   "cctv.home.16": "Znajdź ruch wewnątrz klipu",
