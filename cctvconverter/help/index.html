@@ -77,7 +77,7 @@
 <li data-i18n-html="cctv.help.22"><strong>Parallel conversion</strong> — convert several files at once (up to 16). A day of clips goes much faster on a multi-core PC.</li>
 <li data-i18n-html="cctv.help.23"><strong>Encoder</strong> — choose Auto, CPU, or a specific GPU (NVIDIA / Intel / AMD). Auto detects the best available and falls back to CPU if a GPU encode fails.</li>
 <li data-i18n-html="cctv.help.95"><strong>File names</strong> — keep the original name, add the date before or after it, or choose <em>Custom…</em> and build a name from {name}, {folder} and {date}.</li>
-<li data-i18n-html="cctv.help.24"><strong>Date/time burn-in</strong> — tick "Add timestamp overlay" to burn a per-frame clock into the bottom-left of the output, useful for insurance or incident reports.</li>
+<li data-i18n-html="cctv.help.24"><strong>Date/time burn-in</strong> — tick "Add timestamp overlay" to burn a per-frame clock into the bottom-left of the output, so the date and time are visible in the video itself.</li>
 <li data-i18n-html="cctv.help.25"><strong>Merge</strong> — from the <strong>Tools</strong> menu, combine any ticked clips into one continuous MP4 in time order, or right-click a day to merge the whole day.</li>
 <li data-i18n-html="cctv.help.26"><strong>CSV export</strong> — from the <strong>Tools</strong> menu, export the file list (name, size, duration, resolution, format, timestamps) for cataloguing.</li>
 <li data-i18n-html="cctv.help.27"><strong>Optional cleanup</strong> — "Delete source files after successful conversion" reclaims space as you go (with confirmation).</li>
@@ -100,12 +100,12 @@
 </ul>
 <p data-i18n-html="cctv.help.36">Click <strong>Save clip…</strong> to write a new MP4 (or use <strong>Export ▾</strong> for the other formats below), then <strong>Done</strong> to go back to your files. Your original files are never modified. A progress bar (with cancel) shows the export as it runs.</p>
 <h2 data-i18n-html="cctv.help.67" id="redaction">Privacy — hide faces, plates &amp; areas</h2>
-<p data-i18n-html="cctv.help.68">On the editor's <strong>Privacy</strong> tab, click <strong>Detect faces</strong> to automatically find and follow faces across the clip, then hide the ones you choose — or click <strong>Blur all faces</strong> to find and blur every face in one go, then review the boxes. Everything runs on your PC — nothing is uploaded.</p>
+<p data-i18n-html="cctv.help.68">On the editor's <strong>Privacy</strong> tab, click <strong>Detect faces</strong> to put a box on each face in the clip, then hide the ones you choose — or click <strong>Blur all faces</strong> to blur every face in one go, then review the boxes. Everything runs on your PC — nothing is uploaded. The tool only hides faces: it does not recognise or identify anyone.</p>
 <ul>
-<li data-i18n-html="cctv.help.69"><strong>Detect &amp; track</strong> — faces are found and followed as they move, each with a box that tracks it frame by frame.</li>
-<li data-i18n-html="cctv.help.70"><strong>Choose who to hide</strong> — click a box to keep that person visible or to redact them; only the faces you pick are hidden.</li>
+<li data-i18n-html="cctv.help.69"><strong>Boxes that stay in place</strong> — each face gets a box that moves with it frame by frame, so it stays covered.</li>
+<li data-i18n-html="cctv.help.70"><strong>Choose which faces to hide</strong> — click a box to leave that face visible or to hide it; only the faces you pick are hidden.</li>
 <li data-i18n-html="cctv.help.71"><strong>Blackout, pixelate or blur</strong> — choose how hidden areas look, and use <strong>Box size</strong> to grow the face boxes so they cover the whole head.</li>
-<li data-i18n-html="cctv.help.72"><strong>Draw your own &amp; track it</strong> — turn on <strong>Hide areas manually</strong>, drag a box over anything — a number plate, a person, a screen — and click <strong>Track this area</strong> to make the box follow its subject automatically. Drag a box to move it, or its corner to resize it. If the subject appears at other times too, draw another box there.</li>
+<li data-i18n-html="cctv.help.72"><strong>Draw your own &amp; keep it covered</strong> — turn on <strong>Hide areas manually</strong>, drag a box over anything — a number plate, a screen, a sign — and click <strong>Track this area</strong> to make the box follow that area automatically. Drag a box to move it, or its corner to resize it. If the same thing appears at other times too, draw another box there.</li>
 </ul>
 <p data-i18n-html="cctv.help.73">Automatic detection is a helpful first pass, not a guarantee — always play the clip back and cover anything left exposed before sharing.</p>
 <h2 data-i18n-html="cctv.help.74" id="exporting">More ways to export</h2>
