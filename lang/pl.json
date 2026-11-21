@@ -429,7 +429,7 @@
   "dvx.47": "Wypróbuj DuoVox bez zapisywania się na plan miesięczny. Kupuj kredyty w miarę potrzeb — świetne do jednorazowego tłumaczenia, testowania usługi lub doładowania ponad limit subskrypcji.",
   "dvx.48": "Płatność według użycia",
   "dvx.49": "Plany i ceny",
-  "dvx.50": "Wybierz plan dopasowany do tego, jak rozmawiasz — od bezpłatnego użytku offline po zaawansowane tłumaczenie AI dla profesjonalistów. Subskrypcje oraz kredyty Pay-As-You-Go kupuje się w aplikacji.<br/><small style=\"opacity:0.6;\">Domyślne ceny są w USD. Użytkownicy z Wielkiej Brytanii widzą GBP. DuoVox nie jest jeszcze dostępny w UE ani EOG. Microsoft Store pobiera przy płatności równowartość w Twojej lokalnej walucie. Subskrypcje odnawiają się automatycznie, dopóki ich nie anulujesz, a anulować możesz w dowolnym momencie.</small>",
+  "dvx.50": "Wybierz plan dopasowany do tego, jak rozmawiasz — od bezpłatnego użytku offline po zaawansowane tłumaczenie AI dla profesjonalistów. Subskrypcje oraz kredyty Pay-As-You-Go kupuje się w aplikacji albo kartą lub przez PayPal na duovox.net.<br/><small style=\"opacity:0.6;\">Domyślne ceny są w USD. Użytkownicy z Wielkiej Brytanii widzą GBP. DuoVox nie jest jeszcze dostępny w UE ani EOG. Przy finalizacji zakupu Microsoft Store lub Paddle, jeśli płacisz kartą albo przez PayPal na duovox.net, pobiera równowartość w Twojej lokalnej walucie. Subskrypcje odnawiają się automatycznie do momentu anulowania, a anulować możesz w dowolnym momencie.</small>",
   "dvx.51": "Darmowy",
   "dvx.52": "Najlepszy do: wypróbowania i prywatności offline",
   "dvx.53": "Transkrypcja na urządzeniu (tłumaczenie tam, gdzie jest obsługiwane)",
@@ -906,7 +906,7 @@
   "dvx.pcaudio.desc": "Połączenia w Teams, Zoom, Google Meet i WhatsApp, YouTube i filmy, bez dołączania czegokolwiek do spotkania. Albo przełącz się na mikrofon dla osób w pomieszczeniu. <a href=\"https://duovox.net/calls.html\">Połączenia wideo &rarr;</a>",
   "cta.avail_win": "Dla Windows 10 i 11, w Microsoft Store.",
   "dvx.92b": "Dla Windows 10 i 11, w Microsoft Store.",
-  "dvx.98b": "Nie. DuoVox działa bez kont i rejestracji. Pobierz aplikację i zacznij z niej korzystać od razu. Subskrypcje są zarządzane przez Microsoft Store.",
+  "dvx.98b": "Nie. DuoVox działa bez kont i rejestracji. Pobierz aplikację i zacznij z niej korzystać od razu. Plany i godziny kupuje się w aplikacji przez Microsoft Store albo na duovox.net kartą lub przez PayPal.",
   "about.intro1": "David Arthur Software to małe, niezależne studio tworzące oprogramowanie z North Yorkshire w Anglii. Tworzymy proste aplikacje dla Windows i Androida, stawiające prywatność na pierwszym miejscu: oprogramowanie, które dobrze wykonuje jedno zadanie, działa bez konta i nie wymienia Twoich danych osobowych na ten przywilej.",
   "about.intro2": "Jesteśmy mali z wyboru. Osoby, które projektują i tworzą nasze aplikacje, to te same osoby, które odpowiadają na Twoje e-maile, więc gdy się z nami skontaktujesz, trafisz do kogoś, kto zna kod.",
   "about.why.q1": "&ldquo;Wciąż widziałem ten sam problem: większość aplikacji tłumaczących zmusza dwie osoby do mówienia na zmianę, stukania w przyciski i podawania sobie telefonu tam i z powrotem. Prawdziwe rozmowy tak nie działają, podobnie jak rozmowy w Teams i Zoom na naszych komputerach.&rdquo;",
@@ -1098,5 +1098,6 @@
   "terms.v35.s15.p2": "David Arthur Software",
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Zjednoczone Królestwo",
   "terms.v35.s15.p4": "E-mail: info@duovox.net",
-  "terms.v35.s15.p5": "W przypadku zakupów na stronie płatności online: David Arthur Software Ltd, numer spółki 14318326, zarejestrowana siedziba: Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Zjednoczone Królestwo. W sprawach dotyczących zamówienia lub płatności dokonanych na stronie płatności online możesz również skontaktować się z Paddle na stronie paddle.net."
+  "terms.v35.s15.p5": "W przypadku zakupów na stronie płatności online: David Arthur Software Ltd, numer spółki 14318326, zarejestrowana siedziba: Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Zjednoczone Królestwo. W sprawach dotyczących zamówienia lub płatności dokonanych na stronie płatności online możesz również skontaktować się z Paddle na stronie paddle.net.",
+  "pay.card.site": "Zapłać kartą lub przez PayPal na duovox.net"
 }

@@ -429,7 +429,7 @@
   "dvx.47": "Probeer DuoVox zonder je aan te melden voor een maandabonnement. Koop tegoed wanneer je het nodig hebt — ideaal voor een eenmalige vertaling, het uitproberen van de dienst of het bijvullen boven je abonnement.",
   "dvx.48": "Betalen naar gebruik",
   "dvx.49": "Abonnementen &amp; prijzen",
-  "dvx.50": "Kies het abonnement dat past bij hoe je praat — van gratis offline gebruik tot geavanceerde AI-vertaling voor professionals. Abonnementen en Pay-As-You-Go-tegoed koop je in de app.<br/><small style=\"opacity:0.6;\">Standaardprijzen in USD. Bezoekers uit het VK zien GBP. DuoVox is nog niet beschikbaar in de EU of EER. De Microsoft Store rekent bij het afrekenen het equivalente bedrag in je lokale valuta. Abonnementen worden automatisch verlengd totdat je opzegt, en je kunt op elk moment opzeggen.</small>",
+  "dvx.50": "Kies het abonnement dat past bij hoe je praat — van gratis offline gebruik tot geavanceerde AI-vertaling voor professionals. Abonnementen en Pay-As-You-Go-tegoed koop je in de app, of met kaart of PayPal op duovox.net.<br/><small style=\"opacity:0.6;\">Standaardprijzen in USD. Bezoekers uit het VK zien GBP. DuoVox is nog niet beschikbaar in de EU of EER. Bij het afrekenen brengt de Microsoft Store, of Paddle als je met kaart of PayPal betaalt op duovox.net, het equivalente bedrag in rekening in je lokale valuta. Abonnementen worden automatisch verlengd totdat je opzegt, en je kunt op elk moment opzeggen.</small>",
   "dvx.51": "Gratis",
   "dvx.52": "Beste voor: uitproberen &amp; offline privacy",
   "dvx.53": "Transcriptie op het apparaat (vertaling waar ondersteund)",
@@ -906,7 +906,7 @@
   "dvx.pcaudio.desc": "Teams-, Zoom-, Google Meet- en WhatsApp-gesprekken, YouTube en films, zonder dat er iets aan de vergadering deelneemt. Of schakel over naar de microfoon voor de mensen in de kamer. <a href=\"https://duovox.net/calls.html\">Videogesprekken &rarr;</a>",
   "cta.avail_win": "Voor Windows 10 en 11, in de Microsoft Store.",
   "dvx.92b": "Voor Windows 10 en 11, in de Microsoft Store.",
-  "dvx.98b": "Nee. DuoVox werkt zonder accounts of aanmeldingen. Download de app en begin hem meteen te gebruiken. Abonnementen worden beheerd via de Microsoft Store.",
+  "dvx.98b": "Nee. DuoVox werkt zonder accounts of aanmeldingen. Download de app en begin hem meteen te gebruiken. Abonnementen en uren koop je in de app via de Microsoft Store, of op duovox.net met kaart of PayPal.",
   "about.intro1": "David Arthur Software is een kleine, onafhankelijke softwarestudio in North Yorkshire, Engeland. We maken eenvoudige apps met privacy op de eerste plaats voor Windows en Android: software die één taak goed uitvoert, werkt zonder account en je persoonlijke gegevens niet verhandelt voor dat privilege.",
   "about.intro2": "We zijn bewust klein. De mensen die onze apps ontwerpen en bouwen, zijn dezelfde mensen die je e-mails beantwoorden, dus als je contact opneemt, krijg je iemand te spreken die de code kent.",
   "about.why.q1": "&ldquo;Ik bleef hetzelfde probleem zien: bij de meeste vertaalapps moeten twee mensen om de beurt praten, op knoppen tikken en een telefoon heen en weer doorgeven. Echte gesprekken werken niet zo, en de Teams- en Zoom-gesprekken op onze computers ook niet.&rdquo;",
@@ -1098,5 +1098,6 @@
   "terms.v35.s15.p2": "David Arthur Software",
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Verenigd Koninkrijk",
   "terms.v35.s15.p4": "E-mail: info@duovox.net",
-  "terms.v35.s15.p5": "Voor aankopen via de online betaalpagina: David Arthur Software Ltd, vennootschapsnummer 14318326, statutaire zetel Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Verenigd Koninkrijk. Voor vragen over een bestelling of betaling via de online betaalpagina kunt u ook contact opnemen met Paddle via paddle.net."
+  "terms.v35.s15.p5": "Voor aankopen via de online betaalpagina: David Arthur Software Ltd, vennootschapsnummer 14318326, statutaire zetel Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Verenigd Koninkrijk. Voor vragen over een bestelling of betaling via de online betaalpagina kunt u ook contact opnemen met Paddle via paddle.net.",
+  "pay.card.site": "Betaal met kaart of PayPal op duovox.net"
 }

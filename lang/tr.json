@@ -429,7 +429,7 @@
   "dvx.47": "DuoVox'u aylık bir plana kaydolmadan deneyin. İhtiyacınız oldukça kredi satın alın; tek seferlik çeviri, hizmeti deneme veya aboneliğinizin ötesine geçecek ek bakiye için idealdir.",
   "dvx.48": "Kullandıkça Öde",
   "dvx.49": "Planlar &amp; Fiyatlandırma",
-  "dvx.50": "Konuşma tarzınıza uygun planı seçin; ücretsiz çevrimdışı kullanımdan profesyoneller için gelişmiş yapay zeka çevirisine kadar. Abonelikler ve Kullandıkça Öde kredileri uygulama içinden satın alınır.<br/><small style=\"opacity:0.6;\">Varsayılan fiyatlar USD cinsindendir. Birleşik Krallık’tan gelen ziyaretçiler GBP görür. DuoVox henüz AB veya AEA’da kullanıma sunulmamıştır. Microsoft Store, ödeme sırasında yerel para biriminizdeki karşılığını tahsil eder. Abonelikler siz iptal edene kadar otomatik olarak yenilenir ve istediğiniz zaman iptal edebilirsiniz.</small>",
+  "dvx.50": "Konuşma tarzınıza uygun planı seçin; ücretsiz çevrimdışı kullanımdan profesyoneller için gelişmiş yapay zeka çevirisine kadar. Abonelikler ve Pay-As-You-Go kredileri uygulama içinden veya duovox.net üzerinden kartla ya da PayPal ile satın alınır.<br/><small style=\"opacity:0.6;\">Varsayılan fiyatlar USD cinsindendir. Birleşik Krallık’taki ziyaretçiler GBP görür. DuoVox henüz AB veya AEA’da kullanıma sunulmamıştır. Ödeme sırasında, Microsoft Store veya duovox.net’te kart ya da PayPal ile ödeme yaparsanız Paddle, yerel para biriminizdeki karşılığını tahsil eder. Abonelikler siz iptal edene kadar otomatik olarak yenilenir ve istediğiniz zaman iptal edebilirsiniz.</small>",
   "dvx.51": "Ücretsiz",
   "dvx.52": "En uygun: denemek &amp; çevrimdışı gizlilik için",
   "dvx.53": "Cihaz üzerinde transkripsiyon (desteklenen yerlerde çeviri)",
@@ -906,7 +906,7 @@
   "dvx.pcaudio.desc": "Toplantıya hiçbir şey katılmadan Teams, Zoom, Google Meet ve WhatsApp aramaları, YouTube ve filmler. Ya da odadaki insanlar için mikrofona geçin. <a href=\"https://duovox.net/calls.html\">Görüntülü aramalar &rarr;</a>",
   "cta.avail_win": "Windows 10 ve 11 için, Microsoft Store'da.",
   "dvx.92b": "Windows 10 ve 11 için, Microsoft Store'da.",
-  "dvx.98b": "Hayır. DuoVox, hesap veya kayıt gerektirmeden çalışır. Uygulamayı indirin ve hemen kullanmaya başlayın. Abonelikler Microsoft Store üzerinden yönetilir.",
+  "dvx.98b": "Hayır. DuoVox, hesap veya kayıt gerektirmeden çalışır. Uygulamayı indirin ve hemen kullanmaya başlayın. Planlar ve saatler uygulama içinde Microsoft Store üzerinden veya duovox.net üzerinden kartla ya da PayPal ile satın alınır.",
   "about.intro1": "David Arthur Software, İngiltere’nin North Yorkshire bölgesinde bulunan küçük ve bağımsız bir yazılım stüdyosudur. Windows ve Android için sade, gizliliği önceleyen uygulamalar geliştiriyoruz: tek bir işi iyi yapan, hesap olmadan çalışan ve bu ayrıcalık karşılığında kişisel bilgilerinizi takas etmeyen yazılımlar.",
   "about.intro2": "Bilerek küçük kaldık. Uygulamalarımızı tasarlayan ve yazan kişiler, e-postalarınızı yanıtlayan kişilerle aynıdır; yani bize ulaştığınızda, kodu bilen birine ulaşırsınız.",
   "about.why.q1": "&ldquo;Aynı sorunu durmadan görüyordum: çoğu çeviri uygulaması iki kişinin sırayla konuşmasını, düğmelere dokunmasını ve telefonu birbirine uzatıp geri vermesini gerektiriyor. Gerçek konuşmalar böyle yürümez; bilgisayarlarımızdaki Teams ve Zoom görüşmeleri de öyle.&rdquo;",
@@ -1098,5 +1098,6 @@
   "terms.v35.s15.p2": "David Arthur Software",
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Birleşik Krallık",
   "terms.v35.s15.p4": "E-posta: info@duovox.net",
-  "terms.v35.s15.p5": "Çevrimiçi ödeme sayfası satın alımları için: David Arthur Software Ltd, şirket numarası 14318326, kayıtlı merkezi Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Birleşik Krallık. Çevrimiçi ödeme sayfası üzerinden verilen bir sipariş veya yapılan bir ödeme hakkındaki sorularınız için Paddle ile paddle.net adresinden de iletişime geçebilirsiniz."
+  "terms.v35.s15.p5": "Çevrimiçi ödeme sayfası satın alımları için: David Arthur Software Ltd, şirket numarası 14318326, kayıtlı merkezi Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Birleşik Krallık. Çevrimiçi ödeme sayfası üzerinden verilen bir sipariş veya yapılan bir ödeme hakkındaki sorularınız için Paddle ile paddle.net adresinden de iletişime geçebilirsiniz.",
+  "pay.card.site": "duovox.net üzerinden kartla veya PayPal ile ödeyin"
 }

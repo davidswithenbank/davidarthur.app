@@ -429,7 +429,7 @@
   "dvx.47": "無需訂閱月費方案即可試用 DuoVox。依需求購買點數——非常適合一次性翻譯、試用服務，或在訂閱額度之外進行加購。",
   "dvx.48": "隨用隨付",
   "dvx.49": "方案 &amp; 價格",
-  "dvx.50": "選擇最符合您談話方式的方案——從免費的離線使用，到專為專業人士打造的進階 AI 翻譯。訂閱方案與隨用隨付點數均於應用程式內購買。<br/><small style=\"opacity:0.6;\">預設價格以 USD 顯示。英國訪客會看到 GBP。DuoVox 尚未在 EU 或 EEA 提供。Microsoft Store 會在結帳時以您的當地貨幣收取等值金額。訂閱會自動續訂，直到您取消為止，且您可以隨時取消。</small>",
+  "dvx.50": "選擇最符合您談話方式的方案——從免費的離線使用，到專為專業人士打造的進階 AI 翻譯。訂閱方案與 Pay-As-You-Go 點數可於應用程式內購買，或在 duovox.net 以信用卡或 PayPal 購買。<br/><small style=\"opacity:0.6;\">預設價格以 USD 顯示。英國訪客會看到 GBP。DuoVox 目前尚未在 EU 或 EEA 提供。結帳時，若你在 duovox.net 使用信用卡或 PayPal 付款，Microsoft Store 或 Paddle 會按你當地貨幣收取等值金額。訂閱會自動續約，直到你取消為止，你也可以隨時取消。</small>",
   "dvx.51": "免費版",
   "dvx.52": "最適合：試用體驗 &amp; 離線隱私",
   "dvx.53": "裝置端轉錄（於支援的情況下提供翻譯）",
@@ -906,7 +906,7 @@
   "dvx.pcaudio.desc": "Teams、Zoom、Google Meet 和 WhatsApp 通話，YouTube 和電影，都不會有任何機器人或程式加入會議。或者切換到麥克風，收錄房間裡的人聲。<a href=\"https://duovox.net/calls.html\">視訊通話 &rarr;</a>",
   "cta.avail_win": "適用於 Windows 10 和 11，可從 Microsoft Store 取得。",
   "dvx.92b": "適用於 Windows 10 和 11，可從 Microsoft Store 取得。",
-  "dvx.98b": "不需要。DuoVox 無需帳號或註冊即可使用。下載 app 後即可立即開始使用。訂閱透過 Microsoft Store 管理。",
+  "dvx.98b": "不需要。DuoVox 無需帳號或註冊即可使用。下載 app 後即可立即開始使用。方案與時數可於應用程式內透過 Microsoft Store 購買，或在 duovox.net 以信用卡或 PayPal 購買。",
   "about.intro1": "David Arthur Software 是位於英格蘭北約克郡的一間小型獨立軟體工作室。我們為 Windows 和 Android 製作簡單、以隱私為先的應用程式：把一件事做好、無需帳號即可使用，且不會把你的個人資訊拿去交換使用權限的軟體。",
   "about.intro2": "我們刻意維持小規模。設計和撰寫我們應用程式的人，也就是回覆你電子郵件的人，所以當你聯絡我們時，你接觸到的是懂程式碼的人。",
   "about.why.q1": "&ldquo;我一直看到同樣的問題：大多數翻譯應用程式都讓兩個人輪流操作、點按按鈕，再把手機傳來傳去。真實對話不是這樣進行的，我們電腦上的 Teams 和 Zoom 通話也不是。&rdquo;",
@@ -1098,5 +1098,6 @@
   "terms.v35.s15.p2": "David Arthur Software",
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, 英國",
   "terms.v35.s15.p4": "電子郵件：info@duovox.net",
-  "terms.v35.s15.p5": "線上結帳購買：David Arthur Software Ltd，公司編號 14318326，註冊辦事處 Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, 英國。若對線上結帳的訂單或付款有疑問，您亦可透過 paddle.net 聯絡 Paddle。"
+  "terms.v35.s15.p5": "線上結帳購買：David Arthur Software Ltd，公司編號 14318326，註冊辦事處 Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, 英國。若對線上結帳的訂單或付款有疑問，您亦可透過 paddle.net 聯絡 Paddle。",
+  "pay.card.site": "在 duovox.net 以信用卡或 PayPal 付款"
 }

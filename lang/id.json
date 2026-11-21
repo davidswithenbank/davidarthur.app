@@ -429,7 +429,7 @@
   "dvx.47": "Coba DuoVox tanpa mendaftar paket bulanan. Beli kredit sesuai kebutuhan Anda — cocok untuk terjemahan sekali pakai, mencoba layanan, atau menambah kredit di luar langganan Anda.",
   "dvx.48": "Bayar Sesuai Pemakaian",
   "dvx.49": "Paket &amp; Harga",
-  "dvx.50": "Pilih paket yang sesuai dengan cara Anda berbicara — mulai dari penggunaan luring gratis hingga terjemahan AI canggih untuk profesional. Langganan dan kredit Pay-As-You-Go dibeli di dalam aplikasi.<br/><small style=\"opacity:0.6;\">Harga default dalam USD. Pengunjung UK melihat GBP. DuoVox belum tersedia di EU atau EEA. Microsoft Store mengenakan biaya setara dalam mata uang lokal Anda saat checkout. Langganan diperpanjang secara otomatis sampai Anda membatalkannya, dan Anda dapat membatalkannya kapan saja.</small>",
+  "dvx.50": "Pilih paket yang sesuai dengan cara Anda berbicara — mulai dari penggunaan luring gratis hingga terjemahan AI canggih untuk profesional. Langganan dan kredit Pay-As-You-Go dibeli di dalam aplikasi, atau dengan kartu atau PayPal di duovox.net.<br/><small style=\"opacity:0.6;\">Harga default dalam USD. Pengunjung dari UK melihat GBP. DuoVox belum tersedia di EU atau EEA. Saat checkout, Microsoft Store, atau Paddle jika Anda membayar dengan kartu atau PayPal di duovox.net, akan menagihkan jumlah yang setara dalam mata uang lokal Anda. Langganan diperpanjang secara otomatis sampai Anda membatalkannya, dan Anda dapat membatalkannya kapan saja.</small>",
   "dvx.51": "Gratis",
   "dvx.52": "Terbaik untuk: mencoba-coba &amp; privasi offline",
   "dvx.53": "Transkripsi di perangkat (terjemahan bila didukung)",
@@ -906,7 +906,7 @@
   "dvx.pcaudio.desc": "Panggilan Teams, Zoom, Google Meet, dan WhatsApp, YouTube dan film, tanpa ada apa pun yang bergabung ke rapat. Atau beralih ke mikrofon untuk orang-orang di ruangan. <a href=\"https://duovox.net/calls.html\">Panggilan video &rarr;</a>",
   "cta.avail_win": "Untuk Windows 10 dan 11, dari Microsoft Store.",
   "dvx.92b": "Untuk Windows 10 dan 11, dari Microsoft Store.",
-  "dvx.98b": "Tidak. DuoVox berfungsi tanpa akun atau pendaftaran. Unduh aplikasinya dan langsung mulai gunakan. Langganan dikelola melalui Microsoft Store.",
+  "dvx.98b": "Tidak. DuoVox berfungsi tanpa akun atau pendaftaran. Unduh aplikasinya dan langsung mulai gunakan. Paket dan jam dibeli di dalam aplikasi melalui Microsoft Store, atau di duovox.net dengan kartu atau PayPal.",
   "about.intro1": "David Arthur Software adalah studio perangkat lunak kecil dan independen di North Yorkshire, Inggris. Kami membuat aplikasi sederhana yang mengutamakan privasi untuk Windows dan Android: perangkat lunak yang melakukan satu tugas dengan baik, bisa digunakan tanpa akun, dan tidak menukar informasi pribadi Anda demi hak istimewa tersebut.",
   "about.intro2": "Kami sengaja tetap kecil. Orang-orang yang merancang dan menulis aplikasi kami adalah orang yang sama yang membalas email Anda, jadi saat Anda menghubungi kami, Anda akan terhubung dengan seseorang yang memahami kodenya.",
   "about.why.q1": "&ldquo;Saya terus melihat masalah yang sama: sebagian besar aplikasi terjemahan membuat dua orang harus bergantian, mengetuk tombol, dan saling menyerahkan ponsel. Percakapan nyata tidak berjalan seperti itu, begitu juga panggilan Teams dan Zoom di komputer kita.&rdquo;",
@@ -1098,5 +1098,6 @@
   "terms.v35.s15.p2": "David Arthur Software",
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Britania Raya",
   "terms.v35.s15.p4": "Email: info@duovox.net",
-  "terms.v35.s15.p5": "Untuk pembelian melalui halaman pembayaran daring: David Arthur Software Ltd, nomor perusahaan 14318326, kantor terdaftar Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Britania Raya. Untuk pertanyaan mengenai pesanan atau pembayaran melalui halaman pembayaran daring, Anda juga dapat menghubungi Paddle di paddle.net."
+  "terms.v35.s15.p5": "Untuk pembelian melalui halaman pembayaran daring: David Arthur Software Ltd, nomor perusahaan 14318326, kantor terdaftar Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Britania Raya. Untuk pertanyaan mengenai pesanan atau pembayaran melalui halaman pembayaran daring, Anda juga dapat menghubungi Paddle di paddle.net.",
+  "pay.card.site": "Bayar dengan kartu atau PayPal di duovox.net"
 }

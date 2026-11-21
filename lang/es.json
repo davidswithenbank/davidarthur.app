@@ -429,7 +429,7 @@
   "dvx.47": "Prueba DuoVox sin suscribirte a un plan mensual. Compra créditos según los necesites: ideal para una traducción puntual, probar el servicio o ampliar más allá de tu suscripción.",
   "dvx.48": "Pago por uso",
   "dvx.49": "Planes &amp; precios",
-  "dvx.50": "Elige el plan que se adapta a cómo hablas: desde el uso gratuito sin conexión hasta la traducción avanzada con IA para profesionales. Las suscripciones y los créditos de pago por uso se adquieren dentro de la aplicación.<br/><small style=\"opacity:0.6;\">Precios predeterminados en USD. Los visitantes del Reino Unido ven GBP. DuoVox aún no está disponible en la UE ni en el EEE. Microsoft Store cobra el equivalente en tu moneda local al finalizar la compra. Las suscripciones se renuevan automáticamente hasta que las canceles, y puedes cancelarlas en cualquier momento.</small>",
+  "dvx.50": "Elige el plan que se adapta a cómo hablas: desde el uso gratuito sin conexión hasta la traducción avanzada con IA para profesionales. Las suscripciones y los créditos Pay-As-You-Go se compran dentro de la aplicación, o con tarjeta o PayPal en duovox.net.<br/><small style=\"opacity:0.6;\">Precios predeterminados en USD. Los visitantes del Reino Unido ven GBP. DuoVox todavía no está disponible en la UE ni en el EEE. Al finalizar la compra, Microsoft Store, o Paddle si pagas con tarjeta o PayPal en duovox.net, cobra el equivalente en tu moneda local. Las suscripciones se renuevan automáticamente hasta que las canceles, y puedes cancelar en cualquier momento.</small>",
   "dvx.51": "Gratis",
   "dvx.52": "Ideal para: probarlo &amp; privacidad sin conexión",
   "dvx.53": "Transcripción en el dispositivo (traducción donde sea compatible)",
@@ -906,7 +906,7 @@
   "dvx.pcaudio.desc": "Llamadas de Teams, Zoom, Google Meet y WhatsApp, YouTube y películas, sin que nada se una a la reunión. O cambia al micrófono para las personas en la sala. <a href=\"https://duovox.net/calls.html\">Videollamadas &rarr;</a>",
   "cta.avail_win": "Para Windows 10 y 11, en Microsoft Store.",
   "dvx.92b": "Para Windows 10 y 11, en Microsoft Store.",
-  "dvx.98b": "No. DuoVox funciona sin cuentas ni registros. Descarga la aplicación y empieza a usarla de inmediato. Las suscripciones se gestionan a través de Microsoft Store.",
+  "dvx.98b": "No. DuoVox funciona sin cuentas ni registros. Descarga la aplicación y empieza a usarla de inmediato. Los planes y las horas se compran dentro de la aplicación a través de Microsoft Store, o en duovox.net con tarjeta o PayPal.",
   "about.intro1": "David Arthur Software es un pequeño estudio de software independiente en North Yorkshire, Inglaterra. Creamos aplicaciones sencillas, centradas en la privacidad, para Windows y Android: software que hace bien una sola tarea, funciona sin cuenta y no intercambia tu información personal por ese privilegio.",
   "about.intro2": "Somos pequeños por decisión propia. Las personas que diseñan y desarrollan nuestras aplicaciones son las mismas que responden a tus correos, así que cuando te pones en contacto llegas a alguien que conoce el código.",
   "about.why.q1": "&ldquo;No paraba de ver el mismo problema: la mayoría de las aplicaciones de traducción hacen que dos personas tengan que turnarse, tocar botones y pasarse el teléfono de un lado a otro. Las conversaciones reales no funcionan así, y tampoco las llamadas de Teams y Zoom en nuestros ordenadores.&rdquo;",
@@ -1098,5 +1098,6 @@
   "terms.v35.s15.p2": "David Arthur Software",
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Reino Unido",
   "terms.v35.s15.p4": "Correo electrónico: info@duovox.net",
-  "terms.v35.s15.p5": "Para compras a través de la página de pago en línea: David Arthur Software Ltd, número de sociedad 14318326, domicilio social en Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Reino Unido. Para consultas sobre un pedido o un pago realizado a través de la página de pago en línea, también puede ponerse en contacto con Paddle en paddle.net."
+  "terms.v35.s15.p5": "Para compras a través de la página de pago en línea: David Arthur Software Ltd, número de sociedad 14318326, domicilio social en Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Reino Unido. Para consultas sobre un pedido o un pago realizado a través de la página de pago en línea, también puede ponerse en contacto con Paddle en paddle.net.",
+  "pay.card.site": "Paga con tarjeta o PayPal en duovox.net"
 }

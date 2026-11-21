@@ -429,7 +429,7 @@
   "dvx.47": "无需订阅月度套餐即可试用 DuoVox。按需购买额度——非常适合一次性翻译、试用服务，或在订阅额度用尽后进行充值。",
   "dvx.48": "按量付费",
   "dvx.49": "套餐 &amp; 定价",
-  "dvx.50": "选择契合您交谈方式的套餐——从免费的离线使用，到面向专业人士的高级 AI 翻译。订阅和按量付费额度均在应用内购买。<br/><small style=\"opacity:0.6;\">默认价格以 USD 显示。英国访客将看到 GBP。DuoVox 尚未在欧盟或欧洲经济区提供。Microsoft Store 会在结账时按您当地货币收取等值金额。订阅会自动续订，直到您取消为止，且您可以随时取消。</small>",
+  "dvx.50": "选择契合您交谈方式的套餐——从免费的离线使用，到面向专业人士的高级 AI 翻译。订阅和 Pay-As-You-Go 额度可在应用内购买，也可在 duovox.net 上通过银行卡或 PayPal 购买。<br/><small style=\"opacity:0.6;\">默认价格以 USD 显示。英国访客看到的是 GBP。DuoVox 尚未在 EU 或 EEA 提供。在结账时，Microsoft Store，或如果您在 duovox.net 上使用银行卡或 PayPal 付款则由 Paddle，都会按您当地货币收取等值金额。订阅会自动续订，直到您取消为止，您可以随时取消。</small>",
   "dvx.51": "免费版",
   "dvx.52": "最适合：试用 &amp; 离线隐私保护",
   "dvx.53": "设备端转录（在支持的情况下提供翻译）",
@@ -906,7 +906,7 @@
   "dvx.pcaudio.desc": "支持 Teams、Zoom、Google Meet 和 WhatsApp 通话，也支持 YouTube 和电影，无需加入会议。或者切换到麦克风，用于房间里的人。<a href=\"https://duovox.net/calls.html\">视频通话 &rarr;</a>",
   "cta.avail_win": "适用于 Windows 10 和 11，可从 Microsoft Store 获取。",
   "dvx.92b": "适用于 Windows 10 和 11，可从 Microsoft Store 获取。",
-  "dvx.98b": "不需要。DuoVox 无需账户或注册即可使用。下载应用后即可立即开始使用。订阅通过 Microsoft Store 管理。",
+  "dvx.98b": "不需要。DuoVox 无需账户或注册即可使用。下载应用后即可立即开始使用。套餐和时数可在应用内通过 Microsoft Store 购买，也可在 duovox.net 上通过银行卡或 PayPal 购买。",
   "about.intro1": "David Arthur Software 是一家位于英格兰北约克郡的小型独立软件工作室。我们为 Windows 和 Android 开发简洁、以隐私为先的应用：专注把一件事做好、无需账户即可使用，也不会把你的个人信息拿去交换使用权。",
   "about.intro2": "我们有意保持小而精。设计和编写我们应用的人，也正是回复你邮件的人，所以当你联系我们时，接触到的是了解代码的人。",
   "about.why.q1": "&ldquo;我一直看到同样的问题：大多数翻译应用都让两个人轮流操作、点击按钮，再把手机来回递。真实对话不是这样进行的，我们电脑上的 Teams 和 Zoom 通话也不是。&rdquo;",
@@ -1098,5 +1098,6 @@
   "terms.v35.s15.p2": "David Arthur Software",
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, United Kingdom",
   "terms.v35.s15.p4": "电子邮件：info@duovox.net",
-  "terms.v35.s15.p5": "对于在线结账购买：David Arthur Software Ltd，公司编号 14318326，注册办事处 Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, United Kingdom。如对在线结账订单或付款有疑问，您也可以通过 paddle.net 联系 Paddle。"
+  "terms.v35.s15.p5": "对于在线结账购买：David Arthur Software Ltd，公司编号 14318326，注册办事处 Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, United Kingdom。如对在线结账订单或付款有疑问，您也可以通过 paddle.net 联系 Paddle。",
+  "pay.card.site": "在 duovox.net 上通过银行卡或 PayPal 付款"
 }

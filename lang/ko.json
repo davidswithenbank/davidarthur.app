@@ -429,7 +429,7 @@
   "dvx.47": "월간 요금제에 가입하지 않고 DuoVox를 사용해 보세요. 필요할 때마다 크레딧을 구매하세요. 일회성 번역, 서비스 체험, 또는 구독 한도를 초과해 충전하기에 좋습니다.",
   "dvx.48": "사용한 만큼 결제",
   "dvx.49": "요금제 &amp; 가격",
-  "dvx.50": "대화 방식에 맞는 요금제를 선택하세요. 무료 오프라인 사용부터 전문가를 위한 고급 AI 번역까지 다양합니다. 구독과 종량제 크레딧은 앱 내에서 구매합니다.<br/><small style=\"opacity:0.6;\">기본 가격은 USD로 표시됩니다. 영국 방문자에게는 GBP가 표시됩니다. DuoVox는 아직 EU 또는 EEA에서 이용할 수 없습니다. Microsoft Store에서는 결제 시 현지 통화로 환산된 금액이 청구됩니다. 구독은 취소할 때까지 자동으로 갱신되며, 언제든지 취소할 수 있습니다.</small>",
+  "dvx.50": "대화 방식에 맞는 요금제를 선택하세요. 무료 오프라인 사용부터 전문가를 위한 고급 AI 번역까지 다양합니다. 구독과 Pay-As-You-Go 크레딧은 앱 내에서 구매하거나, duovox.net에서 카드 또는 PayPal로 구매할 수 있습니다.<br/><small style=\"opacity:0.6;\">기본 가격은 USD로 표시됩니다. 영국 방문자에게는 GBP가 표시됩니다. DuoVox는 아직 EU 또는 EEA에서 이용할 수 없습니다. 결제 시에는 Microsoft Store 또는 duovox.net에서 카드나 PayPal로 결제하는 경우 Paddle이 현지 통화로 환산된 금액을 청구합니다. 구독은 취소할 때까지 자동으로 갱신되며, 언제든지 취소할 수 있습니다.</small>",
   "dvx.51": "무료",
   "dvx.52": "추천 대상: 체험용 &amp; 오프라인 개인정보 보호",
   "dvx.53": "온디바이스 받아쓰기 (지원되는 경우 번역)",
@@ -906,7 +906,7 @@
   "dvx.pcaudio.desc": "Teams, Zoom, Google Meet 및 WhatsApp 통화는 물론 YouTube와 영화까지, 회의에 아무것도 참여시키지 않고 사용할 수 있습니다. 또는 마이크로 전환해 같은 공간에 있는 사람들의 말도 들을 수 있습니다. <a href=\"https://duovox.net/calls.html\">영상 통화 &rarr;</a>",
   "cta.avail_win": "Windows 10 및 11용, Microsoft Store에서 다운로드할 수 있습니다.",
   "dvx.92b": "Windows 10 및 11용, Microsoft Store에서 다운로드할 수 있습니다.",
-  "dvx.98b": "아니요. DuoVox는 계정 생성이나 회원가입 없이 작동합니다. 앱을 다운로드하고 바로 사용을 시작하세요. 구독은 Microsoft Store를 통해 관리됩니다.",
+  "dvx.98b": "아니요. DuoVox는 계정 생성이나 회원가입 없이 작동합니다. 앱을 다운로드하고 바로 사용을 시작하세요. 요금제와 시간은 앱 내에서 Microsoft Store를 통해 구매하거나, duovox.net에서 카드 또는 PayPal로 구매할 수 있습니다.",
   "about.intro1": "David Arthur Software는 영국 노스요크셔에 있는 작고 독립적인 소프트웨어 스튜디오입니다. 저희는 Windows와 Android용으로 단순하고 개인정보를 우선하는 앱을 만듭니다. 한 가지 일을 잘 해내고, 계정 없이 작동하며, 그 대가로 여러분의 개인정보를 넘기게 하지 않는 소프트웨어입니다.",
   "about.intro2": "저희가 작은 규모를 유지하는 데는 이유가 있습니다. 앱을 설계하고 개발하는 사람들이 여러분의 이메일에 답장하는 사람들과 같기 때문에, 연락을 주시면 코드를 아는 사람과 바로 연결됩니다.",
   "about.why.q1": "&ldquo;저는 같은 문제를 계속 보았습니다. 대부분의 번역 앱은 두 사람이 차례로 말하고, 버튼을 누르고, 휴대폰을 서로 주고받게 만듭니다. 실제 대화는 그렇게 이루어지지 않고, 컴퓨터에서 하는 Teams와 Zoom 통화도 마찬가지입니다.&rdquo;",
@@ -1098,5 +1098,6 @@
   "terms.v35.s15.p2": "David Arthur Software",
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, 영국",
   "terms.v35.s15.p4": "이메일: info@duovox.net",
-  "terms.v35.s15.p5": "온라인 결제 구매의 경우: David Arthur Software Ltd, 회사 번호 14318326, 등록 사무소 Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, 영국. 온라인 결제 주문 또는 결제에 관한 문의는 paddle.net에서 Paddle에 연락하실 수도 있습니다."
+  "terms.v35.s15.p5": "온라인 결제 구매의 경우: David Arthur Software Ltd, 회사 번호 14318326, 등록 사무소 Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, 영국. 온라인 결제 주문 또는 결제에 관한 문의는 paddle.net에서 Paddle에 연락하실 수도 있습니다.",
+  "pay.card.site": "duovox.net에서 카드 또는 PayPal로 결제"
 }

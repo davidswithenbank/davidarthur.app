@@ -429,7 +429,7 @@
   "dvx.47": "Hãy dùng thử DuoVox mà không cần đăng ký gói hằng tháng. Mua tín dụng khi bạn cần — lý tưởng cho việc dịch một lần, dùng thử dịch vụ hoặc nạp thêm vượt quá gói đăng ký của bạn.",
   "dvx.48": "Trả tiền theo mức dùng",
   "dvx.49": "Gói &amp; Giá",
-  "dvx.50": "Chọn gói phù hợp với cách bạn trò chuyện — từ sử dụng ngoại tuyến miễn phí đến dịch AI nâng cao dành cho chuyên gia. Các gói đăng ký và tín dụng trả-theo-mức-dùng được mua trong ứng dụng.<br/><small style=\"opacity:0.6;\">Giá mặc định bằng USD. Khách truy cập tại Vương quốc Anh sẽ thấy GBP. DuoVox hiện chưa có tại EU hoặc EEA. Microsoft Store sẽ tính số tiền tương đương bằng nội tệ của bạn khi thanh toán. Các gói đăng ký sẽ tự động gia hạn cho đến khi bạn hủy, và bạn có thể hủy bất cứ lúc nào.</small>",
+  "dvx.50": "Chọn gói phù hợp với cách bạn trò chuyện — từ sử dụng ngoại tuyến miễn phí đến dịch AI nâng cao dành cho chuyên gia. Các gói đăng ký và tín dụng Pay-As-You-Go được mua trong ứng dụng hoặc bằng thẻ hay PayPal trên duovox.net.<br/><small style=\"opacity:0.6;\">Giá mặc định tính bằng USD. Khách truy cập tại Vương quốc Anh sẽ thấy GBP. DuoVox hiện chưa khả dụng tại EU hoặc EEA. Khi thanh toán, Microsoft Store, hoặc Paddle nếu bạn thanh toán bằng thẻ hoặc PayPal trên duovox.net, sẽ tính khoản tương đương bằng nội tệ của bạn. Các gói đăng ký sẽ tự động gia hạn cho đến khi bạn hủy, và bạn có thể hủy bất cứ lúc nào.</small>",
   "dvx.51": "Miễn phí",
   "dvx.52": "Phù hợp nhất cho: dùng thử &amp; bảo mật ngoại tuyến",
   "dvx.53": "Phiên âm trên thiết bị (dịch nơi được hỗ trợ)",
@@ -906,7 +906,7 @@
   "dvx.pcaudio.desc": "Cuộc gọi Teams, Zoom, Google Meet và WhatsApp, YouTube và phim, mà không cần bất cứ thứ gì tham gia cuộc họp. Hoặc chuyển sang micrô cho những người trong phòng. <a href=\"https://duovox.net/calls.html\">Cuộc gọi video &rarr;</a>",
   "cta.avail_win": "Dành cho Windows 10 và 11, từ Microsoft Store.",
   "dvx.92b": "Dành cho Windows 10 và 11, từ Microsoft Store.",
-  "dvx.98b": "Không. DuoVox hoạt động mà không cần tài khoản hoặc đăng ký. Tải ứng dụng xuống và bắt đầu dùng ngay. Các gói đăng ký được quản lý qua Microsoft Store.",
+  "dvx.98b": "Không. DuoVox hoạt động mà không cần tài khoản hoặc đăng ký. Tải ứng dụng xuống và bắt đầu dùng ngay. Các gói và giờ được mua trong ứng dụng qua Microsoft Store hoặc trên duovox.net bằng thẻ hay PayPal.",
   "about.intro1": "David Arthur Software là một studio phần mềm nhỏ, độc lập tại North Yorkshire, Anh. Chúng tôi tạo ra các ứng dụng đơn giản, ưu tiên quyền riêng tư cho Windows và Android: phần mềm làm tốt một việc, hoạt động không cần tài khoản và không đánh đổi thông tin cá nhân của bạn để đổi lấy quyền được sử dụng.",
   "about.intro2": "Chúng tôi cố ý giữ quy mô nhỏ. Những người thiết kế và viết ứng dụng cũng chính là những người trả lời email của bạn, nên khi bạn liên hệ, bạn sẽ gặp người hiểu rõ mã nguồn.",
   "about.why.q1": "&ldquo;Tôi cứ liên tục thấy cùng một vấn đề: hầu hết các ứng dụng dịch bắt hai người phải thay phiên nhau, chạm nút rồi chuyền điện thoại qua lại. Các cuộc trò chuyện thực tế không diễn ra như vậy, và các cuộc gọi Teams và Zoom trên máy tính của chúng ta cũng thế.&rdquo;",
@@ -1098,5 +1098,6 @@
   "terms.v35.s15.p2": "David Arthur Software",
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Vương quốc Anh",
   "terms.v35.s15.p4": "Email: info@duovox.net",
-  "terms.v35.s15.p5": "Đối với các giao dịch mua qua trang thanh toán trực tuyến: David Arthur Software Ltd, số đăng ký công ty 14318326, trụ sở đăng ký tại Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Vương quốc Anh. Nếu có câu hỏi về một đơn hàng hoặc khoản thanh toán qua trang thanh toán trực tuyến, bạn cũng có thể liên hệ với Paddle tại paddle.net."
+  "terms.v35.s15.p5": "Đối với các giao dịch mua qua trang thanh toán trực tuyến: David Arthur Software Ltd, số đăng ký công ty 14318326, trụ sở đăng ký tại Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Vương quốc Anh. Nếu có câu hỏi về một đơn hàng hoặc khoản thanh toán qua trang thanh toán trực tuyến, bạn cũng có thể liên hệ với Paddle tại paddle.net.",
+  "pay.card.site": "Thanh toán bằng thẻ hoặc PayPal trên duovox.net"
 }
