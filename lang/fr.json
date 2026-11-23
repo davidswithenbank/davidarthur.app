@@ -1099,5 +1099,9 @@
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Royaume-Uni",
   "terms.v35.s15.p4": "E-mail : info@duovox.net",
   "terms.v35.s15.p5": "Pour les achats via la page de paiement en ligne : David Arthur Software Ltd, numéro de société 14318326, siège social Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Royaume-Uni. Pour toute question concernant une commande ou un paiement effectué via la page de paiement en ligne, vous pouvez également contacter Paddle sur paddle.net.",
-  "pay.card.site": "Payer par carte ou PayPal sur duovox.net"
+  "pay.card.site": "Payer par carte ou PayPal sur duovox.net",
+  "plan.btn.app": "Télécharger l’application gratuite",
+  "plan.btn.plan": "Acheter ce forfait",
+  "plan.btn.hours": "Acheter des heures",
+  "plan.btn.via": "carte ou PayPal"
 }

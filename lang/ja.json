@@ -1099,5 +1099,9 @@
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, United Kingdom",
   "terms.v35.s15.p4": "メール：info@duovox.net",
   "terms.v35.s15.p5": "オンライン決済でのご購入について：David Arthur Software Ltd、会社番号 14318326、登記上の本店所在地 Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, United Kingdom。オンライン決済でのご注文またはお支払いに関するご質問は、paddle.net で Paddle にお問い合わせいただくこともできます。",
-  "pay.card.site": "duovox.net でカードまたは PayPal で支払う"
+  "pay.card.site": "duovox.net でカードまたは PayPal で支払う",
+  "plan.btn.app": "無料アプリを入手",
+  "plan.btn.plan": "このプランを購入",
+  "plan.btn.hours": "時間を購入",
+  "plan.btn.via": "カードまたはPayPal"
 }

@@ -1099,5 +1099,9 @@
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, 영국",
   "terms.v35.s15.p4": "이메일: info@duovox.net",
   "terms.v35.s15.p5": "온라인 결제 구매의 경우: David Arthur Software Ltd, 회사 번호 14318326, 등록 사무소 Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, 영국. 온라인 결제 주문 또는 결제에 관한 문의는 paddle.net에서 Paddle에 연락하실 수도 있습니다.",
-  "pay.card.site": "duovox.net에서 카드 또는 PayPal로 결제"
+  "pay.card.site": "duovox.net에서 카드 또는 PayPal로 결제",
+  "plan.btn.app": "무료 앱 받기",
+  "plan.btn.plan": "이 플랜 구매",
+  "plan.btn.hours": "시간 구매",
+  "plan.btn.via": "카드 또는 PayPal"
 }

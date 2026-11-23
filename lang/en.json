@@ -406,5 +406,9 @@
   "interp.legal.link": "Legal or immigration work? <a href=\"https://duovox.net/legal-interpreting.html\">See DuoVox for legal interpreters &rarr;</a>",
   "interp.med.link": "Interpreting in healthcare? <a href=\"https://duovox.net/medical-interpreting.html\">See DuoVox for medical interpreters &rarr;</a>",
   "home.pricing.free.period": "per month",
-  "pay.card.site": "Pay by card or PayPal on duovox.net"
+  "pay.card.site": "Pay by card or PayPal on duovox.net",
+  "plan.btn.app": "Get the free app",
+  "plan.btn.plan": "Buy this plan",
+  "plan.btn.hours": "Buy hours",
+  "plan.btn.via": "card or PayPal"
 }

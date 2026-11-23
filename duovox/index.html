@@ -79,6 +79,10 @@
 .layout-card h3 { font-size: 1.1rem; margin-bottom: .35rem; }
 .layout-card p { color: var(--text-secondary); font-size: .9rem; line-height: 1.5; }
 @media (max-width: 700px) { .layouts-grid { grid-template-columns: 1fr; } }
+/* 23 Nov 2026 (David: the two buttons were misleading - one downloads the app, the other buys): short labels that say what each
+   does, matching duovox.net; the card button carries 'card or PayPal' small under its label. */
+.price-cta .btn-two { flex-direction: column; gap: 0.1rem; line-height: 1.15; }
+.price-cta .btn-two small { font-size: 0.74rem; font-weight: 400; opacity: 0.75; }
 </style>
 </head>
 <body>
@@ -436,7 +440,7 @@
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.57">No account needed.</p>
 <div class="price-cta">
-<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="cta.ms_get">Get it on the Microsoft Store</a>
+<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
 </div>
 </div>
 <!-- Standard -->
@@ -455,8 +459,8 @@
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.65">Best if you use it 10+ hours per month.</p>
 <div class="price-cta">
-<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="cta.ms_get">Get it on the Microsoft Store</a>
-<a href="https://duovox.net/buy.html" class="btn btn-secondary" style="margin-top:0.6rem;" data-i18n="pay.card.site">Pay by card or PayPal on duovox.net</a>
+<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
+<a href="https://duovox.net/buy.html#plans" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.plan">Buy this plan</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 </div>
 <!-- Professional -->
@@ -477,8 +481,8 @@
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.75">Best if you use it 28+ hours per month.</p>
 <div class="price-cta">
-<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="cta.ms_get">Get it on the Microsoft Store</a>
-<a href="https://duovox.net/buy.html" class="btn btn-secondary" style="margin-top:0.6rem;" data-i18n="pay.card.site">Pay by card or PayPal on duovox.net</a>
+<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
+<a href="https://duovox.net/buy.html#plans" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.plan">Buy this plan</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 </div>
 <!-- Pay-As-You-Go -->
@@ -496,8 +500,8 @@
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.81">Try either tier without subscribing.</p>
 <div class="price-cta">
-<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="cta.ms_get">Get it on the Microsoft Store</a>
-<a href="https://duovox.net/buy.html" class="btn btn-secondary" style="margin-top:0.6rem;" data-i18n="pay.card.site">Pay by card or PayPal on duovox.net</a>
+<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
+<a href="https://duovox.net/buy.html#hours" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.hours">Buy hours</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 </div>
 </div>

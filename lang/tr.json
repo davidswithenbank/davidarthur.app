@@ -1099,5 +1099,9 @@
   "terms.v35.s15.p3": "Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Birleşik Krallık",
   "terms.v35.s15.p4": "E-posta: info@duovox.net",
   "terms.v35.s15.p5": "Çevrimiçi ödeme sayfası satın alımları için: David Arthur Software Ltd, şirket numarası 14318326, kayıtlı merkezi Independence House, Millfield Lane, Nether Poppleton, York, YO26 6PH, Birleşik Krallık. Çevrimiçi ödeme sayfası üzerinden verilen bir sipariş veya yapılan bir ödeme hakkındaki sorularınız için Paddle ile paddle.net adresinden de iletişime geçebilirsiniz.",
-  "pay.card.site": "duovox.net üzerinden kartla veya PayPal ile ödeyin"
+  "pay.card.site": "duovox.net üzerinden kartla veya PayPal ile ödeyin",
+  "plan.btn.app": "Ücretsiz uygulamayı edinin",
+  "plan.btn.plan": "Bu planı satın alın",
+  "plan.btn.hours": "Saat satın alın",
+  "plan.btn.via": "kart veya PayPal"
 }
