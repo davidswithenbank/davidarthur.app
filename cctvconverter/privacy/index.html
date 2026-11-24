@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CCTV Converter Privacy Policy | David Arthur Software</title>
-    <meta name="description" content="Privacy Policy for CCTV Converter - free Windows utility. No data collection, everything local; the only network request is an update check.">
+    <meta name="description" content="Privacy Policy for CCTV Converter for Windows. Your footage never leaves your PC; covers the update check, crash reports, a daily &quot;app opened&quot; note and special offers.">
     <link rel="icon" type="image/png" href="/cctvconverter-icon.png">
     <link rel="canonical" href="https://davidarthur.app/cctvconverter/privacy/">
     <link rel="stylesheet" href="/style.css">
@@ -32,12 +32,12 @@
 <!-- Privacy Policy -->
 <main class="legal">
     <h1>Privacy Policy for CCTV Converter</h1>
-    <p class="last-updated">Last updated: 19 November 2026</p>
+    <p class="last-updated">Last updated: 24 November 2026</p>
 
     <p>David Arthur Software ("we", "us", "our") publishes the CCTV Converter app ("the App") as a free Windows utility. This page describes how the App handles your information.</p>
 
     <h2>1. The short version</h2>
-    <p>CCTV Converter does <strong>not</strong> collect, transmit, or share any personal information. It has no accounts, no cloud services, no analytics and no advertising. Everything you do in the App stays on your computer. The only network activity is the update check described below, which sends nothing about you or your footage beyond the IP address that any web request necessarily reveals. This includes the face-blurring tools added in version 2.1: faces are detected and hidden entirely on your device, and no facial data is kept after processing or sent anywhere.</p>
+    <p>CCTV Converter does <strong>not</strong> collect, transmit, or share your footage or anything about what you do with it. It has no accounts and no advertising. Everything you do with your footage stays on your computer. The App goes online only to check for updates, to send crash reports and one short &ldquo;app opened&rdquo; note a day, and to ask which special offers apply, as described in section 7; none of these sends anything from your footage or files. This includes the face-blurring tools added in version 2.1: faces are detected and hidden entirely on your device, and no facial data is kept after processing or sent anywhere.</p>
 
     <h2>2. What the App stores locally</h2>
     <p>The App writes a small configuration file at <code>%LOCALAPPDATA%\CctvConverter\config.json</code> on your machine. It records your settings and preferences, including:</p>
@@ -51,12 +51,13 @@
         <li>A count of how many files you have successfully converted, used only to know when to offer a one-time "rate the app on the Microsoft Store" prompt, and a flag recording your reply to that prompt</li>
         <li>Your other app settings, such as the encoder, file naming, watch-folder, motion-highlight, window-size and volume choices, and any frame rate you set for a raw file under "Recorded at" (stored with that file's path)</li>
         <li>The time of the last update check</li>
+        <li>A random install identifier, used for the crash reports, daily note and special offers described in section 7</li>
     </ul>
     <p>It also caches video thumbnails at <code>%LOCALAPPDATA%\CctvConverter\thumbs\</code> to make repeat browsing faster, and similar caches for the preview filmstrip, audio waveforms and motion-detection results; old cache entries are cleared out automatically. If something goes wrong, it writes an error log in the same folder. The Microsoft Store edition keeps this folder inside its own app package folder; <em>About &rarr; Open log + cache folder</em> opens it.</p>
-    <p>None of this data is transmitted off your device. You can delete it any time by removing the <code>%LOCALAPPDATA%\CctvConverter\</code> folder.</p>
+    <p>None of this data is transmitted off your device, apart from the install identifier as described in section 7. You can delete it any time by removing the <code>%LOCALAPPDATA%\CctvConverter\</code> folder.</p>
 
     <h2>3. Your video files</h2>
-    <p>Your CCTV footage is your data. The App reads the source files you point it at, writes converted MP4s to the output folder you choose, and never sends anything anywhere. Conversions happen entirely on your computer using a bundled copy of <a href="https://ffmpeg.org" target="_blank" rel="noopener">ffmpeg</a>.</p>
+    <p>Your CCTV footage is your data. The App reads the source files you point it at, writes converted MP4s to the output folder you choose, and never sends your footage anywhere. Conversions happen entirely on your computer using a bundled copy of <a href="https://ffmpeg.org" target="_blank" rel="noopener">ffmpeg</a>.</p>
 
     <h2>4. Face detection and redaction</h2>
     <p>CCTV Converter can optionally detect faces in a clip so that you can blur, pixelate or black them out before you share the footage. This is a privacy feature, and like everything else in the App it works entirely on your own computer, offline.</p>
@@ -67,12 +68,12 @@
         <li>You choose which detected faces to hide, and can add or remove boxes by hand. The redaction is written into the new file you export; your original files are never changed.</li>
     </ul>
 
-    <h2>5. No cloud services</h2>
+    <h2>5. No cloud services for your footage</h2>
     <p>The App has no:</p>
     <ul>
         <li>User accounts or registration</li>
-        <li>Cloud servers or databases</li>
-        <li>Analytics or tracking services</li>
+        <li>Cloud storage or processing of your footage</li>
+        <li>Tracking across other apps or websites</li>
         <li>Advertising networks or ad SDKs</li>
         <li>Third-party data sharing</li>
     </ul>
@@ -80,17 +81,26 @@
     <h2>6. Permissions</h2>
     <p>The App runs as a standard Windows desktop application. It needs read access to the folders you point it at, write access to the output folder you choose, and the ability to launch the bundled <code>ffmpeg.exe</code>. It does not require administrator rights for normal use.</p>
 
-    <h2>7. Links that open in your browser or the Microsoft Store</h2>
+    <h2>7. Updates, crash reports, special offers and links that open in your browser or the Microsoft Store</h2>
     <p>A small number of buttons in the App launch links in whatever app your system uses to open them &mdash; for example:</p>
     <ul>
         <li>The footer links to <strong>davidarthur.app</strong> and <code>info@davidarthur.app</code> open your default browser or email client.</li>
         <li>If you click "Rate on Store" in the one-time rating prompt, the App opens the App's review page in the Microsoft Store.</li>
     </ul>
     <p>These actions happen only when you click those specific buttons.</p>
-    <p>The App also checks whether a newer version is available — automatically each time it starts, and whenever you choose "Check for updates". The Microsoft Store edition asks the Store's own built-in update service and, only when the Store reports an update, also reads a small version file hosted at davidarthur.app to see whether that update is required; the direct-download edition checks the same version file. A check sends only an ordinary web request (which, like any web request, includes your IP address) and transmits none of your settings, files, or footage. You can skip an optional update. If an update is marked as required, the App installs it by itself &mdash; after any conversion or export in progress has finished &mdash; and then reopens; if it cannot install it, it asks you to update before you carry on using it. If the check fails or you are offline, nothing happens. Aside from the actions described above, the App makes no background network requests.</p>
+    <p>The App also checks whether a newer version is available — automatically each time it starts, and whenever you choose "Check for updates". The Microsoft Store edition asks the Store's own built-in update service and, only when the Store reports an update, also reads a small version file hosted at davidarthur.app to see whether that update is required; the direct-download edition checks the same version file. A check sends only an ordinary web request (which, like any web request, includes your IP address) and transmits none of your settings, files, or footage. You can skip an optional update. If an update is marked as required, the App installs it by itself &mdash; after any conversion or export in progress has finished &mdash; and then reopens; if it cannot install it, it asks you to update before you carry on using it. If the check fails or you are offline, nothing happens.</p>
+
+    <p><strong>Crash reports, a daily &ldquo;app opened&rdquo; note and special offers.</strong> The App sends a small amount of technical information to our server at api.duovox.net:</p>
+    <ul>
+        <li><strong>Crash reports:</strong> if the App hits an error it cannot recover from, it sends a short report with the App version, your Windows version, whether you use the free App or Pro, whether your copy came from the Microsoft Store or was downloaded directly, a random install identifier (it contains nothing about you or your PC), the type of error and the first line of the program&rsquo;s call stack (the place in the App&rsquo;s code where it went wrong). It never includes the error message, file or folder names, your footage, thumbnails, face data or anything you have typed.</li>
+        <li><strong>One &ldquo;app opened&rdquo; note a day:</strong> the first time you open the App each day, it sends the install identifier, the App version, your Windows version, free or Pro, and Microsoft Store or direct download, so that we can count how many installs use the App and on which version.</li>
+        <li><strong>Special offers:</strong> the App asks our server which special offers apply (sending the install identifier, the App&rsquo;s language, free or Pro, and Microsoft Store or direct download) and counts how often an offer is shown, clicked or closed. No personal data is involved.</li>
+    </ul>
+    <p>Our server works out the country from the connection and keeps it; your IP address is not stored. These records are kept for up to 400 days and then deleted. Our server is hosted by Cloudflare. We do not sell this information, use it for advertising or share it with anyone else.</p>
+    <p>Aside from the actions described above, the App makes no background network requests.</p>
 
     <h2>8. Data retention</h2>
-    <p>All data the App writes is on your device for as long as you keep the App installed. In the direct-download edition, deleting <code>%LOCALAPPDATA%\CctvConverter\</code> removes everything. Uninstalling the Microsoft Store edition removes it all; the direct-download edition's uninstaller removes the caches and logs but keeps your small settings file, so a reinstall remembers your folders.</p>
+    <p>The crash reports, daily notes and offer counts our server receives are kept for up to 400 days and then deleted (section 7). All data the App writes is on your device for as long as you keep the App installed. In the direct-download edition, deleting <code>%LOCALAPPDATA%\CctvConverter\</code> removes everything. Uninstalling the Microsoft Store edition removes it all; the direct-download edition's uninstaller removes the caches and logs but keeps your small settings file, so a reinstall remembers your folders.</p>
 
     <h2>9. Support emails and general correspondence</h2>
     <p>If you email us directly &mdash; for example, to ask for help with the App or to report a problem &mdash; we will receive your message, including your email address and anything you choose to tell us. We use that information only to respond to you and to keep a brief record of the conversation so we can help you again later.</p>
@@ -103,7 +113,7 @@
     <p>If you would like us to delete any correspondence with us, email <a href="mailto:info@davidarthur.app">info@davidarthur.app</a> with "Delete my data" in the subject line and we will comply within 30 days.</p>
 
     <h2>10. Your rights</h2>
-    <p>Because the App does not transmit or store any of your data outside your device, we (David Arthur Software) do not hold any personal data about you in respect of using the App, and there is nothing for us to access, correct, or delete on a server.</p>
+    <p>The only records about the App that we (David Arthur Software) hold on a server are the crash reports, daily notes and offer counts described in section 7. They are linked to a random install identifier, not to your name or email address, so we cannot normally tell which records are yours, and they are deleted automatically after 400 days. If you would like us to delete the records for your install sooner, email <a href="mailto:info@davidarthur.app">info@davidarthur.app</a> and we will help.</p>
     <p>For data the App stores locally, you can:</p>
     <ul>
         <li><strong>Access / view:</strong> open <code>%LOCALAPPDATA%\CctvConverter\config.json</code> in a text editor.</li>
