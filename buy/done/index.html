@@ -53,7 +53,7 @@
 
 <div class="buy-legal">
     <p>Sold by Paddle.com, our reseller and Merchant of Record, on behalf of David Arthur Software Ltd (company 14318326).</p>
-    <p><a href="/terms/">Terms of Service</a> &middot; <a href="/privacy/">Privacy Policy</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="mailto:info@davidarthur.app">info@davidarthur.app</a></p>
+    <p><a href="/cctvconverter/terms/">Terms of Use</a> &middot; <a href="/cctvconverter/privacy/">Privacy Policy</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="mailto:info@davidarthur.app">info@davidarthur.app</a></p>
 </div>
 
 <footer class="footer">
@@ -82,7 +82,7 @@
     var MAIL = 'Questions: info@davidarthur.app';
     function say(a, b) { H.textContent = a; P.textContent = b; }
     if (!S) {   // a purchase started inside the app: the app picks the licence up itself
-        say('Thank you', 'Your CCTV Converter Pro licence is being activated now. You can close this tab and return to CCTV Converter; it updates within a minute.');
+        say('Payment received - thank you', 'Your CCTV Converter Pro licence is being activated now. You can close this tab and return to CCTV Converter; it updates within a minute.');
         return;
     }
     if (!/^[A-Za-z0-9_-]{43}$/.test(S)) { say('Purchase not found', 'Please check the link, or contact info@davidarthur.app.'); return; }
@@ -110,7 +110,7 @@
             .catch(again);
     }
     function again() {
-        if (n < 90) setTimeout(poll, 2000);
+        if (n < 60) setTimeout(poll, 3000);
         else say('Still confirming', 'Your payment is taking longer than usual. Refresh this page in a minute - your code will appear here. ' + MAIL);
     }
     poll();
