@@ -462,6 +462,7 @@
   "dvx.80": "Les crédits n'expirent jamais",
   "dvx.81": "Essayez l'une ou l'autre formule sans vous abonner.",
   "dvx.82": "Avec un abonnement, les heures Pay-As-You-Go que vous possédez déjà prennent automatiquement le relais quand vos heures mensuelles sont épuisées — même en cours de session, pour qu'un long appel continue sans interruption. Si vous n'en avez pas, trois choix vous sont proposés : acheter des heures (elles seront prêtes pour votre prochaine session), continuer en mode hors ligne gratuit pour le reste de la session (qualité inférieure, sans connexion Internet) ou terminer la session. Nous ne facturons jamais automatiquement au-delà de votre abonnement sans confirmation explicite. <a href=\"https://duovox.net/terms.html\">Voir les conditions générales</a>.",
+  "dvx.tax": "Des taxes peuvent s’appliquer et seront calculées au moment du paiement.",
   "dvx.86": "Questions fréquentes",
   "dvx.87": "Fonctionne-t-il avec deux personnes parlant des langues différentes ?",
   "dvx.88": "Oui. DuoVox utilise une transcription à deux voies avec détection automatique de la langue pour acheminer chaque interlocuteur vers sa propre voie ; vous pouvez changer de voie si nécessaire. Les paroles de chaque locuteur apparaissent dans son propre volet, et les traductions s'affichent à côté en temps réel.",

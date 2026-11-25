@@ -462,6 +462,7 @@
   "dvx.80": "Tín dụng không bao giờ hết hạn",
   "dvx.81": "Thử cả hai gói mà không cần đăng ký thuê bao.",
   "dvx.82": "Khi dùng gói đăng ký, số giờ Pay-As-You-Go bạn đang có sẽ tự động tiếp quản khi giờ hằng tháng hết — kể cả giữa phiên, nên cuộc gọi dài vẫn tiếp tục không gián đoạn. Nếu bạn không có giờ nào, bạn sẽ được đưa ra ba lựa chọn: mua giờ (sẵn sàng cho phiên tiếp theo), tiếp tục ở chế độ ngoại tuyến miễn phí trong phần còn lại của phiên (chất lượng thấp hơn, không cần internet) hoặc kết thúc phiên. Chúng tôi không bao giờ tự động tính phí vượt quá gói đăng ký của bạn khi chưa có xác nhận rõ ràng. <a href=\"https://duovox.net/terms.html\">Xem điều khoản &amp; điều kiện</a>.",
+  "dvx.tax": "Thuế có thể được áp dụng và sẽ được tính khi thanh toán.",
   "dvx.86": "Câu hỏi thường gặp",
   "dvx.87": "Nó có hoạt động khi hai người nói các ngôn ngữ khác nhau không?",
   "dvx.88": "Có. DuoVox sử dụng phiên âm hai làn với tính năng tự động nhận diện ngôn ngữ để định tuyến mỗi bên vào làn riêng của mình; bạn có thể chuyển làn nếu cần. Lời của mỗi người nói xuất hiện trong ô riêng của họ, và bản dịch hiện ra bên cạnh theo thời gian thực.",

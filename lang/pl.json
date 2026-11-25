@@ -462,6 +462,7 @@
   "dvx.80": "Kredyty nigdy nie wygasają",
   "dvx.81": "Wypróbuj dowolny plan bez subskrypcji.",
   "dvx.82": "W ramach subskrypcji godziny Pay-As-You-Go, które już masz, automatycznie przejmują pracę, gdy skończą się godziny miesięczne — nawet w trakcie sesji, więc długa rozmowa trwa bez przerwy. Jeśli ich nie masz, otrzymasz trzy możliwości: kupić godziny (będą gotowe na następną sesję), kontynuować resztę sesji w bezpłatnym trybie offline (niższa jakość, bez internetu) albo zakończyć sesję. Nigdy nie pobieramy automatycznie opłat ponad subskrypcję bez wyraźnego potwierdzenia. <a href=\"https://duovox.net/terms.html\">Zobacz regulamin</a>.",
+  "dvx.tax": "Mogą obowiązywać podatki i zostaną obliczone przy finalizacji zakupu.",
   "dvx.86": "Częste pytania",
   "dvx.87": "Czy działa, gdy dwie osoby mówią różnymi językami?",
   "dvx.88": "Tak. DuoVox korzysta z transkrypcji dwutorowej z automatycznym wykrywaniem języka, aby przypisać każdą stronę do własnego toru; w razie potrzeby możesz przełączać tory. Słowa każdego rozmówcy pojawiają się w jego własnym panelu, a tłumaczenia wyświetlają się obok w czasie rzeczywistym.",

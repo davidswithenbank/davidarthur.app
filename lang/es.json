@@ -462,6 +462,7 @@
   "dvx.80": "Los créditos nunca caducan",
   "dvx.81": "Prueba cualquiera de los dos planes sin suscribirte.",
   "dvx.82": "Con una suscripción, las horas de Pay-As-You-Go que ya tengas toman el relevo automáticamente cuando se agotan tus horas mensuales — incluso en mitad de una sesión, así que una llamada larga continúa sin interrupción. Si no tienes ninguna, se te ofrecerán tres opciones: comprar horas (estarán listas para tu próxima sesión), continuar en el modo sin conexión gratuito el resto de la sesión (menor calidad, sin necesidad de internet) o finalizar la sesión. Nunca cobramos automáticamente más allá de tu suscripción sin tu confirmación explícita. <a href=\"https://duovox.net/terms.html\">Consulta los términos &amp; condiciones</a>.",
+  "dvx.tax": "Pueden aplicarse impuestos y se calcularán al finalizar la compra.",
   "dvx.86": "Preguntas frecuentes",
   "dvx.87": "¿Funciona con dos personas hablando idiomas diferentes?",
   "dvx.88": "Sí. DuoVox utiliza transcripción de doble carril con detección automática de idioma para dirigir cada lado a su propio carril; puedes cambiar de carril si lo necesitas. Las palabras de cada interlocutor aparecen en su propio panel, y las traducciones aparecen junto a ellas en tiempo real.",

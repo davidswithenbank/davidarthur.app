@@ -462,6 +462,7 @@
   "dvx.80": "Guthaben verfällt nie",
   "dvx.81": "Probieren Sie beide Tarife ohne Abonnement aus.",
   "dvx.82": "Mit einem Abo übernehmen Pay-As-You-Go-Stunden, die Sie bereits haben, automatisch, wenn Ihre monatlichen Stunden aufgebraucht sind — auch mitten in einer Sitzung, sodass ein langes Gespräch ohne Unterbrechung weiterläuft. Haben Sie keine, werden Ihnen drei Optionen angeboten: Stunden kaufen (sie stehen für Ihre nächste Sitzung bereit), für den Rest der Sitzung im kostenlosen Offline-Modus fortfahren (geringere Qualität, kein Internet erforderlich) oder die Sitzung beenden. Wir berechnen niemals automatisch über Ihr Abonnement hinaus ohne ausdrückliche Bestätigung. <a href=\"https://duovox.net/terms.html\">Siehe Allgemeine Geschäftsbedingungen</a>.",
+  "dvx.tax": "Steuern können anfallen und werden an der Kasse berechnet.",
   "dvx.86": "Häufige Fragen",
   "dvx.87": "Funktioniert es, wenn zwei Personen verschiedene Sprachen sprechen?",
   "dvx.88": "Ja. DuoVox nutzt eine Transkription mit zwei Spuren und automatischer Spracherkennung, um jede Seite ihrer eigenen Spur zuzuordnen; bei Bedarf können Sie die Spuren wechseln. Die Worte jedes Sprechers erscheinen in einem eigenen Bereich, und die Übersetzungen werden daneben in Echtzeit angezeigt.",
