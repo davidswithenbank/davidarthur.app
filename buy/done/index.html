@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="referrer" content="no-referrer">
+    <title>CCTV Converter - your purchase | David Arthur Software</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/buy/buy.css">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+
+<nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+        <a href="/" class="nav-brand">
+            <img src="/logo.png" alt="David Arthur Software">
+            David Arthur Software
+        </a>
+        <button class="nav-toggle" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')"><span></span><span></span><span></span></button>
+        <ul class="nav-links">
+            <li><a href="/" data-i18n="nav.home">Home</a></li>
+            <li><a href="/duovox/" data-i18n="nav.duovox">DuoVox</a></li>
+            <li><a href="/quiettime/" data-i18n="nav.quiettime">QuietTime</a></li>
+            <li><a href="/cctvconverter/" data-i18n="nav.cctvconverter">CCTV Converter</a></li>
+            <li><a href="/contact/" data-i18n="footer.contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main id="main-content">
+<section class="section buy-page" aria-live="polite">
+    <h1 id="h" class="section-title">Confirming your payment</h1>
+    <p id="p">This usually takes a few seconds. Please keep this page open.</p>
+    <div id="steps" hidden>
+        <p id="what"></p>
+        <ol>
+            <li>Get CCTV Converter from the Microsoft Store (free):<br>
+                <a class="btn btn-primary" href="ms-windows-store://pdp/?productid=9P247CN4QC7L">Get CCTV Converter from the Microsoft Store</a><br>
+                <small><a href="https://apps.microsoft.com/detail/9P247CN4QC7L" rel="noopener">or open the Store page in your browser</a></small></li>
+            <li>Then activate Pro on that PC:<br>
+                <a class="btn btn-primary" id="act" href="#">Activate in CCTV Converter</a></li>
+            <li>Or enter this code in CCTV Converter: in the app's <b>Pro</b> window click <b>Have a CCTV Converter code?</b> and enter it.
+                <div class="buy-code" id="code"></div>
+                <button class="btn btn-secondary" id="copy" type="button">Copy code</button>
+                <p><small>Keep this code: it is how your purchase reaches the app. Activate it on one PC; that PC shows a code to add up to 2 more.</small></p></li>
+        </ol>
+    </div>
+</section>
+</main>
+
+<div class="buy-legal">
+    <p>Sold by Paddle.com, our reseller and Merchant of Record, on behalf of David Arthur Software Ltd (company 14318326).</p>
+    <p><a href="/terms/">Terms of Service</a> &middot; <a href="/privacy/">Privacy Policy</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="mailto:info@davidarthur.app">info@davidarthur.app</a></p>
+</div>
+
+<footer class="footer">
+    <div class="footer-inner">
+        <p class="footer-company">&copy; 2026 David Arthur Software</p>
+        <div class="footer-links">
+            <a href="/about/" data-i18n="footer.about">About us</a>
+            <a href="/duovox/" data-i18n="nav.duovox">DuoVox</a>
+            <a href="/quiettime/" data-i18n="nav.quiettime">QuietTime</a>
+            <a href="/cctvconverter/" data-i18n="nav.cctvconverter">CCTV Converter</a>
+            <a href="/privacy/" data-i18n="footer.privacy">Privacy Policy</a>
+            <a href="/terms/" data-i18n="footer.terms">Terms of Service</a>
+            <a href="/refunds/" data-i18n="footer.refunds">Refunds</a>
+            <a href="/press/" data-i18n="footer.press">Press Kit</a>
+            <a href="/contact/" data-i18n="footer.contact">Contact</a>
+        </div>
+    </div>
+</footer>
+
+<!-- No analytics beacon on this page: its URL carries a purchase secret. -->
+<script src="/i18n.js"></script>
+<script>
+(function () {
+    var H = document.getElementById('h'), P = document.getElementById('p'), n = 0;
+    var Q = new URLSearchParams(location.search), S = Q.get('c');
+    var MAIL = 'Questions: info@davidarthur.app';
+    function say(a, b) { H.textContent = a; P.textContent = b; }
+    if (!S) {   // a purchase started inside the app: the app picks the licence up itself
+        say('Thank you', 'Your CCTV Converter Pro licence is being activated now. You can close this tab and return to CCTV Converter; it updates within a minute.');
+        return;
+    }
+    if (!/^[A-Za-z0-9_-]{43}$/.test(S)) { say('Purchase not found', 'Please check the link, or contact info@davidarthur.app.'); return; }
+    function show(j) {
+        document.getElementById('steps').hidden = false;
+        document.getElementById('what').textContent = typeof j.label === 'string' ? 'You bought: ' + j.label + '.' : '';
+        document.getElementById('code').textContent = j.code;
+        document.getElementById('act').href = 'cctvconverter://activate?code=' + encodeURIComponent(j.code);
+        document.getElementById('copy').onclick = function () {
+            var b = this;
+            try { navigator.clipboard.writeText(j.code).then(function () { b.textContent = 'Copied'; }, function () {}); } catch (e) {}
+        };
+    }
+    function poll() {
+        n++;
+        fetch('https://api.duovox.net/pay/claim?c=' + encodeURIComponent(S), { cache: 'no-store', referrerPolicy: 'no-referrer' })
+            .then(function (r) { return r.json(); })
+            .then(function (j) {
+                if (j && j.status === 'paid' && typeof j.code === 'string') { say('Payment received - thank you', 'Two steps and you are ready:'); show(j); return; }
+                if (j && j.status === 'claimed' && typeof j.code === 'string') { say('Already activated', 'This purchase has been activated on a PC.'); show(j); return; }
+                if (j && j.status === 'void') { say('This purchase was refunded', 'Its code no longer works. ' + MAIL); return; }
+                if (j && j.code === 'claim_not_found') { say('Purchase not found', 'Please check the link, or contact info@davidarthur.app.'); return; }
+                again();
+            })
+            .catch(again);
+    }
+    function again() {
+        if (n < 90) setTimeout(poll, 2000);
+        else say('Still confirming', 'Your payment is taking longer than usual. Refresh this page in a minute - your code will appear here. ' + MAIL);
+    }
+    poll();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="referrer" content="no-referrer">
+    <title>Secure checkout | David Arthur Software</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/buy/buy.css">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+
+<nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+        <a href="/" class="nav-brand">
+            <img src="/logo.png" alt="David Arthur Software">
+            David Arthur Software
+        </a>
+        <button class="nav-toggle" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')"><span></span><span></span><span></span></button>
+        <ul class="nav-links">
+            <li><a href="/" data-i18n="nav.home">Home</a></li>
+            <li><a href="/duovox/" data-i18n="nav.duovox">DuoVox</a></li>
+            <li><a href="/quiettime/" data-i18n="nav.quiettime">QuietTime</a></li>
+            <li><a href="/cctvconverter/" data-i18n="nav.cctvconverter">CCTV Converter</a></li>
+            <li><a href="/contact/" data-i18n="footer.contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main id="main-content">
+<section class="section buy-page">
+    <h1 id="h" class="section-title">Opening secure checkout</h1>
+    <p id="p">Payment is handled by Paddle, our reseller. You can pay by card, PayPal, Google Pay or Apple Pay.</p>
+</section>
+</main>
+
+<div class="buy-legal">
+    <p>Sold by Paddle.com, our reseller and Merchant of Record, on behalf of David Arthur Software Ltd (company 14318326).</p>
+    <p><a href="/terms/">Terms of Service</a> &middot; <a href="/privacy/">Privacy Policy</a> &middot; <a href="/refunds/">Refunds</a> &middot; <a href="mailto:info@davidarthur.app">info@davidarthur.app</a></p>
+</div>
+
+<footer class="footer">
+    <div class="footer-inner">
+        <p class="footer-company">&copy; 2026 David Arthur Software</p>
+        <div class="footer-links">
+            <a href="/about/" data-i18n="footer.about">About us</a>
+            <a href="/duovox/" data-i18n="nav.duovox">DuoVox</a>
+            <a href="/quiettime/" data-i18n="nav.quiettime">QuietTime</a>
+            <a href="/cctvconverter/" data-i18n="nav.cctvconverter">CCTV Converter</a>
+            <a href="/privacy/" data-i18n="footer.privacy">Privacy Policy</a>
+            <a href="/terms/" data-i18n="footer.terms">Terms of Service</a>
+            <a href="/refunds/" data-i18n="footer.refunds">Refunds</a>
+            <a href="/press/" data-i18n="footer.press">Press Kit</a>
+            <a href="/contact/" data-i18n="footer.contact">Contact</a>
+        </div>
+    </div>
+</footer>
+
+<!-- No analytics beacon on this page: its URL carries a purchase secret. -->
+<script src="/i18n.js"></script>
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+<script src="https://api.duovox.net/pay/checkout.js?app=cctv"></script>
+</body>
+</html>
