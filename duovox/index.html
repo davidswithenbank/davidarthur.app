@@ -79,6 +79,10 @@
 .layout-card h3 { font-size: 1.1rem; margin-bottom: .35rem; }
 .layout-card p { color: var(--text-secondary); font-size: .9rem; line-height: 1.5; }
 @media (max-width: 700px) { .layouts-grid { grid-template-columns: 1fr; } }
+/* 23 Nov 2026 (David: the two buttons were misleading - one downloads the app, the other buys): short labels that say what each
+   does, matching duovox.net; the card button carries 'card or PayPal' small under its label. */
+.price-cta .btn-two { flex-direction: column; gap: 0.1rem; line-height: 1.15; }
+.price-cta .btn-two small { font-size: 0.74rem; font-weight: 400; opacity: 0.75; }
 </style>
 </head>
 <body>
@@ -420,7 +424,7 @@
 <!-- Pricing & Plans -->
 <section class="section" id="status">
 <h2 class="section-title" data-i18n-html="dvx.49">Plans &amp; Pricing</h2>
-<p class="section-subtitle" data-i18n-html="dvx.50">Pick the plan that fits how you talk — from free offline use to advanced AI translation for professionals. Subscriptions and Pay-As-You-Go credits are purchased in-app.<br/><small style="opacity:0.6;">Default prices in USD. UK visitors see GBP. DuoVox is not yet available in the EU or EEA. The Microsoft Store charges the equivalent in your local currency at checkout. Subscriptions renew automatically until you cancel, and you can cancel at any time.</small></p>
+<p class="section-subtitle" data-i18n-html="dvx.50">Pick the plan that fits how you talk — from free offline use to advanced AI translation for professionals. Subscriptions and Pay-As-You-Go credits are bought in the app, or by card or PayPal on duovox.net.<br/><small style="opacity:0.6;">Default prices in USD. UK visitors see GBP. DuoVox is not yet available in the EU or EEA. At checkout the Microsoft Store, or Paddle if you pay by card or PayPal on duovox.net, charges the equivalent in your local currency. Subscriptions renew automatically until you cancel, and you can cancel at any time.</small></p>
 <div class="pricing-grid four-col">
 <!-- Free -->
 <div class="price-card">
@@ -436,7 +440,7 @@
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.57">No account needed.</p>
 <div class="price-cta">
-<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="cta.ms_get">Get it on the Microsoft Store</a>
+<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
 </div>
 </div>
 <!-- Standard -->
@@ -455,7 +459,8 @@
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.65">Best if you use it 10+ hours per month.</p>
 <div class="price-cta">
-<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="cta.ms_get">Get it on the Microsoft Store</a>
+<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
+<a href="https://duovox.net/buy.html#plans" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.plan">Buy this plan</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 </div>
 <!-- Professional -->
@@ -476,7 +481,8 @@
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.75">Best if you use it 28+ hours per month.</p>
 <div class="price-cta">
-<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="cta.ms_get">Get it on the Microsoft Store</a>
+<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
+<a href="https://duovox.net/buy.html#plans" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.plan">Buy this plan</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 </div>
 <!-- Pay-As-You-Go -->
@@ -494,7 +500,8 @@
 </ul>
 <p class="cta-micro" data-i18n-html="dvx.81">Try either tier without subscribing.</p>
 <div class="price-cta">
-<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="cta.ms_get">Get it on the Microsoft Store</a>
+<a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
+<a href="https://duovox.net/buy.html#hours" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.hours">Buy hours</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 </div>
 </div>
@@ -519,7 +526,7 @@
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="dvx.89" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Is my audio stored or used for training?</button>
 <div class="faq-answer">
-<p data-i18n-html="dvx.90">Audio is processed in real time and is not stored by us; on paid tiers it is streamed to our AI providers for real-time processing only, under their own terms and privacy policies. Providers may keep limited operational logs under their own privacy policies, which can change without notice. On the Free tier, all processing happens entirely on your device.</p>
+<p data-i18n-html="dvx.90">Audio is processed in real time and is not stored by us; on paid tiers it is streamed to our AI providers for real-time processing only, under their own terms and privacy policies. Providers may keep limited operational logs under their own privacy policies, which can change without notice. In Free offline mode, all processing happens entirely on your device.</p>
 </div>
 </div>
 <div class="faq-item">
@@ -543,7 +550,7 @@
 <div class="faq-item">
 <button aria-expanded="false" class="faq-question" data-i18n-html="dvx.97" onclick="this.parentElement.classList.toggle('open');this.setAttribute('aria-expanded',this.parentElement.classList.contains('open'))">Do I need to create an account?</button>
 <div class="faq-answer">
-<p data-i18n-html="dvx.98b">No. DuoVox works without accounts or sign-ups. Download the app and start using it immediately. Subscriptions are managed through the Microsoft Store.</p>
+<p data-i18n-html="dvx.98b">No. DuoVox works without accounts or sign-ups. Download the app and start using it immediately. Plans and hours are bought in the app through the Microsoft Store, or on duovox.net by card or PayPal.</p>
 </div>
 </div>
 </div>
