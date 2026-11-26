@@ -109,8 +109,21 @@
     return sel;
   }
 
+  // 26 Nov 2026: <template> contents too (the special-offer wording that offers.js reads on /duovox/)
+  function all(sel) {
+    var out = [].slice.call(document.querySelectorAll(sel));
+    [].forEach.call(document.querySelectorAll('template'), function (tp) {
+      if (tp.content) out = out.concat([].slice.call(tp.content.querySelectorAll(sel)));
+    });
+    return out;
+  }
+  // tells offers.js (and anything else) that the page's words are now in this language
+  function applied(code) {
+    try { document.dispatchEvent(new CustomEvent('i18n-applied', { detail: { lang: code } })); } catch (e) { }
+  }
+
   function apply(t) {
-    document.querySelectorAll('[data-i18n]').forEach(function (el) {
+    all('[data-i18n]').forEach(function (el) {
       var k = el.getAttribute('data-i18n');
       if (!el.hasAttribute('data-t')) el.setAttribute('data-t', el.textContent);
       if (t[k] != null) el.textContent = t[k];
@@ -123,7 +136,7 @@
   }
 
   function restore() {
-    document.querySelectorAll('[data-i18n]').forEach(function (el) {
+    all('[data-i18n]').forEach(function (el) {
       var d = el.getAttribute('data-t');
       if (d != null) el.textContent = d;
     });
@@ -138,12 +151,12 @@
     document.documentElement.lang = code;
     document.documentElement.dir = RTL[code] ? 'rtl' : 'ltr';
 
-    if (code === 'en') { restore(); applyCurr(getCurrCode(code)); return; }
-    if (cache[code]) { apply(cache[code]); applyCurr(getCurrCode(code)); return; }
+    if (code === 'en') { restore(); applyCurr(getCurrCode(code)); applied(code); return; }
+    if (cache[code]) { apply(cache[code]); applyCurr(getCurrCode(code)); applied(code); return; }
 
     fetch('/lang/' + code + '.json')
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (j) { cache[code] = j; apply(j); applyCurr(getCurrCode(code)); })
+      .then(function (j) { cache[code] = j; apply(j); applyCurr(getCurrCode(code)); applied(code); })
       .catch(function (e) { console.warn('i18n: ' + code, e); });
   }
 
