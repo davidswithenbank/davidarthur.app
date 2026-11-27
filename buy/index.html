@@ -7,7 +7,7 @@
     <meta name="referrer" content="no-referrer">
     <title>Secure checkout | David Arthur Software</title>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/buy/buy.css">
+    <link rel="stylesheet" href="/buy/buy.css?v=2">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 </head>
 <body>
@@ -31,9 +31,22 @@
 </nav>
 
 <main id="main-content">
-<section class="section buy-page">
-    <h1 id="h" class="section-title">Opening secure checkout</h1>
-    <p id="p">Payment is handled by Paddle, our reseller. You can pay by card, PayPal, Google Pay or Apple Pay.</p>
+<section class="pay-wrap">
+    <div class="pay-box">
+        <aside class="pay-side">
+            <div class="pay-brand"><img src="/logo.png" alt="" width="36" height="36"><strong>David Arthur Software</strong></div>
+            <span class="pay-secure">Secure checkout by Paddle</span>
+            <div class="pay-order">
+                <div class="pay-prod"><img src="/cctvconverter-icon.png" alt="" width="40" height="40"><div><strong id="item">CCTV Converter Pro</strong><span id="sub"></span></div></div>
+                <div class="pay-total" id="total"></div>
+            </div>
+            <p class="pay-tax">Taxes may apply and will be calculated at checkout.</p>
+            <h1 id="h" class="pay-status">Opening secure checkout</h1>
+            <p id="p" class="pay-note">Payment is handled by Paddle, our reseller. You can pay by card, PayPal, Google Pay or Apple Pay.</p>
+            <p class="pay-back"><a href="/cctvconverter/#pro">Back to the prices</a></p>
+        </aside>
+        <div class="dvx-pay"></div>
+    </div>
 </section>
 </main>
 
@@ -62,6 +75,24 @@
 <!-- No analytics beacon on this page: its URL carries a purchase secret. -->
 <script src="/i18n.js"></script>
 <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
-<script src="https://api.duovox.net/pay/checkout.js?app=cctv"></script>
+<script src="https://api.duovox.net/pay/checkout.js?app=cctv" data-frame="dvx-pay"></script>
+<script>
+// The order line: what Paddle says is being bought and the real total (with tax, in the buyer's currency).
+window.addEventListener('cctv-checkout', function (e) {
+    var d = e.detail || {}, x = d.data || {};
+    try {
+        var it = x.items && x.items[0];
+        if (it) {
+            var n = (it.product && it.product.name) || '', pn = it.price_name || '';
+            if (n) document.getElementById('item').textContent = n;
+            if (pn) document.getElementById('sub').textContent = pn;
+        }
+        var tt = x.totals, c = x.currency_code;
+        if (tt && typeof tt.total === 'number' && c)
+            document.getElementById('total').textContent = new Intl.NumberFormat(document.documentElement.lang || 'en', { style: 'currency', currency: c }).format(tt.total);
+    } catch (err) { /* the form itself shows the amount */ }
+    if (d.name === 'checkout.loaded') { document.getElementById('h').hidden = true; document.getElementById('p').hidden = true; }
+});
+</script>
 </body>
 </html>

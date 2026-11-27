@@ -9,3 +9,26 @@
 .buy-legal { max-width: 720px; margin: 2rem auto 1rem; padding: 0 16px; text-align: center; font-size: 0.85rem; color: var(--text-secondary); }
 .buy-legal p { margin: 0.3rem 0; }
 .buy-legal a { color: var(--text-secondary); }
+
+/* /buy/ (27 Nov 2026, David: the same themed checkout as DuoVox, with this site's logo and colours): our details on the left,
+   Paddle's payment form INLINE on the right (checkout.js?app=cctv data-frame="dvx-pay"), wide, no scrolling. */
+.pay-wrap { padding: 84px 12px 8px; }
+.pay-box { max-width: 960px; margin: 0 auto; display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 1.5rem; align-items: start;
+    padding: 1rem 1.2rem; border: 1px solid var(--border); border-radius: 20px; background: var(--bg-card); }
+.pay-brand { display: flex; align-items: center; gap: 0.55rem; font-size: 1.15rem; margin-bottom: 0.7rem; }
+.pay-brand img { border-radius: 9px; }
+.pay-secure { display: inline-block; font-size: 0.78rem; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 999px; padding: 0.25rem 0.7rem; }
+.pay-secure::before { content: "F512"; margin-right: 0.35rem; font-size: 0.8em; }
+.pay-order { margin-top: 0.9rem; padding: 0.85rem 1rem; border-radius: 14px; border: 1px solid var(--accent-light); background: rgba(255,255,255,0.03); }
+.pay-prod { display: flex; align-items: center; gap: 0.65rem; }
+.pay-prod img { border-radius: 10px; flex: none; }
+.pay-prod strong { display: block; }
+.pay-prod span { color: var(--text-muted); font-size: 0.84rem; }
+.pay-total { font-size: 1.5rem; font-weight: 800; margin-top: 0.5rem; }
+.pay-total:empty { display: none; }
+.pay-tax { color: var(--text-muted); font-size: 0.78rem; margin: 0.4rem 0 0.9rem; }
+.pay-status { font-size: 1.05rem; margin: 0 0 0.3rem; text-align: left; }
+.pay-note { color: var(--text-secondary); font-size: 0.86rem; line-height: 1.5; margin: 0 0 0.8rem; }
+.pay-back a { color: var(--accent-light); font-size: 0.9rem; }
+.dvx-pay { min-height: 120px; }
+@media (max-width: 820px) { .pay-box { grid-template-columns: minmax(0, 1fr); gap: 0.8rem; } .pay-wrap { padding-top: 76px; } }
