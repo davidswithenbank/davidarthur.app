@@ -226,24 +226,24 @@
 <div class="pricing-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top:1.5rem;">
 <div class="price-card">
 <h3 data-i18n-html="cctv.home.105">Monthly</h3>
-<div class="price-amount" style="font-size:1.7rem;" data-i18n-html="cctv.home.106">£2.49 a month</div>
-<p class="price-period" data-i18n-html="cctv.home.107">7-day free trial, then £2.49 a month · cancel any time</p>
+<div class="price-amount" style="font-size:1.7rem;" data-product="cctv_pro_monthly" data-i18n-html="cctv.home.106">£2.49 a month</div>
+<p class="price-period" data-product="cctv_pro_monthly" data-i18n-html="cctv.home.107">7-day free trial, then £2.49 a month · cancel any time</p>
 <a class="btn btn-primary btn-two tile-buy" href="https://api.duovox.net/cctv/buy/cctv_pro_monthly" rel="nofollow"><span data-i18n="buy.btn">Buy now</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 <div class="price-card">
 <h3 data-i18n-html="cctv.home.108">Yearly</h3>
-<div class="price-amount" style="font-size:1.7rem;" data-i18n-html="cctv.home.109">£19.99 a year</div>
+<div class="price-amount" style="font-size:1.7rem;" data-product="cctv_pro_yearly" data-i18n-html="cctv.home.109">£19.99 a year</div>
 <p class="price-period" data-i18n-html="cctv.home.110">Cancel any time</p>
 <a class="btn btn-primary btn-two tile-buy" href="https://api.duovox.net/cctv/buy/cctv_pro_yearly" rel="nofollow"><span data-i18n="buy.btn">Buy now</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 <div class="price-card">
 <h3 data-i18n-html="cctv.home.111">Lifetime</h3>
-<div class="price-amount" style="font-size:1.7rem;" data-i18n-html="cctv.home.112">£39.99 once</div>
+<div class="price-amount" style="font-size:1.7rem;" data-product="cctv_pro_lifetime" data-i18n-html="cctv.home.112">£39.99 once</div>
 <p class="price-period" data-i18n-html="cctv.home.113">One payment · no renewals</p>
 <a class="btn btn-primary btn-two tile-buy" href="https://api.duovox.net/cctv/buy/cctv_pro_lifetime" rel="nofollow"><span data-i18n="buy.btn">Buy now</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 </div>
-<p class="pricing-footnote" data-i18n-html="cctv.home.114">UK prices, including VAT. In other countries the Microsoft Store shows the price in your currency. You can also pay by card or PayPal: at the same prices in the UK, or US$2.49 a month, US$19.99 a year or US$39.99 once in other countries. Taxes may apply and will be calculated at checkout. Monthly and yearly plans renew automatically until you cancel.</p>
+<p class="pricing-footnote" data-product="cctv_pro_monthly cctv_pro_yearly cctv_pro_lifetime" data-i18n-html="cctv.home.114">UK prices, including VAT. In other countries the Microsoft Store shows the price in your currency. You can also pay by card or PayPal: at the same prices in the UK, or US$2.49 a month, US$19.99 a year or US$39.99 once in other countries. Taxes may apply and will be calculated at checkout. Monthly and yearly plans renew automatically until you cancel.</p>
 <div style="text-align:center; margin-top:1.5rem;"><div class="store-badges"><a class="store-badge store-badge--ms" href="https://apps.microsoft.com/detail/9P247CN4QC7L" rel="noopener" target="_blank"><img src="/img/badges/microsoft-store-badge.svg" alt="Get it from Microsoft Store" width="190" height="52"/></a></div></div>
 <!-- Card / PayPal (Paddle): each price tile above has its own Buy now button (27 Nov 2026) -->
 <p class="cta-micro" style="max-width:760px; margin:0.8rem auto 0; text-align:center;" data-i18n-html="cctv.home.121">Payment is handled by Paddle, our online reseller. After paying you get a CCTV Converter code: in the app's Pro window click <em>Have a CCTV Converter code?</em> and enter it. One purchase works on up to 3 of your PCs. Card and PayPal payment isn't offered in every country; where it isn't, use the Microsoft Store.</p>
@@ -358,5 +358,6 @@
 <script src="/i18n.js"></script>
 <!-- Cloudflare Web Analytics --><script data-cf-beacon='{"token": "631d459d6ef1465193aa1acf32e089aa"}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js"></script><!-- End Cloudflare Web Analytics -->
 <script src="/store-click.js" defer></script>
+<script src="https://duovox.net/prices.js?v=3" defer></script>
 </body>
 </html>
