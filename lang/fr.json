@@ -1417,5 +1417,6 @@
     "home.pricing.tax": "Des taxes peuvent s’appliquer et seront calculées au moment du paiement.",
     "pay.opt.6month": "6 mois",
     "pay.opt.annual": "Annuel",
-    "pay.opt.monthly": "Mensuel"
+    "pay.opt.monthly": "Mensuel",
+    "home.cmp.showall": "Afficher la comparaison complète"
 }

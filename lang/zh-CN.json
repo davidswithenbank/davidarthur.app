@@ -1417,5 +1417,6 @@
     "home.pricing.tax": "可能会收取税费，并将在结账时计算。",
     "pay.opt.6month": "6 个月",
     "pay.opt.annual": "年付",
-    "pay.opt.monthly": "月付"
+    "pay.opt.monthly": "月付",
+    "home.cmp.showall": "显示完整对比"
 }

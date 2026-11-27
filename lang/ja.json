@@ -1417,5 +1417,6 @@
     "home.pricing.tax": "税金が適用される場合があり、購入手続き時に計算されます。",
     "pay.opt.6month": "6か月",
     "pay.opt.annual": "年額",
-    "pay.opt.monthly": "月額"
+    "pay.opt.monthly": "月額",
+    "home.cmp.showall": "比較の全文を表示"
 }

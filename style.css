@@ -1543,3 +1543,57 @@ a:focus-visible,
 [dir="rtl"] .footer-links { flex-direction: row-reverse; }
 [dir="rtl"] .feature-card { text-align: right; }
 [dir="rtl"] .hero { text-align: right; }
+
+/* ══ Compact layer (27 Nov 2026, David: the same tidy as duovox.net - "everything just seems really big and spread out").
+   Site-wide: tighter spacing and type on every product page. Delete this block to get the old spacing back. ══ */
+.section { padding: 44px 1.25rem; }
+.section-title { font-size: 1.6rem; margin-bottom: 1.5rem; }
+.section-subtitle { font-size: 0.95rem; margin-top: -0.9rem; margin-bottom: 1.3rem; }
+.product-hero { padding-top: 92px; padding-bottom: 22px; }
+.product-hero .hero-icon { width: 84px; height: 84px; margin-bottom: 0.6rem; }
+.features-grid { gap: 0.9rem; }
+.feature-card { padding: 1.1rem 1.2rem; }
+.feature-icon { font-size: 1.5rem; margin-bottom: 0.4rem; }
+.feature-card h3 { font-size: 1.02rem; margin-bottom: 0.3rem; }
+.feature-card p { font-size: 0.88rem; line-height: 1.5; }
+.pricing-grid { gap: 0.9rem; }
+.price-card { padding: 1.3rem 1.05rem 1.1rem; }
+.price-card h3 { font-size: 1.12rem; }
+.price-amount { font-size: 1.9rem; margin: 0.35rem 0 0.1rem; }
+.price-period { font-size: 0.84rem; margin-bottom: 0.4rem; }
+.price-features { margin-bottom: 1rem; }
+.price-features li { padding: 0.18rem 0; font-size: 0.85rem; line-height: 1.4; }
+.pricing-footnote { font-size: 0.82rem; }
+.steps-grid, .steps { gap: 0.9rem; }
+.step-card, .step { padding: 1.1rem 1rem; }
+.step-card h3, .step h3 { font-size: 0.98rem; margin-bottom: 0.3rem; }
+.step-card p, .step p { font-size: 0.86rem; line-height: 1.5; }
+.audience-grid { gap: 0.9rem; }
+.audience-card { padding: 1.1rem 0.95rem; display: flex; flex-direction: column; align-items: center; }
+.audience-card .audience-plan { margin-top: auto; }   /* the plan labels level along the row */
+.audience-icon { font-size: 1.6rem; margin-bottom: 0.4rem; }
+.audience-card h3 { font-size: 1rem; margin-bottom: 0.3rem; }
+.audience-card p { font-size: 0.85rem; line-height: 1.5; margin-bottom: 0.7rem; }
+.comparison-table th, .comparison-table td { padding-top: 0.5rem; padding-bottom: 0.5rem; font-size: 0.86rem; line-height: 1.3; }
+.comparison-table tr.cmp-more { display: table-row; }
+.comparison-table.cmp-short tr.cmp-more { display: none; }
+.cmp-showall { text-align: center; margin: 0.9rem 0 0; }
+.cmp-showall .btn { padding: 0.5rem 1.1rem; font-size: 0.9rem; }
+.faq-item { margin-bottom: 0.55rem; }
+.faq-question { padding-top: 0.85rem; padding-bottom: 0.85rem; font-size: 0.97rem; }
+.disclaimer-box { padding: 1.1rem 1.3rem; }
+.trust-badges { padding-top: 0.2rem; padding-bottom: 1rem; }
+.price-badge { white-space: nowrap; }
+
+/* David, 27 Nov: the plan cards LEVEL - the four cards share the same rows (name, price, period, best-for, features, note,
+   buttons), so every price, feature list and button starts at the same height whatever wraps. */
+@supports (grid-template-rows: subgrid) {
+    .pricing-grid.four-col > .price-card { display: grid; grid-template-rows: subgrid; grid-row: span 7; row-gap: 0; }
+    .pricing-grid.four-col > .price-card > .price-badge { position: absolute; }
+    .pricing-grid.four-col > .price-card > .price-cta { align-self: start; }
+    .pricing-grid.four-col > .price-card > .cta-micro { align-self: end; margin-bottom: 0.6rem; }
+}
+.price-cta { display: flex; flex-direction: column; align-items: stretch; }
+.price-cta .btn { justify-content: center; text-align: center; }
+/* the pop-up (duovox.net/quickbuy.css) in this site's own colours: its buttons are the site's buttons */
+.qb .btn { display: inline-flex; align-items: center; text-decoration: none; }

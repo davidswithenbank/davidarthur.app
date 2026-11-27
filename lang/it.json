@@ -1417,5 +1417,6 @@
     "home.pricing.tax": "Potrebbero essere applicate imposte, che saranno calcolate al momento del pagamento.",
     "pay.opt.6month": "6 mesi",
     "pay.opt.annual": "Annuale",
-    "pay.opt.monthly": "Mensile"
+    "pay.opt.monthly": "Mensile",
+    "home.cmp.showall": "Mostra il confronto completo"
 }

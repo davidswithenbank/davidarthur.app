@@ -1417,5 +1417,6 @@
     "home.pricing.tax": "อาจมีการคิดภาษีและจะคำนวณในขั้นตอนชำระเงิน",
     "pay.opt.6month": "6 เดือน",
     "pay.opt.annual": "รายปี",
-    "pay.opt.monthly": "รายเดือน"
+    "pay.opt.monthly": "รายเดือน",
+    "home.cmp.showall": "แสดงการเปรียบเทียบทั้งหมด"
 }

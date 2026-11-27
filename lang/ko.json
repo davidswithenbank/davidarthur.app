@@ -1417,5 +1417,6 @@
     "home.pricing.tax": "세금이 적용될 수 있으며 결제 시 계산됩니다.",
     "pay.opt.6month": "6개월",
     "pay.opt.annual": "연간",
-    "pay.opt.monthly": "월간"
+    "pay.opt.monthly": "월간",
+    "home.cmp.showall": "전체 비교 보기"
 }
