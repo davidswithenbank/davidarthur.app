@@ -152,8 +152,42 @@
         .price-card { display: flex; flex-direction: column; }
         .price-card .tile-buy { margin-top: auto; }
         .price-card .price-period { margin-bottom: 0.9rem; }
+
+        /* 27 Nov 2026 (David: make the home page SELL - the editor, hiding faces, six cameras) */
+        .cs-hero .cs-lead { font-size: 1.35rem; color: var(--text-primary); font-weight: 600; }
+        .cs-cta { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; align-items: center; margin-top: 1.4rem; }
+        .cs-cta .store-badges { margin: 0; }
+        .cs-cta .btn { padding: 12px 22px; }
+        .cs-shot { max-width: 1040px; margin: 2rem auto 0; padding: 0 12px; }
+        .cs-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; max-width: 1080px; margin: 0 auto; }
+        .cs-card { position: relative; background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 1.15rem 1.2rem 1.2rem; }
+        .cs-card h3 { font-size: 1.05rem; margin: 0.55rem 0 0.35rem; }
+        .cs-card p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.55; margin: 0; }
+        .cs-pro { border-color: rgba(155, 89, 182, 0.45); background: linear-gradient(180deg, rgba(155, 89, 182, 0.10), var(--bg-card) 55%); }
+        .cs-ico { font-size: 1.6rem; line-height: 1; }
+        .cs-tier { display: inline-block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+            padding: 3px 9px; border-radius: 20px; border: 1px solid var(--border); color: var(--text-secondary); }
+        .cs-card .cs-tier { position: absolute; top: 14px; right: 14px; }
+        .cs-pro .cs-tier, .cs-tier-pro { border: none; color: #fff; background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end)); }
+        .cs-row { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 2.2rem; align-items: center; max-width: 1080px; margin: 0 auto 3rem; }
+        .cs-flip { grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); }
+        .cs-flip .cs-row-img { order: 2; }
+        .cs-row-text h3 { font-size: 1.45rem; margin: 0.6rem 0 0.5rem; }
+        .cs-row-text p { color: var(--text-secondary); line-height: 1.65; margin: 0; }
+        .cs-list { margin: 0.9rem 0 0; padding-left: 1.2rem; color: var(--text-secondary); line-height: 1.7; }
+        .cs-shot .desktop-frame img, .cs-row .desktop-frame img { height: auto; }
+        .cs-narrow { max-width: 420px; justify-self: center; }
+        .cs-plain { width: 100%; height: auto; display: block; border-radius: 12px; box-shadow: 0 16px 48px rgba(0,0,0,0.4); }
+        .cs-panel { max-width: 440px; margin-left: auto; margin-right: auto; }
+        @media (max-width: 900px) { .cs-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+        @media (max-width: 760px) {
+            .cs-row, .cs-flip { grid-template-columns: minmax(0, 1fr); gap: 1.1rem; margin-bottom: 2.4rem; }
+            .cs-flip .cs-row-img { order: 0; }
+        }
+        @media (max-width: 560px) { .cs-grid { grid-template-columns: minmax(0, 1fr); } .cs-hero .cs-lead { font-size: 1.15rem; } }
 </style>
 <link rel="canonical" href="https://davidarthur.app/cctvconverter/">
+<style>.site-offer{display:flex;flex-direction:column;align-items:center;margin:0 auto 2rem;padding:0 16px;max-width:100%}.site-offer[hidden]{display:none}.site-offer .oc-web,.site-offer .oc-app{max-width:100%}.site-offer-out{margin:2.5rem auto}.site-offer-row{flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;gap:24px}.site-offer-pair:not(.site-offer-row){gap:24px}</style>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to content</a>
@@ -174,81 +208,67 @@
 </ul>
 </div>
 </nav>
-<!-- Hero -->
-<section class="product-hero" id="main-content">
+<!-- Hero (27 Nov 2026, David: sell what CCTV Converter can DO - the editor, hiding faces, six cameras - not only converting) -->
+<section class="product-hero cs-hero" id="main-content">
 <img alt="CCTV Converter" class="hero-icon" src="/cctvconverter-icon.png"/>
 <h1 class="hero" style="padding:0; margin:0;">CCTV Converter</h1>
-<p class="subtitle" data-i18n-html="cctv.home.1" style="margin-top:0.5rem;">Convert and view your Chinese CCTV camera files.</p>
-<span class="tagline-badge" data-i18n-html="cctv.home.2">Free to play and convert • Optional Pro • No ads • No accounts • Works offline • 16 languages</span>
-<p class="tagline" data-i18n-html="cctv.home.3" style="margin-top:1.5rem;">Most Chinese DVRs save footage in proprietary formats that no normal player will open. CCTV Converter detects the format and converts to standard MP4 in parallel for big batches, optionally burning a date/time clock into the video — all on your own machine, in your language. New in v2.3: CCTV Converter Pro, an optional upgrade for the advanced tools. Playing and converting stay free.</p>
-<div class="store-badges" style="margin-top:1.5rem;"><a class="store-badge store-badge--ms" href="https://apps.microsoft.com/detail/9P247CN4QC7L" rel="noopener" target="_blank"><img src="/img/badges/microsoft-store-badge.svg" alt="Get it from Microsoft Store" width="190" height="52"/></a></div>
-<div class="btn-group" style="margin-top:1rem;"><a class="btn btn-secondary" data-i18n-html="cctv.home.98" href="/cctvconverter/features/">See every feature and screenshot →</a></div>
+<p class="subtitle cs-lead" data-i18n-html="cctv.sell.1" style="margin-top:0.5rem;">Open, fix and share your CCTV footage &mdash; on your own PC.</p>
+<p class="tagline" data-i18n-html="cctv.sell.2" style="margin-top:1rem;">Play the files your DVR saves, turn them into MP4 in seconds, then trim, brighten, zoom in, hide faces and line up every camera. Playing, converting and everyday editing are free; CCTV Converter Pro adds the advanced tools.</p>
+<div class="cs-cta">
+<div class="store-badges"><a class="store-badge store-badge--ms" href="https://apps.microsoft.com/detail/9P247CN4QC7L" rel="noopener" target="_blank"><img src="/img/badges/microsoft-store-badge.svg" alt="Get it from Microsoft Store" width="190" height="52"/></a></div>
+<a class="btn btn-secondary" href="#tour" data-i18n-html="cctv.sell.3">See it in action &darr;</a>
+<a class="btn btn-secondary" href="#pro" data-i18n-html="cctv.sell.4">Prices</a>
+</div>
+<span class="tagline-badge" data-i18n-html="cctv.home.2" style="margin-top:1.2rem;">Free to play and convert • Optional Pro • No ads • No accounts • Works offline • 16 languages</span>
+<div class="cs-shot"><div class="desktop-frame"><img alt="CCTV Converter's editor: a night-time pool camera with looks, brightness and contrast controls, a filmstrip and the trim range" src="img/v23-editor.webp" width="1366" height="676" fetchpriority="high"/></div></div>
 </section>
 <!-- Trust Badges -->
 <section class="trust-badges">
 <div class="badge-row">
-<div class="trust-badge">
-<span class="trust-icon">🔒</span>
-<span data-i18n-html="cctv.home.5">No accounts</span>
-</div>
-<div class="trust-badge">
-<span class="trust-icon">⚡</span>
-<span data-i18n-html="cctv.home.6">Works offline</span>
-</div>
-<div class="trust-badge">
-<span class="trust-icon">🚫</span>
-<span data-i18n-html="cctv.home.7">No tracking</span>
-</div>
-<div class="trust-badge">
-<span class="trust-icon">💻</span>
-<span data-i18n-html="cctv.home.8">Windows 10 / 11</span>
-</div>
-<div class="trust-badge">
-<span class="trust-icon">🌐</span>
-<span data-i18n-html="cctv.home.9">16 languages</span>
-</div>
+<div class="trust-badge"><span class="trust-icon">🔒</span><span data-i18n-html="cctv.home.5">No accounts</span></div>
+<div class="trust-badge"><span class="trust-icon">⚡</span><span data-i18n-html="cctv.home.6">Works offline</span></div>
+<div class="trust-badge"><span class="trust-icon">🛡️</span><span data-i18n-html="cctv.sell.5">Footage never uploaded</span></div>
+<div class="trust-badge"><span class="trust-icon">💻</span><span data-i18n-html="cctv.home.8">Windows 10 / 11</span></div>
+<div class="trust-badge"><span class="trust-icon">🌐</span><span data-i18n-html="cctv.home.9">16 languages</span></div>
 </div>
 </section>
-<!-- New in 2.3: CCTV Converter Pro -->
-<section class="section" id="pro" style="padding-top: 1rem;">
-<h2 class="section-title" data-i18n-html="cctv.home.99">New in Version 2.3: CCTV Converter Pro</h2>
-<p class="section-subtitle" style="max-width:760px; margin: 0 auto 2rem;" data-i18n-html="cctv.home.100">Playing, converting and splitting your footage, saving plain clips and snapshots, and the picture adjustments stay free. CCTV Converter Pro is an optional upgrade that adds the advanced tools. Everything still runs on your own PC, and your footage is never uploaded.</p>
-<div class="pricing-grid">
-<div class="price-card">
-<h3 data-i18n-html="cctv.home.101">Free</h3>
-<ul class="price-features" style="margin-bottom:0;" data-i18n-html="cctv.home.102"><li>Play and convert 20+ CCTV formats to MP4</li><li>Split, join and merge recordings</li><li>Save plain clips and snapshots</li><li>Picture adjustments, looks and noise reduction</li><li>Date/time burn-in, batch conversion and watch folder</li></ul>
+<!-- Everything in one app -->
+<section class="section" id="features" style="padding-top:1.5rem;">
+<h2 class="section-title" data-i18n-html="cctv.sell.10">Everything your footage needs, in one app</h2>
+<p class="section-subtitle" data-i18n-html="cctv.sell.11" style="max-width:720px; margin: 0 auto 2rem;">From a card full of files no player will open, to clear, edited clips you can send to anyone.</p>
+<div class="cs-grid">
+<div class="cs-card"><span class="cs-ico">🎞️</span><span class="cs-tier" data-i18n="cctv.sell.free">Free</span><h3 data-i18n-html="cctv.sell.20">Plays 20+ CCTV formats</h3><p data-i18n-html="cctv.sell.21">Xiongmai .ps, Dahua .dav, Hikvision, raw H.264 / H.265 and more &mdash; recognised from the file itself, not its name.</p></div>
+<div class="cs-card"><span class="cs-ico">⚡</span><span class="cs-tier" data-i18n="cctv.sell.free">Free</span><h3 data-i18n-html="cctv.sell.22">Fast, lossless conversion</h3><p data-i18n-html="cctv.sell.23">MP4 with no quality loss where possible, up to 16 files at once, GPU encoding on NVIDIA, Intel and AMD, and a watch folder that converts new files by itself.</p></div>
+<div class="cs-card"><span class="cs-ico">✂️</span><span class="cs-tier" data-i18n="cctv.sell.free">Free</span><h3 data-i18n-html="cctv.sell.24">A real video editor</h3><p data-i18n-html="cctv.sell.25">Trim, cut out the parts you don't need, crop and zoom in, rotate, change the speed from 0.5&times; to 8&times;, and burn in the date and time or a reference number.</p></div>
+<div class="cs-card"><span class="cs-ico">🌙</span><span class="cs-tier" data-i18n="cctv.sell.free">Free</span><h3 data-i18n-html="cctv.sell.26">Fix dark, grainy footage</h3><p data-i18n-html="cctv.sell.27">One-tap looks &mdash; Night, Bright, Clarify, Vivid, B&amp;W &mdash; plus brightness, contrast, gamma, sharpness, noise reduction and deinterlace.</p></div>
+<div class="cs-card cs-pro"><span class="cs-ico">🙈</span><span class="cs-tier" data-i18n="cctv.sell.pro">Pro</span><h3 data-i18n-html="cctv.sell.28">Hide faces and areas</h3><p data-i18n-html="cctv.sell.29">Black out, pixelate or blur faces and any area you mark. Face detection runs on your PC, and tracking keeps the box on a moving area.</p></div>
+<div class="cs-card cs-pro"><span class="cs-ico">🎥</span><span class="cs-tier" data-i18n="cctv.sell.pro">Pro</span><h3 data-i18n-html="cctv.sell.30">Six cameras in sync</h3><p data-i18n-html="cctv.sell.31">Watch up to six cameras side by side, line them up to the second, snapshot every view and export one combined video.</p></div>
+<div class="cs-card cs-pro"><span class="cs-ico">🔍</span><span class="cs-tier" data-i18n="cctv.sell.pro">Pro</span><h3 data-i18n-html="cctv.sell.32">Find what happened, fast</h3><p data-i18n-html="cctv.sell.33">Motion search and motion highlights jump straight to the moments that matter, and the whole-day timeline plays a day as one video.</p></div>
+<div class="cs-card cs-pro"><span class="cs-ico">📤</span><span class="cs-tier" data-i18n="cctv.sell.pro">Pro</span><h3 data-i18n-html="cctv.sell.34">Share it anywhere</h3><p data-i18n-html="cctv.sell.35">Animated GIFs, an email-size copy (under 25&nbsp;MB) and a phone / WhatsApp copy (under 16&nbsp;MB, 720p) in one click.</p></div>
+<div class="cs-card cs-pro"><span class="cs-ico">🧾</span><span class="cs-tier" data-i18n="cctv.sell.pro">Pro</span><h3 data-i18n-html="cctv.sell.36">Reports you can hand over</h3><p data-i18n-html="cctv.sell.37">File integrity reports with SHA-256 checksums, and handover packages with the original, the edited copy and a list of every change. Your originals are never modified.</p></div>
 </div>
-<div class="price-card featured">
-<h3 data-i18n-html="cctv.home.103">Pro</h3>
-<ul class="price-features" style="margin-bottom:0;" data-i18n-html="cctv.home.104"><li>Hide faces and areas, with automatic tracking</li><li>Multi-camera view and synchronised composite export</li><li>File integrity reports and handover packages</li><li>GIF, email-size and phone/WhatsApp exports</li><li>Motion highlights and motion search</li><li>The whole-day timeline</li></ul>
+<p style="text-align:center; margin-top:1.5rem;"><a class="store-link" href="/cctvconverter/features/" data-i18n-html="cctv.home.98">See every feature and screenshot →</a></p>
+</section>
+<!-- Tour -->
+<section class="section" id="tour">
+<h2 class="section-title" data-i18n-html="cctv.home.33">See It in Action</h2>
+<p class="section-subtitle" data-i18n-html="cctv.home.34" style="max-width:760px; margin: 0 auto 2.5rem;">From a card full of unplayable files to reviewed, edited, shareable footage — all on your own PC.</p>
+<div class="cs-row">
+<div class="cs-row-img cs-narrow"><img class="cs-plain" alt="The editor's Picture tab: six one-tap looks, brightness, contrast, saturation, sharpness, gamma, noise reduction and deinterlace" loading="lazy" src="img/v23-editor-picture.webp" width="440" height="516"/></div>
+<div class="cs-row-text"><span class="cs-tier" data-i18n="cctv.sell.free">Free</span><h3 data-i18n-html="cctv.sell.40">An editor made for CCTV</h3><p data-i18n-html="cctv.sell.41">Everything sits in five tabs &mdash; Clip, Privacy, Picture, Text &amp; audio and Output &mdash; with a filmstrip, frame-by-frame stepping and a live preview of every change.</p><ul class="cs-list" data-i18n-html="cctv.sell.42"><li>Keep several parts of a clip and drop the rest</li><li>Crop and zoom in on a doorway, a car or a face</li><li>Slow it down to 0.5&times; or speed through hours at 8&times;</li><li>Save your settings as a preset for next time</li></ul></div>
 </div>
+<div class="cs-row cs-flip">
+<div class="cs-row-img"><img class="cs-plain" alt="The same face hidden three ways: black out, pixelate and blur" loading="lazy" src="img/privacy-redact-styles.webp" width="1400" height="615"/><img class="cs-plain cs-panel" alt="The editor's Privacy tab: Blur all faces, Detect faces, Hide areas manually, Track this area, box size and style" loading="lazy" src="img/v23-editor-privacy.webp" width="440" height="232" style="margin-top:0.8rem;"/></div>
+<div class="cs-row-text"><span class="cs-tier cs-tier-pro" data-i18n="cctv.sell.pro">Pro</span><h3 data-i18n-html="cctv.sell.43">Hide faces before you share</h3><p data-i18n-html="cctv.sell.44">Blur every face in one click, or mark any area and let tracking follow it as it moves. Choose black out, pixelate or blur. Faces are found on your own PC &mdash; nothing is uploaded &mdash; and the app warns you if part of the export wasn't scanned.</p></div>
 </div>
-<div class="pricing-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top:1.5rem;">
-<div class="price-card">
-<h3 data-i18n-html="cctv.home.105">Monthly</h3>
-<div class="price-amount" style="font-size:1.7rem;" data-product="cctv_pro_monthly" data-i18n-html="cctv.home.106">£2.49 a month</div>
-<p class="price-period" data-product="cctv_pro_monthly" data-i18n-html="cctv.home.107">7-day free trial, then £2.49 a month · cancel any time</p>
-<a class="btn btn-primary btn-two tile-buy" href="https://api.duovox.net/cctv/buy/cctv_pro_monthly" rel="nofollow"><span data-i18n="buy.btn">Buy now</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
+<div class="cs-row">
+<div class="cs-row-img"><div class="desktop-frame"><img alt="Six night-time cameras playing side by side, each with its own sync offset" loading="lazy" src="img/v23-multicam.webp" width="1366" height="687"/></div></div>
+<div class="cs-row-text"><span class="cs-tier cs-tier-pro" data-i18n="cctv.sell.pro">Pro</span><h3 data-i18n-html="cctv.sell.45">Every camera, at the same moment</h3><p data-i18n-html="cctv.sell.46">Follow someone from the gate to the door. Play up to six cameras together, nudge each one into line, take a snapshot of every view or a contact sheet, and export them as one video.</p></div>
 </div>
-<div class="price-card">
-<h3 data-i18n-html="cctv.home.108">Yearly</h3>
-<div class="price-amount" style="font-size:1.7rem;" data-product="cctv_pro_yearly" data-i18n-html="cctv.home.109">£19.99 a year</div>
-<p class="price-period" data-i18n-html="cctv.home.110">Cancel any time</p>
-<a class="btn btn-primary btn-two tile-buy" href="https://api.duovox.net/cctv/buy/cctv_pro_yearly" rel="nofollow"><span data-i18n="buy.btn">Buy now</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
+<div class="cs-row cs-flip">
+<div class="cs-row-img"><div class="desktop-frame"><img alt="CCTV Converter main window: file browser, filters and live preview" loading="lazy" src="img/v23-browse.webp" width="1366" height="676"/></div></div>
+<div class="cs-row-text"><span class="cs-tier" data-i18n="cctv.sell.free">Free</span><h3 data-i18n-html="cctv.home.35">Browse, filter &amp; convert</h3><p data-i18n-html="cctv.home.36">Point it at your DVR's card, narrow down by date, time of day or filename, and batch-convert to MP4 — with instant preview, a thumbnail filmstrip and, after a motion scan, a motion heatmap along the seek bar.</p></div>
 </div>
-<div class="price-card">
-<h3 data-i18n-html="cctv.home.111">Lifetime</h3>
-<div class="price-amount" style="font-size:1.7rem;" data-product="cctv_pro_lifetime" data-i18n-html="cctv.home.112">£39.99 once</div>
-<p class="price-period" data-i18n-html="cctv.home.113">One payment · no renewals</p>
-<a class="btn btn-primary btn-two tile-buy" href="https://api.duovox.net/cctv/buy/cctv_pro_lifetime" rel="nofollow"><span data-i18n="buy.btn">Buy now</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
-</div>
-</div>
-<p class="pricing-footnote" data-product="cctv_pro_monthly cctv_pro_yearly cctv_pro_lifetime" data-i18n-html="cctv.home.114">UK prices, including VAT. In other countries the Microsoft Store shows the price in your currency. You can also pay by card or PayPal: at the same prices in the UK, or US$2.49 a month, US$19.99 a year or US$39.99 once in other countries. Taxes may apply and will be calculated at checkout. Monthly and yearly plans renew automatically until you cancel.</p>
-<div style="text-align:center; margin-top:1.5rem;"><div class="store-badges"><a class="store-badge store-badge--ms" href="https://apps.microsoft.com/detail/9P247CN4QC7L" rel="noopener" target="_blank"><img src="/img/badges/microsoft-store-badge.svg" alt="Get it from Microsoft Store" width="190" height="52"/></a></div></div>
-<!-- Card / PayPal (Paddle): each price tile above has its own Buy now button (27 Nov 2026) -->
-<p class="cta-micro" style="max-width:760px; margin:0.8rem auto 0; text-align:center;" data-i18n-html="cctv.home.121">Payment is handled by Paddle, our online reseller. After paying you get a CCTV Converter code: in the app's Pro window click <em>Have a CCTV Converter code?</em> and enter it. One purchase works on up to 3 of your PCs. Card and PayPal payment isn't offered in every country; where it isn't, use the Microsoft Store.</p>
-<p style="max-width:760px; margin:1.5rem auto 0; color:var(--text-secondary); text-align:center; line-height:1.6;" data-i18n-html="cctv.home.115"><strong>How to buy:</strong> get CCTV Converter from the Microsoft Store, then choose <em>Tools › CCTV Converter Pro…</em> — or simply use a Pro feature and the Pro window opens. Pay through the Microsoft Store and Pro switches on as soon as the purchase goes through. Bought it before? Click <em>Already bought?</em> in the Pro window.</p>
-<p style="max-width:760px; margin:0.75rem auto 0; color:var(--text-muted); text-align:center; font-size:0.92rem;" data-i18n-html="cctv.home.116">Used CCTV Converter before version 2.3? As a thank-you, every Pro feature is free for you for a month from the first time you open 2.3.</p>
 </section>
 <!-- The Problem -->
 <section class="section">
@@ -286,28 +306,151 @@
 </div>
 </div>
 </section>
-<!-- Screenshot showcase -->
-<section class="section" id="screenshots">
-<h2 class="section-title" data-i18n-html="cctv.home.33">See It in Action</h2>
-<p class="section-subtitle" data-i18n-html="cctv.home.34" style="max-width:760px; margin: 0 auto 2.5rem;">From a card full of unplayable files to reviewed, edited, shareable footage — all on your own PC.</p>
-<div style="max-width:1000px; margin: 0 auto; display:flex; flex-direction:column; gap:3rem;">
-<figure style="margin:0; text-align:center;">
-<div class="desktop-frame"><img alt="CCTV Converter main window: file browser, filters and live preview" loading="lazy" src="img/screen-home.png"/></div>
-<figcaption style="margin-top:1rem;">
-<h3 data-i18n-html="cctv.home.35" style="margin-bottom:0.35rem;">Browse, filter &amp; convert</h3>
-<p data-i18n-html="cctv.home.36" style="color:var(--text-secondary); max-width:640px; margin:0 auto;">Point it at your DVR's card, narrow down by date, time of day or filename, and batch-convert to MP4 — with instant preview, a thumbnail filmstrip and, after a motion scan, a motion heatmap along the seek bar.</p>
-</figcaption>
-</figure>
+<!-- New in 2.3: CCTV Converter Pro -->
+<section class="section" id="pro" style="padding-top: 1rem;">
+<h2 class="section-title" data-i18n-html="cctv.home.99">New in Version 2.3: CCTV Converter Pro</h2>
+<p class="section-subtitle" style="max-width:760px; margin: 0 auto 2rem;" data-i18n-html="cctv.home.100">Playing, converting and splitting your footage, saving plain clips and snapshots, and the picture adjustments stay free. CCTV Converter Pro is an optional upgrade that adds the advanced tools. Everything still runs on your own PC, and your footage is never uploaded.</p>
+<div id="site-offer" class="site-offer" data-offer-product="cctv" hidden></div>
+<!-- offer-i18n-cctv: generated by _claude_tools/website_offers/cctv_sell/cctv_offer_i18n.py (CCTV Converter offer card wording; offers.js reads it on the language pages) -->
+<template id="offer-i18n">
+<span data-i18n="offer.ui.special">Special offer</span>
+<span data-i18n="offer.ui.buy">Buy now</span>
+<span data-i18n="offer.ui.save">Save {n}%</span>
+<span data-i18n="offer.ui.saveupto">Save up to {n}%</span>
+<span data-i18n="offer.ui.endsin">Ends in</span>
+<span data-i18n="offer.ui.code">Code</span>
+<span data-i18n="offer.ui.copy">Copy</span>
+<span data-i18n="offer.ui.copied">Copied</span>
+<span data-i18n="offer.t.flash.headline">Flash sale</span>
+<span data-i18n="offer.cctv.flash.subhead">{prod} for less, for a few hours only.</span>
+<span data-i18n="offer.cctvfit.0848510197" data-en="{prod} for less, for a limited time.">{prod} for less, for a limited time.</span>
+<span data-i18n="offer.t.flash.badge">Flash sale · Ends soon</span>
+<span data-i18n="offer.fit.b09c861a67" data-en="Flash sale">Flash sale</span>
+<span data-i18n="offer.t.flash.cta">Grab it now</span>
+<span data-i18n="offer.t.black-friday.eyebrow">Black Friday</span>
+<span data-i18n="offer.cctv.black-friday.headline">Black Friday deal</span>
+<span data-i18n="offer.cctv.black-friday.subhead">Save {save}% on {prod} this weekend.</span>
+<span data-i18n="offer.cctvfit.cc5ce358c8" data-en="Save {save}% on {prod}.">Save {save}% on {prod}.</span>
+<span data-i18n="offer.cctvfit.8846ae5b08" data-en="Save up to {save}% on {prod} this weekend.">Save up to {save}% on {prod} this weekend.</span>
+<span data-i18n="offer.cctvfit.940fbc894c" data-en="Save up to {save}% on {prod}.">Save up to {save}% on {prod}.</span>
+<span data-i18n="offer.t.black-friday.badge">Black Friday</span>
+<span data-i18n="offer.t.black-friday.cta">Get the deal</span>
+<span data-i18n="offer.t.cyber-monday.eyebrow">Cyber Monday</span>
+<span data-i18n="offer.t.cyber-monday.headline">Cyber Monday deal</span>
+<span data-i18n="offer.cctv.cyber-monday.subhead">One day only: {prod} for less.</span>
+<span data-i18n="offer.cctvfit.475a91bc8d" data-en="{prod} for less.">{prod} for less.</span>
+<span data-i18n="offer.t.cyber-monday.badge">Today only</span>
+<span data-i18n="offer.fit.2bd63562f5" data-en="Limited time">Limited time</span>
+<span data-i18n="offer.t.cyber-monday.cta">Get the deal</span>
+<span data-i18n="offer.t.christmas.eyebrow">Christmas offer</span>
+<span data-i18n="offer.cctv.christmas.headline">A Christmas *gift*</span>
+<span data-i18n="offer.cctv.christmas.subhead">{prod} for less this Christmas.</span>
+<span data-i18n="offer.t.christmas.badge">Limited time</span>
+<span data-i18n="offer.t.christmas.cta">Unwrap the deal</span>
+<span data-i18n="offer.t.new-year.eyebrow">New Year offer</span>
+<span data-i18n="offer.cctv.new-year.headline">New year, *new plan*</span>
+<span data-i18n="offer.cctv.new-year.subhead">Start the year with {prod} for less.</span>
+<span data-i18n="offer.t.new-year.badge">New Year</span>
+<span data-i18n="offer.t.new-year.cta">Start the year</span>
+<span data-i18n="offer.t.lunar-new-year.eyebrow">Lunar New Year</span>
+<span data-i18n="offer.t.lunar-new-year.headline">A lucky new year</span>
+<span data-i18n="offer.cctv.lunar-new-year.subhead">Celebrate with {prod} for less.</span>
+<span data-i18n="offer.t.lunar-new-year.badge">Lunar New Year</span>
+<span data-i18n="offer.t.lunar-new-year.cta">Celebrate</span>
+<span data-i18n="offer.t.ramadan-eid.eyebrow">Ramadan &amp; Eid offer</span>
+<span data-i18n="offer.cctv.ramadan-eid.headline">Eid offer</span>
+<span data-i18n="offer.cctv.ramadan-eid.subhead">{prod} for less this Eid.</span>
+<span data-i18n="offer.t.ramadan-eid.badge">Eid offer</span>
+<span data-i18n="offer.t.ramadan-eid.cta">Get the offer</span>
+<span data-i18n="offer.t.diwali.eyebrow">Diwali offer</span>
+<span data-i18n="offer.t.diwali.headline">Festival of lights</span>
+<span data-i18n="offer.cctv.diwali.subhead">Save {save}% on {prod}.</span>
+<span data-i18n="offer.t.diwali.badge">Diwali</span>
+<span data-i18n="offer.t.diwali.cta">Get the offer</span>
+<span data-i18n="offer.t.summer.eyebrow">Summer sale</span>
+<span data-i18n="offer.cctv.summer.headline">Summer sale</span>
+<span data-i18n="offer.cctv.summer.subhead">Save {save}% on {prod}.</span>
+<span data-i18n="offer.t.summer.badge">Summer sale</span>
+<span data-i18n="offer.t.summer.cta">Pack your hours</span>
+<span data-i18n="offer.t.spring.eyebrow">Spring sale</span>
+<span data-i18n="offer.cctv.spring.headline">Spring sale</span>
+<span data-i18n="offer.cctv.spring.subhead">Save {save}% on {prod} this spring.</span>
+<span data-i18n="offer.cctvfit.49558269a1" data-en="Save up to {save}% on {prod} this spring.">Save up to {save}% on {prod} this spring.</span>
+<span data-i18n="offer.t.spring.badge">Spring sale</span>
+<span data-i18n="offer.t.spring.cta">Get the offer</span>
+<span data-i18n="offer.t.singles-day.eyebrow">11.11 offer</span>
+<span data-i18n="offer.t.singles-day.headline">11.11 *deal*</span>
+<span data-i18n="offer.cctv.singles-day.subhead">One day only: save {save}% on {prod}.</span>
+<span data-i18n="offer.cctvfit.25463540e0" data-en="One day only: save up to {save}% on {prod}.">One day only: save up to {save}% on {prod}.</span>
+<span data-i18n="offer.t.singles-day.badge">11.11</span>
+<span data-i18n="offer.t.singles-day.cta">Get the deal</span>
+<span data-i18n="offer.cctv.best-value.eyebrow">{prod}</span>
+<span data-i18n="offer.cctv.best-value.headline">Our *best value*</span>
+<span data-i18n="offer.cctv.best-value.subhead">{prod} for less.</span>
+<span data-i18n="offer.t.best-value.badge">Best value</span>
+<span data-i18n="offer.t.best-value.cta">Buy now</span>
+<span data-i18n="offer.t.code.eyebrow">Your code</span>
+<span data-i18n="offer.t.code.headline">A code, just for you</span>
+<span data-i18n="offer.cctv.code.subhead">Use it at checkout to save {save}% on {prod}.</span>
+<span data-i18n="offer.cctvfit.07cef03239" data-en="Use it at checkout to save up to {save}% on {prod}.">Use it at checkout to save up to {save}% on {prod}.</span>
+<span data-i18n="offer.t.code.badge">Code offer</span>
+<span data-i18n="offer.t.code.cta">Buy with my code</span>
+<span data-i18n="offer.cctv.plan.monthly">Monthly</span>
+<span data-i18n="offer.cctv.plan.yearly">Yearly</span>
+<span data-i18n="offer.cctv.plan.lifetime">Lifetime</span>
+<span data-i18n="offer.cctv.first.month">first month</span>
+<span data-i18n="offer.cctv.first.year">first year</span>
+<span data-i18n="offer.cctv.first.months.one">first {n} months</span>
+<span data-i18n="offer.cctv.first.months.few">first {n} months</span>
+<span data-i18n="offer.cctv.first.months.many">first {n} months</span>
+<span data-i18n="offer.cctv.first.months.other">first {n} months</span>
+<span data-i18n="offer.cctv.then.month">Your first month, then {p} a month</span>
+<span data-i18n="offer.cctv.then.year">Your first year, then {p} a year</span>
+<span data-i18n="offer.cctv.then.months.one">Your first {n} months, then {p} a month</span>
+<span data-i18n="offer.cctv.then.months.few">Your first {n} months, then {p} a month</span>
+<span data-i18n="offer.cctv.then.months.many">Your first {n} months, then {p} a month</span>
+<span data-i18n="offer.cctv.then.months.other">Your first {n} months, then {p} a month</span>
+</template>
+<!-- /offer-i18n-cctv -->
+<div class="pricing-grid">
+<div class="price-card">
+<h3 data-i18n-html="cctv.home.101">Free</h3>
+<ul class="price-features" style="margin-bottom:0;" data-i18n-html="cctv.home.102"><li>Play and convert 20+ CCTV formats to MP4</li><li>Split, join and merge recordings</li><li>Save plain clips and snapshots</li><li>Picture adjustments, looks and noise reduction</li><li>Date/time burn-in, batch conversion and watch folder</li></ul>
 </div>
-</section>
-<!-- Features (full list on /cctvconverter/features/) -->
-<section class="section" id="features">
-<h2 class="section-title" data-i18n-html="cctv.home.43">Features</h2>
-<p class="section-subtitle" data-i18n-html="cctv.home.97" style="max-width:760px; margin: 0 auto 1.75rem;">Format detection, lossless and parallel conversion, a built-in editor with face and area redaction, six cameras in sync, motion search, a whole-day timeline, file integrity reports and more.</p>
-<div class="btn-group"><a class="btn btn-primary" data-i18n-html="cctv.home.98" href="/cctvconverter/features/" style="font-size:1.1rem; padding:16px 34px;">See every feature and screenshot →</a></div>
+<div class="price-card featured">
+<h3 data-i18n-html="cctv.home.103">Pro</h3>
+<ul class="price-features" style="margin-bottom:0;" data-i18n-html="cctv.home.104"><li>Hide faces and areas, with automatic tracking</li><li>Multi-camera view and synchronised composite export</li><li>File integrity reports and handover packages</li><li>GIF, email-size and phone/WhatsApp exports</li><li>Motion highlights and motion search</li><li>The whole-day timeline</li></ul>
+</div>
+</div>
+<div class="pricing-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top:1.5rem;">
+<div class="price-card">
+<h3 data-i18n-html="cctv.home.105">Monthly</h3>
+<div class="price-amount" style="font-size:1.7rem;" data-product="cctv_pro_monthly" data-i18n-html="cctv.home.106">£2.49 a month</div>
+<p class="price-period" data-product="cctv_pro_monthly" data-i18n-html="cctv.home.107">7-day free trial, then £2.49 a month · cancel any time</p>
+<a class="btn btn-primary btn-two tile-buy" href="https://api.duovox.net/cctv/buy/cctv_pro_monthly" rel="nofollow"><span data-i18n="buy.btn">Buy now</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
+</div>
+<div class="price-card">
+<h3 data-i18n-html="cctv.home.108">Yearly</h3>
+<div class="price-amount" style="font-size:1.7rem;" data-product="cctv_pro_yearly" data-i18n-html="cctv.home.109">£19.99 a year</div>
+<p class="price-period" data-i18n-html="cctv.home.110">Cancel any time</p>
+<a class="btn btn-primary btn-two tile-buy" href="https://api.duovox.net/cctv/buy/cctv_pro_yearly" rel="nofollow"><span data-i18n="buy.btn">Buy now</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
+</div>
+<div class="price-card">
+<h3 data-i18n-html="cctv.home.111">Lifetime</h3>
+<div class="price-amount" style="font-size:1.7rem;" data-product="cctv_pro_lifetime" data-i18n-html="cctv.home.112">£39.99 once</div>
+<p class="price-period" data-i18n-html="cctv.home.113">One payment · no renewals</p>
+<a class="btn btn-primary btn-two tile-buy" href="https://api.duovox.net/cctv/buy/cctv_pro_lifetime" rel="nofollow"><span data-i18n="buy.btn">Buy now</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
+</div>
+</div>
+<p class="pricing-footnote" data-product="cctv_pro_monthly cctv_pro_yearly cctv_pro_lifetime" data-i18n-html="cctv.home.114">UK prices, including VAT. In other countries the Microsoft Store shows the price in your currency. You can also pay by card or PayPal: at the same prices in the UK, or US$2.49 a month, US$19.99 a year or US$39.99 once in other countries. Taxes may apply and will be calculated at checkout. Monthly and yearly plans renew automatically until you cancel.</p>
+<div style="text-align:center; margin-top:1.5rem;"><div class="store-badges"><a class="store-badge store-badge--ms" href="https://apps.microsoft.com/detail/9P247CN4QC7L" rel="noopener" target="_blank"><img src="/img/badges/microsoft-store-badge.svg" alt="Get it from Microsoft Store" width="190" height="52"/></a></div></div>
+<!-- Card / PayPal (Paddle): each price tile above has its own Buy now button (27 Nov 2026) -->
+<p class="cta-micro" style="max-width:760px; margin:0.8rem auto 0; text-align:center;" data-i18n-html="cctv.home.121">Payment is handled by Paddle, our online reseller. After paying you get a CCTV Converter code: in the app's Pro window click <em>Have a CCTV Converter code?</em> and enter it. One purchase works on up to 3 of your PCs. Card and PayPal payment isn't offered in every country; where it isn't, use the Microsoft Store.</p>
+<p style="max-width:760px; margin:1.5rem auto 0; color:var(--text-secondary); text-align:center; line-height:1.6;" data-i18n-html="cctv.home.115"><strong>How to buy:</strong> get CCTV Converter from the Microsoft Store, then choose <em>Tools › CCTV Converter Pro…</em> — or simply use a Pro feature and the Pro window opens. Pay through the Microsoft Store and Pro switches on as soon as the purchase goes through. Bought it before? Click <em>Already bought?</em> in the Pro window.</p>
+<p style="max-width:760px; margin:0.75rem auto 0; color:var(--text-muted); text-align:center; font-size:0.92rem;" data-i18n-html="cctv.home.116">Used CCTV Converter before version 2.3? As a thank-you, every Pro feature is free for you for a month from the first time you open 2.3.</p>
 </section>
 <!-- Privacy Callout -->
-<section class="section" style="padding-top: 0; padding-bottom: 0;">
+<section class="section" id="privacy-callout" style="padding-top: 0; padding-bottom: 0;">
 <div class="privacy-callout">
 <h3 data-i18n-html="cctv.home.70">Your footage stays on your PC</h3>
 <p data-i18n-html="cctv.home.71">Your footage is never uploaded, and there are no accounts and no ads. The app checks for updates, sends crash reports and one short &ldquo;app opened&rdquo; note a day and, for CCTV Converter Pro, makes a purchase you start and checks your licence. None of this includes anything from your footage or files. It keeps its settings (such as your recent folders) and a few caches on your own PC. <a href="/cctvconverter/privacy/">Read our Privacy Policy →</a></p>
@@ -359,5 +502,6 @@
 <!-- Cloudflare Web Analytics --><script data-cf-beacon='{"token": "631d459d6ef1465193aa1acf32e089aa"}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js"></script><!-- End Cloudflare Web Analytics -->
 <script src="/store-click.js" defer></script>
 <script src="https://duovox.net/prices.js?v=3" defer></script>
+<script src="https://duovox.net/offers.js?v=2" defer></script>
 </body>
 </html>
