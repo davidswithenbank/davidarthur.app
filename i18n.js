@@ -58,7 +58,7 @@
   }
 
   // Apply the chosen currency to all marked price elements. All assignments use
-  // textContent — no innerHTML, no XSS surface. The HTML is structured so each
+  // textContent (only the data-i18n-html keys further down use innerHTML, with this site's own lang files). The HTML is structured so each
   // region-varying string lives in its own element with data-* attributes; static
   // text like "per month" stays in the markup as-is.
   function applyCurr(code) {

@@ -35,15 +35,15 @@
     <div class="pay-box">
         <aside class="pay-side">
             <div class="pay-brand"><img src="/logo.png" alt="" width="36" height="36"><strong>David Arthur Software</strong></div>
-            <span class="pay-secure">Secure checkout by Paddle</span>
+            <span class="pay-secure" data-i18n="buy.chip.secure">Secure checkout by Paddle</span>
             <div class="pay-order">
                 <div class="pay-prod"><img src="/cctvconverter-icon.png" alt="" width="40" height="40"><div><strong id="item">CCTV Converter Pro</strong><span id="sub"></span></div></div>
                 <div class="pay-total" id="total"></div>
             </div>
-            <p class="pay-tax">Taxes may apply and will be calculated at checkout.</p>
-            <h1 id="h" class="pay-status">Opening secure checkout</h1>
-            <p id="p" class="pay-note">Payment is handled by Paddle, our reseller. You can pay by card, PayPal, Google Pay or Apple Pay.</p>
-            <p class="pay-back"><a href="/cctvconverter/#pro">Back to the prices</a></p>
+            <p class="pay-tax" data-i18n="home.pricing.tax">Taxes may apply and will be calculated at checkout.</p>
+            <h1 id="h" class="pay-status" data-i18n="buy.pay.opening">Opening secure checkout&hellip;</h1>
+            <p id="p" class="pay-note" data-i18n="buy.chip.pay">Card or PayPal</p>
+            <p class="pay-back"><a href="/cctvconverter/#pro" data-i18n="buy.how.back">Back to the prices</a></p>
         </aside>
         <div class="dvx-pay"></div>
     </div>
@@ -74,12 +74,13 @@
 
 <!-- No analytics beacon on this page: its URL carries a purchase secret. -->
 <script src="/i18n.js"></script>
-<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
-<script src="https://api.duovox.net/pay/checkout.js?app=cctv" data-frame="dvx-pay"></script>
 <script>
 // The order line: what Paddle says is being bought and the real total (with tax, in the buyer's currency).
+// Registered BEFORE checkout.js loads, so no event can be missed.
+var cctvLoaded = false;
 window.addEventListener('cctv-checkout', function (e) {
     var d = e.detail || {}, x = d.data || {};
+    if (d.name === 'checkout.loaded') cctvLoaded = true;
     try {
         var it = x.items && x.items[0];
         if (it) {
@@ -93,6 +94,22 @@ window.addEventListener('cctv-checkout', function (e) {
     } catch (err) { /* the form itself shows the amount */ }
     if (d.name === 'checkout.loaded') { document.getElementById('h').hidden = true; document.getElementById('p').hidden = true; }
 });
+</script>
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+<script src="https://api.duovox.net/pay/checkout.js?app=cctv" data-frame="dvx-pay"></script>
+<script>
+// An expired or broken checkout link never loads the form: after 25 s say so instead of waiting for ever.
+// (If checkout.js has already explained a problem, its message is left alone.)
+(function () {
+    var h = document.getElementById('h'), p = document.getElementById('p'), first = h.textContent;
+    setTimeout(function () {
+        if (cctvLoaded || h.hidden || h.textContent !== first) return;
+        h.removeAttribute('data-i18n'); p.removeAttribute('data-i18n');
+        h.textContent = 'The checkout did not open';
+        p.textContent = 'This checkout link may have expired. Go back to the prices and choose Buy now again.';
+        p.hidden = false;
+    }, 25000);
+})();
 </script>
 </body>
 </html>
