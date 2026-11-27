@@ -18,7 +18,7 @@
 .pay-brand { display: flex; align-items: center; gap: 0.55rem; font-size: 1.15rem; margin-bottom: 0.7rem; }
 .pay-brand img { border-radius: 9px; }
 .pay-secure { display: inline-block; font-size: 0.78rem; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 999px; padding: 0.25rem 0.7rem; }
-.pay-secure::before { content: "F512"; margin-right: 0.35rem; font-size: 0.8em; }
+.pay-secure::before { content: "\1F512"; margin-right: 0.35rem; font-size: 0.8em; }
 .pay-order { margin-top: 0.9rem; padding: 0.85rem 1rem; border-radius: 14px; border: 1px solid var(--accent-light); background: rgba(255,255,255,0.03); }
 .pay-prod { display: flex; align-items: center; gap: 0.65rem; }
 .pay-prod img { border-radius: 10px; flex: none; }
