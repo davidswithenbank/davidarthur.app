@@ -85,6 +85,8 @@
 .price-cta .btn-two small { font-size: 0.74rem; font-weight: 400; opacity: 0.75; }
 </style>
 <style>.site-offer{display:flex;flex-direction:column;align-items:center;margin:0 auto 2rem;padding:0 16px;max-width:100%}.site-offer[hidden]{display:none}.site-offer .oc-web,.site-offer .oc-app{max-width:100%}.site-offer-out{margin:2.5rem auto}.site-offer-row{flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;gap:24px}.site-offer-pair:not(.site-offer-row){gap:24px}</style>
+<link rel="stylesheet" href="https://duovox.net/quickbuy.css">
+<style>.qb-duovox{--accent:#4caf50;--accent-light:#66bb6a;--gradient-start:#4caf50;--gradient-end:#00bcd4;--bg-card:#1a1a24}.qb-duovox .btn-primary{background:linear-gradient(135deg,var(--gradient-start),var(--gradient-end));color:#fff;border:0}.qb-duovox .btn{display:inline-flex;align-items:center;border-radius:10px;font-weight:600;text-decoration:none}.qb-duovox .btn-secondary{background:rgba(255,255,255,.04);border:1px solid var(--border);color:inherit}</style>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to content</a>
@@ -693,7 +695,7 @@
 <p class="cta-micro" data-i18n-html="dvx.65">Best if you use it 10+ hours per month.</p>
 <div class="price-cta">
 <a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
-<a href="https://duovox.net/buy.html#plans" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.plan">Buy this plan</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
+<a data-quickbuy="std-plans" href="https://duovox.net/buy.html#plans" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.plan">Buy this plan</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 </div>
 <!-- Professional -->
@@ -715,7 +717,7 @@
 <p class="cta-micro" data-i18n-html="dvx.75">Best if you use it 28+ hours per month.</p>
 <div class="price-cta">
 <a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
-<a href="https://duovox.net/buy.html#plans" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.plan">Buy this plan</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
+<a data-quickbuy="pro-plans" href="https://duovox.net/buy.html#plans" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.plan">Buy this plan</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 </div>
 <!-- Pay-As-You-Go -->
@@ -734,7 +736,7 @@
 <p class="cta-micro" data-i18n-html="dvx.81">Try either tier without subscribing.</p>
 <div class="price-cta">
 <a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=davidarthurapp" class="btn btn-primary" data-i18n="plan.btn.app">Get the free app</a>
-<a href="https://duovox.net/buy.html#hours" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.hours">Buy hours</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
+<a data-quickbuy="hours" href="https://duovox.net/buy.html#hours" class="btn btn-secondary btn-two" style="margin-top:0.6rem;"><span data-i18n="plan.btn.hours">Buy hours</span><small data-i18n="plan.btn.via">card or PayPal</small></a>
 </div>
 </div>
 </div>
@@ -808,6 +810,114 @@
 </div>
 </section>
 <!-- Footer -->
+<!-- Quick buy pop-up (quickbuy.js / quickbuy.css) -->
+<dialog id="qb" class="qb qb-duovox" aria-label="DuoVox">
+<button class="qb-x" type="button" data-qb-close aria-label="Close">&times;</button>
+<div data-qb-group="std-plans" hidden>
+<div class="tier">
+            <h3 data-i18n="home.pricing.standard.name">Standard</h3>
+            <p class="bestfor" data-i18n="home.pricing.standard.bestfor">Best for: travellers, students &amp; everyday bilingual chat</p>
+            <div class="opt">
+                <div class="opt-name" data-i18n="pay.opt.monthly">Monthly</div>
+                <div class="opt-right"><a class="btn btn-secondary" href="https://api.duovox.net/buy/duovox_standard_monthly" rel="nofollow" data-i18n="buy.btn">Buy now</a></div>
+                <div><span class="price-amount" data-product="duovox_standard_monthly" id="p-std-m" data-price-usd="$22.99" data-price-gbp="&pound;22.99" data-price-eur="&euro;22.99">$22.99</span> <span class="opt-sub" data-i18n="buy.per.month">per month</span></div>
+            </div>
+            <div class="opt best">
+                <div class="opt-name"><span data-i18n="pay.opt.annual">Annual</span><span class="tag" data-i18n="buy.tag.value">Best value</span></div>
+                <div class="opt-right"><a class="btn btn-primary" href="https://api.duovox.net/buy/duovox_standard_annual" rel="nofollow" data-i18n="buy.btn">Buy now</a></div>
+                <div><span class="price-amount" data-product="duovox_standard_annual" id="p-std-y" data-price-usd="$249.99" data-price-gbp="&pound;249.99" data-price-eur="&euro;249.99">$249.99</span> <span class="opt-sub" data-i18n="buy.per.year">per year</span>
+                    <div class="opt-sub"><span class="save" data-save-of="p-std-m" data-save-for="p-std-y" data-months="12" data-i18n="buy.save">Save {p}% compared with monthly</span></div></div>
+            </div>
+        </div>
+</div>
+<div data-qb-group="pro-plans" hidden>
+<div class="tier pro">
+            <div class="price-badge" data-i18n="home.pricing.professional.badge">Best for professionals</div>
+            <h3 data-i18n="home.pricing.professional.name">Professional</h3>
+            <p class="bestfor" data-i18n="home.pricing.professional.bestfor">Best for: businesses and professional interpreters</p>
+            <div class="opt">
+                <div class="opt-name" data-i18n="pay.opt.monthly">Monthly</div>
+                <div class="opt-right"><a class="btn btn-secondary" href="https://api.duovox.net/buy/duovox_professional_monthly" rel="nofollow" data-i18n="buy.btn">Buy now</a></div>
+                <div><span class="price-amount" data-product="duovox_professional_monthly" id="p-pro-m" data-price-usd="$159.99" data-price-gbp="&pound;159.99" data-price-eur="&euro;159.99">$159.99</span> <span class="opt-sub" data-i18n="buy.per.month">per month</span></div>
+            </div>
+            <div class="opt best">
+                <div class="opt-name"><span data-i18n="pay.opt.6month">6 months</span><span class="tag" data-i18n="buy.tag.value">Best value</span></div>
+                <div class="opt-right"><a class="btn btn-primary" href="https://api.duovox.net/buy/duovox_professional_6month" rel="nofollow" data-i18n="buy.btn">Buy now</a></div>
+                <div><span class="price-amount" data-product="duovox_professional_6month" id="p-pro-6" data-price-usd="$899.99" data-price-gbp="&pound;839.99" data-price-eur="&euro;899.99">$899.99</span> <span class="opt-sub" data-i18n="buy.per.6month">every 6 months</span>
+                    <div class="opt-sub"><span class="save" data-save-of="p-pro-m" data-save-for="p-pro-6" data-months="6" data-i18n="buy.save">Save {p}% compared with monthly</span></div></div>
+            </div>
+        </div>
+</div>
+<div data-qb-group="hours" hidden>
+<h3 data-i18n="buy.hours.title">Pay-As-You-Go hours</h3>
+<p class="bestfor" data-i18n="buy.hours.sub">No subscription. Buy hours when you need them; they never expire.</p>
+<div class="tiers">
+<div class="tier">
+            <h3 data-i18n="home.pricing.standard.name">Standard</h3>
+            <p class="bestfor" data-i18n="home.pricing.standard.f1">Live AI transcription &amp; translation</p>
+            <div class="opt">
+                <div class="opt-name" data-i18n="buy.h1">1 hour</div>
+                <div class="opt-right"><a class="btn btn-secondary" href="https://api.duovox.net/buy/duovox_standard_payg_1" rel="nofollow" data-i18n="buy.btn">Buy now</a></div>
+                <div><span class="price-amount" data-product="duovox_standard_payg_1" data-hours="1" data-price-usd="$2.99" data-price-gbp="&pound;2.99" data-price-eur="&euro;2.99">$2.99</span></div>
+            </div>
+            <div class="opt">
+                <div class="opt-name" data-i18n="buy.h10">10 hours</div>
+                <div class="opt-right"><a class="btn btn-secondary" href="https://api.duovox.net/buy/duovox_standard_payg_10" rel="nofollow" data-i18n="buy.btn">Buy now</a></div>
+                <div><span class="price-amount" data-product="duovox_standard_payg_10" data-hours="10" data-price-usd="$24.99" data-price-gbp="&pound;24.99" data-price-eur="&euro;24.99">$24.99</span> <span class="opt-sub"><span class="ph"></span> <span data-i18n="buy.perhour">per hour</span></span></div>
+            </div>
+            <div class="opt best">
+                <div class="opt-name"><span data-i18n="buy.h25">25 hours</span><span class="tag" data-i18n="buy.tag.value">Best value</span></div>
+                <div class="opt-right"><a class="btn btn-primary" href="https://api.duovox.net/buy/duovox_standard_payg_25" rel="nofollow" data-i18n="buy.btn">Buy now</a></div>
+                <div><span class="price-amount" data-product="duovox_standard_payg_25" data-hours="25" data-price-usd="$59.99" data-price-gbp="&pound;59.99" data-price-eur="&euro;59.99">$59.99</span> <span class="opt-sub"><span class="ph"></span> <span data-i18n="buy.perhour">per hour</span></span></div>
+            </div>
+        </div>
+<div class="tier pro">
+            <h3 data-i18n="home.pricing.professional.name">Professional</h3>
+            <p class="bestfor" data-i18n="home.pricing.professional.f1">Enhanced terminology recognition for specialist vocabulary</p>
+            <div class="opt">
+                <div class="opt-name" data-i18n="buy.h1">1 hour</div>
+                <div class="opt-right"><a class="btn btn-secondary" href="https://api.duovox.net/buy/duovox_professional_payg_1" rel="nofollow" data-i18n="buy.btn">Buy now</a></div>
+                <div><span class="price-amount" data-product="duovox_professional_payg_1" data-hours="1" data-price-usd="$6.99" data-price-gbp="&pound;6.99" data-price-eur="&euro;6.99">$6.99</span></div>
+            </div>
+            <div class="opt">
+                <div class="opt-name" data-i18n="buy.h10">10 hours</div>
+                <div class="opt-right"><a class="btn btn-secondary" href="https://api.duovox.net/buy/duovox_professional_payg_10" rel="nofollow" data-i18n="buy.btn">Buy now</a></div>
+                <div><span class="price-amount" data-product="duovox_professional_payg_10" data-hours="10" data-price-usd="$59.99" data-price-gbp="&pound;59.99" data-price-eur="&euro;59.99">$59.99</span> <span class="opt-sub"><span class="ph"></span> <span data-i18n="buy.perhour">per hour</span></span></div>
+            </div>
+            <div class="opt best">
+                <div class="opt-name"><span data-i18n="buy.h25">25 hours</span><span class="tag" data-i18n="buy.tag.value">Best value</span></div>
+                <div class="opt-right"><a class="btn btn-primary" href="https://api.duovox.net/buy/duovox_professional_payg_25" rel="nofollow" data-i18n="buy.btn">Buy now</a></div>
+                <div><span class="price-amount" data-product="duovox_professional_payg_25" data-hours="25" data-price-usd="$144.99" data-price-gbp="&pound;144.99" data-price-eur="&euro;144.99">$144.99</span> <span class="opt-sub"><span class="ph"></span> <span data-i18n="buy.perhour">per hour</span></span></div>
+            </div>
+        </div>
+</div>
+</div>
+<div data-qb-group="howto" hidden>
+<h3 data-i18n="buy.how.title">How it works</h3>
+<ol class="steps">
+        <li><span class="step-ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></span>
+            <div><strong data-i18n="buy.step1.t">1. Choose and pay</strong><span data-i18n="buy.step1.d">Pick a plan or hours below and pay by card or PayPal.</span></div></li>
+        <li><span class="step-ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 20h16"/></svg></span>
+            <div><strong data-i18n="buy.step2.t">2. Install DuoVox</strong><span data-i18n-html="buy.step2.d">Get DuoVox free from the <a href="https://apps.microsoft.com/detail/9MSN7866TJQH?cid=duovoxbuy">Microsoft Store</a>.</span></div></li>
+        <li><span class="step-ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9"/><path d="M16 7l3 3"/></svg></span>
+            <div><strong data-i18n="buy.step3.t">3. Activate</strong><span data-i18n-html="buy.step3.d">Click <strong>Activate in DuoVox</strong> after paying, or enter your code in the app under <strong>Plans &amp; hours</strong>. <a href="https://duovox.net/help.html#activate">How?</a></span></div></li>
+    </ol>
+<p class="qb-more" data-i18n-html="help.a.activate">After you pay by card or PayPal on duovox.net, the confirmation page shows a code and an <strong>Activate in DuoVox</strong> button. Install DuoVox from the Microsoft Store, then click <strong>Activate in DuoVox</strong>. Or open <strong>Plans &amp; hours</strong> in the app, choose <strong>Have a DuoVox code?</strong>, enter the code and press <strong>Use code</strong>. Hours are added to that computer. A plan becomes active on that computer, which then shows a code for adding your other computers (up to three). Keep your code; if you lose it, email <a href="mailto:info@duovox.net">info@duovox.net</a> with your Paddle receipt and we will find it.</p>
+<p class="qb-after"><a href="#" data-qb-back data-i18n="buy.how.back">Back to the prices</a></p>
+</div>
+<div data-qb-group="pay" hidden>
+<div class="qb-brand"><img src="https://duovox.net/icon.png" alt="" width="34" height="34"><strong>DuoVox</strong><span class="qb-secure" data-i18n="buy.chip.secure">Secure checkout by Paddle</span></div>
+<div class="qb-order"><div><strong data-qb-item></strong><span data-qb-sub></span></div><div class="qb-total" data-qb-price></div></div>
+<p class="qb-tax" data-i18n="home.pricing.tax">Taxes may apply and will be calculated at checkout.</p>
+<p class="qb-status" data-qb-status data-i18n="buy.pay.opening">Opening secure checkout&hellip;</p>
+<div class="dvx-pay"></div>
+<p class="qb-after"><a href="#" data-qb-back data-i18n="buy.how.back">Back to the prices</a></p>
+</div>
+<div data-qb-after>
+<ul class="qb-trust"><li><span data-i18n="buy.chip.secure">Secure checkout by Paddle</span></li><li><span data-i18n="buy.chip.pay">Card or PayPal</span></li></ul>
+<p class="qb-after"><span data-i18n="buy.after">After paying, install DuoVox free from the Microsoft Store and click Activate in DuoVox.</span> <a href="https://duovox.net/help.html#activate" data-howto data-i18n="buy.how.link">How it works</a></p>
+</div>
+</dialog>
 <footer class="footer">
 <div class="footer-inner">
 <div class="footer-links">
@@ -826,6 +936,8 @@
 </footer>
 <script src="/i18n.js"></script>
 <script src="https://duovox.net/offers.js" defer></script>
+<script src="https://duovox.net/prices.js" defer></script>
+<script src="https://duovox.net/quickbuy.js" defer></script>
 <!-- Cloudflare Web Analytics --><script data-cf-beacon='{"token": "631d459d6ef1465193aa1acf32e089aa"}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js"></script><!-- End Cloudflare Web Analytics -->
 <script src="/store-click.js" defer></script>
 </body>
